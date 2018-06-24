@@ -6,7 +6,7 @@ import mrjob
 WORD_RE = re.compile(r"[\w']+")
 
 
-class MRMostUsedWord(MRJob):
+class MRLongestWord(MRJob):
 
     OUTPUT_PROTOCOL = mrjob.protocol.RawValueProtocol
 
@@ -57,4 +57,4 @@ class MRMostUsedWord(MRJob):
 
 
 if __name__ == '__main__':
-    MRMostUsedWord.run()
+    MRLongestWord.run()
