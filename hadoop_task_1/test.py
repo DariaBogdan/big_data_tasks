@@ -1,12 +1,14 @@
 from mrjob.job import MRJob
 import re
+import mrjob
 
 
 WORD_RE = re.compile(r"[\w']+")
-PARAM = 30  # amount of the longest words to be shown
 
 
 class MRMostUsedWord(MRJob):
+
+    OUTPUT_PROTOCOL = mrjob.protocol.RawValueProtocol
 
     JOBCONF = {
         'mapreduce.job.reduces': 1,
@@ -15,47 +17,43 @@ class MRMostUsedWord(MRJob):
         'mapred.text.key.comparator.options': '-nr',  # compare keys numerically in reverse order
     }
 
-    def mapper_init(self):
-        self.yielded_mapper = 0
+    def configure_options(self):
+        super().configure_options()
+        self.add_passthrough_option(
+            '--top',
+            type='int',
+            required=True,
+            help='Amount of the longest words to be shown'
+        )
 
     def mapper(self, _, line):
-        if self.yielded_mapper == PARAM:
-            return
-
-        # creating a dict to aggregate words by its length
-        words_by_len = {}
+        # for every word yield word length as key and word as value
         for word in WORD_RE.findall(line):
-            words_by_len[len(word)] = words_by_len.get(len(word), set())
-            words_by_len[len(word)].add(word.lower())
-
-        if len(words_by_len):  # yielding only if string is not empty
-            max_len = max(words_by_len.keys())
-
-            # yielding only needed amount of words
-            for _ in range(min(PARAM, len(words_by_len[max_len]))):
-                self.yielded_mapper += 1
-                yield (max_len, words_by_len[max_len].pop())
+            yield len(word), word.lower()
 
     def combiner_init(self):
         self.yielded_combiner = 0
+        self.yielded_words_combiner = set()  # to show only unique words
 
     def combiner(self, length, words):
-        # words comes from different blocks, so they can be repeated
-        # creating set to save only unique words
-        words = set(words)
-        while words and self.yielded_combiner != PARAM:
-            self.yielded_combiner += 1
-            yield (length, words.pop())
+        while words and self.yielded_combiner != self.options.top:
+            next_word = next(words)
+            if next_word not in self.yielded_words_combiner:
+                self.yielded_words_combiner.add(next_word)
+                self.yielded_combiner += 1
+                yield length, next_word
 
     def reducer_init(self):
         self.yielded_reducer = 0
+        self.yielded_words_reducer = set() # to show only unique words
 
     def reducer(self, length, words):
-        # creating set to save only unique words
-        words = set(words)
-        while words and self.yielded_reducer != PARAM:
-            self.yielded_reducer += 1
-            yield None, (length, words.pop())
+        while words and self.yielded_reducer != self.options.top:
+            next_word = next(words)
+            if next_word not in self.yielded_words_reducer:
+                self.yielded_words_reducer.add(next_word)
+                self.yielded_reducer += 1
+                yield length, next_word
 
 
 if __name__ == '__main__':
