@@ -3,7 +3,7 @@ Finds several longest words.
 Amount of words to be found are specified with --top argument
 """
 
-from mrjob.job import MRJob
+from mrjob.job import MRJob, MRStep
 import re
 import mrjob
 
@@ -15,10 +15,8 @@ class MRLongestWord(MRJob):
     """Map Reduce Job that finds several longest words.
 
     Attributes:
-        yielded_combiner: amount of already yielded words.
-        yielded_words_combiner: already yielded words.
-        yielded_reducer: amount of already yielded words.
-        yielded_words_reducer: already yielded words.
+        yielded: amount of already yielded words.
+        yielded_words: already yielded words.
 
     """
 
@@ -46,33 +44,28 @@ class MRLongestWord(MRJob):
         for word in WORD_RE.findall(line):
             yield len(word), word.lower()
 
-    def combiner_init(self):
-        self.yielded_combiner = 0
-        self.yielded_words_combiner = []
+    def combiner_and_reducer_init(self):
+        self.yielded = 0
+        self.yielded_words = []
 
-    def combiner(self, length, words):
+    def combiner_and_reducer(self, length, words):
         # yield only needed amount of words
-        while words and self.yielded_combiner != self.options.top:
+        while words and self.yielded != self.options.top:
             next_word = next(words)
             # yield only if this word was not yielded yet
-            if next_word not in self.yielded_words_combiner:
-                self.yielded_words_combiner.append(next_word)
-                self.yielded_combiner += 1
+            if next_word not in self.yielded_words:
+                self.yielded_words.append(next_word)
+                self.yielded += 1
                 yield length, next_word
 
-    def reducer_init(self):
-        self.yielded_reducer = 0
-        self.yielded_words_reducer = []
-
-    def reducer(self, length, words):
-        # yield only needed amount of words
-        while words and self.yielded_reducer != self.options.top:
-            next_word = next(words)
-            # yield only if this word was not yielded yet
-            if next_word not in self.yielded_words_reducer:
-                self.yielded_words_reducer.append(next_word)
-                self.yielded_reducer += 1
-                yield length, next_word
+    def steps(self):
+        return [
+            MRStep(mapper=self.mapper,
+                   combiner_init=self.combiner_and_reducer_init,
+                   combiner=self.combiner_and_reducer,
+                   reducer_init=self.combiner_and_reducer_init,
+                   reducer=self.combiner_and_reducer)
+        ]
 
 
 if __name__ == '__main__':
