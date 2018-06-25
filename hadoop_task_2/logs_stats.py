@@ -9,6 +9,9 @@ pairwise_sum = lambda x, y: (x[0] + y[0], x[1] + y[1])
 
 
 class MRParceLogs(MRJob):
+    """Parse log files and calculates average and total bytes for ip.
+
+    """
 
     def get_bytes(self, string):
         return int(string) if string.isnumeric() else 0
