@@ -1,0 +1,92 @@
+No configs found; falling back on auto-configuration
+No configs specified for hadoop runner
+Looking for hadoop binary in $PATH...
+Found hadoop binary: /usr/bin/hadoop
+Using Hadoop version 2.7.3.2.6.1.0
+Creating temp directory /tmp/longest_words.root.20180625.221112.697553
+Copying local files to hdfs:///user/root/tmp/mrjob/longest_words.root.20180625.221112.697553/files/...
+Detected hadoop configuration property names that do not match hadoop version 2.7.3.2.6.1.0:
+The have been translated as follows
+ mapred.output.key.comparator.class: mapreduce.job.output.key.comparator.class
+mapred.text.key.comparator.options: mapreduce.partition.keycomparator.options
+Running step 1 of 1...
+  packageJobJar: [] [/usr/hdp/2.6.1.0-129/hadoop-mapreduce/hadoop-streaming-2.7.3.2.6.1.0-129.jar] /tmp/streamjob5499842931340476838.jar tmpDir=null
+  Connecting to ResourceManager at sandbox.hortonworks.com/172.17.0.2:8032
+  Connecting to Application History server at sandbox.hortonworks.com/172.17.0.2:10200
+  Connecting to ResourceManager at sandbox.hortonworks.com/172.17.0.2:8032
+  Connecting to Application History server at sandbox.hortonworks.com/172.17.0.2:10200
+  Total input paths to process : 2
+  number of splits:3
+  Submitting tokens for job: job_1529837529684_0054
+  Submitted application application_1529837529684_0054
+  The url to track the job: http://sandbox.hortonworks.com:8088/proxy/application_1529837529684_0054/
+  Running job: job_1529837529684_0054
+  Job job_1529837529684_0054 running in uber mode : false
+   map 0% reduce 0%
+   map 33% reduce 0%
+   map 67% reduce 0%
+   map 100% reduce 0%
+   map 100% reduce 100%
+  Job job_1529837529684_0054 completed successfully
+  Output directory: hdfs:///user/root/tmp/mrjob/longest_words.root.20180625.221112.697553/output
+Counters: 49
+	File Input Format Counters 
+		Bytes Read=3805208
+	File Output Format Counters 
+		Bytes Written=535
+	File System Counters
+		FILE: Number of bytes read=2096
+		FILE: Number of bytes written=623157
+		FILE: Number of large read operations=0
+		FILE: Number of read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3805554
+		HDFS: Number of bytes written=535
+		HDFS: Number of large read operations=0
+		HDFS: Number of read operations=12
+		HDFS: Number of write operations=2
+	Job Counters 
+		Data-local map tasks=3
+		Launched map tasks=3
+		Launched reduce tasks=1
+		Total megabyte-milliseconds taken by all map tasks=4688750
+		Total megabyte-milliseconds taken by all reduce tasks=516250
+		Total time spent by all map tasks (ms)=18755
+		Total time spent by all maps in occupied slots (ms)=18755
+		Total time spent by all reduce tasks (ms)=2065
+		Total time spent by all reduces in occupied slots (ms)=2065
+		Total vcore-milliseconds taken by all map tasks=18755
+		Total vcore-milliseconds taken by all reduce tasks=2065
+	Map-Reduce Framework
+		CPU time spent (ms)=5020
+		Combine input records=647734
+		Combine output records=90
+		Failed Shuffles=0
+		GC time elapsed (ms)=764
+		Input split bytes=346
+		Map input records=72918
+		Map output bytes=6136049
+		Map output materialized bytes=2108
+		Map output records=647734
+		Merged Map outputs=3
+		Physical memory (bytes) snapshot=725417984
+		Reduce input groups=5
+		Reduce input records=90
+		Reduce output records=30
+		Reduce shuffle bytes=2108
+		Shuffled Maps =3
+		Spilled Records=180
+		Total committed heap usage (bytes)=391643136
+		Virtual memory (bytes) snapshot=8614776832
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+job output is in hdfs:///user/root/tmp/mrjob/longest_words.root.20180625.221112.697553/output
+Streaming final output from hdfs:///user/root/tmp/mrjob/longest_words.root.20180625.221112.697553/output...
+Removing HDFS temp directory hdfs:///user/root/tmp/mrjob/longest_words.root.20180625.221112.697553...
+Removing temp directory /tmp/longest_words.root.20180625.221112.697553...
+

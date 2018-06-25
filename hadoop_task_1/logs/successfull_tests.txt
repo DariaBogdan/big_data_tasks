@@ -1,0 +1,11 @@
+Testing started at 0:55 ...
+/home/bogdan/PycharmProjects/mystats/venv/bin/python /home/bogdan/Downloads/pycharm-community-2018.1/helpers/pycharm/_jb_unittest_runner.py --target tests.TestMR
+Launching unittests with arguments python -m unittest tests.TestMR in /home/bogdan/PycharmProjects/hadoop_task_1
+
+
+Ran 5 tests in 0.008s
+
+OK
+
+Process finished with exit code 0
+
