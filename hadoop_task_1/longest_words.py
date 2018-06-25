@@ -29,12 +29,12 @@ class MRLongestWord(MRJob):
         'mapred.text.key.comparator.options': '-nr',  # compare keys numerically in reverse order
     }
 
-    def configure_options(self):
+    def configure_args(self):
         # add --top argument
-        super().configure_options()
-        self.add_passthrough_option(
+        super().configure_args()
+        self.add_passthru_arg(
             '--top',
-            type='int',
+            type=int,
             required=True,
             help='Amount of the longest words to be shown'
         )
