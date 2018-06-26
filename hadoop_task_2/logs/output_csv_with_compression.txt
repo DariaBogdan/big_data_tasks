@@ -1,0 +1,176 @@
+No configs found; falling back on auto-configuration
+No configs specified for hadoop runner
+Looking for hadoop binary in $PATH...
+Found hadoop binary: /usr/bin/hadoop
+Using Hadoop version 2.7.3.2.6.1.0
+Creating temp directory /tmp/logs_stats.root.20180626.001415.406645
+Copying local files to hdfs:///user/root/tmp/mrjob/logs_stats.root.20180626.001415.406645/files/...
+Detected hadoop configuration property names that do not match hadoop version 2.7.3.2.6.1.0:
+The have been translated as follows
+ mapred.output.compress: mapreduce.output.fileoutputformat.compress
+mapred.output.compression.codec: mapreduce.output.fileoutputformat.compress.codec
+mapred.output.compression.type: mapreduce.output.fileoutputformat.compress.type
+Running step 1 of 1...
+  packageJobJar: [] [/usr/hdp/2.6.1.0-129/hadoop-mapreduce/hadoop-streaming-2.7.3.2.6.1.0-129.jar] /tmp/streamjob3689922373739559917.jar tmpDir=null
+  Connecting to ResourceManager at sandbox.hortonworks.com/172.17.0.2:8032
+  Connecting to Application History server at sandbox.hortonworks.com/172.17.0.2:10200
+  Connecting to ResourceManager at sandbox.hortonworks.com/172.17.0.2:8032
+  Connecting to Application History server at sandbox.hortonworks.com/172.17.0.2:10200
+  Total input paths to process : 1
+  number of splits:2
+  Submitting tokens for job: job_1529837529684_0059
+  Submitted application application_1529837529684_0059
+  The url to track the job: http://sandbox.hortonworks.com:8088/proxy/application_1529837529684_0059/
+  Running job: job_1529837529684_0059
+  Job job_1529837529684_0059 running in uber mode : false
+   map 0% reduce 0%
+   map 100% reduce 0%
+   map 100% reduce 100%
+  Job job_1529837529684_0059 completed successfully
+  Output directory: hdfs:///user/root/tmp/mrjob/logs_stats.root.20180626.001415.406645/output
+Counters: 132
+	Browsers
+		"Hot%20Wallpapers=1
+		"Safari=66
+		Android=247
+		Apple Mail=66
+		Avant=4
+		BOTW Spider=2
+		Baiduspider=214
+		BlackBerry=1
+		CFNetwork=1
+		Chrome=1463
+		Chrome Frame=1
+		Chromium=38
+		Daumoa=2
+		Epiphany=11
+		Exabot=8
+		FacebookBot=6
+		Firefox=5401
+		Gigabot=2
+		Googlebot=92
+		Googlebot-Image=2
+		Googlebot-Mobile=1
+		HuaweiSymantecSpider=11
+		IE=2030
+		Iceweasel=74
+		Java=111
+		Konqueror=11
+		MJ12bot=328
+		MLBot=14
+		Maxthon=5
+		Mediapartners-Google=18
+		Mobile Safari=40
+		Mobile Safari UI/WKWebView=190
+		MyIE2=1
+		NE Crawler=255
+		NaverBot=6
+		Netscape=3
+		Nokia=8
+		Nutch=4
+		Opera=239
+		Opera Mini=24
+		Other=147
+		Outlook=2
+		Pale Moon=10
+		PerlCrawler=1
+		Purebot=232
+		Python-urllib=11
+		Rekonq=6
+		RockMelt=11
+		Safari=637
+		SeaMonkey=63
+		SeznamBot=4
+		ShopSalad=2
+		SiteBot=72
+		Sogou web spider=5
+		Sosoimagespider=5
+		Sosospider=5
+		SurveyBot=2
+		TurnitinBot=1
+		VoilaBot=55
+		Wget=5
+		Yahoo! Slurp=174
+		YandexBot=289
+		YandexImages=107
+		Yeti=10
+		YodaoBot=48
+		Zune=9
+		archive.org_bot=2
+		bendercrawler=2
+		bingbot=298
+		com_bot=1
+		discobot=115
+		envolk=1
+		ezooms.bot=10
+		findlinks=2
+		gosospider=8
+		holmes=1
+		ia_archiver=7
+		ichiro=116
+		ichiro/mobile=13
+		larbin=4
+		libwww-perl=3
+		msnbot-media=4
+	File Input Format Counters 
+		Bytes Read=3055146
+	File Output Format Counters 
+		Bytes Written=17822
+	File System Counters
+		FILE: Number of bytes read=38036
+		FILE: Number of bytes written=539238
+		FILE: Number of large read operations=0
+		FILE: Number of read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=3055376
+		HDFS: Number of bytes written=17822
+		HDFS: Number of large read operations=0
+		HDFS: Number of read operations=9
+		HDFS: Number of write operations=2
+	Incorrect input
+		Incorrect input=1
+	Job Counters 
+		Data-local map tasks=2
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Total megabyte-milliseconds taken by all map tasks=3537250
+		Total megabyte-milliseconds taken by all reduce tasks=594000
+		Total time spent by all map tasks (ms)=14149
+		Total time spent by all maps in occupied slots (ms)=14149
+		Total time spent by all reduce tasks (ms)=2376
+		Total time spent by all reduces in occupied slots (ms)=2376
+		Total vcore-milliseconds taken by all map tasks=14149
+		Total vcore-milliseconds taken by all reduce tasks=2376
+	Map-Reduce Framework
+		CPU time spent (ms)=3860
+		Combine input records=13501
+		Combine output records=1749
+		Failed Shuffles=0
+		GC time elapsed (ms)=426
+		Input split bytes=230
+		Map input records=13502
+		Map output bytes=252547
+		Map output materialized bytes=38042
+		Map output records=13501
+		Merged Map outputs=2
+		Physical memory (bytes) snapshot=538914816
+		Reduce input groups=1615
+		Reduce input records=1749
+		Reduce output records=1615
+		Reduce shuffle bytes=38042
+		Shuffled Maps =2
+		Spilled Records=3498
+		Total committed heap usage (bytes)=279445504
+		Virtual memory (bytes) snapshot=6465581056
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+job output is in hdfs:///user/root/tmp/mrjob/logs_stats.root.20180626.001415.406645/output
+Streaming final output from hdfs:///user/root/tmp/mrjob/logs_stats.root.20180626.001415.406645/output...
+Removing HDFS temp directory hdfs:///user/root/tmp/mrjob/logs_stats.root.20180626.001415.406645...
+Removing temp directory /tmp/logs_stats.root.20180626.001415.406645...
+

@@ -1,0 +1,15 @@
+Testing started at 2:59 ...
+/home/bogdan/PycharmProjects/hadoop_task_2/venv/bin/python /home/bogdan/Downloads/pycharm-community-2018.1/helpers/pycharm/_jb_unittest_runner.py --path /home/bogdan/PycharmProjects/hadoop_task_2/tests.py
+Launching unittests with arguments python -m unittest /home/bogdan/PycharmProjects/hadoop_task_2/tests.py in /home/bogdan/PycharmProjects/hadoop_task_2
+No configs specified for inline runner
+parse_output_line() is deprecated and will be removed in v0.7.0; use parse_output() instead.
+No configs specified for inline runner
+parse_output_line() is deprecated and will be removed in v0.7.0; use parse_output() instead.
+No configs specified for inline runner
+
+
+Ran 9 tests in 0.107s
+
+OK
+
+Process finished with exit code 0
