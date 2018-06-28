@@ -1,3 +1,7 @@
+"""
+Calculates amount of high-bid-priced  (more than 250) impression events by city.
+"""
+
 from mrjob.job import MRJob
 import re
 
@@ -27,13 +31,16 @@ regex = re.compile('([a-zA-Z0-9]+)\t'  # BidID -- 0
                    '(.+)')  # User Profile IDs -- 23
 PRICE_LIMIT = 250
 
+
 class MRCity(MRJob):
 
     def configure_args(self):
         super().configure_args()
+        # distributed cache
         self.add_file_arg('--city_names_file')
 
     def mapper(self, _, line):
+        # yields only if line is correct and price is greater than PRICE_LIMIT
         matches = re.match(regex, line)
         if matches:
             groups = matches.groups()
@@ -41,17 +48,23 @@ class MRCity(MRJob):
             bid_price = int(groups[19])
             if bid_price > PRICE_LIMIT:
                 yield city_id, 1
+        else:
+            self.increment_counter('Incorrect input', 'Incorrect input', 1)
 
     def combiner(self, key, values):
         yield key, sum(values)
 
     def reducer(self, key, values):
-        city_names_dict = {}
+        # if file with city names provided, yields city_name as key;
+        # otherwise yields city_id
         if self.options.city_names_file:
+            # creating dict to replace city_id with city_name
+            city_names_dict = {}
             with open(self.options.city_names_file, 'r') as city_file:
                 for line in city_file:
                     city_id, city_name = line.split()
                     city_names_dict[city_id] = city_name
+
             yield city_names_dict.get(key, 'NO_SUCH_KEY'), sum(values)
         else:
             yield key, sum(values)
