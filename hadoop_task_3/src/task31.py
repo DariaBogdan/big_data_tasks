@@ -8,12 +8,12 @@ import re
 regex = re.compile('([a-zA-Z0-9]+)\t'  # BidID -- 0
                    '([0-9]+)\t'  # Timestamp -- 1
                    '(\d)+\t'  # LogType -- 2
-                   '([a-zA-Z0-9]+)\t'  # iPinYouID -- 3
-                   '(.+)\t'  #User-Agent -- 4
+                   '(.+)\t'  # iPinYouID -- 3
+                   '(.*)\t'  #User-Agent -- 4
                    '([0-9.*]*)\t'  #IP -- 5
                    '(\d+)\t'  # RegionID -- 6
                    '(\d+)\t'  # CityID -- 7
-                   '(\d)+\t'  # AdExchange -- 8
+                   '([0-9a-zA_Z]+)\t'  # AdExchange -- 8
                    '([a-zA-Z0-9]+)\t'  # Domain -- 9
                    '([a-zA-Z0-9]+)\t'  # URl -- 10
                    '(null)\t'  # Anonymous URL -- 11
@@ -38,6 +38,21 @@ class MRCity(MRJob):
         super().configure_args()
         # distributed cache
         self.add_file_arg('--city_names_file')
+        # number of reducers
+        self.add_passthru_arg(
+            '--reducers_num',
+            type=int,
+            required=False,
+            default=1,
+            help='Amount of reducers to use'
+        )
+
+    def jobconf(self):
+        conf = super().jobconf()
+        conf.update({
+            'mapreduce.job.reduces': self.options.reducers_num
+        })
+        return conf
 
     def mapper(self, _, line):
         # yields only if line is correct and price is greater than PRICE_LIMIT
@@ -68,6 +83,7 @@ class MRCity(MRJob):
             yield city_names_dict.get(key, 'NO_SUCH_KEY'), sum(values)
         else:
             yield key, sum(values)
+
 
 if __name__ == '__main__':
     MRCity.run()
