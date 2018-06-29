@@ -1,11 +1,13 @@
 """
 Calculates amount of high-bid-priced  (more than 250) impression events by city.
+Reducer is defined by OperationSystemType from User Agent.
 """
 
 from mrjob.job import MRJob
 import re
 from ua_parser import user_agent_parser
 
+# correct input lines matches
 regex = re.compile('([a-zA-Z0-9]+)\t'  # BidID -- 0
                    '([0-9]+)\t'  # Timestamp -- 1
                    '(\d)+\t'  # LogType -- 2
@@ -31,6 +33,7 @@ regex = re.compile('([a-zA-Z0-9]+)\t'  # BidID -- 0
                    '(\d+)\t'  # Advertiser ID -- 22
                    '(.+)')  # User Profile IDs -- 23
 
+# high price
 PRICE_LIMIT = 250
 
 
@@ -56,16 +59,19 @@ class MRCity(MRJob):
         conf.update({
             'mapreduce.job.reduces': self.options.reducers_num,
             'mapreduce.map.output.key.field.separator': self.KEY_FIELD_SEPARATOR,
-            'mapreduce.partition.keypartitioner.options': '-k2',
+            'mapreduce.partition.keypartitioner.options': '-k2',  # choose reducer by second part of the key
 
             'mapreduce.output.key.comparator.class':
                 'org.apache.hadoop.mapred.lib.KeyFieldBasedComparator',
-            'mapreduce.text.key.comparator.options': '-k1n'
+            'mapreduce.text.key.comparator.options': '-k1n'  # sort keys to be able to manually group them in reducer
         })
         return conf
 
     def mapper(self, _, line):
-        # yields only if line is correct and price is greater than PRICE_LIMIT
+        # Yields only if line is correct and price is greater than PRICE_LIMIT.
+        # Key is composite: {city_id}{KEY_FIELD_SEPARATOR}{OS}.
+        # Such key is used in KeyFieldBasedPartitioner;
+        # using such partitioner we can choose reducer number by OS name.
         matches = re.match(regex, line)
         if matches:
             groups = matches.groups()
@@ -78,12 +84,18 @@ class MRCity(MRJob):
             self.increment_counter('Incorrect data', 'Incorrect input line', 1)
 
     def partitioner(self):
+        # Chooses reducer by only one part of composite key.
         return 'org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner'
 
     def combiner(self, key, values):
         yield key, sum(values)
 
     def reducer_init(self):
+        # In reducer we have to group values by only the first part of the composite key.
+        # According to comparator options set in jobconf, keys are sorted.
+        # The res variable is increasing while incoming city_id is the same as previous.
+        # So we have to accumulate values and check if city_id has changed.
+        # Here initial values of variables are set.
         self.res = 0
         self.city_id = "0"
         if self.options.city_names_file:
@@ -96,6 +108,7 @@ class MRCity(MRJob):
 
     def reducer(self, key, values):
         city_id = key.split(self.KEY_FIELD_SEPARATOR)[0]
+        # if city has been changed, yield accumulated values for the previous city
         if city_id != self.city_id:
             if self.options.city_names_file:
                 try:
@@ -106,11 +119,14 @@ class MRCity(MRJob):
                 yield self.city_id, self.res
             self.city_id = city_id
             self.res = sum(values)
+        # if city has not been changed, accumulate values for this city
         else:
             self.res += sum(values)
         return
 
     def reducer_final(self):
+        # We yield values only when city_id changes.
+        # Thus we have to yield the last city here.
         if self.options.city_names_file:
             try:
                 yield self.city_names_dict[self.city_id], self.res
