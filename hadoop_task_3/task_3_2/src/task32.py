@@ -106,7 +106,8 @@ class MRCity(MRJob):
                 yield self.city_id, self.res
             self.city_id = city_id
             self.res = sum(values)
-        self.res += sum(values)
+        else:
+            self.res += sum(values)
         return
 
 
