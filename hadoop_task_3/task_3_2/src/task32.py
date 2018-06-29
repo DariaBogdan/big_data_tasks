@@ -30,7 +30,7 @@ regex = re.compile('([a-zA-Z0-9]+)\t'  # BidID -- 0
                    '(null)\t'  # Landing Page URL -- 21
                    '(\d+)\t'  # Advertiser ID -- 22
                    '(.+)')  # User Profile IDs -- 23
-regex_city_id = re.compile('(\d+);.+')
+
 PRICE_LIMIT = 250
 
 
@@ -95,7 +95,7 @@ class MRCity(MRJob):
                     self.city_names_dict[city_id] = city_name
 
     def reducer(self, key, values):
-        city_id = re.match(regex_city_id, key).groups()[0]
+        city_id = key.split(self.KEY_FIELD_SEPARATOR)[0]
         if city_id != self.city_id:
             if self.options.city_names_file:
                 try:
@@ -109,6 +109,15 @@ class MRCity(MRJob):
         else:
             self.res += sum(values)
         return
+
+    def reducer_final(self):
+        if self.options.city_names_file:
+            try:
+                yield self.city_names_dict[self.city_id], self.res
+            except KeyError:
+                self.increment_counter('Incorrect data', 'Incorrect city id')
+        else:
+            yield self.city_id, self.res
 
 
 if __name__ == '__main__':
