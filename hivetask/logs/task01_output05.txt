@@ -1,0 +1,38 @@
+[root@sandbox-hdp ~]# sh ./run_task01_question05.sh 
+Connecting to jdbc:hive2://localhost:10000/default
+Connected to: Apache Hive (version 1.2.1000.2.6.5.0-292)
+Driver: Hive JDBC (version 1.2.1000.2.6.5.0-292)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+0: jdbc:hive2://localhost:10000/default> -- Find the carrier who served the biggest number of flights (Screenshot#3)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> SELECT uniquecarrier, 
+0: jdbc:hive2://localhost:10000/default>        Count(*) AS total_flights 
+0: jdbc:hive2://localhost:10000/default> FROM   y2007 
+0: jdbc:hive2://localhost:10000/default> GROUP  BY uniquecarrier 
+0: jdbc:hive2://localhost:10000/default> ORDER  BY total_flights DESC 
+0: jdbc:hive2://localhost:10000/default> LIMIT  1; 
+INFO  : Tez session hasn't been created yet. Opening session
+INFO  : Dag name: SELECT uniquecarrier,
+       Count(*) AS...1(Stage-1)
+INFO  : Status: Running (Executing on YARN cluster with App id application_1530707758070_0018)
+
+--------------------------------------------------------------------------------
+        VERTICES      STATUS  TOTAL  COMPLETED  RUNNING  PENDING  FAILED  KILLED
+--------------------------------------------------------------------------------
+Map 1 ..........   SUCCEEDED      1          1        0        0       0       0
+Reducer 2 ......   SUCCEEDED      2          2        0        0       0       0
+Reducer 3 ......   SUCCEEDED      1          1        0        0       0       0
+--------------------------------------------------------------------------------
+VERTICES: 03/03  [==========================>>] 100%  ELAPSED TIME: 36.04 s    
+--------------------------------------------------------------------------------
++----------------+----------------+--+
+| uniquecarrier  | total_flights  |
++----------------+----------------+--+
+| WN             | 1168871        |
++----------------+----------------+--+
+1 row selected (43.834 seconds)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> 
+Closing: 0: jdbc:hive2://localhost:10000/default
+[root@sandbox-hdp ~]# 
+

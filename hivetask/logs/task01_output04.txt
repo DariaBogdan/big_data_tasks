@@ -1,0 +1,55 @@
+[root@sandbox-hdp ~]# sh ./run_task01_question04.sh 
+Connecting to jdbc:hive2://localhost:10000/default
+Connected to: Apache Hive (version 1.2.1000.2.6.5.0-292)
+Driver: Hive JDBC (version 1.2.1000.2.6.5.0-292)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+0: jdbc:hive2://localhost:10000/default> -- Find five most busy airports in US during Jun 01 - Aug 31. (Screenshot#3)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> SELECT airport, 
+0: jdbc:hive2://localhost:10000/default>        Sum(total_flights) AS total_flights 
+0: jdbc:hive2://localhost:10000/default> FROM   (SELECT origin        AS airport, 
+0: jdbc:hive2://localhost:10000/default>                Count(origin) AS total_flights 
+0: jdbc:hive2://localhost:10000/default>         FROM   y2007 
+0: jdbc:hive2://localhost:10000/default>         WHERE  month IN ( 6, 7, 8 ) 
+0: jdbc:hive2://localhost:10000/default>         GROUP  BY origin 
+0: jdbc:hive2://localhost:10000/default>         UNION ALL 
+0: jdbc:hive2://localhost:10000/default>         SELECT dest, 
+0: jdbc:hive2://localhost:10000/default>                Count(dest) 
+0: jdbc:hive2://localhost:10000/default>         FROM   y2007 
+0: jdbc:hive2://localhost:10000/default>         WHERE  month IN ( 6, 7, 8 ) 
+0: jdbc:hive2://localhost:10000/default>         GROUP  BY dest) a 
+0: jdbc:hive2://localhost:10000/default> GROUP  BY airport 
+0: jdbc:hive2://localhost:10000/default> ORDER  BY total_flights DESC 
+0: jdbc:hive2://localhost:10000/default> LIMIT  5; 
+INFO  : Tez session hasn't been created yet. Opening session
+INFO  : Dag name: SELECT airport,
+       Sum(total_flights...5(Stage-1)
+INFO  : Status: Running (Executing on YARN cluster with App id application_1530707758070_0017)
+
+--------------------------------------------------------------------------------
+        VERTICES      STATUS  TOTAL  COMPLETED  RUNNING  PENDING  FAILED  KILLED
+--------------------------------------------------------------------------------
+Map 1 ..........   SUCCEEDED      1          1        0        0       0       0
+Map 6 ..........   SUCCEEDED      1          1        0        0       0       0
+Reducer 2 ......   SUCCEEDED      1          1        0        0       0       0
+Reducer 4 ......   SUCCEEDED      1          1        0        0       0       0
+Reducer 5 ......   SUCCEEDED      1          1        0        0       0       0
+Reducer 7 ......   SUCCEEDED      1          1        0        0       0       0
+--------------------------------------------------------------------------------
+VERTICES: 06/06  [==========================>>] 100%  ELAPSED TIME: 61.56 s    
+--------------------------------------------------------------------------------
++----------+----------------+--+
+| airport  | total_flights  |
++----------+----------------+--+
+| ATL      | 220506         |
+| ORD      | 192043         |
+| DFW      | 152380         |
+| DEN      | 126196         |
+| LAX      | 122914         |
++----------+----------------+--+
+5 rows selected (72.428 seconds)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> 
+Closing: 0: jdbc:hive2://localhost:10000/default
+[root@sandbox-hdp ~]# 
+

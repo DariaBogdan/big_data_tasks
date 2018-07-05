@@ -1,0 +1,54 @@
+[root@sandbox-hdp ~]# sh ./run_task01_question02.sh 
+Connecting to jdbc:hive2://localhost:10000/default
+Connected to: Apache Hive (version 1.2.1000.2.6.5.0-292)
+Driver: Hive JDBC (version 1.2.1000.2.6.5.0-292)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+0: jdbc:hive2://localhost:10000/default> -- Count total number of flights per carrier in 2007 (Screenshot#1)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> SELECT uniquecarrier, 
+0: jdbc:hive2://localhost:10000/default>        Count(*) AS total_flights 
+0: jdbc:hive2://localhost:10000/default> FROM   y2007 
+0: jdbc:hive2://localhost:10000/default> GROUP  BY uniquecarrier; 
+INFO  : Tez session hasn't been created yet. Opening session
+INFO  : Dag name: SELECT uniquecarrier,
+      ...uniquecarrier(Stage-1)
+INFO  : Status: Running (Executing on YARN cluster with App id application_1530707758070_0015)
+
+--------------------------------------------------------------------------------
+        VERTICES      STATUS  TOTAL  COMPLETED  RUNNING  PENDING  FAILED  KILLED
+--------------------------------------------------------------------------------
+Map 1 ..........   SUCCEEDED      1          1        0        0       0       0
+Reducer 2 ......   SUCCEEDED      2          2        0        0       0       0
+--------------------------------------------------------------------------------
+VERTICES: 02/02  [==========================>>] 100%  ELAPSED TIME: 42.78 s    
+--------------------------------------------------------------------------------
++----------------+----------------+--+
+| uniquecarrier  | total_flights  |
++----------------+----------------+--+
+| 9E             | 258851         |
+| AS             | 160185         |
+| EV             | 286234         |
+| FL             | 263159         |
+| MQ             | 540494         |
+| OH             | 233787         |
+| US             | 485447         |
+| YV             | 294362         |
+| AA             | 633857         |
+| AQ             | 46360          |
+| B6             | 191450         |
+| CO             | 323151         |
+| DL             | 475889         |
+| F9             | 97760          |
+| HA             | 56175          |
+| NW             | 414526         |
+| OO             | 597882         |
+| UA             | 490002         |
+| WN             | 1168871        |
+| XE             | 434773         |
++----------------+----------------+--+
+20 rows selected (51.166 seconds)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> 
+Closing: 0: jdbc:hive2://localhost:10000/default
+[root@sandbox-hdp ~]# 
+

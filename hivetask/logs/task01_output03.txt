@@ -1,0 +1,39 @@
+[root@sandbox-hdp ~]# sh ./run_task01_question03.sh 
+Connecting to jdbc:hive2://localhost:10000/default
+Connected to: Apache Hive (version 1.2.1000.2.6.5.0-292)
+Driver: Hive JDBC (version 1.2.1000.2.6.5.0-292)
+Transaction isolation: TRANSACTION_REPEATABLE_READ
+0: jdbc:hive2://localhost:10000/default> -- The total number of flights served in Jun 2007 by NYC (all airports, use join with Airports)(Screenshot#2)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> SELECT Count(*) as total_flights
+0: jdbc:hive2://localhost:10000/default> FROM   y2007 
+0: jdbc:hive2://localhost:10000/default>        JOIN airports 
+0: jdbc:hive2://localhost:10000/default>          ON y2007.origin = airports.iata 
+0: jdbc:hive2://localhost:10000/default> WHERE  airports.state = 'NY' 
+0: jdbc:hive2://localhost:10000/default>        AND y2007.month = 6; 
+INFO  : Tez session hasn't been created yet. Opening session
+INFO  : Dag name: SELECT Count(*) as total_flights
+FROM   ...6(Stage-1)
+INFO  : Setting tez.task.scale.memory.reserve-fraction to 0.30000001192092896
+INFO  : Status: Running (Executing on YARN cluster with App id application_1530707758070_0016)
+
+--------------------------------------------------------------------------------
+        VERTICES      STATUS  TOTAL  COMPLETED  RUNNING  PENDING  FAILED  KILLED
+--------------------------------------------------------------------------------
+Map 1 ..........   SUCCEEDED      1          1        0        0       0       0
+Map 3 ..........   SUCCEEDED      1          1        0        0       0       0
+Reducer 2 ......   SUCCEEDED      1          1        0        0       0       0
+--------------------------------------------------------------------------------
+VERTICES: 03/03  [==========================>>] 100%  ELAPSED TIME: 40.38 s    
+--------------------------------------------------------------------------------
++----------------+--+
+| total_flights  |
++----------------+--+
+| 29682          |
++----------------+--+
+1 row selected (47.2 seconds)
+0: jdbc:hive2://localhost:10000/default> 
+0: jdbc:hive2://localhost:10000/default> 
+Closing: 0: jdbc:hive2://localhost:10000/default
+[root@sandbox-hdp ~]# 
+
