@@ -4,5 +4,5 @@ SELECT Count(*) as total_flights
 FROM   y2007 
        JOIN airports 
          ON y2007.origin = airports.iata 
-WHERE  airports.state = 'NY' 
+WHERE  airports.city = 'New York' 
        AND y2007.month = 6; 

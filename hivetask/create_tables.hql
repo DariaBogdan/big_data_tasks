@@ -14,7 +14,7 @@ STORED AS TEXTFILE
 location '/carriers' 
 tblproperties("skip.header.line.count"="1");
 
-load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020/user/raj_ops/hivetask/carriers.csv' overwrite into table carriers;
+load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020${MY_HDFS_DIR}carriers.csv' overwrite into table carriers;
 
 create table airports (  
   iata string,
@@ -36,7 +36,7 @@ STORED AS TEXTFILE
 location '/airports' 
 tblproperties("skip.header.line.count"="1");
 
-load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020/user/raj_ops/hivetask/airports.csv' overwrite into table airports;
+load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020${MY_HDFS_DIR}airports.csv' overwrite into table airports;
 
 create table y2007 (  
   Year int,
@@ -80,4 +80,4 @@ STORED AS TEXTFILE
 location '/y2007' 
 tblproperties("skip.header.line.count"="1");
 
-load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020/user/raj_ops/hivetask/2007.csv' overwrite into table y2007;
+load data inpath 'hdfs://sandbox-hdp.hortonworks.com:8020${MY_HDFS_DIR}2007.csv' overwrite into table y2007;
