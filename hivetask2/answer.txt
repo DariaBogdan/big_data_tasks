@@ -1,0 +1,9 @@
+How many MR jobs where instanced for this query?
+
+Two jobs. 
+First one stands for join, second one stands for select.
+
+There are four stages. 
+Fisrt stage 'Map Reduce Local Work' sends airport table as distributed cache.
+Second and third are the MapReduce jobs.
+The last one is Fetch Operator, it is standard for all queries.
