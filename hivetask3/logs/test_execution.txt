@@ -1,0 +1,11 @@
+Testing started at 17:03 ...
+/home/bogdan/PycharmProjects/hivetask3/venv/bin/python /home/bogdan/Downloads/pycharm-community-2018.1/helpers/pycharm/_jb_unittest_runner.py --path /home/bogdan/PycharmProjects/hivetask3/tests.py
+Launching unittests with arguments python -m unittest /home/bogdan/PycharmProjects/hivetask3/tests.py in /home/bogdan/PycharmProjects/hivetask3
+
+
+Ran 3 tests in 0.003s
+
+OK
+
+Process finished with exit code 0
+
