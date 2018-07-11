@@ -60,7 +60,7 @@ INSERT INTO TABLE top_device_by_city
 							  device_count DESC) AS sub;
 -- main select							  
 SELECT 
-    top_os_by_city.city_id,
+    distinct top_os_by_city.city_id,
     top_os_by_city.os, 
     top_browser_by_city.browser,
     top_device_by_city.device
