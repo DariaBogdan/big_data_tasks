@@ -17,13 +17,16 @@ prepare_table)
 	mysql --defaults-file=$MYSQL_CREDS -e "create database $DATABASE";
 	mysql --defaults-file=$MYSQL_CREDS $DATABASE -e "drop table if exists weather";
 	mysql --defaults-file=$MYSQL_CREDS $DATABASE -e "create table weather (stationid varchar(20), date date, tmin int, tmax int, snow int, snwd int, prcp int)";
+	mysql --defaults-file=$MYSQL_CREDS $DATABASE -e "drop table if exists weather_stage";
+	mysql --defaults-file=$MYSQL_CREDS $DATABASE -e "create table weather_stage like weather";
+
         ;;    
 to_hdfs)
         hadoop fs -mkdir $MY_HDFS_DIR
 	hadoop fs -put $PATH_TO_FILES $MY_HDFS_DIR
         ;;    
 export)
-        sqoop export --connect jdbc:mysql://localhost/$DATABASE --table weather --export-dir $MY_HDFS_DIR --username root --password hadoop
+        sqoop export --connect jdbc:mysql://localhost/$DATABASE --table weather --staging-table weather_stage --export-dir $MY_HDFS_DIR --username root --password hadoop
         ;;    
 results)
         mysql --defaults-file=$MYSQL_CREDS $DATABASE -e "SELECT count(*) FROM weather"
