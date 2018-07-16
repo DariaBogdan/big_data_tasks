@@ -1,0 +1,25 @@
+Task 1
+
+1. Prepare table
+Drop database (maybe it existed before).
+Create database.
+Drop table (maybe it existed before).
+Create table 'weather' using file 'better-format-header.txt'.
+According to files part-000*,
+stationid should be varchar format, 
+date -- date format,
+other fields -- int.
+
+2. To HDFS
+Create directory in HDFS to put files in.
+Put in it files part-000*
+
+3. Export
+Using 'sqoop export' put files from HDFS to MySQL table, created in the first step.
+This step runs MR-job. It takes several minutes.
+I changed amount of mappers using -m option, but execution time didn't changed with large amount of mappers,
+and increased with 1 mapper, so I decided to use default amount of mappers.
+
+4. Run sql-queries:
+SELECT count(*) FROM weather;
+SELECT * FROM weather ORDER BY stationid, date LIMIT 10;
