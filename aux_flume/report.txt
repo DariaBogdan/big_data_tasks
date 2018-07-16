@@ -1,0 +1,14 @@
+Task 2
+
+File run.sh has commands that allows to do every step of the task.
+
+1) cat -- to run 'cat linux_messages_3000lines.txt | while read line ; do echo "$line" ; sleep 0.2 ; done > output.txt'
+
+2) run_flume_agent -- to run flume agent with config file
+We have to read output.txt, so in config file type of source 
+set to 'exec', and command to execute is tail.
+We have to write into HDFS, so sink type is hdfs.
+
+3) results -- run command to cat files in HDFS
+
+
