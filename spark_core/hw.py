@@ -1,7 +1,12 @@
 from pyspark import SparkConf, Row
 from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+
+
+class BidError:
+    def __init__(self, date, errorMessage):
+        self.date = date
+        self.errorMessage = errorMessage
 
 class MotelsHomeRecommendation:
     ERRONEOUS_DIR = "erroneous"
@@ -17,14 +22,14 @@ class MotelsHomeRecommendation:
 
     def getRawBids(self, sc, bidsPath):
         text_file = sc.textFile(bidsPath)
-        return text_file.map(lambda row: row)
+        return text_file
 
     def getErroneousRecords(self, rawBids):
-        rdd = rawBids.map(lambda r: r) \
+        rdd = rawBids\
             .filter(lambda r: r.find('ERROR') > 0) \
             .map(lambda x: x.split(',')) \
-            .map(lambda x: Row(motelId=x[0], date=x[1], error=x[2])) \
-            .map(lambda x: ((x.date, x.error), 1)) \
+            .map(lambda x: BidError(date=x[1], errorMessage=x[2])) \
+            .map(lambda x: ((x.date, x.errorMessage), 1)) \
             .reduceByKey(lambda a, b: a + b)
         return rdd
 
@@ -77,4 +82,11 @@ class MotelsHomeRecommendation:
         enriched = self.getEnriched(bids, motels)
         enriched.saveAsTextFile(f"{self.outputBasePath}/{self.AGGREGATED_DIR}")
 
-MotelsHomeRecommendation('bids.txt', 'exchange_rate.txt', 'motels.txt', 'result.txt').processData()
+
+if __name__ == '__main__':
+    MotelsHomeRecommendation(
+        'bids.txt',
+        'exchange_rate.txt',
+        'motels.txt',
+        'result.txt'
+    ).processData()
