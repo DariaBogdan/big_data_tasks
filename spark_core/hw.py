@@ -40,12 +40,13 @@ def expand(x):
     :return: list of three BidItem elements
     """
     rawBid, exchangeRate = x
+    motelId = rawBid[0]
     transformed_date = transform_date(rawBid[1])
     result = []
     for raw_idx, loSa in zip([5, 6, 8], COUNTRIES):
         result.append(
             BidItem(
-                motelId=rawBid[0],
+                motelId=motelId,
                 bidDate=transformed_date,
                 loSa=loSa,
                 price=to_euro(rawBid[raw_idx], exchangeRate)
@@ -139,7 +140,12 @@ class MotelsHomeRecommendation:
         rdd = bids \
             .keyBy(lambda x: x.motelId) \
             .leftOuterJoin(motels) \
-            .map(lambda x: (EnrichedItem(motelId=x[0], bidDate=x[1][0].bidDate, price=x[1][0].price, loSa=x[1][0].loSa, motelName=x[1][1]))) \
+            .map(lambda x: (EnrichedItem(
+                            motelId=x[0],
+                            bidDate=x[1][0].bidDate,
+                            price=x[1][0].price,
+                            loSa=x[1][0].loSa,
+                            motelName=x[1][1]))) \
             .keyBy(lambda x: (x.bidDate, x.motelId)) \
             .reduceByKey(lambda x, y: max(x, y, key=lambda x: int(x.price))) \
             .values() \
