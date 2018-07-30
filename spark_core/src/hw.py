@@ -13,7 +13,7 @@ def transform_date(date):
     :return: string with date in format "year-month-day hour:00"
     """
     hour, day, month, year = date.split('-')
-    return f"{year}-{month}-{day} {hour}:00"
+    return "{}-{}-{} {}:00".format(year, month, day, hour)
 
 
 def to_euro(price_usd, exhange_rate):
