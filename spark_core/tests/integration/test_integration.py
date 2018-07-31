@@ -28,5 +28,5 @@ class TestMR(unittest.TestCase):
         aggregated_expected = self.sc.textFile(os.path.join('expected_output', 'aggregated'))
         self.assertCountEqual(aggregated_result.collect(), aggregated_expected.collect())
 
-    # def tearDown(self):
-    #     shutil.rmtree(self.tmpdir)
+    def tearDown(self):
+        shutil.rmtree(self.tmpdir)

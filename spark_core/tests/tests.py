@@ -3,7 +3,7 @@ from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
 import unittest
 
-from hw import MotelsHomeRecommendation, expand, transform_date, to_euro
+from hw import MotelsHomeRecommendation
 from classes import BidItem
 
 class TestMR(unittest.TestCase):
@@ -14,9 +14,10 @@ class TestMR(unittest.TestCase):
     def setUp(self):
         self.sc = SparkContext.getOrCreate(SparkConf())
         self.spark = SparkSession(self.sc)
+        self.obj = MotelsHomeRecommendation('', '', '', '')
 
     def test_get_exchanged_rates(self):
-        result = MotelsHomeRecommendation.get_exchange_rates(self, self.sc, self.INPUT_EXCHANGED_RATES_SAMPLE)
+        result = self.obj.get_exchange_rates(self.sc, self.INPUT_EXCHANGED_RATES_SAMPLE)
         expected = self.sc.parallelize(
             [
                 ['11-06-05-2016', '0.803'],
@@ -45,11 +46,11 @@ class TestMR(unittest.TestCase):
                 '0000002,2016-05-06 11:00,CA,0.715'
             ]
         )
-        result = MotelsHomeRecommendation.get_bids(self, rawBids, exchangedRates)
+        result = MotelsHomeRecommendation.get_bids(self.obj, rawBids, exchangedRates)
         self.assertEqual([str(x) for x in result.collect()], expected.collect())
 
     def test_get_motels(self):
-        result = MotelsHomeRecommendation.get_motels(self, self.sc, self.INPUT_MOTELS_SAMPLE)
+        result = self.obj.get_motels(self.sc, self.INPUT_MOTELS_SAMPLE)
         expected = self.sc.parallelize(
             [
                 ['0000001', 'Grand Mengo Casino'],
@@ -82,27 +83,27 @@ class TestMR(unittest.TestCase):
     def test_transform_date(self):
         input = '11-05-06-2011'
         expected = '2011-06-05 11:00'
-        result = transform_date(input)
+        result = MotelsHomeRecommendation.transform_date(input)
         self.assertEqual(expected, result)
 
     def test_to_euro(self):
         price_usd = '100'
         exchange_rate = '0.3333333333'
         expected = 33.333
-        result = to_euro(price_usd, exchange_rate)
+        result = MotelsHomeRecommendation.to_euro(price_usd, exchange_rate)
         self.assertEqual(expected, result)
 
     def test_to_euro_empty(self):
         price_usd = ''
         exchange_rate = '0.8'
         expected = ''
-        result = to_euro(price_usd, exchange_rate)
+        result = MotelsHomeRecommendation.to_euro(price_usd, exchange_rate)
         self.assertEqual(expected, result)
 
     def test_expand(self):
         rawBid = '0000002,11-05-08-2016,0.92,1.68,0.81,0.68,1.59,,1.63,1.77,2.06,0.66,1.53,,0.32,0.88,0.83,1.01'.split(',')
         exchange_rate = '0.8'
-        result = expand((rawBid, exchange_rate))
+        result = MotelsHomeRecommendation.expand((rawBid, exchange_rate))
         expected = [
             '0000002,2016-08-05 11:00,US,0.544',
             '0000002,2016-08-05 11:00,MX,1.272',
@@ -118,7 +119,7 @@ class TestMR(unittest.TestCase):
             ]
         )
 
-        rawBids = MotelsHomeRecommendation.get_raw_bids(self, self.sc, self.INPUT_BIDS_SAMPLE)
+        rawBids = self.obj.get_raw_bids(self.sc, self.INPUT_BIDS_SAMPLE)
 
         self.assertEqual(expected.collect(), rawBids.collect())
 

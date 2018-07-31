@@ -6,63 +6,63 @@ from pyspark.sql import SparkSession
 
 from classes import BidError, EnrichedItem, BidItem
 
-COUNTRIES = ['US', 'MX', 'CA']
-ERRONEOUS_DIR = "erroneous"
-AGGREGATED_DIR = "aggregated"
-DELIMITER = ","
-BIDS_HEADER =["MotelID", "BidDate", "HU", "UK",  "NL", "US", "MX", "AU", "CA", "CN", "KR","BE", "I","JP", "IN", "HN", "GY", "DE"]
-
-
-def transform_date(date):
-    """ Transform date format from "hour-day-month-year" to "year-month-day hour:00"
-
-    :param date: string with date in format "hour-day-month-year"
-    :return: string with date in format "year-month-day hour:00"
-    """
-    hour, day, month, year = date.split('-')
-    return "{}-{}-{} {}:00".format(year, month, day, hour)
-
-
-def to_euro(price_usd, exhange_rate):
-    """ Transform USD to EUR and round result.
-
-    :param price_usd: price in USD
-    :param exhange_rate: exchange rate
-    :return: float -- price in EUR
-    """
-    try:
-        return round(float(price_usd) * float(exhange_rate), 3)
-    except ValueError:
-        return ''
-
-def expand(x):
-    """ Takes tuple: row from file 'bids.txt' and exchange
-     rate for date from this row. Select only values for
-     countries in COUNTRIES and expand inputed row to three
-     rows: one row for each country. For each row transform
-     date to needed format and USD to EUR.
-
-    :param x: tuple
-    :return: list of three BidItem elements
-    """
-    rawBid, exchangeRate = x
-    motelId = rawBid[0]
-    transformed_date = transform_date(rawBid[1])
-    needed_countries = [BIDS_HEADER.index(header) for header in COUNTRIES]
-    result = []
-    for raw_idx, loSa in zip(needed_countries, COUNTRIES):
-        result.append(
-            BidItem(
-                motelId=motelId,
-                bidDate=transformed_date,
-                loSa=loSa,
-                price=to_euro(rawBid[raw_idx], exchangeRate)
-            )
-        )
-    return result
-
-
 class MotelsHomeRecommendation:
+    DELIMITER = ","
+    COUNTRIES = ['US', 'MX', 'CA']
+    ERRONEOUS_DIR = "erroneous"
+    AGGREGATED_DIR = "aggregated"
+    BIDS_HEADER = ["MotelID", "BidDate", "HU", "UK", "NL", "US", "MX", "AU", "CA", "CN", "KR", "BE", "I", "JP", "IN",
+                   "HN", "GY", "DE"]
+
+    @staticmethod
+    def transform_date(date):
+        """ Transform date format from "hour-day-month-year" to "year-month-day hour:00"
+
+        :param date: string with date in format "hour-day-month-year"
+        :return: string with date in format "year-month-day hour:00"
+        """
+        hour, day, month, year = date.split('-')
+        return "{}-{}-{} {}:00".format(year, month, day, hour)
+
+    @staticmethod
+    def to_euro(price_usd, exhange_rate):
+        """ Transform USD to EUR and round result.
+
+        :param price_usd: price in USD
+        :param exhange_rate: exchange rate
+        :return: float -- price in EUR
+        """
+        try:
+            return round(float(price_usd) * float(exhange_rate), 3)
+        except ValueError:
+            return ''
+
+    @classmethod
+    def expand(cls, x):
+        """ Takes tuple: row from file 'bids.txt' and exchange
+         rate for date from this row. Select only values for
+         countries in COUNTRIES and expand inputed row to three
+         rows: one row for each country. For each row transform
+         date to needed format and USD to EUR.
+
+        :param x: tuple
+        :return: list of three BidItem elements
+        """
+        rawBid, exchangeRate = x
+        motelId = rawBid[0]
+        transformed_date = cls.transform_date(rawBid[1])
+        needed_countries = [cls.BIDS_HEADER.index(header) for header in cls.COUNTRIES]
+        result = []
+        for raw_idx, loSa in zip(needed_countries, cls.COUNTRIES):
+            result.append(
+                BidItem(
+                    motelId=motelId,
+                    bidDate=transformed_date,
+                    loSa=loSa,
+                    price=cls.to_euro(rawBid[raw_idx], exchangeRate)
+                )
+            )
+        return result
 
     def __init__(self, bidsPath, exchangeRatesPath, motelsPath, outputBasePath):
         self.bidsPath = bidsPath
@@ -73,8 +73,8 @@ class MotelsHomeRecommendation:
         self.spark = SparkSession(self.sc)
         self.sc.setLogLevel('INFO')
 
-
-    def get_raw_bids(self, sc, bidsPath):
+    @classmethod
+    def get_raw_bids(cls, sc, bidsPath):
         """ Read file to RDD
 
         :param sc: spark context
@@ -83,7 +83,7 @@ class MotelsHomeRecommendation:
         """
         text_file = sc.textFile(bidsPath)
         rdd = text_file\
-            .map(lambda r: r.split(DELIMITER))
+            .map(lambda r: r.split(cls.DELIMITER))
         return rdd
 
 
@@ -101,7 +101,8 @@ class MotelsHomeRecommendation:
             .map(lambda x: ','.join([','.join(x[0]), str(x[1])]))
         return rdd
 
-    def get_exchange_rates(self, sc, exchangeRatesPath):
+    @classmethod
+    def get_exchange_rates(cls, sc, exchangeRatesPath):
         """ Read file to RDD
 
         :param sc: spark context
@@ -110,7 +111,7 @@ class MotelsHomeRecommendation:
         """
         text_file = sc.textFile(exchangeRatesPath)
         rdd = text_file\
-            .map(lambda r: r.split(DELIMITER)) \
+            .map(lambda r: r.split(cls.DELIMITER)) \
             .map(lambda r: [r[i] for i in [0, 3]])  # select only needed values
         return rdd
 
@@ -120,10 +121,11 @@ class MotelsHomeRecommendation:
             .keyBy(lambda r: r[1]) \
             .leftOuterJoin(exchangeRates) \
             .values() \
-            .flatMap(expand) \
+            .flatMap(self.expand) \
             .filter(lambda r: r.price != '')
         return rdd
 
+    @classmethod
     def get_motels(self, sc, motelsPath):
         """ Read file to RDD
 
@@ -133,7 +135,7 @@ class MotelsHomeRecommendation:
         """
         text_file = sc.textFile(motelsPath)
         rdd = text_file \
-            .map(lambda r: r.split(DELIMITER)) \
+            .map(lambda r: r.split(self.DELIMITER)) \
             .map(lambda r: [r[i] for i in [0, 1]])  # select only motelId and motelName
         return rdd
 
@@ -165,7 +167,7 @@ class MotelsHomeRecommendation:
 
         # Collect the errors and save the result
         erroneousRecords = self.get_erroneous_records(rawBids)
-        erroneousRecords.saveAsTextFile(os.path.join(self.outputBasePath, ERRONEOUS_DIR))
+        erroneousRecords.saveAsTextFile(os.path.join(self.outputBasePath, self.ERRONEOUS_DIR))
 
         # Read the exchange rate information.
         exchangeRates = self.get_exchange_rates(self.sc, self.exchangeRatesPath)
@@ -178,7 +180,7 @@ class MotelsHomeRecommendation:
 
         # Join the bids with motel names and utilize EnrichedItem case class.
         enriched = self.get_enriched(bids, motels)
-        enriched.saveAsTextFile(os.path.join(self.outputBasePath, AGGREGATED_DIR))
+        enriched.saveAsTextFile(os.path.join(self.outputBasePath, self.AGGREGATED_DIR))
 
 
 if __name__ == '__main__':
