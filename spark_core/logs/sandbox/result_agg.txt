@@ -1,0 +1,1020 @@
+[root@sandbox-hdp raj_ops]# sh ./spark_core/runner.sh cat_agg
+Found 2 items
+drwxr-xr-x   - root hdfs          0 2018-07-31 13:40 /user/root/spark_core/result/aggregated
+drwxr-xr-x   - root hdfs          0 2018-07-31 13:32 /user/root/spark_core/result/erroneous
+Found 7 items
+-rw-r--r--   1 root hdfs          0 2018-07-31 13:40 /user/root/spark_core/result/aggregated/_SUCCESS
+-rw-r--r--   1 root hdfs   24325313 2018-07-31 13:39 /user/root/spark_core/result/aggregated/part-00000
+-rw-r--r--   1 root hdfs   24265589 2018-07-31 13:39 /user/root/spark_core/result/aggregated/part-00001
+-rw-r--r--   1 root hdfs   24309333 2018-07-31 13:39 /user/root/spark_core/result/aggregated/part-00002
+-rw-r--r--   1 root hdfs   24270753 2018-07-31 13:40 /user/root/spark_core/result/aggregated/part-00003
+-rw-r--r--   1 root hdfs   24312832 2018-07-31 13:40 /user/root/spark_core/result/aggregated/part-00004
+-rw-r--r--   1 root hdfs   24326505 2018-07-31 13:40 /user/root/spark_core/result/aggregated/part-00005
+0001066,Moos' Hotel,2015-09-27 23:00,MX,2.018
+0000975,Elegance City Motor Inn,2015-11-23 06:00,US,1.684
+0001184,Moos' Moos' Spa,2015-12-03 19:00,MX,1.264
+0000256,Upper Side Sun Sine Posada,2015-08-21 21:00,MX,1.539
+0000817,Eas Side Highway Plaza,2016-03-17 07:00,US,1.252
+0000090,Saionara Pestana Village Hotel,2015-10-16 15:00,CA,1.672
+0000304,Sheraton Amanhecer Apartments,2016-04-06 23:00,MX,0.969
+0001111,Hyatt Imperial la pensión,2016-01-30 17:00,US,0.472
+0000740,Premier Inn,2015-11-03 16:00,MX,1.32
+0001030,Amanhecer Hotel,2015-12-17 15:00,MX,1.329
+0000915,Saionara Mengo Tiny Tavern,2015-08-20 13:00,MX,1.595
+0001049,River Side Geronimo Moon Light Inn,2015-10-24 19:00,CA,1.528
+0000804,Down Town Sun Sine Copacabana Tavern,2016-01-25 17:00,US,1.472
+0000764,Sun Sine Copacabana Posada,2015-09-19 12:00,US,1.825
+0000883,Tiny Pestana la pensión,2016-06-08 16:00,US,1.424
+0000970,Por Moon Light Motel,2015-08-09 21:00,CA,1.535
+0000871,Majestic Saionara Spa,2016-06-08 12:00,MX,1.795
+0000017,Elegance Sun Sine Motor Inn,2015-08-16 10:00,CA,1.34
+0000608,Slaviero Olinda Motel,2015-08-19 16:00,MX,1.539
+0001168,Geronimo Suburbs Granja,2016-03-12 04:00,MX,1.755
+0000207,Village Eas Side Spa,2015-10-05 01:00,MX,1.853
+0000253,Geronimo Moos' Hyatt Hotel,2015-12-28 03:00,US,1.475
+0000491,Imperial Amanhecer Jon's Plaza,2016-05-05 01:00,CA,1.614
+0000171,Eas Side Asturias Hostel,2016-02-20 03:00,US,0.985
+0001164,Mengo Hotelo,2016-03-11 21:00,US,1.362
+0000496,Moos' Upper Side Plaza,2016-07-03 10:00,CA,1.884
+0000849,Vermont Highway Inn,2015-08-14 12:00,CA,1.417
+0000895,River Side Novelo Slaviero Granja,2016-07-23 09:00,CA,1.009
+0000733,Senado City la pensión,2016-05-25 10:00,US,1.745
+0000685,Barra Down Town la pensión,2015-12-18 07:00,MX,1.807
+0000549,Sheraton Mengo Plaza,2015-10-23 09:00,CA,1.772
+0000017,Elegance Sun Sine Motor Inn,2015-12-30 19:00,CA,1.768
+0000807,Mengo Upper Side Inn,2016-07-25 22:00,CA,1.673
+0000983,Windsor Merlin Hotelo,2016-06-30 21:00,US,1.689
+0001177,Por Hotel,2015-08-15 10:00,MX,1.097
+0000558,Vermont Geronimo Moon Light Posada,2016-04-04 00:00,US,1.424
+0000703,Grand Premier la pensión,2015-10-11 06:00,MX,1.137
+0000445,Premier Olinda Inn,2016-07-23 02:00,US,1.602
+0000023,Tiny Suburbs Hotelo,2016-01-05 13:00,MX,1.766
+0000733,Senado City la pensión,2016-02-04 09:00,US,1.285
+0000523,Moon Light Barra Casino,2015-10-07 10:00,US,0.981
+0000256,Upper Side Sun Sine Posada,2016-02-06 03:00,MX,2.025
+0001145,Saionara Hotelo,2016-02-27 04:00,MX,1.719
+0000123,Moon Light Hotelo,2016-05-13 11:00,US,1.778
+0000631,Mengo Granja,2016-04-11 18:00,CA,1.899
+0000266,Pestana Hyatt Por Motor Inn,2015-10-05 03:00,CA,0.765
+0001095,Novelo Moon Light Motor Inn,2016-05-28 22:00,MX,1.82
+0001136,Moon Light Geronimo Apartments,2016-02-27 04:00,MX,1.622
+0000097,Slaviero Jon's Spa,2016-01-31 11:00,CA,1.405
+0000720,Asturias Sun Sine Hostel,2015-12-19 23:00,US,1.121
+0001066,Moos' Hotel,2016-03-09 20:00,MX,1.576
+0000167,Village Granja,2016-05-30 10:00,CA,0.961
+0000698,Upper Side Vermont River Side la pensión,2016-01-16 13:00,MX,1.15
+0000004,Novelo Sheraton la pensión,2016-04-26 05:00,US,1.667
+0000092,Novelo Hyatt Copacabana Hotel,2015-10-10 02:00,MX,1.385
+0000779,City Amanhecer Barra Hotel,2016-03-24 10:00,MX,1.476
+0000880,Hyatt Amanhecer Tavern,2016-07-06 21:00,CA,1.222
+0000287,Suburbs Slaviero Barra Apartments,2015-11-19 11:00,CA,1.802
+0000543,Grand Tavern,2016-07-31 06:00,MX,1.217
+0000161,Hyatt Por Imperial Casino,2016-05-31 18:00,US,1.638
+0000823,Tiny Por Hostel,2016-01-18 23:00,CA,1.887
+0001020,Down Town Imperial Vermont Motel,2015-09-15 22:00,US,1.273
+0000250,Suburbs River Side Down Town Granja,2015-08-23 04:00,MX,0.941
+0000577,Slaviero Windsor Granja,2016-01-15 08:00,MX,1.387
+0000179,Barra Mengo Hotelo,2015-09-18 08:00,MX,1.626
+0000619,Majestic Imperial Casa,2016-04-29 19:00,US,1.56
+0000597,Eas Side Pestana Boarding House,2016-01-25 16:00,US,1.536
+0000393,Eas Side Grand Hostel,2015-09-10 06:00,MX,1.902
+0001051,Grand Pestana Apartments,2015-12-03 04:00,MX,0.603
+0000494,Por Grand Hostel,2016-01-18 18:00,CA,0.385
+0001105,Big River Tiny Pestana Spa,2015-10-08 22:00,CA,2.002
+0001121,River Side Upper Side Hotelo,2016-03-28 15:00,MX,1.875
+0001102,Barra Motor Inn,2015-10-02 22:00,MX,0.661
+0000382,Imperial Grand Inn,2015-09-01 10:00,CA,1.54
+0000130,Majestic Por Posada,2016-04-06 06:00,US,1.397
+0000425,Sun Sine Village Boarding House,2016-07-13 10:00,US,2.019
+0000671,Upper Side Merlin Big River Plaza,2015-09-05 06:00,MX,1.228
+0000733,Senado City la pensión,2016-04-07 23:00,US,1.778
+0000798,Novelo Imperial Hostel,2016-01-20 16:00,CA,1.954
+0000308,Eas Side Imperial Posada,2016-08-04 20:00,US,1.395
+0000211,Village Moos' Casa,2015-10-05 20:00,CA,1.843
+0000331,Elegance Posada,2015-10-19 16:00,MX,1.877
+0000677,City Novelo Slaviero Spa,2016-01-12 21:00,CA,1.622
+0000299,Senado Pestana River Side la pensión,2015-10-12 10:00,MX,1.34
+0000559,Windsor Asturias la pensión,2016-04-26 04:00,US,0.725
+0000176,Saionara Geronimo Casa,2016-02-01 05:00,MX,1.653
+0000260,Pestana Imperial Tavern,2016-06-14 14:00,CA,1.104
+0000709,Upper Side Ibiza Highway Hostel,2015-11-26 16:00,CA,1.292
+0001162,Saionara Tavern,2016-03-26 19:00,CA,1.916
+0000003,Tiny City Motor Inn,2016-04-04 04:00,US,1.421
+0000170,Senado Moon Light Ibiza Granja,2015-12-15 20:00,MX,1.099
+0001076,Merlin Suburbs Moos' Granja,2015-08-18 15:00,CA,1.909
+0000589,City Plaza,2016-07-11 09:00,CA,1.236
+0000931,Hyatt Jon's Barra Hotelo,2016-07-12 18:00,CA,1.76
+0001030,Amanhecer Hotel,2016-04-29 18:00,CA,1.533
+0000215,Asturias Highway Tavern,2016-01-03 13:00,CA,1.631
+0000413,Asturias Hotelo,2016-05-22 04:00,US,0.732
+0001144,Sheraton Sheraton Tavern,2016-01-06 01:00,US,1.822
+0000665,Imperial Apartments,2016-01-10 19:00,MX,1.911
+0000586,Windsor Big River Hostel,2015-09-25 05:00,MX,1.55
+0000185,Imperial Boarding House,2016-05-28 11:00,US,1.574
+0000022,Mengo Hotelo,2016-05-21 22:00,MX,1.513
+0000832,Moos' Amanhecer Copacabana Inn,2016-07-16 03:00,CA,1.958
+0000577,Slaviero Windsor Granja,2016-03-03 09:00,CA,0.979
+0001066,Moos' Hotel,2016-01-06 19:00,US,1.206
+0000827,Down Town Novelo Spa,2015-08-25 03:00,MX,1.581
+0000213,Village Tavern,2016-05-21 05:00,CA,1.288
+0000072,Slaviero Pestana Pestana Casa,2015-10-27 01:00,CA,1.509
+0000427,Highway Barra Spa,2015-10-12 19:00,MX,1.489
+0001140,Eas Side Slaviero Posada,2016-06-16 14:00,CA,1.974
+0000488,Amanhecer Boarding House,2015-10-07 08:00,MX,1.915
+0000090,Saionara Pestana Village Hotel,2015-10-06 15:00,MX,1.779
+0000744,Senado Village Plaza,2015-10-29 06:00,US,1.313
+0000061,Saionara Novelo Suburbs Apartments,2016-04-26 11:00,MX,1.453
+0000843,Saionara Elegance Inn,2015-12-10 05:00,CA,0.649
+0000454,Amanhecer Novelo Ibiza Plaza,2016-03-27 16:00,MX,1.504
+0000296,City Amanhecer Hotel,2016-03-20 11:00,CA,1.496
+0001112,Tiny Elegance Granja,2016-06-26 21:00,US,1.76
+0000132,Geronimo Majestic Barra Plaza,2015-12-17 10:00,CA,1.647
+0000003,Tiny City Motor Inn,2016-02-18 19:00,US,1.432
+0000038,Upper Side Highway Pestana Granja,2015-12-29 01:00,MX,0.367
+0001133,Slaviero Sun Sine Moos' Hotelo,2015-11-19 18:00,US,0.738
+0000537,Big River Suburbs Inn,2015-09-16 05:00,CA,1.44
+0000536,Highway Grand Hotel,2016-03-17 18:00,US,0.773
+0000679,Premier Saionara Plaza,2016-01-25 19:00,US,1.756
+0000393,Eas Side Grand Hostel,2015-10-25 16:00,MX,1.691
+0001022,Barra Saionara Granja,2016-02-24 04:00,US,0.65
+0000648,Elegance Plaza,2016-03-20 07:00,CA,1.293
+0000663,Eas Side Amanhecer Hostel,2016-06-16 20:00,MX,1.732
+0000727,Ibiza Olinda la pensión,2016-07-13 03:00,CA,1.125
+0000092,Novelo Hyatt Copacabana Hotel,2015-11-15 12:00,US,1.628
+0000587,Copacabana Hyatt Down Town Tavern,2015-10-27 01:00,MX,1.279
+0000361,Senado Big River River Side Posada,2015-08-08 06:00,MX,1.4
+0000123,Moon Light Hotelo,2016-07-30 01:00,MX,0.959
+0000628,Asturias Geronimo Senado Tavern,2016-05-26 07:00,US,1.806
+0000665,Imperial Apartments,2016-05-12 12:00,US,0.707
+0001139,Jon's Geronimo Granja,2016-07-28 04:00,CA,0.614
+0001082,Vermont Jon's Motor Inn,2016-07-28 19:00,US,0.662
+0000681,Sheraton Vermont Saionara Casino,2016-03-31 21:00,CA,1.138
+0000972,Merlin Por Hostel,2016-05-02 01:00,MX,0.674
+0000298,Barra Majestic Granja,2016-02-14 10:00,US,1.706
+0000978,Sun Sine City Motor Inn,2015-11-07 19:00,MX,1.337
+0000908,Copacabana Slaviero Hotelo,2015-12-11 02:00,CA,1.591
+0000522,Pestana Apartments,2016-02-10 05:00,US,0.42
+0001175,Saionara Moon Light Majestic Plaza,2015-11-22 02:00,MX,0.764
+0000141,Windsor Premier la pensión,2015-09-19 15:00,CA,1.657
+0000254,Tiny Eas Side Spa,2015-08-15 00:00,CA,1.934
+0000704,River Side Merlin Boarding House,2015-08-12 17:00,CA,1.332
+0000302,Premier Vermont Hotelo,2016-01-13 00:00,MX,1.881
+0000227,Elegance Village Windsor Spa,2016-05-16 00:00,CA,1.912
+0000366,Hyatt Sun Sine la pensión,2015-09-04 21:00,MX,1.908
+0000575,Jon's Village Granja,2016-06-02 22:00,MX,1.612
+0000556,Big River Geronimo Tavern,2015-08-19 09:00,CA,1.094
+0000248,Village Tavern,2015-11-22 22:00,MX,1.355
+0000663,Eas Side Amanhecer Hostel,2016-03-16 13:00,MX,1.812
+0000599,Senado Amanhecer Casa,2016-03-24 23:00,MX,0.945
+0000837,Ibiza Motel,2015-09-23 07:00,MX,1.714
+0000590,Windsor Hotelo,2016-02-28 20:00,US,1.957
+0000089,Amanhecer Upper Side Granja,2015-12-20 00:00,CA,0.957
+0000444,Copacabana City Posada,2015-09-22 17:00,MX,0.751
+0000446,Sheraton Posada,2016-05-14 22:00,CA,1.738
+0000731,Geronimo Jon's Mengo la pensión,2016-02-07 06:00,CA,1.715
+0000086,Por Suburbs Hotel,2015-10-12 20:00,CA,1.329
+0000237,River Side Down Town Casino,2016-02-18 09:00,MX,0.733
+0000757,Jon's River Side City Casa,2015-09-15 03:00,CA,1.01
+0001003,Moos' Hostel,2015-12-16 10:00,CA,2.016
+0000206,Barra Olinda Hotelo,2016-01-30 02:00,CA,1.795
+0000172,Mengo Down Town Motel,2016-01-09 18:00,MX,1.761
+0001023,Pestana Moos' Por Tavern,2015-09-09 10:00,CA,1.81
+0000791,River Side Big River Posada,2016-06-15 00:00,US,1.853
+0000480,Vermont Big River Inn,2015-09-26 06:00,MX,1.354
+0001008,Moon Light Ibiza Plaza,2016-01-03 05:00,MX,1.656
+0000816,Por Eas Side Casa,2015-12-03 14:00,MX,1.61
+0000098,Premier Inn,2015-12-26 13:00,MX,1.685
+0000593,River Side Jon's Spa,2015-10-11 02:00,MX,1.542
+0000306,Imperial Imperial Plaza,2016-01-07 01:00,CA,1.875
+0000841,Highway Hostel,2015-09-19 05:00,CA,1.629
+0000864,Pestana Novelo Grand Inn,2015-12-06 19:00,MX,1.328
+0000763,Imperial Geronimo Hotelo,2015-12-18 08:00,MX,1.531
+0000101,Novelo Hostel,2016-05-08 08:00,MX,1.576
+0000878,Majestic Granja,2016-04-13 05:00,CA,2.016
+0000784,Imperial Vermont Boarding House,2016-02-05 01:00,MX,1.776
+0000407,Moon Light Majestic Inn,2016-07-23 08:00,US,1.444
+0000171,Eas Side Asturias Hostel,2016-02-02 01:00,CA,0.955
+0000472,Barra Windsor Tavern,2015-09-23 17:00,MX,1.15
+0000891,Por Sun Sine Posada,2015-11-12 20:00,MX,1.108
+0000472,Barra Windsor Tavern,2015-12-06 02:00,MX,1.604
+0000230,Highway Majestic Motel,2015-08-17 23:00,MX,1.717
+0000532,Premier Grand la pensión,2015-08-08 10:00,MX,1.563
+0000342,Eas Side Spa,2015-09-15 18:00,US,0.83
+0000009,Copacabana Elegance Casino,2016-03-13 06:00,MX,1.319
+0000584,Moon Light Suburbs Hostel,2016-04-23 11:00,MX,1.251
+0000354,Olinda Village Casino,2015-08-27 21:00,CA,1.485
+0001165,River Side Moon Light Motor Inn,2016-06-21 13:00,MX,1.311
+0000752,Windsor la pensión,2015-09-15 08:00,US,1.246
+0000189,Sun Sine Casa,2016-05-16 13:00,CA,1.52
+0000845,Asturias City Hotelo,2016-07-11 06:00,US,1.556
+0001130,Windsor Slaviero Hotelo,2016-05-08 23:00,CA,0.879
+0000751,Eas Side Windsor Motor Inn,2016-07-10 06:00,MX,1.484
+0000341,Por Suburbs Hostel,2015-08-22 08:00,US,1.185
+0001180,Olinda Asturias Hotelo,2015-11-13 00:00,US,2.017
+0001159,Eas Side Granja,2016-06-10 07:00,US,0.724
+0001177,Por Hotel,2015-09-28 15:00,US,0.975
+0001010,River Side Asturias Boarding House,2015-08-09 23:00,CA,1.115
+0000435,Upper Side Jon's Posada,2016-06-10 10:00,MX,1.448
+0000438,Mengo Barra Granja,2015-09-08 13:00,US,1.636
+0000769,Hyatt Tavern,2016-05-09 11:00,MX,1.753
+0001158,Slaviero Casa,2016-03-05 02:00,MX,1.449
+0000708,Imperial Barra Boarding House,2015-11-10 13:00,US,1.93
+0000794,Amanhecer Novelo Windsor Hotel,2016-02-27 17:00,CA,1.609
+0000899,Eas Side Big River Hostel,2016-02-05 21:00,US,1.125
+0000573,Pestana Saionara Moos' Inn,2015-09-26 08:00,CA,1.074
+0000130,Majestic Por Posada,2016-01-19 12:00,US,1.683
+0000563,Por Geronimo Hotel,2016-03-15 21:00,MX,1.157
+0000944,Jon's Spa,2016-01-10 20:00,MX,1.77
+0000512,Suburbs Copacabana Jon's Casino,2015-11-21 19:00,US,0.559
+0000900,Vermont Senado Motor Inn,2016-07-24 19:00,US,1.609
+0000600,Geronimo Novelo Windsor Granja,2016-05-25 01:00,CA,1.739
+0001145,Saionara Hotelo,2016-05-18 00:00,CA,1.729
+0000496,Moos' Upper Side Plaza,2015-10-21 17:00,MX,0.922
+0000940,Sheraton Windsor Plaza,2016-01-20 20:00,US,1.509
+0000663,Eas Side Amanhecer Hostel,2016-07-20 01:00,CA,1.908
+0000351,Sheraton Vermont Spa,2016-05-08 13:00,US,1.712
+0000478,Sun Sine Pestana Elegance Casa,2016-07-30 04:00,CA,1.727
+0001145,Saionara Hotelo,2015-10-11 07:00,US,1.512
+0001153,Sheraton Spa,2015-10-20 15:00,US,1.679
+0001183,Mengo Windsor Hotel,2015-09-28 02:00,US,1.215
+0000939,Down Town Sun Sine Down Town Boarding House,2016-02-22 16:00,CA,1.13
+0000223,Big River Moon Light Upper Side Casino,2016-05-02 09:00,MX,1.715
+0000409,Grand Windsor Motel,2016-07-07 02:00,MX,1.108
+0000294,Sun Sine Ibiza Moon Light Inn,2015-10-28 12:00,CA,0.854
+0000650,Grand Asturias Inn,2016-08-04 05:00,MX,1.758
+0001153,Sheraton Spa,2015-09-01 13:00,MX,1.462
+0000642,Moon Light Olinda Hotelo,2015-10-16 05:00,US,1.242
+0000183,Olinda Windsor Casino,2016-03-29 21:00,MX,1.599
+0000191,Vermont Copacabana Posada,2015-08-16 19:00,MX,1.36
+0000970,Por Moon Light Motel,2016-03-08 06:00,US,1.47
+0000281,Tiny Ibiza Hotel,2015-10-27 12:00,CA,1.489
+0000990,Village Motor Inn,2016-07-31 11:00,CA,1.541
+0000808,Amanhecer Grand Casa,2016-05-02 04:00,CA,1.764
+0000830,River Side Asturias Spa,2016-06-14 16:00,CA,1.757
+0001024,Suburbs Motel,2016-04-05 22:00,US,1.576
+0000893,Saionara Moos' Apartments,2016-04-14 09:00,CA,1.303
+0000296,City Amanhecer Hotel,2015-11-28 09:00,US,1.363
+0000936,Ibiza Senado Motor Inn,2016-01-10 20:00,MX,1.296
+0000290,Vermont Highway Hotelo,2016-08-03 02:00,MX,0.947
+0001079,Amanhecer Village Hostel,2015-09-28 00:00,CA,1.554
+0000370,Grand la pensión,2016-06-26 14:00,MX,1.088
+0001168,Geronimo Suburbs Granja,2015-12-04 03:00,CA,0.982
+0000395,Eas Side Apartments,2016-05-12 14:00,US,1.684
+0000636,Merlin Copacabana Inn,2015-10-07 22:00,MX,1.05
+0001187,Barra Moos' Por Posada,2016-06-21 14:00,US,1.348
+0001051,Grand Pestana Apartments,2016-02-17 04:00,MX,1.083
+0000456,Ibiza City Casino,2015-12-15 03:00,US,1.352
+0000863,Saionara Sheraton Hotelo,2015-08-23 16:00,CA,1.602
+0000101,Novelo Hostel,2015-12-01 01:00,MX,1.521
+0000617,Jon's Mengo Granja,2015-09-25 21:00,CA,1.72
+0001189,Sun Sine Inn,2016-07-18 17:00,MX,1.218
+0000059,Moos' Motel,2015-12-30 06:00,US,1.072
+0000897,Geronimo Hyatt la pensión,2016-05-09 22:00,US,1.412
+0000203,Saionara Sheraton Motor Inn,2016-04-16 16:00,CA,1.915
+0000943,River Side Imperial Motel,2016-07-08 00:00,CA,1.953
+0000492,Imperial Village Posada,2015-08-09 21:00,CA,1.781
+0000458,Hyatt Suburbs Geronimo Hotel,2015-09-12 02:00,CA,1.686
+0000410,Saionara Sheraton Merlin Apartments,2016-07-15 06:00,MX,0.714
+0000415,Moon Light River Side Posada,2015-12-24 05:00,CA,1.642
+0000950,City Ibiza Casa,2015-08-26 00:00,US,1.245
+0000068,Amanhecer Imperial Geronimo Spa,2015-11-30 12:00,MX,1.022
+0000070,Tiny Sheraton Down Town Granja,2016-07-22 09:00,US,1.46
+0000956,Imperial Casa,2015-09-03 05:00,CA,1.891
+0001183,Mengo Windsor Hotel,2015-10-17 19:00,MX,1.708
+0001151,Asturias Hyatt Hotel,2016-02-21 05:00,MX,1.847
+0000791,River Side Big River Posada,2015-11-28 01:00,MX,1.238
+0000874,Novelo Sheraton la pensión,2016-04-14 08:00,US,1.238
+0000061,Saionara Novelo Suburbs Apartments,2015-08-16 02:00,MX,1.476
+0000017,Elegance Sun Sine Motor Inn,2016-05-29 00:00,US,1.466
+0000687,Majestic Por Granja,2016-02-25 11:00,CA,1.652
+0000886,Vermont Motel,2016-07-23 16:00,MX,1.267
+0000559,Windsor Asturias la pensión,2015-10-01 10:00,CA,1.283
+0000797,Moon Light Senado Motor Inn,2016-07-25 09:00,US,1.161
+0000360,Slaviero Asturias Motel,2015-09-19 01:00,MX,1.878
+0000654,Upper Side Spa,2016-03-24 08:00,MX,1.67
+0000200,Moon Light Inn,2016-02-20 22:00,CA,1.761
+0000435,Upper Side Jon's Posada,2016-05-09 08:00,US,1.466
+0000708,Imperial Barra Boarding House,2016-07-28 03:00,US,1.72
+0001172,River Side Hyatt Merlin Tavern,2016-02-18 03:00,CA,1.204
+0000560,Asturias Slaviero Senado Casino,2016-02-04 15:00,MX,1.879
+0000026,Elegance Suburbs Motel,2016-07-04 08:00,MX,1.329
+0000180,Hyatt Vermont Hotelo,2016-07-30 09:00,CA,1.146
+0000689,River Side Down Town Tavern,2016-05-28 20:00,US,1.704
+0000557,Majestic Geronimo Apartments,2015-12-09 02:00,CA,1.786
+0001004,City Novelo Windsor Posada,2016-05-06 12:00,CA,1.281
+0000145,Suburbs Down Town Motel,2015-11-12 01:00,CA,1.879
+0000869,River Side Grand Mengo Granja,2016-04-06 23:00,US,0.665
+0000914,Imperial Sun Sine Por Apartments,2016-08-05 06:00,CA,1.098
+0001101,Big River Sheraton Boarding House,2015-10-30 11:00,CA,1.82
+0000481,Windsor Apartments,2016-04-01 13:00,MX,1.673
+0000622,City Spa,2015-12-11 18:00,MX,1.473
+0000190,Upper Side Moon Light Posada,2016-03-16 09:00,US,1.354
+0000197,Barra Big River Motor Inn,2015-11-17 11:00,US,1.873
+0000648,Elegance Plaza,2016-06-06 15:00,CA,1.678
+0000195,Tiny Amanhecer Boarding House,2015-08-16 06:00,US,0.786
+0000390,River Side Ibiza Casino,2015-08-24 15:00,CA,1.66
+0001082,Vermont Jon's Motor Inn,2015-10-02 20:00,US,1.469
+0000464,Pestana Granja,2015-10-30 08:00,CA,1.768
+0000450,City Grand Sun Sine Hotel,2016-06-28 12:00,CA,1.667
+0001022,Barra Saionara Granja,2016-05-08 12:00,MX,1.695
+0000865,Village Ibiza Imperial Apartments,2016-07-18 02:00,CA,1.679
+0000801,Geronimo Grand Boarding House,2015-12-18 14:00,MX,1.514
+0001080,Geronimo Moon Light Granja,2015-12-03 03:00,US,1.654
+0000538,Grand Motor Inn,2015-09-23 10:00,CA,1.77
+0000930,Slaviero Eas Side la pensión,2015-08-08 19:00,US,1.431
+0001146,Eas Side Suburbs Slaviero Casa,2016-04-17 04:00,MX,1.792
+0000358,Olinda Amanhecer Posada,2016-02-18 15:00,CA,1.734
+0000163,Barra Asturias Tavern,2015-08-10 18:00,US,0.636
+0000966,Imperial Suburbs Inn,2016-06-20 00:00,US,0.957
+0000961,Down Town Village Casa,2016-07-22 10:00,CA,1.789
+0000334,Highway Premier Hotelo,2015-11-19 03:00,CA,1.753
+0000508,River Side Inn,2015-09-27 10:00,MX,0.99
+0000954,Down Town Big River Casino,2015-09-17 14:00,CA,0.924
+0000091,Copacabana Highway Tavern,2016-01-27 19:00,US,1.453
+0000305,Hyatt Sun Sine Tavern,2016-02-10 15:00,US,1.624
+0000482,City Olinda Motor Inn,2016-03-29 09:00,MX,1.369
+0001039,Saionara Big River Inn,2015-08-15 08:00,CA,1.017
+0001167,Windsor City Hotel,2016-04-20 12:00,MX,1.419
+0000280,Big River Geronimo Tavern,2015-09-26 15:00,MX,1.851
+0000924,Sheraton City Plaza,2016-07-21 10:00,MX,1.705
+0001099,Por Saionara Hotel,2016-05-27 21:00,MX,1.936
+0000013,Merlin Village Apartments,2016-07-15 20:00,MX,1.48
+0000234,Windsor River Side Boarding House,2016-04-06 04:00,MX,1.791
+0000376,Upper Side Suburbs Casa,2015-08-29 11:00,MX,1.555
+0000844,River Side Village Sheraton Boarding House,2015-09-08 21:00,MX,0.639
+0001136,Moon Light Geronimo Apartments,2016-06-09 01:00,CA,1.722
+0000950,City Ibiza Casa,2016-04-13 05:00,MX,0.468
+0000796,City Sun Sine Hostel,2016-08-01 00:00,CA,1.791
+0000956,Imperial Casa,2016-02-26 09:00,US,1.842
+0000046,Eas Side Posada,2016-02-28 14:00,MX,0.577
+0000815,Grand Moon Light Hotel,2016-02-18 13:00,US,1.843
+0000445,Premier Olinda Inn,2015-10-26 00:00,MX,0.918
+0001015,Geronimo Por Inn,2015-12-05 07:00,US,1.637
+0000782,Amanhecer Hotel,2016-04-23 11:00,CA,1.724
+0000292,Por Slaviero Casino,2016-07-29 13:00,CA,1.329
+0000522,Pestana Apartments,2016-05-07 00:00,MX,2.005
+0000274,Majestic Motel,2016-05-30 14:00,US,1.453
+0000875,Sun Sine Spa,2016-06-23 04:00,CA,1.677
+0000021,River Side Plaza,2015-11-29 07:00,US,1.698
+0000732,Senado Senado Posada,2016-05-07 04:00,MX,1.549
+0000441,Suburbs Boarding House,2015-10-08 07:00,US,1.175
+0000634,Windsor Por Casino,2015-11-29 17:00,CA,1.948
+0000390,River Side Ibiza Casino,2016-05-21 00:00,US,1.047
+0000822,River Side Saionara Elegance Apartments,2015-12-01 20:00,CA,1.904
+0000419,Imperial Moos' Jon's Apartments,2016-06-03 04:00,US,1.503
+0000242,Suburbs Majestic Hostel,2015-12-07 19:00,MX,1.932
+0000167,Village Granja,2016-07-24 06:00,US,1.296
+0000487,Ibiza Moon Light Barra Plaza,2015-10-09 16:00,MX,1.865
+0000977,Mengo City Hostel,2016-06-12 21:00,MX,1.089
+0000078,Pestana Asturias Mengo Posada,2015-11-24 13:00,US,0.635
+0000420,City Copacabana Granja,2015-12-30 16:00,MX,1.775
+0000865,Village Ibiza Imperial Apartments,2016-06-24 01:00,US,1.208
+0001085,Merlin Down Town Tavern,2015-10-08 17:00,US,1.443
+0000620,Elegance Olinda Geronimo Hotelo,2015-12-04 22:00,US,1.229
+0001019,Imperial Hyatt la pensión,2016-08-01 14:00,CA,1.797
+0000515,Grand Hostel,2016-04-08 21:00,US,1.557
+0001079,Amanhecer Village Hostel,2016-01-11 06:00,MX,1.899
+0000881,Ibiza Pestana Motor Inn,2015-09-16 22:00,US,1.324
+0000704,River Side Merlin Boarding House,2016-07-25 11:00,US,1.441
+0000030,Big River Spa,2016-04-04 19:00,CA,1.651
+0000461,Amanhecer Jon's la pensión,2016-02-22 23:00,US,1.491
+0000185,Imperial Boarding House,2016-02-26 11:00,CA,1.567
+0000905,Slaviero Tiny City Hotel,2016-02-23 01:00,US,1.489
+0000361,Senado Big River River Side Posada,2016-06-28 06:00,CA,0.937
+0000632,Imperial Casino,2016-02-15 12:00,US,1.484
+0001113,Upper Side Motor Inn,2015-09-27 19:00,US,1.724
+0000668,Sheraton Imperial Inn,2016-07-02 01:00,CA,1.923
+0000840,Asturias Premier Windsor Tavern,2015-08-26 16:00,US,1.481
+0001103,Big River Ibiza Upper Side Hotelo,2016-03-14 22:00,CA,1.04
+0000150,Moon Light Down Town Spa,2016-05-22 12:00,CA,0.978
+0001116,Jon's Grand Casa,2015-10-04 08:00,CA,1.619
+0001145,Saionara Hotelo,2015-09-22 05:00,US,2.043
+0000691,Pestana Pestana Saionara Spa,2015-11-13 19:00,MX,1.341
+0000881,Ibiza Pestana Motor Inn,2016-02-04 12:00,US,1.761
+0001068,Mengo Upper Side Posada,2016-04-27 07:00,MX,0.83
+0000476,Ibiza Moon Light Moon Light Tavern,2016-07-26 06:00,MX,1.42
+0000797,Moon Light Senado Motor Inn,2015-08-27 05:00,US,1.378
+0000936,Ibiza Senado Motor Inn,2015-09-01 11:00,CA,1.004
+0000328,Grand Olinda Inn,2016-05-28 15:00,CA,1.473
+0000290,Vermont Highway Hotelo,2016-03-19 10:00,MX,1.395
+0000865,Village Ibiza Imperial Apartments,2016-04-10 13:00,CA,1.05
+0000240,Barra Premier Novelo Boarding House,2016-06-08 19:00,US,1.746
+0001118,Asturias Elegance Tavern,2015-08-07 10:00,CA,1.823
+0000834,Senado Sheraton Plaza,2016-02-21 06:00,US,1.821
+0000587,Copacabana Hyatt Down Town Tavern,2016-06-11 15:00,CA,1.309
+0000522,Pestana Apartments,2016-06-17 22:00,MX,0.899
+0000039,Novelo Suburbs Boarding House,2016-07-03 20:00,CA,1.706
+0000724,Village Elegance Apartments,2015-10-01 22:00,CA,1.494
+0000096,Por Casino,2015-10-02 11:00,MX,1.613
+0000228,Hyatt Barra Tavern,2015-09-22 01:00,US,1.084
+0000572,Pestana Eas Side Apartments,2016-02-28 00:00,MX,0.933
+0000520,Windsor Senado Motel,2016-07-01 17:00,CA,1.456
+0001059,Tiny Senado Apartments,2016-02-10 21:00,MX,0.754
+0000476,Ibiza Moon Light Moon Light Tavern,2016-02-13 09:00,US,1.51
+0000044,Hyatt Granja,2015-10-06 03:00,MX,1.378
+0000089,Amanhecer Upper Side Granja,2016-01-27 21:00,MX,1.104
+0000871,Majestic Saionara Spa,2015-12-04 06:00,MX,1.992
+0000455,Novelo Moon Light Casino,2016-03-23 21:00,CA,0.452
+0001182,Suburbs Slaviero Apartments,2015-09-18 03:00,MX,1.712
+0000923,Geronimo Hyatt Inn,2016-07-07 10:00,US,1.474
+0000860,Copacabana Hostel,2015-08-19 12:00,CA,1.19
+0000415,Moon Light River Side Posada,2016-06-09 11:00,MX,1.569
+0000096,Por Casino,2016-06-02 08:00,CA,1.004
+0000029,Windsor Copacabana Sheraton Casino,2016-03-03 22:00,MX,1.786
+0000417,Windsor Elegance Por Spa,2015-09-26 03:00,MX,1.266
+0000096,Por Casino,2016-03-15 21:00,CA,1.891
+0000514,Sun Sine Sheraton Spa,2016-05-10 13:00,MX,1.944
+0000828,Asturias Hyatt la pensión,2015-11-09 04:00,US,1.665
+0000171,Eas Side Asturias Hostel,2015-08-10 18:00,CA,1.918
+0001128,Geronimo Suburbs Hotelo,2015-11-13 05:00,US,0.834
+0000533,Moos' Upper Side Apartments,2016-02-29 13:00,US,1.226
+0001035,Grand Spa,2015-08-07 04:00,CA,1.938
+0000237,River Side Down Town Casino,2015-11-07 02:00,CA,1.388
+0000923,Geronimo Hyatt Inn,2015-12-24 11:00,US,1.826
+0000655,Copacabana Hostel,2015-09-04 02:00,CA,1.589
+0000099,Ibiza Sun Sine Plaza,2015-08-15 12:00,CA,1.749
+0001003,Moos' Hostel,2016-03-06 00:00,US,1.852
+0000038,Upper Side Highway Pestana Granja,2015-11-26 20:00,CA,0.917
+0000240,Barra Premier Novelo Boarding House,2015-08-30 04:00,MX,1.835
+0000351,Sheraton Vermont Spa,2015-12-10 09:00,MX,1.596
+0000242,Suburbs Majestic Hostel,2015-08-25 01:00,CA,0.798
+0000156,Jon's Inn,2016-05-14 21:00,US,0.742
+0000478,Sun Sine Pestana Elegance Casa,2016-06-01 04:00,MX,2.058
+0000128,Por Barra Senado Casa,2016-08-01 10:00,US,0.741
+0000770,Down Town Big River Boarding House,2016-01-22 04:00,MX,1.861
+0001134,Village Down Town Tavern,2015-12-19 02:00,CA,1.746
+0000502,Barra Plaza,2015-11-22 07:00,MX,1.547
+0000206,Barra Olinda Hotelo,2016-08-03 17:00,US,1.407
+0000459,Asturias Sheraton Inn,2015-12-07 06:00,MX,1.574
+0000117,Barra Senado Hostel,2015-08-30 01:00,CA,0.792
+0000817,Eas Side Highway Plaza,2015-10-09 09:00,CA,1.816
+0000707,Asturias Amanhecer Hostel,2015-09-13 04:00,MX,1.521
+0000707,Asturias Amanhecer Hostel,2016-07-15 22:00,US,1.396
+0000890,Premier Sheraton Motel,2016-07-31 22:00,US,1.125
+0000010,Premier Down Town Village Apartments,2015-12-05 18:00,MX,1.258
+0001141,Grand Big River Motel,2016-04-14 16:00,CA,2.036
+0000680,Senado Copacabana Motor Inn,2015-10-09 12:00,CA,1.646
+0000214,Elegance Village Boarding House,2016-07-19 09:00,MX,1.779
+0000896,Barra Premier Tavern,2016-04-08 19:00,MX,1.305
+0000178,Asturias Sun Sine Plaza,2015-12-09 13:00,MX,1.373
+0000073,Grand Suburbs Geronimo Apartments,2015-09-22 17:00,MX,1.161
+0000251,Premier Windsor Plaza,2016-05-05 08:00,CA,1.666
+0000824,Barra River Side Moon Light Hotel,2015-11-14 17:00,US,1.595
+0000444,Copacabana City Posada,2016-06-28 03:00,US,1.922
+0000415,Moon Light River Side Posada,2016-04-25 03:00,US,1.323
+0000755,Majestic Village City Inn,2016-05-27 06:00,US,1.106
+0000234,Windsor River Side Boarding House,2016-03-10 20:00,CA,1.918
+0000631,Mengo Granja,2016-06-17 03:00,MX,1.649
+0000666,Windsor Saionara Plaza,2015-09-11 22:00,MX,1.214
+0000167,Village Granja,2015-08-12 03:00,MX,1.585
+0000258,River Side Sun Sine Motor Inn,2015-12-13 22:00,MX,0.735
+0000602,Premier Sun Sine Hostel,2015-08-10 10:00,CA,1.675
+0000341,Por Suburbs Hostel,2016-01-18 02:00,US,0.804
+0001102,Barra Motor Inn,2016-01-11 11:00,US,1.122
+0000635,Copacabana Slaviero Hotelo,2016-02-20 20:00,CA,1.841
+0000536,Highway Grand Hotel,2015-08-12 09:00,MX,1.514
+0000024,Merlin River Side Inn,2015-12-31 17:00,CA,1.517
+0001179,Merlin Grand Highway Granja,2016-03-23 14:00,US,1.182
+0000363,Jon's Moon Light la pensión,2016-07-05 07:00,US,1.776
+0000364,Mengo River Side River Side la pensión,2016-05-20 07:00,US,1.016
+0000888,Hyatt Casa,2015-10-01 16:00,MX,1.604
+0000898,Geronimo Jon's Copacabana Hotel,2015-10-17 20:00,MX,1.695
+0000049,Premier Por Inn,2016-08-02 23:00,MX,1.497
+0000799,Hyatt Hotelo,2016-05-02 18:00,MX,1.172
+0001050,Elegance Olinda Boarding House,2016-02-26 07:00,US,1.881
+0001169,Asturias Hostel,2015-09-25 12:00,MX,1.747
+0000530,Senado Highway Casino,2015-10-06 15:00,MX,1.259
+0000664,Merlin Hotelo,2015-12-20 01:00,US,1.177
+0000529,Olinda Moon Light Spa,2016-07-31 06:00,US,0.873
+0000574,Grand Hyatt Majestic Inn,2016-04-20 02:00,MX,1.617
+0000750,Pestana Ibiza Tavern,2015-12-15 00:00,CA,1.618
+0000258,River Side Sun Sine Motor Inn,2016-01-20 09:00,MX,0.74
+0000047,Sheraton Slaviero Boarding House,2015-08-23 17:00,MX,1.019
+0000551,Slaviero Down Town Plaza,2016-08-01 17:00,MX,1.33
+0000471,Vermont Tiny Apartments,2016-02-08 03:00,MX,1.58
+0000582,Saionara Casa,2015-12-16 15:00,MX,1.868
+0000076,Grand Hyatt Mengo Motel,2016-07-11 15:00,MX,0.527
+0001077,Por Windsor Hotel,2016-03-15 06:00,US,1.366
+0000064,Tiny Elegance Inn,2016-05-16 04:00,US,1.323
+0001082,Vermont Jon's Motor Inn,2016-03-27 11:00,MX,1.765
+0000176,Saionara Geronimo Casa,2016-02-24 06:00,CA,1.666
+0000042,Asturias Hotel,2016-05-16 05:00,CA,1.309
+0000260,Pestana Imperial Tavern,2015-09-19 23:00,CA,0.952
+0000824,Barra River Side Moon Light Hotel,2015-10-25 05:00,US,1.348
+0001048,Mengo Hotel,2015-10-11 08:00,CA,0.934
+0000231,City Amanhecer Tiny Inn,2016-01-07 23:00,CA,1.485
+0000225,Barra Suburbs Slaviero Casa,2016-06-22 07:00,US,1.396
+0000393,Eas Side Grand Hostel,2015-11-02 08:00,CA,1.481
+0000654,Upper Side Spa,2015-10-14 07:00,CA,1.247
+0000954,Down Town Big River Casino,2015-09-19 03:00,CA,0.979
+0000745,Copacabana Elegance Boarding House,2015-10-19 17:00,CA,1.426
+0000979,Senado Motor Inn,2016-05-07 09:00,CA,1.982
+0001137,Tiny Highway Tavern,2016-02-11 19:00,US,1.649
+0000188,Merlin Sun Sine Tavern,2015-09-22 11:00,CA,1.377
+0000581,Suburbs Vermont Plaza,2016-07-19 17:00,MX,1.588
+0000399,Moon Light Tiny Motor Inn,2016-03-14 03:00,CA,0.595
+0000257,River Side Down Town Tavern,2015-09-15 22:00,MX,0.842
+0000379,Upper Side Majestic Plaza,2016-08-04 05:00,MX,1.474
+0000160,Down Town Olinda Motor Inn,2015-10-11 11:00,MX,1.864
+0000169,Novelo Hyatt la pensión,2016-08-01 11:00,US,1.297
+0000735,Por Apartments,2015-10-15 06:00,MX,1.455
+0000883,Tiny Pestana la pensión,2016-02-23 16:00,CA,1.39
+0000133,Sheraton Windsor Tiny Casa,2016-01-31 02:00,MX,1.629
+0000310,Jon's Hotel,2016-01-01 02:00,MX,1.237
+0000202,Big River Elegance la pensión,2016-07-27 19:00,MX,1.477
+0000957,Barra Slaviero Plaza,2016-05-21 11:00,MX,1.613
+0000076,Grand Hyatt Mengo Motel,2016-03-22 19:00,US,1.496
+0000665,Imperial Apartments,2016-03-06 23:00,CA,1.682
+0001112,Tiny Elegance Granja,2015-09-13 21:00,MX,1.78
+0000965,Hyatt Granja,2015-11-13 21:00,US,1.333
+0000270,Eas Side Copacabana Premier Casa,2016-05-01 11:00,MX,1.412
+0000648,Elegance Plaza,2016-06-10 13:00,US,1.273
+0000067,Ibiza Asturias Village Casino,2015-12-21 06:00,CA,1.795
+0000246,Pestana Pestana Spa,2015-09-16 10:00,MX,1.645
+0000662,Olinda Premier Granja,2016-03-08 11:00,MX,1.711
+0000409,Grand Windsor Motel,2015-10-07 06:00,MX,0.667
+0000491,Imperial Amanhecer Jon's Plaza,2015-12-22 00:00,CA,1.426
+0000430,Village Moon Light Boarding House,2016-03-14 17:00,US,2.004
+0001195,Barra Village Tavern,2016-05-02 23:00,US,1.492
+0000955,Barra Motel,2016-06-23 18:00,MX,1.866
+0000849,Vermont Highway Inn,2016-07-14 09:00,CA,1.004
+0000418,Merlin City Casino,2015-10-13 16:00,US,1.659
+0000788,Moon Light Sun Sine Big River Tavern,2016-06-04 11:00,MX,1.057
+0000439,Vermont Hotelo,2015-10-14 22:00,MX,1.604
+0000793,Mengo Pestana Motel,2016-03-25 07:00,US,1.255
+0000642,Moon Light Olinda Hotelo,2016-02-04 08:00,US,0.85
+0000216,Tiny Imperial Plaza,2015-11-26 23:00,CA,1.09
+0000866,Tiny Imperial Mengo Casa,2016-05-24 16:00,CA,1.749
+0000963,Upper Side Por Apartments,2015-09-03 18:00,MX,1.646
+0000889,Big River Boarding House,2015-12-12 12:00,US,1.814
+0001190,Imperial Hostel,2016-03-29 02:00,CA,1.808
+0001069,Moos' Vermont Merlin Casa,2016-02-12 23:00,US,1.724
+0000759,Down Town Windsor Posada,2016-06-20 11:00,CA,1.069
+0000664,Merlin Hotelo,2016-06-06 21:00,MX,1.035
+0000109,Mengo Suburbs Casa,2016-04-02 07:00,US,1.049
+0000830,River Side Asturias Spa,2016-03-30 18:00,MX,1.218
+0000631,Mengo Granja,2015-11-01 12:00,MX,1.674
+0000931,Hyatt Jon's Barra Hotelo,2015-09-18 10:00,CA,2.061
+0000943,River Side Imperial Motel,2016-04-11 01:00,US,0.903
+0000568,Geronimo Eas Side Casino,2016-07-08 15:00,MX,1.724
+0000072,Slaviero Pestana Pestana Casa,2016-04-22 04:00,CA,1.284
+0000578,Village Mengo Down Town Casa,2016-05-17 22:00,US,1.411
+0000409,Grand Windsor Motel,2016-06-02 14:00,US,1.486
+0000714,Merlin Ibiza Posada,2016-02-04 23:00,CA,0.795
+0000297,Slaviero Merlin Motel,2015-09-25 12:00,US,1.756
+0000248,Village Tavern,2015-11-03 03:00,MX,1.628
+0000652,Moon Light Granja,2015-08-09 11:00,CA,1.48
+0000346,Suburbs la pensión,2015-09-16 22:00,MX,1.826
+0000394,Jon's la pensión,2016-01-26 22:00,MX,1.598
+0000659,Geronimo Slaviero Hotelo,2015-12-21 06:00,US,0.518
+0000079,River Side Inn,2015-09-27 02:00,US,1.592
+0000409,Grand Windsor Motel,2016-06-06 22:00,CA,1.056
+0000338,Vermont Moon Light City Motel,2016-06-29 04:00,CA,1.259
+0000812,Geronimo Hyatt Ibiza Motor Inn,2015-10-15 04:00,CA,1.282
+0001050,Elegance Olinda Boarding House,2016-08-03 17:00,US,0.941
+0000180,Hyatt Vermont Hotelo,2015-12-24 13:00,MX,0.949
+0000749,Moos' Village Spa,2016-01-12 18:00,MX,1.622
+0000757,Jon's River Side City Casa,2015-09-29 19:00,CA,1.701
+0000573,Pestana Saionara Moos' Inn,2015-12-21 07:00,CA,0.988
+0000960,Por Novelo Tavern,2015-08-08 02:00,CA,0.992
+0000308,Eas Side Imperial Posada,2016-02-06 14:00,MX,1.152
+0000514,Sun Sine Sheraton Spa,2015-12-08 15:00,MX,1.456
+0000851,Imperial Sheraton Inn,2016-06-28 14:00,CA,1.555
+0001036,Mengo Plaza,2016-02-26 18:00,CA,1.024
+0000313,Tiny Merlin Tavern,2016-06-16 10:00,MX,0.638
+0000799,Hyatt Hotelo,2015-08-28 08:00,US,0.538
+0000077,Olinda Amanhecer Granja,2015-12-28 17:00,MX,1.469
+0000806,Asturias River Side Tavern,2016-07-29 11:00,US,1.554
+0000719,Windsor Barra Pestana Hostel,2016-05-24 04:00,CA,1.745
+0000029,Windsor Copacabana Sheraton Casino,2015-10-25 20:00,MX,1.486
+0000057,Majestic Jon's Down Town Plaza,2015-10-05 06:00,CA,1.598
+0000029,Windsor Copacabana Sheraton Casino,2016-06-12 03:00,CA,1.646
+0000183,Olinda Windsor Casino,2015-09-30 07:00,US,1.967
+0001188,Vermont Saionara Casino,2015-11-22 15:00,CA,1.583
+0000098,Premier Inn,2016-02-16 21:00,US,1.35
+0000377,River Side Majestic Apartments,2016-02-28 08:00,CA,1.591
+0000025,Slaviero Premier Big River Granja,2016-01-09 14:00,US,0.963
+0000515,Grand Hostel,2016-05-13 23:00,MX,1.414
+0001102,Barra Motor Inn,2015-09-17 22:00,CA,1.377
+0000164,City Novelo Hostel,2015-08-08 17:00,MX,1.397
+0001062,Copacabana Motel,2016-05-07 17:00,US,1.523
+0000951,Highway Mengo Novelo Spa,2015-09-26 18:00,MX,1.057
+0000553,Elegance Inn,2016-04-04 14:00,US,1.128
+0000751,Eas Side Windsor Motor Inn,2015-10-15 19:00,US,0.998
+0000151,Windsor Geronimo Mengo Apartments,2016-01-28 13:00,CA,1.72
+0001087,Grand Highway Casa,2016-03-06 03:00,CA,1.235
+0000016,Premier Down Town Hotel,2015-11-02 00:00,MX,1.343
+0000230,Highway Majestic Motel,2016-02-18 02:00,US,1.815
+0000091,Copacabana Highway Tavern,2015-08-22 19:00,MX,0.869
+0001051,Grand Pestana Apartments,2015-09-05 17:00,US,0.443
+0000721,Upper Side la pensión,2016-05-18 21:00,MX,1.407
+0001118,Asturias Elegance Tavern,2015-10-17 14:00,CA,1.929
+0000958,Jon's Barra Down Town Posada,2015-08-08 01:00,MX,0.802
+0000627,Sheraton Olinda Hotelo,2015-08-12 10:00,CA,1.624
+0000267,Pestana Granja,2015-12-20 19:00,MX,1.39
+0000173,Sheraton Senado Posada,2015-12-06 13:00,MX,0.92
+0000781,Geronimo Hostel,2016-01-07 01:00,US,1.514
+0000516,Big River Upper Side Apartments,2016-06-01 00:00,MX,1.055
+0000953,Sun Sine Pestana Apartments,2016-07-28 02:00,MX,1.124
+0000858,Moon Light Tavern,2016-03-19 12:00,CA,1.043
+0000236,Novelo Windsor Plaza,2015-11-09 11:00,US,1.482
+0000752,Windsor la pensión,2016-06-24 13:00,CA,1.729
+0000989,Por Por Motel,2016-04-19 00:00,MX,1.647
+0000092,Novelo Hyatt Copacabana Hotel,2016-07-06 13:00,MX,1.632
+0001058,Sheraton Olinda Hostel,2015-09-12 00:00,US,0.568
+0001023,Pestana Moos' Por Tavern,2016-02-14 05:00,MX,1.54
+0000602,Premier Sun Sine Hostel,2016-04-30 18:00,CA,1.64
+0000725,Elegance Copacabana la pensión,2016-03-06 18:00,US,1.73
+0001199,Highway Upper Side Casino,2015-11-06 19:00,US,1.691
+0000275,Amanhecer Jon's Posada,2016-05-24 16:00,US,1.659
+0000123,Moon Light Hotelo,2015-10-30 12:00,CA,1.455
+0000638,Novelo Hostel,2016-07-18 18:00,MX,1.285
+0000712,Vermont Olinda Hotel,2015-12-27 11:00,MX,0.986
+0000487,Ibiza Moon Light Barra Plaza,2016-06-01 05:00,CA,1.616
+0000936,Ibiza Senado Motor Inn,2015-12-08 00:00,US,1.589
+0000187,Majestic Moon Light Plaza,2016-04-22 04:00,CA,1.695
+0000774,Olinda Pestana Motor Inn,2015-11-18 07:00,CA,1.758
+0000455,Novelo Moon Light Casino,2015-08-07 18:00,MX,1.177
+0000872,Olinda Amanhecer Inn,2016-01-22 13:00,US,0.929
+0000190,Upper Side Moon Light Posada,2015-12-19 20:00,US,1.331
+0000560,Asturias Slaviero Senado Casino,2016-04-15 03:00,CA,1.475
+0000292,Por Slaviero Casino,2016-05-02 03:00,US,1.156
+0000166,Geronimo Olinda Ibiza Hostel,2015-08-23 04:00,CA,1.514
+0000480,Vermont Big River Inn,2015-09-14 22:00,CA,1.859
+0000041,Upper Side Sun Sine Granja,2016-06-07 01:00,CA,1.309
+0000994,Elegance Por Spa,2016-02-03 17:00,MX,1.384
+0000219,River Side Sheraton Hotel,2015-11-17 08:00,MX,1.103
+0001086,Windsor Premier Plaza,2016-04-21 19:00,MX,1.377
+0001135,Hyatt City Tavern,2015-09-13 03:00,US,0.793
+0001063,Moos' Pestana Hostel,2016-01-17 17:00,US,1.235
+0000273,Mengo Imperial Posada,2015-10-16 00:00,CA,1.309
+0000704,River Side Merlin Boarding House,2016-02-11 05:00,CA,1.548
+0000366,Hyatt Sun Sine la pensión,2016-01-07 00:00,CA,0.712
+0000253,Geronimo Moos' Hyatt Hotel,2015-09-12 23:00,US,1.79
+0000339,Senado Inn,2015-08-24 05:00,US,1.782
+0000672,Down Town Upper Side Hostel,2016-05-05 13:00,US,1.549
+0000358,Olinda Amanhecer Posada,2016-05-29 16:00,US,1.578
+0001066,Moos' Hotel,2016-06-07 23:00,US,1.438
+0000966,Imperial Suburbs Inn,2015-09-23 11:00,CA,1.955
+0000497,Vermont Posada,2016-01-05 01:00,CA,1.519
+0000378,Premier City la pensión,2016-03-23 22:00,US,1.049
+0001118,Asturias Elegance Tavern,2015-10-22 19:00,CA,1.803
+0000929,Mengo Senado Tavern,2015-10-04 23:00,CA,0.959
+0001171,Upper Side River Side Hotel,2016-01-21 04:00,CA,1.423
+0000686,Down Town Windsor Posada,2016-06-28 01:00,CA,1.974
+0000116,Por Hyatt Apartments,2016-06-01 04:00,US,1.708
+0000954,Down Town Big River Casino,2015-12-01 00:00,US,1.908
+0000181,City Hotel,2016-06-14 03:00,CA,1.307
+0001076,Merlin Suburbs Moos' Granja,2016-04-27 00:00,MX,1.703
+0000541,Slaviero Mengo Casino,2016-01-11 11:00,CA,1.167
+0000481,Windsor Apartments,2016-03-03 01:00,MX,0.878
+0000500,River Side Sun Sine Posada,2016-01-24 12:00,US,1.855
+0000792,Por Amanhecer Casa,2016-02-29 17:00,US,1.771
+0000695,Moos' Jon's Tavern,2015-11-19 01:00,CA,1.728
+0000151,Windsor Geronimo Mengo Apartments,2015-11-19 22:00,MX,1.666
+0000978,Sun Sine City Motor Inn,2016-04-16 20:00,MX,0.724
+0000421,Senado Motel,2016-07-12 19:00,CA,1.561
+0000851,Imperial Sheraton Inn,2016-07-23 20:00,MX,1.518
+0000998,Upper Side Hyatt Hotel,2015-08-08 02:00,US,1.221
+0000267,Pestana Granja,2016-06-17 03:00,CA,1.902
+0001193,Premier Tiny Hotel,2016-04-14 12:00,MX,1.642
+0001092,Village Moon Light Tavern,2015-12-02 07:00,MX,1.035
+0000013,Merlin Village Apartments,2016-03-22 12:00,US,1.481
+0000258,River Side Sun Sine Motor Inn,2016-05-15 18:00,US,1.277
+0001017,City Imperial Motel,2016-04-22 05:00,US,0.668
+0000218,Por Barra Hostel,2015-09-04 17:00,CA,1.588
+0000091,Copacabana Highway Tavern,2015-10-27 03:00,MX,1.074
+0000314,City Olinda Granja,2016-07-05 11:00,MX,2.059
+0001095,Novelo Moon Light Motor Inn,2016-04-01 01:00,CA,0.802
+0000529,Olinda Moon Light Spa,2016-02-16 20:00,CA,0.941
+0000853,Grand la pensión,2015-12-02 13:00,US,1.359
+0000554,Windsor City Premier Inn,2015-10-30 02:00,MX,1.349
+0001162,Saionara Tavern,2016-05-18 13:00,MX,1.608
+0000551,Slaviero Down Town Plaza,2016-06-10 10:00,CA,1.828
+0001199,Highway Upper Side Casino,2015-08-17 01:00,MX,1.569
+0000634,Windsor Por Casino,2015-10-14 09:00,CA,1.344
+0000246,Pestana Pestana Spa,2016-01-06 00:00,US,1.577
+0000800,Elegance Posada,2016-01-10 07:00,US,1.455
+0000421,Senado Motel,2016-05-16 14:00,MX,1.438
+0000641,Imperial Down Town Majestic Boarding House,2015-12-16 05:00,MX,1.581
+0000990,Village Motor Inn,2015-10-13 08:00,MX,1.393
+0001006,Down Town Down Town Moos' Casino,2016-01-11 05:00,CA,1.822
+0001000,Suburbs Majestic Hotelo,2016-01-31 05:00,MX,1.704
+0000409,Grand Windsor Motel,2016-07-05 20:00,MX,1.819
+0000341,Por Suburbs Hostel,2016-05-07 02:00,US,1.776
+0000195,Tiny Amanhecer Boarding House,2016-02-02 07:00,MX,1.278
+0000054,Moos' River Side Suburbs Boarding House,2016-05-22 04:00,CA,1.415
+0000628,Asturias Geronimo Senado Tavern,2016-03-21 11:00,MX,0.723
+0000924,Sheraton City Plaza,2015-08-09 00:00,US,0.899
+0000924,Sheraton City Plaza,2016-04-24 13:00,MX,1.557
+0000039,Novelo Suburbs Boarding House,2016-08-01 20:00,US,1.428
+0000127,Saionara Eas Side Posada,2016-02-20 22:00,US,1.632
+0001066,Moos' Hotel,2016-05-27 11:00,MX,1.466
+0000780,Highway Suburbs Inn,2015-08-20 00:00,US,1.942
+0000648,Elegance Plaza,2016-03-22 00:00,CA,0.923
+0000795,Upper Side Novelo Hotel,2016-05-28 18:00,CA,1.543
+0001112,Tiny Elegance Granja,2016-02-23 19:00,US,1.112
+0000358,Olinda Amanhecer Posada,2015-08-30 11:00,CA,1.592
+0000615,Jon's Inn,2015-09-11 23:00,CA,1.295
+0000042,Asturias Hotel,2016-03-31 05:00,CA,1.694
+0000857,Saionara Moon Light Eas Side Motor Inn,2016-06-24 07:00,MX,1.705
+0000305,Hyatt Sun Sine Tavern,2015-11-03 04:00,CA,1.582
+0000602,Premier Sun Sine Hostel,2016-03-25 19:00,MX,1.388
+0000649,Geronimo Motel,2015-09-24 20:00,US,0.478
+0001090,Premier Ibiza Jon's Plaza,2016-01-06 04:00,US,1.491
+0001042,Senado Suburbs River Side Casa,2016-02-27 08:00,CA,1.502
+0000559,Windsor Asturias la pensión,2016-02-20 00:00,CA,1.795
+0000107,Geronimo Inn,2016-06-13 02:00,US,1.57
+0001171,Upper Side River Side Hotel,2015-12-27 20:00,CA,0.864
+0000007,Merlin Geronimo Plaza,2015-12-08 05:00,CA,1.486
+0001088,Copacabana Inn,2015-11-18 18:00,CA,1.795
+0001177,Por Hotel,2016-01-08 22:00,CA,1.553
+0000260,Pestana Imperial Tavern,2015-09-17 01:00,MX,1.596
+0000888,Hyatt Casa,2015-11-23 22:00,CA,1.037
+0000950,City Ibiza Casa,2016-06-03 00:00,MX,1.16
+0000400,Premier Boarding House,2015-12-23 19:00,US,1.515
+0001121,River Side Upper Side Hotelo,2016-03-31 19:00,MX,1.376
+0000602,Premier Sun Sine Hostel,2016-01-22 12:00,CA,0.853
+0001064,Premier la pensión,2015-11-14 10:00,CA,0.408
+0001115,Novelo Imperial Tavern,2016-02-05 14:00,MX,1.763
+0000441,Suburbs Boarding House,2016-06-16 13:00,US,1.513
+0000835,Moos' Copacabana Boarding House,2015-12-07 05:00,CA,1.515
+0000339,Senado Inn,2016-03-17 01:00,CA,1.811
+0000532,Premier Grand la pensión,2016-01-31 00:00,MX,1.883
+0000991,Por Upper Side Inn,2015-09-24 06:00,US,0.988
+0000320,Slaviero Vermont Vermont Hotel,2016-06-17 22:00,MX,1.651
+0001064,Premier la pensión,2016-06-07 22:00,US,1.774
+0000445,Premier Olinda Inn,2016-07-15 01:00,MX,1.346
+0001066,Moos' Hotel,2015-12-04 01:00,MX,1.465
+0000411,River Side Eas Side la pensión,2015-12-30 19:00,MX,1.807
+0001051,Grand Pestana Apartments,2016-06-05 20:00,MX,0.965
+0000470,Moos' Geronimo Olinda Apartments,2015-10-20 16:00,CA,1.769
+0000595,Copacabana Hotel,2015-10-13 11:00,US,0.948
+0000760,Sheraton Spa,2015-11-09 11:00,US,0.346
+0000960,Por Novelo Tavern,2015-08-09 05:00,MX,1.458
+0000995,Village Suburbs Ibiza Hostel,2015-09-01 04:00,CA,1.695
+0001026,Merlin Suburbs Spa,2016-03-27 08:00,US,1.867
+0000402,Copacabana Sun Sine Spa,2016-04-18 04:00,CA,1.999
+0001051,Grand Pestana Apartments,2016-01-05 15:00,CA,1.636
+0000247,Asturias Village Inn,2016-01-05 09:00,MX,1.169
+0000549,Sheraton Mengo Plaza,2016-06-23 00:00,CA,0.978
+0000707,Asturias Amanhecer Hostel,2016-04-06 22:00,CA,1.633
+0000552,Slaviero Saionara Posada,2015-11-01 06:00,US,0.947
+0000206,Barra Olinda Hotelo,2015-10-06 22:00,MX,1.057
+0000838,Copacabana Upper Side Boarding House,2016-03-21 10:00,CA,1.694
+0000747,Senado Majestic Geronimo Hotelo,2016-07-09 16:00,CA,1.626
+0000162,Eas Side Eas Side Asturias Casa,2016-04-20 08:00,US,1.698
+0001197,Windsor Motel,2016-05-10 03:00,US,1.208
+0001123,Amanhecer Novelo Motor Inn,2015-09-03 18:00,US,1.249
+0000771,Jon's Olinda Hotel,2016-03-12 09:00,CA,1.088
+0000192,Sun Sine Jon's Motor Inn,2015-12-04 12:00,CA,1.05
+0000707,Asturias Amanhecer Hostel,2016-02-29 21:00,US,0.782
+0000482,City Olinda Motor Inn,2016-06-16 13:00,MX,1.208
+0000690,Merlin Highway Boarding House,2015-12-23 04:00,MX,1.093
+0001141,Grand Big River Motel,2016-07-15 00:00,US,1.685
+0000113,Suburbs Hotel,2016-02-19 23:00,MX,1.578
+0000054,Moos' River Side Suburbs Boarding House,2015-08-13 08:00,MX,1.671
+0000401,City Tavern,2016-01-29 13:00,CA,1.011
+0000215,Asturias Highway Tavern,2015-11-08 08:00,CA,1.76
+0000307,Sheraton Tavern,2016-01-10 00:00,MX,1.318
+0000876,Pestana Pestana Elegance Motor Inn,2015-11-12 20:00,MX,1.87
+0000291,Olinda City Inn,2016-04-04 16:00,US,1.53
+0000532,Premier Grand la pensión,2016-01-16 15:00,US,1.096
+0000612,Senado Slaviero Moos' Casa,2015-12-19 05:00,MX,1.474
+0000923,Geronimo Hyatt Inn,2015-09-18 19:00,CA,1.141
+0000943,River Side Imperial Motel,2016-06-06 19:00,CA,0.46
+0000660,Big River Windsor Spa,2015-11-07 09:00,CA,1.99
+0000061,Saionara Novelo Suburbs Apartments,2015-10-18 03:00,US,1.784
+0000973,Olinda Amanhecer Motel,2016-02-26 03:00,CA,1.696
+0000592,Merlin Sun Sine Jon's Hotelo,2016-08-03 17:00,US,1.343
+0000945,River Side Pestana Apartments,2016-05-28 11:00,CA,1.893
+0000982,River Side Windsor Copacabana Casino,2016-04-19 14:00,MX,1.812
+0000631,Mengo Granja,2016-08-01 08:00,MX,1.261
+0000408,Down Town Ibiza Motel,2016-04-26 07:00,CA,1.214
+0000218,Por Barra Hostel,2015-08-27 15:00,CA,0.859
+0000952,Vermont Copacabana Sheraton Plaza,2015-11-07 04:00,CA,1.555
+0000479,Amanhecer Plaza,2016-03-24 20:00,MX,1.381
+0000493,City Premier Motor Inn,2016-06-18 00:00,MX,1.838
+0000198,Eas Side Motor Inn,2016-03-25 19:00,US,1.082
+0000251,Premier Windsor Plaza,2016-02-27 00:00,MX,1.783
+0000322,Windsor Tavern,2016-02-06 08:00,CA,1.392
+0000636,Merlin Copacabana Inn,2016-04-22 05:00,MX,1.614
+0000615,Jon's Inn,2016-04-02 22:00,MX,1.653
+0000527,Premier Geronimo Casino,2016-05-16 06:00,US,0.894
+0000692,Upper Side Hotelo,2015-11-03 08:00,US,1.483
+0000878,Majestic Granja,2015-11-19 02:00,US,1.184
+0000454,Amanhecer Novelo Ibiza Plaza,2016-02-24 15:00,MX,1.731
+0000119,Copacabana Moos' la pensión,2016-04-18 09:00,CA,1.579
+0000135,Hyatt Merlin Motor Inn,2015-08-09 11:00,MX,1.363
+0000990,Village Motor Inn,2016-02-17 00:00,CA,1.857
+0001011,Big River Eas Side Hostel,2016-04-03 01:00,CA,0.63
+0000506,City Majestic Hotelo,2016-04-24 07:00,US,1.254
+0000006,Pestana Majestic Majestic Boarding House,2016-08-05 02:00,CA,1.465
+0000434,Por Village Hostel,2015-11-19 06:00,CA,0.537
+0000009,Copacabana Elegance Casino,2015-10-22 02:00,CA,1.534
+0000595,Copacabana Hotel,2016-05-12 03:00,US,1.336
+0000002,Novelo Granja,2016-03-16 20:00,MX,1.081
+0000072,Slaviero Pestana Pestana Casa,2016-07-29 17:00,CA,1.845
+0001110,Amanhecer Hotel,2016-07-06 18:00,CA,1.658
+0000406,Majestic River Side Plaza,2015-09-26 19:00,CA,1.541
+0000200,Moon Light Inn,2016-03-20 09:00,CA,1.748
+0000076,Grand Hyatt Mengo Motel,2016-01-10 18:00,US,1.257
+0000441,Suburbs Boarding House,2015-09-04 05:00,CA,1.762
+0000065,Premier River Side Apartments,2016-06-10 23:00,MX,1.745
+0000445,Premier Olinda Inn,2016-02-16 04:00,MX,0.953
+0000607,Majestic Motor Inn,2015-08-19 01:00,CA,1.625
+0000837,Ibiza Motel,2016-02-01 13:00,CA,1.241
+0000881,Ibiza Pestana Motor Inn,2016-05-31 15:00,US,1.514
+0000511,Vermont Posada,2016-01-16 20:00,CA,1.354
+0000692,Upper Side Hotelo,2016-02-14 02:00,US,1.678
+0001026,Merlin Suburbs Spa,2016-01-26 05:00,US,1.565
+0000723,Upper Side Casa,2015-08-08 17:00,MX,1.465
+0000015,Sheraton Senado Asturias Motor Inn,2016-07-09 13:00,CA,1.675
+0000426,Copacabana Merlin Motel,2016-07-29 01:00,MX,1.422
+0001085,Merlin Down Town Tavern,2015-10-22 03:00,MX,1.5
+0000316,Amanhecer Pestana Plaza,2016-02-12 20:00,US,1.219
+0000203,Saionara Sheraton Motor Inn,2016-07-30 12:00,CA,1.704
+0000704,River Side Merlin Boarding House,2016-02-12 21:00,US,1.494
+0000398,Jon's Hyatt Hostel,2015-12-07 03:00,US,1.388
+0000780,Highway Suburbs Inn,2016-06-30 22:00,US,1.686
+0000689,River Side Down Town Tavern,2015-12-10 06:00,CA,1.958
+0000870,Upper Side Majestic Spa,2016-02-18 09:00,MX,1.528
+0000162,Eas Side Eas Side Asturias Casa,2015-11-22 04:00,US,1.612
+0000305,Hyatt Sun Sine Tavern,2016-06-23 16:00,US,1.88
+0000228,Hyatt Barra Tavern,2015-09-06 11:00,MX,1.431
+0000208,Por Hyatt City Hotelo,2016-03-15 07:00,CA,1.579
+0000281,Tiny Ibiza Hotel,2015-11-11 01:00,US,1.908
+0001091,Copacabana Ibiza Pestana Casa,2015-09-25 08:00,CA,1.646
+0000042,Asturias Hotel,2016-01-30 19:00,MX,1.812
+0000364,Mengo River Side River Side la pensión,2015-09-26 03:00,MX,1.624
+0000075,Barra Moos' Plaza,2016-03-31 12:00,US,1.448
+0000299,Senado Pestana River Side la pensión,2016-04-09 18:00,US,1.303
+0000093,Majestic Imperial Posada,2016-07-26 16:00,CA,1.628
+0000236,Novelo Windsor Plaza,2016-07-27 21:00,US,1.352
+0001117,Big River Imperial Motel,2016-07-22 12:00,CA,1.935
+0001016,Tiny Motel,2016-06-03 10:00,US,1.294
+0000406,Majestic River Side Plaza,2016-06-05 00:00,MX,1.372
+0000104,Ibiza Barra Casino,2015-10-13 04:00,US,1.484
+0000466,Asturias Elegance Hotelo,2016-01-01 03:00,MX,1.238
+0000653,Eas Side Olinda la pensión,2016-05-31 08:00,US,1.923
+0000681,Sheraton Vermont Saionara Casino,2015-12-28 19:00,CA,1.064
+0000240,Barra Premier Novelo Boarding House,2016-01-11 10:00,CA,1.201
+0000718,Sun Sine Moon Light Por Hotelo,2016-01-10 18:00,US,0.982
+0000856,Ibiza Sun Sine Suburbs la pensión,2015-10-29 08:00,MX,1.92
+0000131,Geronimo Jon's Posada,2016-06-02 14:00,MX,1.926
+0000714,Merlin Ibiza Posada,2015-12-31 11:00,MX,1.418
+0000003,Tiny City Motor Inn,2016-01-10 02:00,CA,1.687
+0000407,Moon Light Majestic Inn,2016-01-29 06:00,US,1.317
+0000252,Village Moon Light la pensión,2016-01-18 20:00,CA,0.593
+0000830,River Side Asturias Spa,2015-08-31 21:00,CA,1.724
+0000131,Geronimo Jon's Posada,2015-08-14 23:00,CA,1.499
+0000489,Olinda Motor Inn,2016-06-08 08:00,MX,0.99
+0000887,Suburbs Saionara Hotelo,2015-11-03 06:00,CA,1.457
+0000427,Highway Barra Spa,2016-07-25 04:00,US,1.166
+0000956,Imperial Casa,2015-10-04 03:00,US,1.668
+0000273,Mengo Imperial Posada,2015-08-27 10:00,US,1.256
+0000024,Merlin River Side Inn,2016-03-12 10:00,MX,1.818
+0000502,Barra Plaza,2015-08-12 17:00,US,1.55
+0000676,River Side Big River Apartments,2016-03-10 19:00,US,1.43
+0000753,Village Copacabana Casa,2016-02-02 08:00,US,1.598
+0000507,Pestana Village Motor Inn,2015-10-28 07:00,US,1.538
+0000706,Grand Elegance Highway Motel,2015-08-28 03:00,MX,1.498
+0000052,Vermont Geronimo Granja,2015-11-08 21:00,CA,1.404
+0000479,Amanhecer Plaza,2015-11-22 18:00,MX,1.246
+0000559,Windsor Asturias la pensión,2015-09-20 16:00,US,1.355
+0000275,Amanhecer Jon's Posada,2015-09-24 23:00,CA,1.042
+0000824,Barra River Side Moon Light Hotel,2015-10-20 02:00,MX,1.064
+0000517,Imperial Majestic Moos' Casino,2015-08-10 08:00,US,1.616
+0000064,Tiny Elegance Inn,2016-06-21 10:00,MX,1.756
+0001111,Hyatt Imperial la pensión,2015-10-07 21:00,CA,1.767
+0000375,Moos' Spa,2016-04-12 07:00,MX,1.515
+0000875,Sun Sine Spa,2016-07-23 07:00,US,1.301
+0000681,Sheraton Vermont Saionara Casino,2016-02-20 20:00,US,1.346
+0000658,Asturias Sheraton Plaza,2015-10-28 23:00,US,2.038
+0000952,Vermont Copacabana Sheraton Plaza,2016-05-18 02:00,US,1.476
+0000016,Premier Down Town Hotel,2016-06-26 22:00,MX,1.755
+0001025,Sheraton Tiny River Side Posada,2016-07-07 01:00,CA,1.099
+0000651,Moon Light Copacabana Inn,2015-12-06 23:00,MX,1.824
+0000967,River Side Posada,2016-02-13 12:00,CA,1.461
+0001082,Vermont Jon's Motor Inn,2015-11-14 13:00,US,1.928
+0001051,Grand Pestana Apartments,2015-09-28 14:00,US,1.699
+0001124,Grand Inn,2016-01-06 06:00,US,1.214
+0000016,Premier Down Town Hotel,2015-11-02 20:00,US,0.794
+0000932,City Premier Highway Casa,2016-02-18 21:00,US,1.473
+0000044,Hyatt Granja,2016-04-16 16:00,MX,1.744
+0000934,Premier Novelo Tavern,2016-04-11 03:00,MX,1.763
+0000508,River Side Inn,2016-02-15 22:00,CA,1.763
+0000568,Geronimo Eas Side Casino,2016-06-05 16:00,MX,1.613
+0000156,Jon's Inn,2016-05-03 09:00,MX,1.581
+0000921,Upper Side Pestana Apartments,2015-08-12 04:00,MX,0.754
+0000922,Village Spa,2015-09-15 10:00,CA,1.746
+0000121,Vermont Imperial Hotelo,2016-02-03 19:00,US,1.33
+0000113,Suburbs Hotel,2015-11-18 02:00,MX,1.458
+0000791,River Side Big River Posada,2015-12-01 22:00,MX,1.943
+0000024,Merlin River Side Inn,2016-05-19 00:00,US,1.829
+0000733,Senado City la pensión,2016-02-23 17:00,MX,1.541
+0000759,Down Town Windsor Posada,2016-04-10 08:00,US,0.898
+0000249,Eas Side Windsor Granja,2015-09-14 10:00,CA,1.747
+0000669,Eas Side Tavern,2015-12-15 18:00,MX,1.496
+0000479,Amanhecer Plaza,2015-10-02 10:00,US,1.681
+0000957,Barra Slaviero Plaza,2015-08-17 14:00,MX,1.566
+0001039,Saionara Big River Inn,2016-02-22 17:00,US,1.123
+0000204,Grand Down Town Casa,2016-06-28 14:00,US,1.545
+0000795,Upper Side Novelo Hotel,2015-11-25 09:00,US,1.758
+0000748,City Grand la pensión,2015-10-14 04:00,US,1.704
+0000037,Vermont Spa,2015-10-02 00:00,CA,1.861
+0001030,Amanhecer Hotel,2015-09-28 15:00,CA,1.121
+0000474,Pestana Boarding House,2016-01-08 15:00,MX,0.9
+0001045,Sheraton Eas Side Sun Sine Spa,2015-11-01 00:00,MX,0.457
+0000051,Highway Hotelo,2016-05-10 04:00,CA,1.972
+0001077,Por Windsor Hotel,2015-12-13 18:00,CA,1.984
+0000035,Moon Light Merlin Tavern,2016-04-08 15:00,US,0.889
+0000834,Senado Sheraton Plaza,2015-11-07 06:00,CA,1.493
+0000498,Vermont Asturias Olinda Apartments,2015-10-21 13:00,CA,1.733
+0000550,Novelo Olinda Boarding House,2016-04-29 17:00,US,1.903
+0000189,Sun Sine Casa,2016-03-29 00:00,CA,1.312
+0000011,Senado Majestic Spa,2016-07-21 17:00,US,0.927
+0000725,Elegance Copacabana la pensión,2016-05-30 06:00,US,1.521
+0000196,River Side Down Town Olinda Inn,2015-08-20 06:00,CA,1.646
+0000801,Geronimo Grand Boarding House,2015-11-23 03:00,CA,1.795
+0001018,Tiny Por Hyatt Apartments,2016-02-11 22:00,MX,1.374
+0001062,Copacabana Motel,2016-03-01 06:00,CA,1.456
+0001061,Barra Down Town Sheraton Tavern,2016-04-27 05:00,CA,1.831
+0000218,Por Barra Hostel,2016-04-25 00:00,MX,1.034
+0000079,River Side Inn,2016-01-21 13:00,US,0.979
+0001081,Pestana Senado la pensión,2016-02-15 11:00,US,0.749
+0000099,Ibiza Sun Sine Plaza,2016-01-20 08:00,CA,1.339
+0000707,Asturias Amanhecer Hostel,2015-11-13 14:00,US,1.843
+0001080,Geronimo Moon Light Granja,2016-06-30 21:00,CA,1.044
+0000900,Vermont Senado Motor Inn,2016-01-04 06:00,US,1.683
+0000075,Barra Moos' Plaza,2016-05-25 21:00,MX,1.822
+0000349,Moos' Por Inn,2016-03-14 12:00,US,1.127
+0000818,Highway Jon's Tavern,2016-06-13 07:00,MX,1.758
+0000564,Vermont Casa,2015-12-09 05:00,US,1.441
+0000251,Premier Windsor Plaza,2016-04-19 04:00,MX,1.266
+0001109,Village Merlin Hotel,2015-10-01 02:00,US,1.715
+0000893,Saionara Moos' Apartments,2015-09-06 13:00,CA,1.375
+0000530,Senado Highway Casino,2016-03-07 13:00,CA,1.796
+0000570,Vermont Hotelo,2016-01-19 12:00,CA,1.161
+0000204,Grand Down Town Casa,2016-02-29 03:00,MX,1.503
+0000140,Pestana Saionara Plaza,2016-05-03 16:00,CA,1.369
+0000837,Ibiza Motel,2016-07-09 16:00,CA,1.837
+0000839,Down Town City Moos' Plaza,2016-03-23 19:00,CA,1.685
+0001029,Windsor Olinda Motor Inn,2016-06-10 02:00,CA,1.391
+0000658,Asturias Sheraton Plaza,2016-03-17 14:00,US,1.989
+0000143,Saionara Geronimo Sheraton Posada,2016-04-10 08:00,MX,1.076
+0000164,City Novelo Hostel,2016-02-13 22:00,CA,0.979
+0001124,Grand Inn,2015-10-17 13:00,CA,1.092
+0000672,Down Town Upper Side Hostel,2016-04-26 01:00,US,1.698
+0000252,Village Moon Light la pensión,2016-07-21 15:00,CA,1.268
+0000354,Olinda Village Casino,2015-09-09 23:00,CA,0.942
+0000559,Windsor Asturias la pensión,2015-08-30 07:00,US,1.528
+0000588,Senado Spa,2015-09-22 07:00,CA,1.936
+0001125,Asturias River Side Big River Hostel,2016-03-22 09:00,CA,1.452
+0000484,Premier Por Motel,2015-09-09 19:00,US,1.838
+0000676,River Side Big River Apartments,2015-08-15 20:00,CA,1.276
+0000215,Asturias Highway Tavern,2015-11-29 20:00,US,1.215
+0001009,Suburbs Vermont Slaviero Motor Inn,2016-07-24 03:00,US,1.448
+0000860,Copacabana Hostel,2015-08-10 10:00,MX,1.863
+0000990,Village Motor Inn,2016-01-02 08:00,US,1.072
+0000157,Copacabana Jon's Plaza,2016-01-24 08:00,MX,1.685
+0000582,Saionara Casa,2015-11-11 19:00,MX,0.885
+0000243,River Side Hostel,2016-03-10 04:00,US,1.646
+0000268,Suburbs la pensión,2015-08-19 13:00,CA,1.712
+0000931,Hyatt Jon's Barra Hotelo,2015-11-27 04:00,CA,1.273
+0000409,Grand Windsor Motel,2015-09-10 01:00,US,1.247
+0000945,River Side Pestana Apartments,2016-04-28 18:00,MX,0.926
+0000822,River Side Saionara Elegance Apartments,2015-10-18 14:00,CA,1.272
+0000667,Pestana Down Town Apartments,2015-10-08 19:00,MX,1.873
+0000617,Jon's Mengo Granja,2016-04-24 10:00,CA,1.225
+0001046,Sheraton Moon Light la pensión,2016-01-20 21:00,MX,1.575
+0000639,Windsor Sheraton Spa,2015-12-06 20:00,MX,1.598
+0000374,Eas Side Tiny Hotelo,2015-11-21 07:00,US,0.763
+0000995,Village Suburbs Ibiza Hostel,2016-03-25 02:00,CA,1.211
+0000598,Suburbs Moos' Inn,2016-02-07 17:00,MX,1.603
+0000206,Barra Olinda Hotelo,2016-02-24 23:00,MX,1.845
+0000565,Merlin Hostel,2016-07-04 07:00,MX,0.994
+0000663,Eas Side Amanhecer Hostel,2016-02-27 06:00,CA,1.463
+0001036,Mengo Plaza,2015-11-19 07:00,CA,1.415
+0000653,Eas Side Olinda la pensión,2016-04-14 15:00,CA,1.689
+0000894,River Side Hyatt Inn,2016-03-23 05:00,US,0.982
+0001019,Imperial Hyatt la pensión,2015-12-03 03:00,US,1.568
+0000060,Premier Big River Tavern,2015-12-15 20:00,CA,1.918
+0000973,Olinda Amanhecer Motel,2016-02-25 03:00,US,1.362
+0000750,Pestana Ibiza Tavern,2016-03-11 15:00,US,1.849
+0000085,Down Town Tavern,2016-07-04 06:00,MX,2.058
+0000299,Senado Pestana River Side la pensión,2016-07-21 17:00,MX,1.942
+0000249,Eas Side Windsor Granja,2015-10-10 11:00,US,1.798
+0000400,Premier Boarding House,2016-01-13 21:00,CA,0.791
+0000580,Sheraton Senado Casino,2016-04-21 14:00,US,1.392
+0000800,Elegance Posada,2016-02-06 13:00,US,1.692
+0000071,Upper Side Jon's Asturias Apartments,2016-02-09 03:00,MX,1.628
+0000720,Asturias Sun Sine Hostel,2015-11-17 13:00,US,0.986
+cat: Unable to write to output stream.
+cat: Unable to write to output stream.
+cat: Unable to write to output stream.
+cat: Unable to write to output stream.
+cat: Unable to write to output stream.
+cat: Unable to write to output stream.
+[root@sandbox-hdp raj_ops]# 
+

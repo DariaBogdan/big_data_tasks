@@ -1,672 +1,701 @@
-2018-07-30 19:46:27 WARN  Utils:66 - Your hostname, Dell resolves to a loopback address: 127.0.1.1; using 192.168.0.99 instead (on interface wlp60s0)
-2018-07-30 19:46:27 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
-2018-07-30 19:46:27 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2018-07-30 19:46:28 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
-2018-07-30 19:46:30 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 236.7 KB, free 366.1 MB)
-2018-07-30 19:46:30 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 22.9 KB, free 366.0 MB)
-2018-07-30 19:46:30 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on Dell.Dlink:45109 (size: 22.9 KB, free: 366.3 MB)
-2018-07-30 19:46:30 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
-2018-07-30 19:46:30 INFO  FileInputFormat:249 - Total input paths to process : 1
-2018-07-30 19:46:30 INFO  deprecation:1173 - mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
-2018-07-30 19:46:30 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:30 INFO  SparkContext:54 - Starting job: runJob at SparkHadoopWriter.scala:78
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Registering RDD 3 (reduceByKey at hw.py:94)
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Got job 0 (runJob at SparkHadoopWriter.scala:78) with 8 output partitions
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (runJob at SparkHadoopWriter.scala:78)
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0)
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0)
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at hw.py:94), which has no missing parents
-2018-07-30 19:46:30 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 10.6 KB, free 366.0 MB)
-2018-07-30 19:46:30 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.0 KB, free 366.0 MB)
-2018-07-30 19:46:30 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on Dell.Dlink:45109 (size: 7.0 KB, free: 366.3 MB)
-2018-07-30 19:46:30 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
-2018-07-30 19:46:30 INFO  DAGScheduler:54 - Submitting 8 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at hw.py:94) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
-2018-07-30 19:46:30 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 8 tasks
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, localhost, executor driver, partition 2, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 3.0 in stage 0.0 (TID 3, localhost, executor driver, partition 3, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 4.0 in stage 0.0 (TID 4, localhost, executor driver, partition 4, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 5.0 in stage 0.0 (TID 5, localhost, executor driver, partition 5, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 6.0 in stage 0.0 (TID 6, localhost, executor driver, partition 6, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  TaskSetManager:54 - Starting task 7.0 in stage 0.0 (TID 7, localhost, executor driver, partition 7, PROCESS_LOCAL, 7893 bytes)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 4.0 in stage 0.0 (TID 4)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 5.0 in stage 0.0 (TID 5)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 7.0 in stage 0.0 (TID 7)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 6.0 in stage 0.0 (TID 6)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
-2018-07-30 19:46:30 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:67108864+33554432
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:201326592+33554432
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:234881024+12673430
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:33554432+33554432
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:167772160+33554432
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:0+33554432
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:100663296+33554432
-2018-07-30 19:46:30 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:134217728+33554432
-2018-07-30 19:46:33 INFO  PythonRunner:54 - Times: total = 2172, boot = 432, init = 22, finish = 1718
-2018-07-30 19:46:33 INFO  Executor:54 - Finished task 7.0 in stage 0.0 (TID 7). 1615 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 7.0 in stage 0.0 (TID 7) in 3298 ms on localhost (executor driver) (1/8)
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3273, boot = 423, init = 19, finish = 2831
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 4.0 in stage 0.0 (TID 4). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 4.0 in stage 0.0 (TID 4) in 3448 ms on localhost (executor driver) (2/8)
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3272, boot = 418, init = 23, finish = 2831
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3341, boot = 455, init = 8, finish = 2878
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 6.0 in stage 0.0 (TID 6). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3363, boot = 450, init = 12, finish = 2901
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 3492 ms on localhost (executor driver) (3/8)
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 6.0 in stage 0.0 (TID 6) in 3492 ms on localhost (executor driver) (4/8)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 3500 ms on localhost (executor driver) (5/8)
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3412, boot = 414, init = 29, finish = 2969
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 3.0 in stage 0.0 (TID 3) in 3550 ms on localhost (executor driver) (6/8)
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3445, boot = 449, init = 37, finish = 2959
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 3594 ms on localhost (executor driver) (7/8)
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 3510, boot = 417, init = 18, finish = 3075
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 5.0 in stage 0.0 (TID 5). 1572 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 5.0 in stage 0.0 (TID 5) in 3673 ms on localhost (executor driver) (8/8)
-2018-07-30 19:46:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - ShuffleMapStage 0 (reduceByKey at hw.py:94) finished in 3.782 s
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - looking for newly runnable stages
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - running: Set()
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - waiting: Set(ResultStage 1)
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - failed: Set()
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Submitting ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
-2018-07-30 19:46:34 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 77.1 KB, free 366.0 MB)
-2018-07-30 19:46:34 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 29.5 KB, free 365.9 MB)
-2018-07-30 19:46:34 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on Dell.Dlink:45109 (size: 29.5 KB, free: 366.2 MB)
-2018-07-30 19:46:34 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Submitting 8 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
-2018-07-30 19:46:34 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 8 tasks
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 8, localhost, executor driver, partition 0, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 9, localhost, executor driver, partition 1, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 10, localhost, executor driver, partition 2, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 3.0 in stage 1.0 (TID 11, localhost, executor driver, partition 3, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 4.0 in stage 1.0 (TID 12, localhost, executor driver, partition 4, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 5.0 in stage 1.0 (TID 13, localhost, executor driver, partition 5, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 6.0 in stage 1.0 (TID 14, localhost, executor driver, partition 6, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Starting task 7.0 in stage 1.0 (TID 15, localhost, executor driver, partition 7, ANY, 7649 bytes)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 9)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 4.0 in stage 1.0 (TID 12)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 8)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 3.0 in stage 1.0 (TID 11)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 10)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 5.0 in stage 1.0 (TID 13)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 6.0 in stage 1.0 (TID 14)
-2018-07-30 19:46:34 INFO  Executor:54 - Running task 7.0 in stage 1.0 (TID 15)
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 13 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 12 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 13 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 13 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 12 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 12 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 12 ms
-2018-07-30 19:46:34 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 13 ms
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 115, boot = -1435, init = 1479, finish = 71
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 86, boot = -347, init = 385, finish = 48
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 71, boot = -243, init = 284, finish = 30
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000000_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000000
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000002_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000002
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000000_0: Committed
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 8). 1916 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 8) in 247 ms on localhost (executor driver) (1/8)
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000004_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000004
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000004_0: Committed
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000002_0: Committed
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 98, boot = -406, init = 465, finish = 39
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 64, boot = -271, init = 306, finish = 29
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 77, boot = -323, init = 364, finish = 36
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 10). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 4.0 in stage 1.0 (TID 12). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 100, boot = -410, init = 445, finish = 65
-2018-07-30 19:46:34 INFO  PythonRunner:54 - Times: total = 106, boot = -178, init = 235, finish = 49
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000001_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000001
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000005_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000005
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 10) in 264 ms on localhost (executor driver) (2/8)
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000001_0: Committed
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000005_0: Committed
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000003_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000003
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 5.0 in stage 1.0 (TID 13). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 4.0 in stage 1.0 (TID 12) in 265 ms on localhost (executor driver) (3/8)
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000003_0: Committed
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000007_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000007
-2018-07-30 19:46:34 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194630_0008_m_000006_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/erroneous/_temporary/0/task_20180730194630_0008_m_000006
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 9). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 5.0 in stage 1.0 (TID 13) in 267 ms on localhost (executor driver) (4/8)
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000007_0: Committed
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 3.0 in stage 1.0 (TID 11). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194630_0008_m_000006_0: Committed
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 9) in 270 ms on localhost (executor driver) (5/8)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 3.0 in stage 1.0 (TID 11) in 269 ms on localhost (executor driver) (6/8)
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 6.0 in stage 1.0 (TID 14). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  Executor:54 - Finished task 7.0 in stage 1.0 (TID 15). 1873 bytes result sent to driver
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 6.0 in stage 1.0 (TID 14) in 269 ms on localhost (executor driver) (7/8)
-2018-07-30 19:46:34 INFO  TaskSetManager:54 - Finished task 7.0 in stage 1.0 (TID 15) in 270 ms on localhost (executor driver) (8/8)
-2018-07-30 19:46:34 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - ResultStage 1 (runJob at SparkHadoopWriter.scala:78) finished in 0.303 s
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Job 0 finished: runJob at SparkHadoopWriter.scala:78, took 4.174053 s
-2018-07-30 19:46:34 INFO  SparkHadoopWriter:54 - Job job_20180730194630_0008 committed.
-2018-07-30 19:46:34 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 236.7 KB, free 365.7 MB)
-2018-07-30 19:46:34 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 22.9 KB, free 365.7 MB)
-2018-07-30 19:46:34 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on Dell.Dlink:45109 (size: 22.9 KB, free: 366.2 MB)
-2018-07-30 19:46:34 INFO  SparkContext:54 - Created broadcast 3 from textFile at NativeMethodAccessorImpl.java:0
-2018-07-30 19:46:34 INFO  FileInputFormat:249 - Total input paths to process : 1
-2018-07-30 19:46:34 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 236.7 KB, free 365.4 MB)
-2018-07-30 19:46:34 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 22.9 KB, free 365.4 MB)
-2018-07-30 19:46:34 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on Dell.Dlink:45109 (size: 22.9 KB, free: 366.2 MB)
-2018-07-30 19:46:34 INFO  SparkContext:54 - Created broadcast 4 from textFile at NativeMethodAccessorImpl.java:0
-2018-07-30 19:46:34 INFO  FileInputFormat:249 - Total input paths to process : 1
-2018-07-30 19:46:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:46:34 INFO  SparkContext:54 - Starting job: runJob at SparkHadoopWriter.scala:78
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Registering RDD 15 (leftOuterJoin at hw.py:115)
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Registering RDD 24 (leftOuterJoin at hw.py:143)
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Registering RDD 28 (reduceByKey at hw.py:151)
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Got job 1 (runJob at SparkHadoopWriter.scala:78) with 12 output partitions
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (runJob at SparkHadoopWriter.scala:78)
-2018-07-30 19:46:34 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 4)
-2018-07-30 19:46:35 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 4)
-2018-07-30 19:46:35 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 2 (PairwiseRDD[15] at leftOuterJoin at hw.py:115), which has no missing parents
-2018-07-30 19:46:35 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 14.4 KB, free 365.4 MB)
-2018-07-30 19:46:35 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 8.0 KB, free 365.4 MB)
-2018-07-30 19:46:35 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on Dell.Dlink:45109 (size: 8.0 KB, free: 366.2 MB)
-2018-07-30 19:46:35 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
-2018-07-30 19:46:35 INFO  DAGScheduler:54 - Submitting 10 missing tasks from ShuffleMapStage 2 (PairwiseRDD[15] at leftOuterJoin at hw.py:115) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
-2018-07-30 19:46:35 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 10 tasks
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 16, localhost, executor driver, partition 0, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 17, localhost, executor driver, partition 1, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 2.0 in stage 2.0 (TID 18, localhost, executor driver, partition 2, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 3.0 in stage 2.0 (TID 19, localhost, executor driver, partition 3, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 4.0 in stage 2.0 (TID 20, localhost, executor driver, partition 4, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 5.0 in stage 2.0 (TID 21, localhost, executor driver, partition 5, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 6.0 in stage 2.0 (TID 22, localhost, executor driver, partition 6, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  TaskSetManager:54 - Starting task 7.0 in stage 2.0 (TID 23, localhost, executor driver, partition 7, PROCESS_LOCAL, 8002 bytes)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 2.0 in stage 2.0 (TID 18)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 7.0 in stage 2.0 (TID 23)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 4.0 in stage 2.0 (TID 20)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 16)
-2018-07-30 19:46:35 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on Dell.Dlink:45109 in memory (size: 29.5 KB, free: 366.2 MB)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 3.0 in stage 2.0 (TID 19)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 6.0 in stage 2.0 (TID 22)
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:0+33554432
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:234881024+12673430
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:100663296+33554432
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:67108864+33554432
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 5.0 in stage 2.0 (TID 21)
-2018-07-30 19:46:35 INFO  Executor:54 - Running task 1.0 in stage 2.0 (TID 17)
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:201326592+33554432
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:134217728+33554432
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:167772160+33554432
-2018-07-30 19:46:35 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:33554432+33554432
-2018-07-30 19:46:49 INFO  PythonRunner:54 - Times: total = 9018, boot = 29, init = 69, finish = 8920
-2018-07-30 19:47:01 INFO  PythonRunner:54 - Times: total = 26237, boot = -409, init = 451, finish = 26195
-2018-07-30 19:47:03 INFO  PythonRunner:54 - Times: total = 28907, boot = 17, init = 186, finish = 28704
-2018-07-30 19:47:04 INFO  Executor:54 - Finished task 5.0 in stage 2.0 (TID 21). 1617 bytes result sent to driver
-2018-07-30 19:47:04 INFO  TaskSetManager:54 - Starting task 8.0 in stage 2.0 (TID 24, localhost, executor driver, partition 8, PROCESS_LOCAL, 8011 bytes)
-2018-07-30 19:47:04 INFO  Executor:54 - Running task 8.0 in stage 2.0 (TID 24)
-2018-07-30 19:47:04 INFO  TaskSetManager:54 - Finished task 5.0 in stage 2.0 (TID 21) in 29275 ms on localhost (executor driver) (1/10)
-2018-07-30 19:47:04 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/exchange_rate.txt:0+127020
-2018-07-30 19:47:04 INFO  PythonRunner:54 - Times: total = 210, boot = -8252, init = 8324, finish = 138
-2018-07-30 19:47:05 INFO  PythonRunner:54 - Times: total = 305, boot = -592, init = 796, finish = 101
-2018-07-30 19:47:05 INFO  Executor:54 - Finished task 8.0 in stage 2.0 (TID 24). 1531 bytes result sent to driver
-2018-07-30 19:47:05 INFO  TaskSetManager:54 - Starting task 9.0 in stage 2.0 (TID 25, localhost, executor driver, partition 9, PROCESS_LOCAL, 8011 bytes)
-2018-07-30 19:47:05 INFO  Executor:54 - Running task 9.0 in stage 2.0 (TID 25)
-2018-07-30 19:47:05 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/exchange_rate.txt:127020+127020
-2018-07-30 19:47:05 INFO  TaskSetManager:54 - Finished task 8.0 in stage 2.0 (TID 24) in 861 ms on localhost (executor driver) (2/10)
-2018-07-30 19:47:05 INFO  PythonRunner:54 - Times: total = 29, boot = -1088, init = 1097, finish = 20
-2018-07-30 19:47:05 INFO  PythonRunner:54 - Times: total = 132, boot = -100, init = 130, finish = 102
-2018-07-30 19:47:05 INFO  Executor:54 - Finished task 9.0 in stage 2.0 (TID 25). 1531 bytes result sent to driver
-2018-07-30 19:47:05 INFO  TaskSetManager:54 - Finished task 9.0 in stage 2.0 (TID 25) in 163 ms on localhost (executor driver) (3/10)
-2018-07-30 19:47:14 INFO  PythonRunner:54 - Times: total = 39416, boot = -387, init = 425, finish = 39378
-2018-07-30 19:47:17 INFO  PythonRunner:54 - Times: total = 42136, boot = 64, init = 60, finish = 42012
-2018-07-30 19:47:17 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 16). 1617 bytes result sent to driver
-2018-07-30 19:47:17 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 16) in 42442 ms on localhost (executor driver) (4/10)
-2018-07-30 19:47:20 INFO  PythonRunner:54 - Times: total = 45565, boot = -408, init = 449, finish = 45524
-2018-07-30 19:47:27 INFO  PythonRunner:54 - Times: total = 50755, boot = -411, init = 459, finish = 50707
-2018-07-30 19:47:36 INFO  PythonRunner:54 - Times: total = 60176, boot = -450, init = 487, finish = 60139
-2018-07-30 19:47:38 INFO  PythonRunner:54 - Times: total = 62331, boot = -420, init = 457, finish = 62294
-2018-07-30 19:47:44 INFO  PythonRunner:54 - Times: total = 69702, boot = 14, init = 42, finish = 69646
-2018-07-30 19:47:46 INFO  Executor:54 - Finished task 7.0 in stage 2.0 (TID 23). 1617 bytes result sent to driver
-2018-07-30 19:47:46 INFO  TaskSetManager:54 - Finished task 7.0 in stage 2.0 (TID 23) in 71475 ms on localhost (executor driver) (5/10)
-2018-07-30 19:47:49 INFO  PythonRunner:54 - Times: total = 74715, boot = -440, init = 487, finish = 74668
-2018-07-30 19:47:50 INFO  Executor:54 - Finished task 3.0 in stage 2.0 (TID 19). 1574 bytes result sent to driver
-2018-07-30 19:47:50 INFO  TaskSetManager:54 - Finished task 3.0 in stage 2.0 (TID 19) in 75210 ms on localhost (executor driver) (6/10)
-2018-07-30 19:47:52 INFO  PythonRunner:54 - Times: total = 77256, boot = -425, init = 479, finish = 77202
-2018-07-30 19:47:52 INFO  Executor:54 - Finished task 4.0 in stage 2.0 (TID 20). 1617 bytes result sent to driver
-2018-07-30 19:47:52 INFO  TaskSetManager:54 - Finished task 4.0 in stage 2.0 (TID 20) in 77746 ms on localhost (executor driver) (7/10)
-2018-07-30 19:47:56 INFO  PythonRunner:54 - Times: total = 80977, boot = 24, init = 81, finish = 80872
-2018-07-30 19:47:58 INFO  PythonRunner:54 - Times: total = 82978, boot = 13, init = 90, finish = 82875
-2018-07-30 19:47:58 INFO  Executor:54 - Finished task 6.0 in stage 2.0 (TID 22). 1574 bytes result sent to driver
-2018-07-30 19:47:58 INFO  TaskSetManager:54 - Finished task 6.0 in stage 2.0 (TID 22) in 83483 ms on localhost (executor driver) (8/10)
-2018-07-30 19:47:58 INFO  PythonRunner:54 - Times: total = 83721, boot = 40, init = 123, finish = 83558
-2018-07-30 19:47:58 INFO  Executor:54 - Finished task 2.0 in stage 2.0 (TID 18). 1574 bytes result sent to driver
-2018-07-30 19:47:58 INFO  TaskSetManager:54 - Finished task 2.0 in stage 2.0 (TID 18) in 83840 ms on localhost (executor driver) (9/10)
-2018-07-30 19:48:00 INFO  PythonRunner:54 - Times: total = 85184, boot = 4, init = 80, finish = 85100
-2018-07-30 19:48:00 INFO  Executor:54 - Finished task 1.0 in stage 2.0 (TID 17). 1574 bytes result sent to driver
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 17) in 85392 ms on localhost (executor driver) (10/10)
-2018-07-30 19:48:00 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - ShuffleMapStage 2 (leftOuterJoin at hw.py:115) finished in 85.420 s
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - looking for newly runnable stages
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - running: Set()
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5, ShuffleMapStage 3, ShuffleMapStage 4)
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - failed: Set()
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 3 (PairwiseRDD[24] at leftOuterJoin at hw.py:143), which has no missing parents
-2018-07-30 19:48:00 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 20.1 KB, free 365.5 MB)
-2018-07-30 19:48:00 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 11.6 KB, free 365.5 MB)
-2018-07-30 19:48:00 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on Dell.Dlink:45109 (size: 11.6 KB, free: 366.2 MB)
-2018-07-30 19:48:00 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1039
-2018-07-30 19:48:00 INFO  DAGScheduler:54 - Submitting 12 missing tasks from ShuffleMapStage 3 (PairwiseRDD[24] at leftOuterJoin at hw.py:143) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
-2018-07-30 19:48:00 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 12 tasks
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 10.0 in stage 3.0 (TID 26, localhost, executor driver, partition 10, PROCESS_LOCAL, 8004 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 11.0 in stage 3.0 (TID 27, localhost, executor driver, partition 11, PROCESS_LOCAL, 8004 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 28, localhost, executor driver, partition 0, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 29, localhost, executor driver, partition 1, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 2.0 in stage 3.0 (TID 30, localhost, executor driver, partition 2, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 3.0 in stage 3.0 (TID 31, localhost, executor driver, partition 3, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 4.0 in stage 3.0 (TID 32, localhost, executor driver, partition 4, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 5.0 in stage 3.0 (TID 33, localhost, executor driver, partition 5, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 10.0 in stage 3.0 (TID 26)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 28)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 29)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 4.0 in stage 3.0 (TID 32)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 2.0 in stage 3.0 (TID 30)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 3.0 in stage 3.0 (TID 31)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 11.0 in stage 3.0 (TID 27)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 5.0 in stage 3.0 (TID 33)
-2018-07-30 19:48:00 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/motels.txt:0+330745
-2018-07-30 19:48:00 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/motels.txt:330745+330746
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 4 ms
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 4 ms
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 4 ms
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 4 ms
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 4 ms
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
-2018-07-30 19:48:00 INFO  PythonRunner:54 - Times: total = 103, boot = -4206, init = 4275, finish = 34
-2018-07-30 19:48:00 INFO  PythonRunner:54 - Times: total = 114, boot = -2702, init = 2787, finish = 29
-2018-07-30 19:48:00 INFO  PythonRunner:54 - Times: total = 110, boot = -1965, init = 2070, finish = 5
-2018-07-30 19:48:00 INFO  Executor:54 - Finished task 10.0 in stage 3.0 (TID 26). 1533 bytes result sent to driver
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 6.0 in stage 3.0 (TID 34, localhost, executor driver, partition 6, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Finished task 10.0 in stage 3.0 (TID 26) in 391 ms on localhost (executor driver) (1/12)
-2018-07-30 19:48:00 INFO  PythonRunner:54 - Times: total = 120, boot = -277, init = 390, finish = 7
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 6.0 in stage 3.0 (TID 34)
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2018-07-30 19:48:00 INFO  Executor:54 - Finished task 11.0 in stage 3.0 (TID 27). 1533 bytes result sent to driver
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Starting task 7.0 in stage 3.0 (TID 35, localhost, executor driver, partition 7, ANY, 7747 bytes)
-2018-07-30 19:48:00 INFO  Executor:54 - Running task 7.0 in stage 3.0 (TID 35)
-2018-07-30 19:48:00 INFO  TaskSetManager:54 - Finished task 11.0 in stage 3.0 (TID 27) in 392 ms on localhost (executor driver) (2/12)
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:48:09 INFO  ContextCleaner:54 - Cleaned accumulator 5
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 37
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 22
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 49
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 15
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 32
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 2
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 36
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 48
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 19
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 3
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 35
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 12
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 18
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 24
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 21
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 38
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 13
-2018-07-30 19:48:10 INFO  ContextCleaner:54 - Cleaned accumulator 41
-2018-07-30 19:48:13 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on Dell.Dlink:45109 in memory (size: 7.0 KB, free: 366.2 MB)
-2018-07-30 19:48:13 INFO  ContextCleaner:54 - Cleaned accumulator 7
-2018-07-30 19:48:14 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on Dell.Dlink:45109 in memory (size: 8.0 KB, free: 366.2 MB)
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 45
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 11
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 28
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 23
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 46
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 8
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 14
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 26
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 44
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 1
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 42
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 10
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 6
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 34
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 50
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 17
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 16
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 4
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 20
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 29
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 43
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 30
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 9
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 39
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 47
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 27
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 25
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 33
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 31
-2018-07-30 19:48:14 INFO  ContextCleaner:54 - Cleaned accumulator 40
-2018-07-30 19:48:31 INFO  PythonRunner:54 - Times: total = 30873, boot = -55530, init = 55873, finish = 30530
-2018-07-30 19:48:35 INFO  PythonRunner:54 - Times: total = 33885, boot = -33199, init = 58725, finish = 8359
-2018-07-30 19:48:35 INFO  Executor:54 - Finished task 4.0 in stage 3.0 (TID 32). 1834 bytes result sent to driver
-2018-07-30 19:48:35 INFO  TaskSetManager:54 - Starting task 8.0 in stage 3.0 (TID 36, localhost, executor driver, partition 8, ANY, 7747 bytes)
-2018-07-30 19:48:35 INFO  Executor:54 - Running task 8.0 in stage 3.0 (TID 36)
-2018-07-30 19:48:36 INFO  TaskSetManager:54 - Finished task 4.0 in stage 3.0 (TID 32) in 35453 ms on localhost (executor driver) (3/12)
-2018-07-30 19:48:36 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:48:36 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 8 ms
-2018-07-30 19:49:13 INFO  PythonRunner:54 - Times: total = 36594, boot = -4620, init = 5398, finish = 35816
-2018-07-30 19:49:16 INFO  PythonRunner:54 - Times: total = 75657, boot = -43429, init = 43778, finish = 75308
-2018-07-30 19:49:17 INFO  PythonRunner:54 - Times: total = 41447, boot = -1559, init = 28520, finish = 14486
-2018-07-30 19:49:18 INFO  Executor:54 - Finished task 8.0 in stage 3.0 (TID 36). 1834 bytes result sent to driver
-2018-07-30 19:49:18 INFO  TaskSetManager:54 - Starting task 9.0 in stage 3.0 (TID 37, localhost, executor driver, partition 9, ANY, 7747 bytes)
-2018-07-30 19:49:18 INFO  Executor:54 - Running task 9.0 in stage 3.0 (TID 37)
-2018-07-30 19:49:18 INFO  TaskSetManager:54 - Finished task 8.0 in stage 3.0 (TID 36) in 42311 ms on localhost (executor driver) (4/12)
-2018-07-30 19:49:18 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
-2018-07-30 19:49:18 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
-2018-07-30 19:49:18 INFO  PythonRunner:54 - Times: total = 78326, boot = -22411, init = 90701, finish = 10036
-2018-07-30 19:49:19 INFO  Executor:54 - Finished task 5.0 in stage 3.0 (TID 33). 1791 bytes result sent to driver
-2018-07-30 19:49:19 INFO  TaskSetManager:54 - Finished task 5.0 in stage 3.0 (TID 33) in 78618 ms on localhost (executor driver) (5/12)
-2018-07-30 19:49:27 INFO  PythonRunner:54 - Times: total = 8542, boot = -5629, init = 5834, finish = 8337
-2018-07-30 19:49:30 INFO  PythonRunner:54 - Times: total = 11183, boot = -2106, init = 3730, finish = 9559
-2018-07-30 19:49:30 INFO  Executor:54 - Finished task 9.0 in stage 3.0 (TID 37). 1834 bytes result sent to driver
-2018-07-30 19:49:30 INFO  TaskSetManager:54 - Finished task 9.0 in stage 3.0 (TID 37) in 12559 ms on localhost (executor driver) (6/12)
-2018-07-30 19:49:34 INFO  PythonRunner:54 - Times: total = 93071, boot = -32, init = 68, finish = 93035
-2018-07-30 19:49:36 INFO  PythonRunner:54 - Times: total = 95716, boot = -34, init = 80090, finish = 15660
-2018-07-30 19:49:36 INFO  Executor:54 - Finished task 6.0 in stage 3.0 (TID 34). 1791 bytes result sent to driver
-2018-07-30 19:49:36 INFO  TaskSetManager:54 - Finished task 6.0 in stage 3.0 (TID 34) in 95997 ms on localhost (executor driver) (7/12)
-2018-07-30 19:49:38 INFO  PythonRunner:54 - Times: total = 97147, boot = -57, init = 95, finish = 97109
-2018-07-30 19:49:40 INFO  PythonRunner:54 - Times: total = 99236, boot = -46, init = 87580, finish = 11702
-2018-07-30 19:49:40 INFO  Executor:54 - Finished task 7.0 in stage 3.0 (TID 35). 1791 bytes result sent to driver
-2018-07-30 19:49:40 INFO  TaskSetManager:54 - Finished task 7.0 in stage 3.0 (TID 35) in 99291 ms on localhost (executor driver) (8/12)
-2018-07-30 19:49:41 INFO  PythonRunner:54 - Times: total = 100565, boot = -55583, init = 55884, finish = 100264
-2018-07-30 19:49:41 INFO  PythonRunner:54 - Times: total = 96504, boot = -55427, init = 55771, finish = 96160
-2018-07-30 19:49:43 INFO  PythonRunner:54 - Times: total = 103285, boot = -43429, init = 43581, finish = 103133
-2018-07-30 19:49:44 INFO  PythonRunner:54 - Times: total = 103754, boot = -10852, init = 46111, finish = 68495
-2018-07-30 19:49:44 INFO  Executor:54 - Finished task 3.0 in stage 3.0 (TID 31). 1791 bytes result sent to driver
-2018-07-30 19:49:44 INFO  TaskSetManager:54 - Finished task 3.0 in stage 3.0 (TID 31) in 103899 ms on localhost (executor driver) (9/12)
-2018-07-30 19:49:44 INFO  PythonRunner:54 - Times: total = 103827, boot = -36091, init = 36247, finish = 103671
-2018-07-30 19:49:45 INFO  PythonRunner:54 - Times: total = 105226, boot = -14890, init = 102823, finish = 17293
-2018-07-30 19:49:45 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 29). 1791 bytes result sent to driver
-2018-07-30 19:49:45 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 29) in 105371 ms on localhost (executor driver) (10/12)
-2018-07-30 19:49:46 INFO  PythonRunner:54 - Times: total = 105644, boot = -24247, init = 113906, finish = 15985
-2018-07-30 19:49:46 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 28). 1791 bytes result sent to driver
-2018-07-30 19:49:46 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 28) in 105785 ms on localhost (executor driver) (11/12)
-2018-07-30 19:49:47 INFO  PythonRunner:54 - Times: total = 106988, boot = -8272, init = 41741, finish = 73519
-2018-07-30 19:49:47 INFO  Executor:54 - Finished task 2.0 in stage 3.0 (TID 30). 1791 bytes result sent to driver
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Finished task 2.0 in stage 3.0 (TID 30) in 107129 ms on localhost (executor driver) (12/12)
-2018-07-30 19:49:47 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - ShuffleMapStage 3 (leftOuterJoin at hw.py:143) finished in 107.208 s
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - looking for newly runnable stages
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - running: Set()
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5, ShuffleMapStage 4)
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - failed: Set()
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 4 (PairwiseRDD[28] at reduceByKey at hw.py:151), which has no missing parents
-2018-07-30 19:49:47 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 12.2 KB, free 365.5 MB)
-2018-07-30 19:49:47 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 8.1 KB, free 365.5 MB)
-2018-07-30 19:49:47 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on Dell.Dlink:45109 (size: 8.1 KB, free: 366.2 MB)
-2018-07-30 19:49:47 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1039
-2018-07-30 19:49:47 INFO  DAGScheduler:54 - Submitting 12 missing tasks from ShuffleMapStage 4 (PairwiseRDD[28] at reduceByKey at hw.py:151) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
-2018-07-30 19:49:47 INFO  TaskSchedulerImpl:54 - Adding task set 4.0 with 12 tasks
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 0.0 in stage 4.0 (TID 38, localhost, executor driver, partition 0, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 1.0 in stage 4.0 (TID 39, localhost, executor driver, partition 1, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 2.0 in stage 4.0 (TID 40, localhost, executor driver, partition 2, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 3.0 in stage 4.0 (TID 41, localhost, executor driver, partition 3, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 4.0 in stage 4.0 (TID 42, localhost, executor driver, partition 4, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 5.0 in stage 4.0 (TID 43, localhost, executor driver, partition 5, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 6.0 in stage 4.0 (TID 44, localhost, executor driver, partition 6, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  TaskSetManager:54 - Starting task 7.0 in stage 4.0 (TID 45, localhost, executor driver, partition 7, ANY, 7638 bytes)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 3.0 in stage 4.0 (TID 41)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 4.0 in stage 4.0 (TID 42)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 2.0 in stage 4.0 (TID 40)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 6.0 in stage 4.0 (TID 44)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 38)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 39)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 5.0 in stage 4.0 (TID 43)
-2018-07-30 19:49:47 INFO  Executor:54 - Running task 7.0 in stage 4.0 (TID 45)
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:49:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2018-07-30 19:50:00 INFO  PythonRunner:54 - Times: total = 12546, boot = -20772, init = 20800, finish = 12518
-2018-07-30 19:50:00 INFO  PythonRunner:54 - Times: total = 12728, boot = -11060, init = 11077, finish = 12711
-2018-07-30 19:50:00 INFO  Executor:54 - Finished task 6.0 in stage 4.0 (TID 44). 1834 bytes result sent to driver
-2018-07-30 19:50:00 INFO  Executor:54 - Finished task 4.0 in stage 4.0 (TID 42). 1791 bytes result sent to driver
-2018-07-30 19:50:00 INFO  TaskSetManager:54 - Starting task 8.0 in stage 4.0 (TID 46, localhost, executor driver, partition 8, ANY, 7638 bytes)
-2018-07-30 19:50:00 INFO  TaskSetManager:54 - Starting task 9.0 in stage 4.0 (TID 47, localhost, executor driver, partition 9, ANY, 7638 bytes)
-2018-07-30 19:50:00 INFO  Executor:54 - Running task 8.0 in stage 4.0 (TID 46)
-2018-07-30 19:50:00 INFO  Executor:54 - Running task 9.0 in stage 4.0 (TID 47)
-2018-07-30 19:50:00 INFO  TaskSetManager:54 - Finished task 4.0 in stage 4.0 (TID 42) in 12876 ms on localhost (executor driver) (1/12)
-2018-07-30 19:50:00 INFO  TaskSetManager:54 - Finished task 6.0 in stage 4.0 (TID 44) in 12876 ms on localhost (executor driver) (2/12)
-2018-07-30 19:50:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2018-07-30 19:50:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2018-07-30 19:50:00 INFO  PythonRunner:54 - Times: total = 12885, boot = -7584, init = 7597, finish = 12872
-2018-07-30 19:50:00 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 38). 1791 bytes result sent to driver
-2018-07-30 19:50:00 INFO  TaskSetManager:54 - Starting task 10.0 in stage 4.0 (TID 48, localhost, executor driver, partition 10, ANY, 7638 bytes)
-2018-07-30 19:50:00 INFO  TaskSetManager:54 - Finished task 0.0 in stage 4.0 (TID 38) in 13003 ms on localhost (executor driver) (3/12)
-2018-07-30 19:50:00 INFO  Executor:54 - Running task 10.0 in stage 4.0 (TID 48)
-2018-07-30 19:50:00 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:00 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:01 INFO  PythonRunner:54 - Times: total = 13313, boot = -9688, init = 9719, finish = 13282
-2018-07-30 19:50:01 INFO  Executor:54 - Finished task 7.0 in stage 4.0 (TID 45). 1791 bytes result sent to driver
-2018-07-30 19:50:01 INFO  TaskSetManager:54 - Starting task 11.0 in stage 4.0 (TID 49, localhost, executor driver, partition 11, ANY, 7638 bytes)
-2018-07-30 19:50:01 INFO  Executor:54 - Running task 11.0 in stage 4.0 (TID 49)
-2018-07-30 19:50:01 INFO  TaskSetManager:54 - Finished task 7.0 in stage 4.0 (TID 45) in 13439 ms on localhost (executor driver) (4/12)
-2018-07-30 19:50:01 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:01 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:50:01 INFO  PythonRunner:54 - Times: total = 13877, boot = -18129, init = 18141, finish = 13865
-2018-07-30 19:50:01 INFO  Executor:54 - Finished task 3.0 in stage 4.0 (TID 41). 1791 bytes result sent to driver
-2018-07-30 19:50:01 INFO  TaskSetManager:54 - Finished task 3.0 in stage 4.0 (TID 41) in 13941 ms on localhost (executor driver) (5/12)
-2018-07-30 19:50:02 INFO  PythonRunner:54 - Times: total = 14737, boot = -29994, init = 30057, finish = 14674
-2018-07-30 19:50:02 INFO  Executor:54 - Finished task 2.0 in stage 4.0 (TID 40). 1834 bytes result sent to driver
-2018-07-30 19:50:02 INFO  TaskSetManager:54 - Finished task 2.0 in stage 4.0 (TID 40) in 14792 ms on localhost (executor driver) (6/12)
-2018-07-30 19:50:04 INFO  PythonRunner:54 - Times: total = 16881, boot = -13744, init = 13782, finish = 16843
-2018-07-30 19:50:04 INFO  Executor:54 - Finished task 5.0 in stage 4.0 (TID 43). 1791 bytes result sent to driver
-2018-07-30 19:50:04 INFO  TaskSetManager:54 - Finished task 5.0 in stage 4.0 (TID 43) in 16931 ms on localhost (executor driver) (7/12)
-2018-07-30 19:50:05 INFO  PythonRunner:54 - Times: total = 17494, boot = -28739, init = 28779, finish = 17454
-2018-07-30 19:50:05 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 39). 1791 bytes result sent to driver
-2018-07-30 19:50:05 INFO  TaskSetManager:54 - Finished task 1.0 in stage 4.0 (TID 39) in 17525 ms on localhost (executor driver) (8/12)
-2018-07-30 19:50:09 INFO  PythonRunner:54 - Times: total = 8569, boot = -19445, init = 19700, finish = 8314
-2018-07-30 19:50:09 INFO  Executor:54 - Finished task 9.0 in stage 4.0 (TID 47). 1791 bytes result sent to driver
-2018-07-30 19:50:09 INFO  TaskSetManager:54 - Finished task 9.0 in stage 4.0 (TID 47) in 8609 ms on localhost (executor driver) (9/12)
-2018-07-30 19:50:09 INFO  PythonRunner:54 - Times: total = 8138, boot = -16783, init = 16821, finish = 8100
-2018-07-30 19:50:09 INFO  Executor:54 - Finished task 11.0 in stage 4.0 (TID 49). 1748 bytes result sent to driver
-2018-07-30 19:50:09 INFO  TaskSetManager:54 - Finished task 11.0 in stage 4.0 (TID 49) in 8158 ms on localhost (executor driver) (10/12)
-2018-07-30 19:50:10 INFO  PythonRunner:54 - Times: total = 9259, boot = -16849, init = 17163, finish = 8945
-2018-07-30 19:50:10 INFO  Executor:54 - Finished task 10.0 in stage 4.0 (TID 48). 1791 bytes result sent to driver
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Finished task 10.0 in stage 4.0 (TID 48) in 9300 ms on localhost (executor driver) (11/12)
-2018-07-30 19:50:10 INFO  PythonRunner:54 - Times: total = 9409, boot = -23503, init = 23809, finish = 9103
-2018-07-30 19:50:10 INFO  Executor:54 - Finished task 8.0 in stage 4.0 (TID 46). 1791 bytes result sent to driver
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Finished task 8.0 in stage 4.0 (TID 46) in 9470 ms on localhost (executor driver) (12/12)
-2018-07-30 19:50:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 4.0, whose tasks have all completed, from pool 
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - ShuffleMapStage 4 (reduceByKey at hw.py:151) finished in 22.385 s
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - looking for newly runnable stages
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - running: Set()
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5)
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - failed: Set()
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - Submitting ResultStage 5 (MapPartitionsRDD[33] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
-2018-07-30 19:50:10 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 77.3 KB, free 365.4 MB)
-2018-07-30 19:50:10 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 29.6 KB, free 365.4 MB)
-2018-07-30 19:50:10 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on Dell.Dlink:45109 (size: 29.6 KB, free: 366.2 MB)
-2018-07-30 19:50:10 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1039
-2018-07-30 19:50:10 INFO  DAGScheduler:54 - Submitting 12 missing tasks from ResultStage 5 (MapPartitionsRDD[33] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
-2018-07-30 19:50:10 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 12 tasks
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 50, localhost, executor driver, partition 0, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 1.0 in stage 5.0 (TID 51, localhost, executor driver, partition 1, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 2.0 in stage 5.0 (TID 52, localhost, executor driver, partition 2, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 3.0 in stage 5.0 (TID 53, localhost, executor driver, partition 3, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 4.0 in stage 5.0 (TID 54, localhost, executor driver, partition 4, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 5.0 in stage 5.0 (TID 55, localhost, executor driver, partition 5, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 6.0 in stage 5.0 (TID 56, localhost, executor driver, partition 6, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  TaskSetManager:54 - Starting task 7.0 in stage 5.0 (TID 57, localhost, executor driver, partition 7, ANY, 7649 bytes)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 0.0 in stage 5.0 (TID 50)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 5.0 in stage 5.0 (TID 55)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 6.0 in stage 5.0 (TID 56)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 7.0 in stage 5.0 (TID 57)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 2.0 in stage 5.0 (TID 52)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 3.0 in stage 5.0 (TID 53)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 4.0 in stage 5.0 (TID 54)
-2018-07-30 19:50:10 INFO  Executor:54 - Running task 1.0 in stage 5.0 (TID 51)
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 2934, boot = -9448, init = 9463, finish = 2919
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3065, boot = -24261, init = 24280, finish = 3046
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3123, boot = -9620, init = 9648, finish = 3095
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3152, boot = -9821, init = 9853, finish = 3120
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3125, boot = -9076, init = 9132, finish = 3069
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000007_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000007
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000007_0: Committed
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000004_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000004
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000004_0: Committed
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3168, boot = -22505, init = 22533, finish = 3140
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000000_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000000
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 4.0 in stage 5.0 (TID 54). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 7.0 in stage 5.0 (TID 57). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000000_0: Committed
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 0.0 in stage 5.0 (TID 50). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Starting task 8.0 in stage 5.0 (TID 58, localhost, executor driver, partition 8, ANY, 7649 bytes)
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000003_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000003
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000003_0: Committed
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Starting task 9.0 in stage 5.0 (TID 59, localhost, executor driver, partition 9, ANY, 7649 bytes)
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 3.0 in stage 5.0 (TID 53). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  Executor:54 - Running task 9.0 in stage 5.0 (TID 59)
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000005_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000005
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000005_0: Committed
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 5.0 in stage 5.0 (TID 55). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 7.0 in stage 5.0 (TID 57) in 3759 ms on localhost (executor driver) (1/12)
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 50) in 3764 ms on localhost (executor driver) (2/12)
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 4.0 in stage 5.0 (TID 54) in 3764 ms on localhost (executor driver) (3/12)
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Starting task 10.0 in stage 5.0 (TID 60, localhost, executor driver, partition 10, ANY, 7649 bytes)
-2018-07-30 19:50:13 INFO  Executor:54 - Running task 10.0 in stage 5.0 (TID 60)
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Starting task 11.0 in stage 5.0 (TID 61, localhost, executor driver, partition 11, ANY, 7649 bytes)
-2018-07-30 19:50:13 INFO  Executor:54 - Running task 11.0 in stage 5.0 (TID 61)
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 3.0 in stage 5.0 (TID 53) in 3766 ms on localhost (executor driver) (4/12)
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 5.0 in stage 5.0 (TID 55) in 3765 ms on localhost (executor driver) (5/12)
-2018-07-30 19:50:13 INFO  Executor:54 - Running task 8.0 in stage 5.0 (TID 58)
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3207, boot = -23845, init = 23883, finish = 3169
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000001_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000001
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000001_0: Committed
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 1.0 in stage 5.0 (TID 51). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 1.0 in stage 5.0 (TID 51) in 3770 ms on localhost (executor driver) (6/12)
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000006_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000006
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000006_0: Committed
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 6.0 in stage 5.0 (TID 56). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 6.0 in stage 5.0 (TID 56) in 3771 ms on localhost (executor driver) (7/12)
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2018-07-30 19:50:13 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
-2018-07-30 19:50:13 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2018-07-30 19:50:13 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:13 INFO  PythonRunner:54 - Times: total = 3277, boot = -25686, init = 25728, finish = 3235
-2018-07-30 19:50:13 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000002_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000002
-2018-07-30 19:50:13 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000002_0: Committed
-2018-07-30 19:50:13 INFO  Executor:54 - Finished task 2.0 in stage 5.0 (TID 52). 1916 bytes result sent to driver
-2018-07-30 19:50:13 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:13 INFO  TaskSetManager:54 - Finished task 2.0 in stage 5.0 (TID 52) in 3793 ms on localhost (executor driver) (8/12)
-2018-07-30 19:50:13 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
-2018-07-30 19:50:15 INFO  PythonRunner:54 - Times: total = 1716, boot = -9232, init = 9237, finish = 1711
-2018-07-30 19:50:15 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000008_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000008
-2018-07-30 19:50:15 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000008_0: Committed
-2018-07-30 19:50:15 INFO  Executor:54 - Finished task 8.0 in stage 5.0 (TID 58). 1916 bytes result sent to driver
-2018-07-30 19:50:15 INFO  TaskSetManager:54 - Finished task 8.0 in stage 5.0 (TID 58) in 1745 ms on localhost (executor driver) (9/12)
-2018-07-30 19:50:15 INFO  PythonRunner:54 - Times: total = 1749, boot = -11339, init = 11364, finish = 1724
-2018-07-30 19:50:15 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000009_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000009
-2018-07-30 19:50:15 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000009_0: Committed
-2018-07-30 19:50:15 INFO  Executor:54 - Finished task 9.0 in stage 5.0 (TID 59). 1916 bytes result sent to driver
-2018-07-30 19:50:15 INFO  TaskSetManager:54 - Finished task 9.0 in stage 5.0 (TID 59) in 1771 ms on localhost (executor driver) (10/12)
-2018-07-30 19:50:15 INFO  PythonRunner:54 - Times: total = 1776, boot = -12129, init = 12152, finish = 1753
-2018-07-30 19:50:15 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000010_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000010
-2018-07-30 19:50:15 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000010_0: Committed
-2018-07-30 19:50:15 INFO  Executor:54 - Finished task 10.0 in stage 5.0 (TID 60). 1916 bytes result sent to driver
-2018-07-30 19:50:15 INFO  TaskSetManager:54 - Finished task 10.0 in stage 5.0 (TID 60) in 1792 ms on localhost (executor driver) (11/12)
-2018-07-30 19:50:15 INFO  PythonRunner:54 - Times: total = 1820, boot = -8627, init = 8651, finish = 1796
-2018-07-30 19:50:15 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180730194634_0033_m_000011_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result.txt/aggregated/_temporary/0/task_20180730194634_0033_m_000011
-2018-07-30 19:50:15 INFO  SparkHadoopMapRedUtil:54 - attempt_20180730194634_0033_m_000011_0: Committed
-2018-07-30 19:50:15 INFO  Executor:54 - Finished task 11.0 in stage 5.0 (TID 61). 1916 bytes result sent to driver
-2018-07-30 19:50:15 INFO  TaskSetManager:54 - Finished task 11.0 in stage 5.0 (TID 61) in 1843 ms on localhost (executor driver) (12/12)
-2018-07-30 19:50:15 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool 
-2018-07-30 19:50:15 INFO  DAGScheduler:54 - ResultStage 5 (runJob at SparkHadoopWriter.scala:78) finished in 5.644 s
-2018-07-30 19:50:15 INFO  DAGScheduler:54 - Job 1 finished: runJob at SparkHadoopWriter.scala:78, took 220.760087 s
-2018-07-30 19:50:15 INFO  SparkHadoopWriter:54 - Job job_20180730194634_0033 committed.
-2018-07-30 19:50:16 INFO  SparkContext:54 - Invoking stop() from shutdown hook
-2018-07-30 19:50:16 INFO  AbstractConnector:318 - Stopped Spark@1b862763{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
-2018-07-30 19:50:16 INFO  SparkUI:54 - Stopped Spark web UI at http://Dell.Dlink:4041
-2018-07-30 19:50:16 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
-2018-07-30 19:50:16 INFO  MemoryStore:54 - MemoryStore cleared
-2018-07-30 19:50:16 INFO  BlockManager:54 - BlockManager stopped
-2018-07-30 19:50:16 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
-2018-07-30 19:50:16 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
-2018-07-30 19:50:16 INFO  SparkContext:54 - Successfully stopped SparkContext
-2018-07-30 19:50:16 INFO  ShutdownHookManager:54 - Shutdown hook called
-2018-07-30 19:50:16 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-414e1fd7-45d8-4e9d-8138-7baa490b8ea0/pyspark-3664313a-8169-4b6a-8ef0-15922c244d5b
-2018-07-30 19:50:16 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-414e1fd7-45d8-4e9d-8138-7baa490b8ea0
-2018-07-30 19:50:16 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-8b66b58c-8edd-4a07-9d3c-167b08f61603
+2018-07-31 16:54:49 WARN  Utils:66 - Your hostname, Dell resolves to a loopback address: 127.0.1.1; using 192.168.0.99 instead (on interface wlp60s0)
+2018-07-31 16:54:49 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2018-07-31 16:54:50 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-07-31 16:54:51 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2018-07-31 16:54:52 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 236.7 KB, free 366.1 MB)
+2018-07-31 16:54:52 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 22.9 KB, free 366.0 MB)
+2018-07-31 16:54:52 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on Dell.Dlink:40268 (size: 22.9 KB, free: 366.3 MB)
+2018-07-31 16:54:52 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+2018-07-31 16:54:53 INFO  FileInputFormat:249 - Total input paths to process : 1
+2018-07-31 16:54:53 INFO  deprecation:1173 - mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2018-07-31 16:54:53 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:53 INFO  SparkContext:54 - Starting job: runJob at SparkHadoopWriter.scala:78
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Registering RDD 3 (reduceByKey at hw.py:100)
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Got job 0 (runJob at SparkHadoopWriter.scala:78) with 8 output partitions
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (runJob at SparkHadoopWriter.scala:78)
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0)
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0)
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at hw.py:100), which has no missing parents
+2018-07-31 16:54:53 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 10.6 KB, free 366.0 MB)
+2018-07-31 16:54:53 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.0 KB, free 366.0 MB)
+2018-07-31 16:54:53 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on Dell.Dlink:40268 (size: 7.0 KB, free: 366.3 MB)
+2018-07-31 16:54:53 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2018-07-31 16:54:53 INFO  DAGScheduler:54 - Submitting 8 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at hw.py:100) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+2018-07-31 16:54:53 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 8 tasks
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, localhost, executor driver, partition 2, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 3.0 in stage 0.0 (TID 3, localhost, executor driver, partition 3, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 4.0 in stage 0.0 (TID 4, localhost, executor driver, partition 4, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 5.0 in stage 0.0 (TID 5, localhost, executor driver, partition 5, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 6.0 in stage 0.0 (TID 6, localhost, executor driver, partition 6, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  TaskSetManager:54 - Starting task 7.0 in stage 0.0 (TID 7, localhost, executor driver, partition 7, PROCESS_LOCAL, 7893 bytes)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 6.0 in stage 0.0 (TID 6)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 7.0 in stage 0.0 (TID 7)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 4.0 in stage 0.0 (TID 4)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 5.0 in stage 0.0 (TID 5)
+2018-07-31 16:54:53 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:167772160+33554432
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:100663296+33554432
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:134217728+33554432
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:0+33554432
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:201326592+33554432
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:33554432+33554432
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:234881024+12673430
+2018-07-31 16:54:53 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:67108864+33554432
+2018-07-31 16:54:56 INFO  PythonRunner:54 - Times: total = 3359, boot = 494, init = 86, finish = 2779
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 2136, boot = 481, init = 101, finish = 1554
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 3457, boot = 484, init = 96, finish = 2877
+2018-07-31 16:54:56 INFO  PythonRunner:54 - Times: total = 3415, boot = 463, init = 117, finish = 2835
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 3487, boot = 475, init = 105, finish = 2907
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 6.0 in stage 0.0 (TID 6). 1615 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 4.0 in stage 0.0 (TID 4). 1615 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 5.0 in stage 0.0 (TID 5). 1615 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 1615 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 7.0 in stage 0.0 (TID 7). 1615 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 4.0 in stage 0.0 (TID 4) in 3664 ms on localhost (executor driver) (1/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 7.0 in stage 0.0 (TID 7) in 3671 ms on localhost (executor driver) (2/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 3.0 in stage 0.0 (TID 3) in 3673 ms on localhost (executor driver) (3/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 6.0 in stage 0.0 (TID 6) in 3671 ms on localhost (executor driver) (4/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 5.0 in stage 0.0 (TID 5) in 3672 ms on localhost (executor driver) (5/8)
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 3585, boot = 479, init = 101, finish = 3005
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1572 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 3690 ms on localhost (executor driver) (6/8)
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 3621, boot = 497, init = 86, finish = 3038
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1572 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 3739 ms on localhost (executor driver) (7/8)
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 3637, boot = 466, init = 114, finish = 3057
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1572 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 3738 ms on localhost (executor driver) (8/8)
+2018-07-31 16:54:57 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - ShuffleMapStage 0 (reduceByKey at hw.py:100) finished in 3.839 s
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - running: Set()
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - waiting: Set(ResultStage 1)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - failed: Set()
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Submitting ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 77.1 KB, free 366.0 MB)
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 29.5 KB, free 365.9 MB)
+2018-07-31 16:54:57 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on Dell.Dlink:40268 (size: 29.5 KB, free: 366.2 MB)
+2018-07-31 16:54:57 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Submitting 8 missing tasks from ResultStage 1 (MapPartitionsRDD[8] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+2018-07-31 16:54:57 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 8 tasks
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 8, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 9, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 10, localhost, executor driver, partition 2, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 3.0 in stage 1.0 (TID 11, localhost, executor driver, partition 3, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 4.0 in stage 1.0 (TID 12, localhost, executor driver, partition 4, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 5.0 in stage 1.0 (TID 13, localhost, executor driver, partition 5, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 6.0 in stage 1.0 (TID 14, localhost, executor driver, partition 6, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 7.0 in stage 1.0 (TID 15, localhost, executor driver, partition 7, ANY, 7649 bytes)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 8)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 10)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 5.0 in stage 1.0 (TID 13)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 3.0 in stage 1.0 (TID 11)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 7.0 in stage 1.0 (TID 15)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 6.0 in stage 1.0 (TID 14)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 4.0 in stage 1.0 (TID 12)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 9)
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Getting 8 non-empty blocks out of 8 blocks
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 15 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 15 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 15 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2018-07-31 16:54:57 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 113, boot = -203, init = 249, finish = 67
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 144, boot = -153, init = 199, finish = 98
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 129, boot = -373, init = 419, finish = 83
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 95, boot = -161, init = 206, finish = 50
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 95, boot = -1535, init = 1581, finish = 49
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000007_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000007
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000003_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000003
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000003_0: Committed
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 89, boot = -323, init = 369, finish = 43
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 91, boot = -430, init = 481, finish = 40
+2018-07-31 16:54:57 INFO  PythonRunner:54 - Times: total = 147, boot = -300, init = 372, finish = 75
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000007_0: Committed
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000005_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000005
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000005_0: Committed
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000000_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000000
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000000_0: Committed
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000004_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000004
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000004_0: Committed
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000001_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000001
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000001_0: Committed
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000006_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000006
+2018-07-31 16:54:57 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165453_0008_m_000002_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/erroneous/_temporary/0/task_20180731165453_0008_m_000002
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000006_0: Committed
+2018-07-31 16:54:57 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165453_0008_m_000002_0: Committed
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 10). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 8). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 10) in 401 ms on localhost (executor driver) (1/8)
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 6.0 in stage 1.0 (TID 14). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 8) in 405 ms on localhost (executor driver) (2/8)
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 3.0 in stage 1.0 (TID 11). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 4.0 in stage 1.0 (TID 12). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 7.0 in stage 1.0 (TID 15). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 9). 1916 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 3.0 in stage 1.0 (TID 11) in 404 ms on localhost (executor driver) (3/8)
+2018-07-31 16:54:57 INFO  Executor:54 - Finished task 5.0 in stage 1.0 (TID 13). 1873 bytes result sent to driver
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 4.0 in stage 1.0 (TID 12) in 404 ms on localhost (executor driver) (4/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 7.0 in stage 1.0 (TID 15) in 402 ms on localhost (executor driver) (5/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 9) in 407 ms on localhost (executor driver) (6/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 5.0 in stage 1.0 (TID 13) in 404 ms on localhost (executor driver) (7/8)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Finished task 6.0 in stage 1.0 (TID 14) in 405 ms on localhost (executor driver) (8/8)
+2018-07-31 16:54:57 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - ResultStage 1 (runJob at SparkHadoopWriter.scala:78) finished in 0.438 s
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Job 0 finished: runJob at SparkHadoopWriter.scala:78, took 4.379912 s
+2018-07-31 16:54:57 INFO  SparkHadoopWriter:54 - Job job_20180731165453_0008 committed.
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 236.7 KB, free 365.7 MB)
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 22.9 KB, free 365.7 MB)
+2018-07-31 16:54:57 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on Dell.Dlink:40268 (size: 22.9 KB, free: 366.2 MB)
+2018-07-31 16:54:57 INFO  SparkContext:54 - Created broadcast 3 from textFile at NativeMethodAccessorImpl.java:0
+2018-07-31 16:54:57 INFO  FileInputFormat:249 - Total input paths to process : 1
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 236.7 KB, free 365.4 MB)
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 22.9 KB, free 365.4 MB)
+2018-07-31 16:54:57 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on Dell.Dlink:40268 (size: 22.9 KB, free: 366.2 MB)
+2018-07-31 16:54:57 INFO  SparkContext:54 - Created broadcast 4 from textFile at NativeMethodAccessorImpl.java:0
+2018-07-31 16:54:57 INFO  FileInputFormat:249 - Total input paths to process : 1
+2018-07-31 16:54:57 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on Dell.Dlink:40268 in memory (size: 29.5 KB, free: 366.2 MB)
+2018-07-31 16:54:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:54:57 INFO  SparkContext:54 - Starting job: runJob at SparkHadoopWriter.scala:78
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Registering RDD 15 (leftOuterJoin at hw.py:121)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Registering RDD 24 (leftOuterJoin at hw.py:149)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Registering RDD 28 (reduceByKey at hw.py:157)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Got job 1 (runJob at SparkHadoopWriter.scala:78) with 12 output partitions
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (runJob at SparkHadoopWriter.scala:78)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 4)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 4)
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 2 (PairwiseRDD[15] at leftOuterJoin at hw.py:121), which has no missing parents
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 14.4 KB, free 365.5 MB)
+2018-07-31 16:54:57 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 8.0 KB, free 365.5 MB)
+2018-07-31 16:54:57 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on Dell.Dlink:40268 (size: 8.0 KB, free: 366.2 MB)
+2018-07-31 16:54:57 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+2018-07-31 16:54:57 INFO  DAGScheduler:54 - Submitting 10 missing tasks from ShuffleMapStage 2 (PairwiseRDD[15] at leftOuterJoin at hw.py:121) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+2018-07-31 16:54:57 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 10 tasks
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 16, localhost, executor driver, partition 0, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 1.0 in stage 2.0 (TID 17, localhost, executor driver, partition 1, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 2.0 in stage 2.0 (TID 18, localhost, executor driver, partition 2, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 3.0 in stage 2.0 (TID 19, localhost, executor driver, partition 3, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 4.0 in stage 2.0 (TID 20, localhost, executor driver, partition 4, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 5.0 in stage 2.0 (TID 21, localhost, executor driver, partition 5, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 6.0 in stage 2.0 (TID 22, localhost, executor driver, partition 6, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  TaskSetManager:54 - Starting task 7.0 in stage 2.0 (TID 23, localhost, executor driver, partition 7, PROCESS_LOCAL, 8002 bytes)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 1.0 in stage 2.0 (TID 17)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 5.0 in stage 2.0 (TID 21)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 7.0 in stage 2.0 (TID 23)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 4.0 in stage 2.0 (TID 20)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 3.0 in stage 2.0 (TID 19)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 6.0 in stage 2.0 (TID 22)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 2.0 in stage 2.0 (TID 18)
+2018-07-31 16:54:57 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 16)
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:134217728+33554432
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:33554432+33554432
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:100663296+33554432
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:201326592+33554432
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:234881024+12673430
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:167772160+33554432
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:0+33554432
+2018-07-31 16:54:57 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/bids.txt:67108864+33554432
+2018-07-31 16:55:09 INFO  PythonRunner:54 - Times: total = 11175, boot = -407, init = 468, finish = 11114
+2018-07-31 16:55:23 INFO  PythonRunner:54 - Times: total = 25217, boot = 3, init = 74, finish = 25140
+2018-07-31 16:55:23 WARN  Executor:87 - Issue communicating with driver in heartbeater
+org.apache.spark.rpc.RpcTimeoutException: Futures timed out after [10 seconds]. This timeout is controlled by spark.executor.heartbeatInterval
+	at org.apache.spark.rpc.RpcTimeout.org$apache$spark$rpc$RpcTimeout$$createRpcTimeoutException(RpcTimeout.scala:47)
+	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcTimeout.scala:62)
+	at org.apache.spark.rpc.RpcTimeout$$anonfun$addMessageIfTimeout$1.applyOrElse(RpcTimeout.scala:58)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:76)
+	at org.apache.spark.rpc.RpcEndpointRef.askSync(RpcEndpointRef.scala:92)
+	at org.apache.spark.executor.Executor.org$apache$spark$executor$Executor$$reportHeartBeat(Executor.scala:785)
+	at org.apache.spark.executor.Executor$$anon$2$$anonfun$run$1.apply$mcV$sp(Executor.scala:814)
+	at org.apache.spark.executor.Executor$$anon$2$$anonfun$run$1.apply(Executor.scala:814)
+	at org.apache.spark.executor.Executor$$anon$2$$anonfun$run$1.apply(Executor.scala:814)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1991)
+	at org.apache.spark.executor.Executor$$anon$2.run(Executor.scala:814)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException: Futures timed out after [10 seconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:201)
+	at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+	... 14 more
+2018-07-31 16:55:23 WARN  NettyRpcEnv:66 - Ignored message: HeartbeatResponse(false)
+2018-07-31 16:55:25 INFO  PythonRunner:54 - Times: total = 27490, boot = 16, init = 84, finish = 27390
+2018-07-31 16:55:25 INFO  Executor:54 - Finished task 5.0 in stage 2.0 (TID 21). 1617 bytes result sent to driver
+2018-07-31 16:55:25 INFO  TaskSetManager:54 - Starting task 8.0 in stage 2.0 (TID 24, localhost, executor driver, partition 8, PROCESS_LOCAL, 8011 bytes)
+2018-07-31 16:55:25 INFO  Executor:54 - Running task 8.0 in stage 2.0 (TID 24)
+2018-07-31 16:55:25 INFO  TaskSetManager:54 - Finished task 5.0 in stage 2.0 (TID 21) in 27923 ms on localhost (executor driver) (1/10)
+2018-07-31 16:55:26 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/exchange_rate.txt:0+127020
+2018-07-31 16:55:26 INFO  PythonRunner:54 - Times: total = 525, boot = -17139, init = 17459, finish = 205
+2018-07-31 16:55:27 INFO  PythonRunner:54 - Times: total = 878, boot = -533, init = 1029, finish = 382
+2018-07-31 16:55:27 INFO  Executor:54 - Finished task 8.0 in stage 2.0 (TID 24). 1531 bytes result sent to driver
+2018-07-31 16:55:27 INFO  TaskSetManager:54 - Starting task 9.0 in stage 2.0 (TID 25, localhost, executor driver, partition 9, PROCESS_LOCAL, 8011 bytes)
+2018-07-31 16:55:27 INFO  Executor:54 - Running task 9.0 in stage 2.0 (TID 25)
+2018-07-31 16:55:27 INFO  TaskSetManager:54 - Finished task 8.0 in stage 2.0 (TID 24) in 1532 ms on localhost (executor driver) (2/10)
+2018-07-31 16:55:27 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/exchange_rate.txt:127020+127020
+2018-07-31 16:55:27 INFO  PythonRunner:54 - Times: total = 24, boot = -1807, init = 1816, finish = 15
+2018-07-31 16:55:27 INFO  PythonRunner:54 - Times: total = 104, boot = 33, init = 2, finish = 69
+2018-07-31 16:55:27 INFO  Executor:54 - Finished task 9.0 in stage 2.0 (TID 25). 1531 bytes result sent to driver
+2018-07-31 16:55:27 INFO  TaskSetManager:54 - Finished task 9.0 in stage 2.0 (TID 25) in 155 ms on localhost (executor driver) (3/10)
+2018-07-31 16:55:30 INFO  PythonRunner:54 - Times: total = 32174, boot = 18, init = 193, finish = 31963
+2018-07-31 16:55:32 INFO  PythonRunner:54 - Times: total = 34030, boot = 14, init = 40, finish = 33976
+2018-07-31 16:55:32 INFO  Executor:54 - Finished task 2.0 in stage 2.0 (TID 18). 1574 bytes result sent to driver
+2018-07-31 16:55:32 INFO  TaskSetManager:54 - Finished task 2.0 in stage 2.0 (TID 18) in 34716 ms on localhost (executor driver) (4/10)
+2018-07-31 16:55:33 INFO  PythonRunner:54 - Times: total = 35520, boot = 58, init = 90, finish = 35372
+2018-07-31 16:55:33 INFO  Executor:54 - Finished task 7.0 in stage 2.0 (TID 23). 1574 bytes result sent to driver
+2018-07-31 16:55:33 INFO  TaskSetManager:54 - Finished task 7.0 in stage 2.0 (TID 23) in 35765 ms on localhost (executor driver) (5/10)
+2018-07-31 16:55:35 INFO  PythonRunner:54 - Times: total = 36504, boot = -421, init = 460, finish = 36465
+2018-07-31 16:55:37 INFO  PythonRunner:54 - Times: total = 39354, boot = 16, init = 46, finish = 39292
+2018-07-31 16:55:37 INFO  PythonRunner:54 - Times: total = 39365, boot = -406, init = 486, finish = 39285
+2018-07-31 16:55:42 INFO  PythonRunner:54 - Times: total = 44026, boot = 19, init = 56, finish = 43951
+2018-07-31 16:55:42 INFO  PythonRunner:54 - Times: total = 44169, boot = 19, init = 142, finish = 44008
+2018-07-31 16:55:42 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 16). 1617 bytes result sent to driver
+2018-07-31 16:55:42 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 16) in 44461 ms on localhost (executor driver) (6/10)
+2018-07-31 16:55:42 INFO  Executor:54 - Finished task 1.0 in stage 2.0 (TID 17). 1617 bytes result sent to driver
+2018-07-31 16:55:42 INFO  TaskSetManager:54 - Finished task 1.0 in stage 2.0 (TID 17) in 44474 ms on localhost (executor driver) (7/10)
+2018-07-31 16:55:43 INFO  PythonRunner:54 - Times: total = 45597, boot = -458, init = 477, finish = 45578
+2018-07-31 16:55:44 INFO  PythonRunner:54 - Times: total = 46697, boot = -454, init = 499, finish = 46652
+2018-07-31 16:55:44 INFO  Executor:54 - Finished task 4.0 in stage 2.0 (TID 20). 1574 bytes result sent to driver
+2018-07-31 16:55:44 INFO  TaskSetManager:54 - Finished task 4.0 in stage 2.0 (TID 20) in 46789 ms on localhost (executor driver) (8/10)
+2018-07-31 16:55:45 INFO  PythonRunner:54 - Times: total = 46954, boot = -439, init = 456, finish = 46937
+2018-07-31 16:55:45 INFO  PythonRunner:54 - Times: total = 47452, boot = -453, init = 482, finish = 47423
+2018-07-31 16:55:45 INFO  Executor:54 - Finished task 6.0 in stage 2.0 (TID 22). 1574 bytes result sent to driver
+2018-07-31 16:55:45 INFO  TaskSetManager:54 - Finished task 6.0 in stage 2.0 (TID 22) in 47810 ms on localhost (executor driver) (9/10)
+2018-07-31 16:55:46 INFO  PythonRunner:54 - Times: total = 48735, boot = -453, init = 476, finish = 48712
+2018-07-31 16:55:46 INFO  Executor:54 - Finished task 3.0 in stage 2.0 (TID 19). 1574 bytes result sent to driver
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Finished task 3.0 in stage 2.0 (TID 19) in 48782 ms on localhost (executor driver) (10/10)
+2018-07-31 16:55:46 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - ShuffleMapStage 2 (leftOuterJoin at hw.py:121) finished in 48.804 s
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - running: Set()
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5, ShuffleMapStage 3, ShuffleMapStage 4)
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - failed: Set()
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 3 (PairwiseRDD[24] at leftOuterJoin at hw.py:149), which has no missing parents
+2018-07-31 16:55:46 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 20.6 KB, free 365.5 MB)
+2018-07-31 16:55:46 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 12.0 KB, free 365.5 MB)
+2018-07-31 16:55:46 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on Dell.Dlink:40268 (size: 12.0 KB, free: 366.2 MB)
+2018-07-31 16:55:46 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1039
+2018-07-31 16:55:46 INFO  DAGScheduler:54 - Submitting 12 missing tasks from ShuffleMapStage 3 (PairwiseRDD[24] at leftOuterJoin at hw.py:149) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
+2018-07-31 16:55:46 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 12 tasks
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 10.0 in stage 3.0 (TID 26, localhost, executor driver, partition 10, PROCESS_LOCAL, 8004 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 11.0 in stage 3.0 (TID 27, localhost, executor driver, partition 11, PROCESS_LOCAL, 8004 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 28, localhost, executor driver, partition 0, ANY, 7747 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 29, localhost, executor driver, partition 1, ANY, 7747 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 2.0 in stage 3.0 (TID 30, localhost, executor driver, partition 2, ANY, 7747 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 3.0 in stage 3.0 (TID 31, localhost, executor driver, partition 3, ANY, 7747 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 4.0 in stage 3.0 (TID 32, localhost, executor driver, partition 4, ANY, 7747 bytes)
+2018-07-31 16:55:46 INFO  TaskSetManager:54 - Starting task 5.0 in stage 3.0 (TID 33, localhost, executor driver, partition 5, ANY, 7747 bytes)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 11.0 in stage 3.0 (TID 27)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 10.0 in stage 3.0 (TID 26)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 28)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 4.0 in stage 3.0 (TID 32)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 5.0 in stage 3.0 (TID 33)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 2.0 in stage 3.0 (TID 30)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 3.0 in stage 3.0 (TID 31)
+2018-07-31 16:55:46 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 29)
+2018-07-31 16:55:46 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/motels.txt:0+330745
+2018-07-31 16:55:46 INFO  HadoopRDD:54 - Input split: file:/home/bogdan/PycharmProjects/bid/spark_core/motels.txt:330745+330746
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 6 ms
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 6 ms
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2018-07-31 16:55:46 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2018-07-31 16:55:46 INFO  PythonRunner:54 - Times: total = 45, boot = -19555, init = 19581, finish = 19
+2018-07-31 16:55:46 INFO  PythonRunner:54 - Times: total = 90, boot = -19634, init = 19675, finish = 49
+2018-07-31 16:55:47 INFO  PythonRunner:54 - Times: total = 125, boot = -15903, init = 15954, finish = 74
+2018-07-31 16:55:47 INFO  Executor:54 - Finished task 11.0 in stage 3.0 (TID 27). 1533 bytes result sent to driver
+2018-07-31 16:55:47 INFO  TaskSetManager:54 - Starting task 6.0 in stage 3.0 (TID 34, localhost, executor driver, partition 6, ANY, 7747 bytes)
+2018-07-31 16:55:47 INFO  Executor:54 - Running task 6.0 in stage 3.0 (TID 34)
+2018-07-31 16:55:47 INFO  PythonRunner:54 - Times: total = 127, boot = -19473, init = 19576, finish = 24
+2018-07-31 16:55:47 INFO  TaskSetManager:54 - Finished task 11.0 in stage 3.0 (TID 27) in 258 ms on localhost (executor driver) (1/12)
+2018-07-31 16:55:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:55:47 INFO  Executor:54 - Finished task 10.0 in stage 3.0 (TID 26). 1533 bytes result sent to driver
+2018-07-31 16:55:47 INFO  TaskSetManager:54 - Starting task 7.0 in stage 3.0 (TID 35, localhost, executor driver, partition 7, ANY, 7747 bytes)
+2018-07-31 16:55:47 INFO  TaskSetManager:54 - Finished task 10.0 in stage 3.0 (TID 26) in 305 ms on localhost (executor driver) (2/12)
+2018-07-31 16:55:47 INFO  Executor:54 - Running task 7.0 in stage 3.0 (TID 35)
+2018-07-31 16:55:47 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:55:47 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 16
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 15
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 21
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 9
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 18
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 11
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 6
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 19
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 7
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 14
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 2
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2018-07-31 16:55:58 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2018-07-31 16:55:59 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on Dell.Dlink:40268 in memory (size: 7.0 KB, free: 366.2 MB)
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2018-07-31 16:55:59 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on Dell.Dlink:40268 in memory (size: 8.0 KB, free: 366.2 MB)
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 5
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 20
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 12
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 8
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 10
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 13
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 3
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 4
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2018-07-31 16:55:59 INFO  ContextCleaner:54 - Cleaned accumulator 17
+2018-07-31 16:56:13 INFO  PythonRunner:54 - Times: total = 25777, boot = -8465, init = 8521, finish = 25721
+2018-07-31 16:56:17 INFO  PythonRunner:54 - Times: total = 29900, boot = -14605, init = 14661, finish = 29844
+2018-07-31 16:56:18 INFO  PythonRunner:54 - Times: total = 30931, boot = -4726, init = 23179, finish = 12478
+2018-07-31 16:56:19 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 28). 1834 bytes result sent to driver
+2018-07-31 16:56:19 INFO  TaskSetManager:54 - Starting task 8.0 in stage 3.0 (TID 36, localhost, executor driver, partition 8, ANY, 7747 bytes)
+2018-07-31 16:56:19 INFO  Executor:54 - Running task 8.0 in stage 3.0 (TID 36)
+2018-07-31 16:56:19 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 28) in 32581 ms on localhost (executor driver) (3/12)
+2018-07-31 16:56:19 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:56:19 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2018-07-31 16:56:20 INFO  PythonRunner:54 - Times: total = 33398, boot = -4757, init = 27639, finish = 10516
+2018-07-31 16:56:20 INFO  Executor:54 - Finished task 2.0 in stage 3.0 (TID 30). 1791 bytes result sent to driver
+2018-07-31 16:56:20 INFO  TaskSetManager:54 - Starting task 9.0 in stage 3.0 (TID 37, localhost, executor driver, partition 9, ANY, 7747 bytes)
+2018-07-31 16:56:20 INFO  Executor:54 - Running task 9.0 in stage 3.0 (TID 37)
+2018-07-31 16:56:20 INFO  ShuffleBlockFetcherIterator:54 - Getting 10 non-empty blocks out of 10 blocks
+2018-07-31 16:56:20 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:56:20 INFO  TaskSetManager:54 - Finished task 2.0 in stage 3.0 (TID 30) in 34163 ms on localhost (executor driver) (4/12)
+2018-07-31 16:56:35 INFO  PythonRunner:54 - Times: total = 48986, boot = -7183, init = 7238, finish = 48931
+2018-07-31 16:56:38 INFO  PythonRunner:54 - Times: total = 52110, boot = -1891, init = 44650, finish = 9351
+2018-07-31 16:56:39 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 29). 1834 bytes result sent to driver
+2018-07-31 16:56:39 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 29) in 52502 ms on localhost (executor driver) (5/12)
+2018-07-31 16:56:42 INFO  PythonRunner:54 - Times: total = 22172, boot = -7120, init = 7628, finish = 21664
+2018-07-31 16:56:43 INFO  PythonRunner:54 - Times: total = 22510, boot = -3177, init = 3272, finish = 22415
+2018-07-31 16:56:44 INFO  PythonRunner:54 - Times: total = 24629, boot = -3254, init = 18200, finish = 9683
+2018-07-31 16:56:44 INFO  Executor:54 - Finished task 8.0 in stage 3.0 (TID 36). 1791 bytes result sent to driver
+2018-07-31 16:56:44 INFO  TaskSetManager:54 - Finished task 8.0 in stage 3.0 (TID 36) in 25482 ms on localhost (executor driver) (6/12)
+2018-07-31 16:56:45 INFO  PythonRunner:54 - Times: total = 24992, boot = -703, init = 17049, finish = 8646
+2018-07-31 16:56:46 INFO  Executor:54 - Finished task 9.0 in stage 3.0 (TID 37). 1791 bytes result sent to driver
+2018-07-31 16:56:46 INFO  TaskSetManager:54 - Finished task 9.0 in stage 3.0 (TID 37) in 25061 ms on localhost (executor driver) (7/12)
+2018-07-31 16:56:48 INFO  PythonRunner:54 - Times: total = 61342, boot = -13071, init = 13139, finish = 61274
+2018-07-31 16:56:50 INFO  PythonRunner:54 - Times: total = 63397, boot = -234, init = 45727, finish = 17904
+2018-07-31 16:56:50 INFO  Executor:54 - Finished task 4.0 in stage 3.0 (TID 32). 1791 bytes result sent to driver
+2018-07-31 16:56:50 INFO  TaskSetManager:54 - Finished task 4.0 in stage 3.0 (TID 32) in 63612 ms on localhost (executor driver) (8/12)
+2018-07-31 16:56:55 INFO  PythonRunner:54 - Times: total = 68689, boot = -177, init = 265, finish = 68601
+2018-07-31 16:56:58 INFO  PythonRunner:54 - Times: total = 71575, boot = -3192, init = 3243, finish = 71524
+2018-07-31 16:56:58 INFO  PythonRunner:54 - Times: total = 71352, boot = -132, init = 188, finish = 71296
+2018-07-31 16:56:59 INFO  PythonRunner:54 - Times: total = 72771, boot = -71, init = 33290, finish = 39552
+2018-07-31 16:56:59 INFO  Executor:54 - Finished task 6.0 in stage 3.0 (TID 34). 1834 bytes result sent to driver
+2018-07-31 16:56:59 INFO  TaskSetManager:54 - Finished task 6.0 in stage 3.0 (TID 34) in 72891 ms on localhost (executor driver) (9/12)
+2018-07-31 16:57:01 INFO  PythonRunner:54 - Times: total = 74833, boot = -12095, init = 12151, finish = 74777
+2018-07-31 16:57:01 INFO  PythonRunner:54 - Times: total = 75058, boot = -2259, init = 66574, finish = 10743
+2018-07-31 16:57:01 INFO  Executor:54 - Finished task 3.0 in stage 3.0 (TID 31). 1791 bytes result sent to driver
+2018-07-31 16:57:01 INFO  TaskSetManager:54 - Finished task 3.0 in stage 3.0 (TID 31) in 75161 ms on localhost (executor driver) (10/12)
+2018-07-31 16:57:02 INFO  PythonRunner:54 - Times: total = 75008, boot = -131, init = 63326, finish = 11813
+2018-07-31 16:57:02 INFO  Executor:54 - Finished task 7.0 in stage 3.0 (TID 35). 1791 bytes result sent to driver
+2018-07-31 16:57:02 INFO  TaskSetManager:54 - Finished task 7.0 in stage 3.0 (TID 35) in 75086 ms on localhost (executor driver) (11/12)
+2018-07-31 16:57:03 INFO  PythonRunner:54 - Times: total = 76735, boot = -1359, init = 34856, finish = 43238
+2018-07-31 16:57:03 INFO  Executor:54 - Finished task 5.0 in stage 3.0 (TID 33). 1791 bytes result sent to driver
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Finished task 5.0 in stage 3.0 (TID 33) in 76822 ms on localhost (executor driver) (12/12)
+2018-07-31 16:57:03 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - ShuffleMapStage 3 (leftOuterJoin at hw.py:149) finished in 76.936 s
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - running: Set()
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5, ShuffleMapStage 4)
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - failed: Set()
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 4 (PairwiseRDD[28] at reduceByKey at hw.py:157), which has no missing parents
+2018-07-31 16:57:03 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 12.2 KB, free 365.5 MB)
+2018-07-31 16:57:03 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 8.2 KB, free 365.5 MB)
+2018-07-31 16:57:03 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on Dell.Dlink:40268 (size: 8.2 KB, free: 366.2 MB)
+2018-07-31 16:57:03 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1039
+2018-07-31 16:57:03 INFO  DAGScheduler:54 - Submitting 12 missing tasks from ShuffleMapStage 4 (PairwiseRDD[28] at reduceByKey at hw.py:157) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
+2018-07-31 16:57:03 INFO  TaskSchedulerImpl:54 - Adding task set 4.0 with 12 tasks
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 0.0 in stage 4.0 (TID 38, localhost, executor driver, partition 0, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 1.0 in stage 4.0 (TID 39, localhost, executor driver, partition 1, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 2.0 in stage 4.0 (TID 40, localhost, executor driver, partition 2, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 3.0 in stage 4.0 (TID 41, localhost, executor driver, partition 3, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 4.0 in stage 4.0 (TID 42, localhost, executor driver, partition 4, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 5.0 in stage 4.0 (TID 43, localhost, executor driver, partition 5, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 6.0 in stage 4.0 (TID 44, localhost, executor driver, partition 6, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  TaskSetManager:54 - Starting task 7.0 in stage 4.0 (TID 45, localhost, executor driver, partition 7, ANY, 7638 bytes)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 39)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 2.0 in stage 4.0 (TID 40)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 6.0 in stage 4.0 (TID 44)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 5.0 in stage 4.0 (TID 43)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 38)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 3.0 in stage 4.0 (TID 41)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 4.0 in stage 4.0 (TID 42)
+2018-07-31 16:57:03 INFO  Executor:54 - Running task 7.0 in stage 4.0 (TID 45)
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
+2018-07-31 16:57:03 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 3 ms
+2018-07-31 16:57:17 INFO  PythonRunner:54 - Times: total = 13581, boot = -18999, init = 19097, finish = 13483
+2018-07-31 16:57:17 INFO  Executor:54 - Finished task 3.0 in stage 4.0 (TID 41). 1834 bytes result sent to driver
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Starting task 8.0 in stage 4.0 (TID 46, localhost, executor driver, partition 8, ANY, 7638 bytes)
+2018-07-31 16:57:17 INFO  Executor:54 - Running task 8.0 in stage 4.0 (TID 46)
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Finished task 3.0 in stage 4.0 (TID 41) in 13783 ms on localhost (executor driver) (1/12)
+2018-07-31 16:57:17 INFO  PythonRunner:54 - Times: total = 13762, boot = -15538, init = 15589, finish = 13711
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 5 ms
+2018-07-31 16:57:17 INFO  Executor:54 - Finished task 6.0 in stage 4.0 (TID 44). 1791 bytes result sent to driver
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Starting task 9.0 in stage 4.0 (TID 47, localhost, executor driver, partition 9, ANY, 7638 bytes)
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Finished task 6.0 in stage 4.0 (TID 44) in 13851 ms on localhost (executor driver) (2/12)
+2018-07-31 16:57:17 INFO  Executor:54 - Running task 9.0 in stage 4.0 (TID 47)
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:57:17 INFO  PythonRunner:54 - Times: total = 13967, boot = -27868, init = 27957, finish = 13878
+2018-07-31 16:57:17 INFO  Executor:54 - Finished task 5.0 in stage 4.0 (TID 43). 1791 bytes result sent to driver
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Starting task 10.0 in stage 4.0 (TID 48, localhost, executor driver, partition 10, ANY, 7638 bytes)
+2018-07-31 16:57:17 INFO  Executor:54 - Running task 10.0 in stage 4.0 (TID 48)
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Finished task 5.0 in stage 4.0 (TID 43) in 14026 ms on localhost (executor driver) (3/12)
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:57:17 INFO  PythonRunner:54 - Times: total = 14152, boot = -13423, init = 13481, finish = 14094
+2018-07-31 16:57:17 INFO  Executor:54 - Finished task 2.0 in stage 4.0 (TID 40). 1791 bytes result sent to driver
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Starting task 11.0 in stage 4.0 (TID 49, localhost, executor driver, partition 11, ANY, 7638 bytes)
+2018-07-31 16:57:17 INFO  Executor:54 - Running task 11.0 in stage 4.0 (TID 49)
+2018-07-31 16:57:17 INFO  TaskSetManager:54 - Finished task 2.0 in stage 4.0 (TID 40) in 14246 ms on localhost (executor driver) (4/12)
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:17 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:17 INFO  PythonRunner:54 - Times: total = 14207, boot = -24751, init = 24841, finish = 14117
+2018-07-31 16:57:18 INFO  Executor:54 - Finished task 7.0 in stage 4.0 (TID 45). 1834 bytes result sent to driver
+2018-07-31 16:57:18 INFO  TaskSetManager:54 - Finished task 7.0 in stage 4.0 (TID 45) in 14288 ms on localhost (executor driver) (5/12)
+2018-07-31 16:57:18 INFO  PythonRunner:54 - Times: total = 14320, boot = -21746, init = 21827, finish = 14239
+2018-07-31 16:57:18 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 38). 1791 bytes result sent to driver
+2018-07-31 16:57:18 INFO  TaskSetManager:54 - Finished task 0.0 in stage 4.0 (TID 38) in 14374 ms on localhost (executor driver) (6/12)
+2018-07-31 16:57:19 INFO  PythonRunner:54 - Times: total = 16000, boot = -17759, init = 17851, finish = 15908
+2018-07-31 16:57:19 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 39). 1834 bytes result sent to driver
+2018-07-31 16:57:19 INFO  TaskSetManager:54 - Finished task 1.0 in stage 4.0 (TID 39) in 16092 ms on localhost (executor driver) (7/12)
+2018-07-31 16:57:20 INFO  PythonRunner:54 - Times: total = 16755, boot = -20246, init = 20325, finish = 16676
+2018-07-31 16:57:20 INFO  Executor:54 - Finished task 4.0 in stage 4.0 (TID 42). 1791 bytes result sent to driver
+2018-07-31 16:57:20 INFO  TaskSetManager:54 - Finished task 4.0 in stage 4.0 (TID 42) in 16799 ms on localhost (executor driver) (8/12)
+2018-07-31 16:57:25 INFO  PythonRunner:54 - Times: total = 7700, boot = -19117, init = 19349, finish = 7468
+2018-07-31 16:57:25 INFO  Executor:54 - Finished task 9.0 in stage 4.0 (TID 47). 1791 bytes result sent to driver
+2018-07-31 16:57:25 INFO  TaskSetManager:54 - Finished task 9.0 in stage 4.0 (TID 47) in 7771 ms on localhost (executor driver) (9/12)
+2018-07-31 16:57:25 INFO  PythonRunner:54 - Times: total = 7422, boot = -18109, init = 18178, finish = 7353
+2018-07-31 16:57:25 INFO  Executor:54 - Finished task 11.0 in stage 4.0 (TID 49). 1791 bytes result sent to driver
+2018-07-31 16:57:25 INFO  TaskSetManager:54 - Finished task 11.0 in stage 4.0 (TID 49) in 7478 ms on localhost (executor driver) (10/12)
+2018-07-31 16:57:26 INFO  PythonRunner:54 - Times: total = 8401, boot = -19260, init = 19628, finish = 8033
+2018-07-31 16:57:26 INFO  Executor:54 - Finished task 10.0 in stage 4.0 (TID 48). 1791 bytes result sent to driver
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Finished task 10.0 in stage 4.0 (TID 48) in 8444 ms on localhost (executor driver) (11/12)
+2018-07-31 16:57:26 INFO  PythonRunner:54 - Times: total = 8628, boot = -21774, init = 22125, finish = 8277
+2018-07-31 16:57:26 INFO  Executor:54 - Finished task 8.0 in stage 4.0 (TID 46). 1791 bytes result sent to driver
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Finished task 8.0 in stage 4.0 (TID 46) in 8759 ms on localhost (executor driver) (12/12)
+2018-07-31 16:57:26 INFO  TaskSchedulerImpl:54 - Removed TaskSet 4.0, whose tasks have all completed, from pool 
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - ShuffleMapStage 4 (reduceByKey at hw.py:157) finished in 22.591 s
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - running: Set()
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5)
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - failed: Set()
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - Submitting ResultStage 5 (MapPartitionsRDD[33] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
+2018-07-31 16:57:26 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 77.3 KB, free 365.4 MB)
+2018-07-31 16:57:26 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 29.6 KB, free 365.4 MB)
+2018-07-31 16:57:26 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on Dell.Dlink:40268 (size: 29.6 KB, free: 366.2 MB)
+2018-07-31 16:57:26 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1039
+2018-07-31 16:57:26 INFO  DAGScheduler:54 - Submitting 12 missing tasks from ResultStage 5 (MapPartitionsRDD[33] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
+2018-07-31 16:57:26 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 12 tasks
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 50, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 1.0 in stage 5.0 (TID 51, localhost, executor driver, partition 1, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 2.0 in stage 5.0 (TID 52, localhost, executor driver, partition 2, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 3.0 in stage 5.0 (TID 53, localhost, executor driver, partition 3, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 4.0 in stage 5.0 (TID 54, localhost, executor driver, partition 4, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 5.0 in stage 5.0 (TID 55, localhost, executor driver, partition 5, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 6.0 in stage 5.0 (TID 56, localhost, executor driver, partition 6, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  TaskSetManager:54 - Starting task 7.0 in stage 5.0 (TID 57, localhost, executor driver, partition 7, ANY, 7649 bytes)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 1.0 in stage 5.0 (TID 51)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 5.0 in stage 5.0 (TID 55)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 7.0 in stage 5.0 (TID 57)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 3.0 in stage 5.0 (TID 53)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 6.0 in stage 5.0 (TID 56)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 4.0 in stage 5.0 (TID 54)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 2.0 in stage 5.0 (TID 52)
+2018-07-31 16:57:26 INFO  Executor:54 - Running task 0.0 in stage 5.0 (TID 50)
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:26 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 13 ms
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 2996, boot = -8793, init = 8815, finish = 2974
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000005_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000005
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000005_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 5.0 in stage 5.0 (TID 55). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Starting task 8.0 in stage 5.0 (TID 58, localhost, executor driver, partition 8, ANY, 7649 bytes)
+2018-07-31 16:57:29 INFO  Executor:54 - Running task 8.0 in stage 5.0 (TID 58)
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 5.0 in stage 5.0 (TID 55) in 3046 ms on localhost (executor driver) (1/12)
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:29 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3115, boot = -8426, init = 8437, finish = 3104
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000004_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000004
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000004_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 4.0 in stage 5.0 (TID 54). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Starting task 9.0 in stage 5.0 (TID 59, localhost, executor driver, partition 9, ANY, 7649 bytes)
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 4.0 in stage 5.0 (TID 54) in 3167 ms on localhost (executor driver) (2/12)
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3127, boot = -8714, init = 8762, finish = 3079
+2018-07-31 16:57:29 INFO  Executor:54 - Running task 9.0 in stage 5.0 (TID 59)
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000000_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000000
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000000_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 0.0 in stage 5.0 (TID 50). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Starting task 10.0 in stage 5.0 (TID 60, localhost, executor driver, partition 10, ANY, 7649 bytes)
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 50) in 3176 ms on localhost (executor driver) (3/12)
+2018-07-31 16:57:29 INFO  Executor:54 - Running task 10.0 in stage 5.0 (TID 60)
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:29 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:29 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3241, boot = -8607, init = 8631, finish = 3217
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000001_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000001
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000001_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 1.0 in stage 5.0 (TID 51). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Starting task 11.0 in stage 5.0 (TID 61, localhost, executor driver, partition 11, ANY, 7649 bytes)
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 1.0 in stage 5.0 (TID 51) in 3290 ms on localhost (executor driver) (4/12)
+2018-07-31 16:57:29 INFO  Executor:54 - Running task 11.0 in stage 5.0 (TID 61)
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Getting 12 non-empty blocks out of 12 blocks
+2018-07-31 16:57:29 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2018-07-31 16:57:29 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3488, boot = -24156, init = 24215, finish = 3429
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000003_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000003
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000003_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 3.0 in stage 5.0 (TID 53). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 3.0 in stage 5.0 (TID 53) in 3532 ms on localhost (executor driver) (5/12)
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3527, boot = -24394, init = 24467, finish = 3454
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000006_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000006
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000006_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 6.0 in stage 5.0 (TID 56). 1959 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 6.0 in stage 5.0 (TID 56) in 3570 ms on localhost (executor driver) (6/12)
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3596, boot = -24613, init = 24695, finish = 3514
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000002_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000002
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000002_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 2.0 in stage 5.0 (TID 52). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 2.0 in stage 5.0 (TID 52) in 3638 ms on localhost (executor driver) (7/12)
+2018-07-31 16:57:29 INFO  PythonRunner:54 - Times: total = 3628, boot = -22713, init = 22762, finish = 3579
+2018-07-31 16:57:29 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000007_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000007
+2018-07-31 16:57:29 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000007_0: Committed
+2018-07-31 16:57:29 INFO  Executor:54 - Finished task 7.0 in stage 5.0 (TID 57). 1916 bytes result sent to driver
+2018-07-31 16:57:29 INFO  TaskSetManager:54 - Finished task 7.0 in stage 5.0 (TID 57) in 3670 ms on localhost (executor driver) (8/12)
+2018-07-31 16:57:31 INFO  PythonRunner:54 - Times: total = 1968, boot = -11283, init = 11340, finish = 1911
+2018-07-31 16:57:31 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000009_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000009
+2018-07-31 16:57:31 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000009_0: Committed
+2018-07-31 16:57:31 INFO  Executor:54 - Finished task 9.0 in stage 5.0 (TID 59). 1916 bytes result sent to driver
+2018-07-31 16:57:31 INFO  TaskSetManager:54 - Finished task 9.0 in stage 5.0 (TID 59) in 1992 ms on localhost (executor driver) (9/12)
+2018-07-31 16:57:31 INFO  PythonRunner:54 - Times: total = 2121, boot = -11352, init = 11372, finish = 2101
+2018-07-31 16:57:31 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000008_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000008
+2018-07-31 16:57:31 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000008_0: Committed
+2018-07-31 16:57:31 INFO  Executor:54 - Finished task 8.0 in stage 5.0 (TID 58). 1916 bytes result sent to driver
+2018-07-31 16:57:31 INFO  TaskSetManager:54 - Finished task 8.0 in stage 5.0 (TID 58) in 2135 ms on localhost (executor driver) (10/12)
+2018-07-31 16:57:31 INFO  PythonRunner:54 - Times: total = 1990, boot = -9078, init = 9098, finish = 1970
+2018-07-31 16:57:31 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000011_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000011
+2018-07-31 16:57:31 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000011_0: Committed
+2018-07-31 16:57:31 INFO  Executor:54 - Finished task 11.0 in stage 5.0 (TID 61). 1916 bytes result sent to driver
+2018-07-31 16:57:31 INFO  TaskSetManager:54 - Finished task 11.0 in stage 5.0 (TID 61) in 2013 ms on localhost (executor driver) (11/12)
+2018-07-31 16:57:31 INFO  PythonRunner:54 - Times: total = 2188, boot = -9697, init = 9744, finish = 2141
+2018-07-31 16:57:31 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_20180731165457_0033_m_000010_0' to file:/home/bogdan/PycharmProjects/bid/spark_core/result/aggregated/_temporary/0/task_20180731165457_0033_m_000010
+2018-07-31 16:57:31 INFO  SparkHadoopMapRedUtil:54 - attempt_20180731165457_0033_m_000010_0: Committed
+2018-07-31 16:57:31 INFO  Executor:54 - Finished task 10.0 in stage 5.0 (TID 60). 1916 bytes result sent to driver
+2018-07-31 16:57:31 INFO  TaskSetManager:54 - Finished task 10.0 in stage 5.0 (TID 60) in 2207 ms on localhost (executor driver) (12/12)
+2018-07-31 16:57:31 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool 
+2018-07-31 16:57:31 INFO  DAGScheduler:54 - ResultStage 5 (runJob at SparkHadoopWriter.scala:78) finished in 5.419 s
+2018-07-31 16:57:31 INFO  DAGScheduler:54 - Job 1 finished: runJob at SparkHadoopWriter.scala:78, took 153.814792 s
+2018-07-31 16:57:31 INFO  SparkHadoopWriter:54 - Job job_20180731165457_0033 committed.
+Namespace(bids_path='spark_core/bids.txt', exchange_rate_path='spark_core/exchange_rate.txt', motels_path='spark_core/motels.txt', result_path='spark_core/result')
+2018-07-31 16:57:32 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2018-07-31 16:57:32 INFO  AbstractConnector:318 - Stopped Spark@960a387{HTTP/1.1,[http/1.1]}{0.0.0.0:4041}
+2018-07-31 16:57:32 INFO  SparkUI:54 - Stopped Spark web UI at http://Dell.Dlink:4041
+2018-07-31 16:57:32 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-07-31 16:57:32 INFO  MemoryStore:54 - MemoryStore cleared
+2018-07-31 16:57:32 INFO  BlockManager:54 - BlockManager stopped
+2018-07-31 16:57:32 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-07-31 16:57:32 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-07-31 16:57:32 INFO  SparkContext:54 - Successfully stopped SparkContext
+2018-07-31 16:57:32 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-07-31 16:57:32 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-a0eb1088-3b2f-4fb8-91a7-6feaa457e3a7/pyspark-d4297410-0eee-4cc6-b274-b01caec70a3e
+2018-07-31 16:57:32 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-a0eb1088-3b2f-4fb8-91a7-6feaa457e3a7
+2018-07-31 16:57:32 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-25b4e1cd-0c40-48e6-b10a-7f13c8034d6c

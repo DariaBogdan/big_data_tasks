@@ -1,0 +1,1000 @@
+0000008,Geronimo Premier la pensión,2016-08-04 22:00,MX,1.14
+0000008,Geronimo Premier la pensión,2016-01-23 20:00,CA,1.603
+0000008,Geronimo Premier la pensión,2016-04-22 21:00,US,1.057
+0000008,Geronimo Premier la pensión,2015-12-31 11:00,US,1.549
+0000008,Geronimo Premier la pensión,2016-06-26 20:00,CA,1.216
+0000008,Geronimo Premier la pensión,2016-03-18 06:00,CA,1.665
+0000008,Geronimo Premier la pensión,2015-12-13 22:00,CA,0.753
+0000008,Geronimo Premier la pensión,2016-03-08 11:00,CA,1.321
+0000008,Geronimo Premier la pensión,2015-10-24 19:00,CA,1.418
+0000008,Geronimo Premier la pensión,2016-03-01 12:00,CA,0.771
+0000008,Geronimo Premier la pensión,2016-02-24 19:00,MX,1.853
+0000008,Geronimo Premier la pensión,2015-10-12 19:00,MX,1.621
+0000008,Geronimo Premier la pensión,2015-10-10 14:00,CA,1.596
+0000008,Geronimo Premier la pensión,2015-11-16 09:00,CA,1.349
+0000008,Geronimo Premier la pensión,2015-09-24 08:00,MX,1.64
+0000008,Geronimo Premier la pensión,2015-08-27 14:00,US,1.909
+0000008,Geronimo Premier la pensión,2015-08-11 13:00,CA,1.427
+0000008,Geronimo Premier la pensión,2016-08-01 12:00,CA,0.749
+0000008,Geronimo Premier la pensión,2016-07-30 23:00,US,0.963
+0000008,Geronimo Premier la pensión,2016-06-12 18:00,CA,1.282
+0000008,Geronimo Premier la pensión,2016-04-21 13:00,MX,1.581
+0000008,Geronimo Premier la pensión,2016-07-11 11:00,US,1.857
+0000008,Geronimo Premier la pensión,2016-05-22 23:00,MX,1.125
+0000008,Geronimo Premier la pensión,2016-07-02 22:00,US,1.695
+0000008,Geronimo Premier la pensión,2016-05-16 07:00,CA,1.135
+0000008,Geronimo Premier la pensión,2015-12-26 14:00,MX,0.907
+0000008,Geronimo Premier la pensión,2015-12-02 03:00,CA,1.784
+0000008,Geronimo Premier la pensión,2015-10-15 09:00,US,1.823
+0000008,Geronimo Premier la pensión,2016-02-24 23:00,CA,2.063
+0000008,Geronimo Premier la pensión,2015-11-21 14:00,US,1.472
+0000008,Geronimo Premier la pensión,2015-11-16 00:00,CA,1.669
+0000008,Geronimo Premier la pensión,2015-11-14 15:00,US,1.278
+0000008,Geronimo Premier la pensión,2015-09-12 05:00,MX,1.554
+0000008,Geronimo Premier la pensión,2016-08-03 00:00,US,0.73
+0000008,Geronimo Premier la pensión,2016-06-15 08:00,US,1.553
+0000008,Geronimo Premier la pensión,2016-07-28 09:00,CA,1.071
+0000008,Geronimo Premier la pensión,2016-07-28 00:00,MX,1.59
+0000008,Geronimo Premier la pensión,2016-07-27 10:00,US,1.715
+0000008,Geronimo Premier la pensión,2016-01-21 21:00,CA,1.472
+0000008,Geronimo Premier la pensión,2016-01-17 08:00,MX,1.55
+0000008,Geronimo Premier la pensión,2016-01-16 15:00,MX,1.58
+0000008,Geronimo Premier la pensión,2016-04-17 09:00,CA,1.896
+0000008,Geronimo Premier la pensión,2016-05-31 07:00,MX,1.452
+0000008,Geronimo Premier la pensión,2016-01-07 07:00,US,1.414
+0000008,Geronimo Premier la pensión,2016-07-08 00:00,MX,1.812
+0000008,Geronimo Premier la pensión,2016-01-02 19:00,CA,1.796
+0000008,Geronimo Premier la pensión,2016-05-14 21:00,MX,1.125
+0000008,Geronimo Premier la pensión,2016-05-07 20:00,CA,1.344
+0000008,Geronimo Premier la pensión,2015-10-16 13:00,MX,1.64
+0000008,Geronimo Premier la pensión,2016-02-27 14:00,CA,0.494
+0000008,Geronimo Premier la pensión,2015-11-12 09:00,CA,1.812
+0000008,Geronimo Premier la pensión,2015-09-10 10:00,CA,1.443
+0000008,Geronimo Premier la pensión,2015-08-19 01:00,US,1.598
+0000008,Geronimo Premier la pensión,2015-09-08 04:00,CA,1.519
+0000008,Geronimo Premier la pensión,2015-09-05 05:00,CA,1.55
+0000008,Geronimo Premier la pensión,2015-08-30 23:00,US,1.421
+0000008,Geronimo Premier la pensión,2016-05-03 01:00,CA,1.703
+0000008,Geronimo Premier la pensión,2016-07-31 07:00,US,1.596
+0000008,Geronimo Premier la pensión,2016-06-11 09:00,CA,1.5
+0000008,Geronimo Premier la pensión,2016-04-23 22:00,MX,1.418
+0000008,Geronimo Premier la pensión,2016-06-07 21:00,MX,1.46
+0000008,Geronimo Premier la pensión,2016-01-16 12:00,US,1.426
+0000008,Geronimo Premier la pensión,2016-06-02 14:00,CA,1.495
+0000008,Geronimo Premier la pensión,2016-07-12 03:00,US,1.41
+0000008,Geronimo Premier la pensión,2016-01-06 07:00,MX,1.15
+0000008,Geronimo Premier la pensión,2015-12-24 05:00,US,1.609
+0000008,Geronimo Premier la pensión,2015-12-15 10:00,CA,1.339
+0000008,Geronimo Premier la pensión,2016-03-06 18:00,CA,1.68
+0000008,Geronimo Premier la pensión,2016-03-04 18:00,CA,1.691
+0000008,Geronimo Premier la pensión,2016-02-25 21:00,MX,1.77
+0000008,Geronimo Premier la pensión,2016-02-16 16:00,CA,1.394
+0000008,Geronimo Premier la pensión,2015-09-26 16:00,US,1.841
+0000008,Geronimo Premier la pensión,2016-02-07 10:00,CA,1.24
+0000008,Geronimo Premier la pensión,2015-09-19 06:00,MX,1.758
+0000008,Geronimo Premier la pensión,2016-02-04 17:00,US,2.018
+0000008,Geronimo Premier la pensión,2016-02-03 15:00,US,1.208
+0000008,Geronimo Premier la pensión,2016-02-02 14:00,MX,1.727
+0000008,Geronimo Premier la pensión,2016-06-16 06:00,MX,1.794
+0000008,Geronimo Premier la pensión,2016-04-14 13:00,MX,1.677
+0000008,Geronimo Premier la pensión,2016-04-14 10:00,US,2.0
+0000008,Geronimo Premier la pensión,2016-05-29 13:00,US,1.022
+0000008,Geronimo Premier la pensión,2015-12-26 09:00,US,1.985
+0000008,Geronimo Premier la pensión,2015-12-18 03:00,US,1.389
+0000008,Geronimo Premier la pensión,2016-03-10 14:00,MX,1.783
+0000008,Geronimo Premier la pensión,2016-02-27 21:00,MX,2.036
+0000008,Geronimo Premier la pensión,2016-02-22 23:00,US,1.823
+0000008,Geronimo Premier la pensión,2016-02-17 10:00,US,1.212
+0000008,Geronimo Premier la pensión,2015-11-18 23:00,CA,1.503
+0000008,Geronimo Premier la pensión,2016-02-14 14:00,US,0.582
+0000008,Geronimo Premier la pensión,2015-11-17 07:00,MX,1.7
+0000008,Geronimo Premier la pensión,2015-09-27 17:00,CA,1.62
+0000008,Geronimo Premier la pensión,2015-09-23 19:00,MX,1.143
+0000008,Geronimo Premier la pensión,2015-09-12 03:00,CA,1.982
+0000008,Geronimo Premier la pensión,2016-08-02 15:00,CA,1.708
+0000008,Geronimo Premier la pensión,2016-04-27 05:00,US,1.75
+0000008,Geronimo Premier la pensión,2016-04-23 09:00,CA,1.756
+0000008,Geronimo Premier la pensión,2016-04-22 20:00,US,1.866
+0000008,Geronimo Premier la pensión,2016-07-18 22:00,CA,1.685
+0000008,Geronimo Premier la pensión,2016-01-11 08:00,MX,1.696
+0000008,Geronimo Premier la pensión,2016-03-25 08:00,US,1.707
+0000008,Geronimo Premier la pensión,2016-03-17 07:00,CA,1.584
+0000008,Geronimo Premier la pensión,2015-11-02 23:00,MX,1.638
+0000008,Geronimo Premier la pensión,2015-10-31 09:00,CA,1.699
+0000008,Geronimo Premier la pensión,2015-12-04 09:00,MX,1.692
+0000008,Geronimo Premier la pensión,2015-10-20 10:00,MX,1.221
+0000008,Geronimo Premier la pensión,2015-10-19 14:00,MX,1.836
+0000008,Geronimo Premier la pensión,2016-02-29 15:00,MX,0.703
+0000008,Geronimo Premier la pensión,2015-11-28 06:00,CA,1.442
+0000008,Geronimo Premier la pensión,2015-10-07 18:00,MX,1.659
+0000008,Geronimo Premier la pensión,2016-02-16 01:00,US,1.835
+0000008,Geronimo Premier la pensión,2015-11-14 09:00,CA,1.155
+0000008,Geronimo Premier la pensión,2015-09-20 12:00,CA,1.59
+0000008,Geronimo Premier la pensión,2015-09-19 13:00,MX,1.443
+0000008,Geronimo Premier la pensión,2015-08-26 20:00,CA,1.452
+0000008,Geronimo Premier la pensión,2015-08-20 05:00,CA,1.581
+0000008,Geronimo Premier la pensión,2016-07-27 06:00,CA,1.909
+0000008,Geronimo Premier la pensión,2016-04-17 11:00,CA,1.312
+0000008,Geronimo Premier la pensión,2016-07-15 20:00,US,1.628
+0000008,Geronimo Premier la pensión,2016-05-27 04:00,CA,1.622
+0000008,Geronimo Premier la pensión,2016-01-09 02:00,US,1.774
+0000008,Geronimo Premier la pensión,2016-07-08 12:00,CA,1.17
+0000008,Geronimo Premier la pensión,2016-05-22 04:00,MX,1.029
+0000008,Geronimo Premier la pensión,2016-04-05 04:00,US,1.719
+0000008,Geronimo Premier la pensión,2016-05-17 17:00,US,0.336
+0000008,Geronimo Premier la pensión,2016-07-02 11:00,CA,1.259
+0000008,Geronimo Premier la pensión,2016-06-29 12:00,CA,1.953
+0000008,Geronimo Premier la pensión,2016-06-26 01:00,MX,1.083
+0000008,Geronimo Premier la pensión,2016-06-23 19:00,CA,0.642
+0000008,Geronimo Premier la pensión,2016-03-13 21:00,CA,1.283
+0000008,Geronimo Premier la pensión,2015-10-24 01:00,MX,1.723
+0000008,Geronimo Premier la pensión,2015-10-21 09:00,US,1.944
+0000008,Geronimo Premier la pensión,2016-02-29 20:00,US,1.972
+0000008,Geronimo Premier la pensión,2015-11-14 11:00,US,1.449
+0000008,Geronimo Premier la pensión,2016-02-10 11:00,CA,1.114
+0000008,Geronimo Premier la pensión,2015-09-15 17:00,MX,1.14
+0000008,Geronimo Premier la pensión,2015-08-31 07:00,US,1.715
+0000008,Geronimo Premier la pensión,2016-05-04 14:00,MX,1.309
+0000008,Geronimo Premier la pensión,2016-06-02 20:00,MX,1.386
+0000008,Geronimo Premier la pensión,2016-04-16 16:00,US,1.213
+0000008,Geronimo Premier la pensión,2016-07-14 17:00,CA,2.009
+0000008,Geronimo Premier la pensión,2016-04-10 13:00,US,1.666
+0000008,Geronimo Premier la pensión,2016-04-10 08:00,MX,1.634
+0000008,Geronimo Premier la pensión,2016-01-06 04:00,US,1.574
+0000008,Geronimo Premier la pensión,2015-12-27 09:00,US,1.437
+0000008,Geronimo Premier la pensión,2016-06-26 16:00,MX,0.94
+0000008,Geronimo Premier la pensión,2016-05-07 07:00,US,1.924
+0000008,Geronimo Premier la pensión,2016-02-26 02:00,US,1.433
+0000008,Geronimo Premier la pensión,2016-02-09 08:00,MX,1.671
+0000008,Geronimo Premier la pensión,2015-09-25 14:00,CA,1.605
+0000008,Geronimo Premier la pensión,2015-09-05 21:00,CA,1.281
+0000008,Geronimo Premier la pensión,2015-08-12 04:00,CA,1.724
+0000008,Geronimo Premier la pensión,2016-05-02 04:00,CA,1.244
+0000008,Geronimo Premier la pensión,2016-01-27 06:00,MX,1.268
+0000008,Geronimo Premier la pensión,2016-07-27 04:00,CA,1.139
+0000008,Geronimo Premier la pensión,2016-07-24 16:00,US,1.712
+0000008,Geronimo Premier la pensión,2016-06-08 22:00,CA,0.877
+0000008,Geronimo Premier la pensión,2016-06-06 23:00,CA,1.275
+0000008,Geronimo Premier la pensión,2016-05-26 06:00,CA,1.845
+0000008,Geronimo Premier la pensión,2016-05-21 03:00,CA,1.204
+0000008,Geronimo Premier la pensión,2016-07-03 16:00,US,2.04
+0000008,Geronimo Premier la pensión,2016-04-01 11:00,CA,1.602
+0000008,Geronimo Premier la pensión,2016-05-17 00:00,US,1.143
+0000008,Geronimo Premier la pensión,2016-06-27 21:00,US,1.188
+0000008,Geronimo Premier la pensión,2016-05-12 02:00,MX,1.351
+0000008,Geronimo Premier la pensión,2016-03-14 19:00,US,1.642
+0000008,Geronimo Premier la pensión,2016-03-13 02:00,US,1.054
+0000008,Geronimo Premier la pensión,2016-03-06 22:00,MX,0.537
+0000008,Geronimo Premier la pensión,2015-10-19 08:00,US,1.523
+0000008,Geronimo Premier la pensión,2015-10-10 20:00,CA,1.849
+0000008,Geronimo Premier la pensión,2015-11-24 10:00,CA,1.597
+0000008,Geronimo Premier la pensión,2015-10-07 11:00,US,1.6
+0000008,Geronimo Premier la pensión,2015-10-01 23:00,CA,1.634
+0000008,Geronimo Premier la pensión,2015-08-23 00:00,MX,1.514
+0000008,Geronimo Premier la pensión,2016-05-05 16:00,MX,1.533
+0000008,Geronimo Premier la pensión,2016-08-03 18:00,MX,1.558
+0000008,Geronimo Premier la pensión,2016-01-27 22:00,MX,1.557
+0000008,Geronimo Premier la pensión,2016-06-13 08:00,CA,1.565
+0000008,Geronimo Premier la pensión,2016-04-12 15:00,MX,1.662
+0000008,Geronimo Premier la pensión,2016-05-08 10:00,MX,1.594
+0000008,Geronimo Premier la pensión,2015-11-05 07:00,MX,1.798
+0000008,Geronimo Premier la pensión,2015-10-20 12:00,MX,1.671
+0000008,Geronimo Premier la pensión,2015-11-26 05:00,MX,1.773
+0000008,Geronimo Premier la pensión,2015-11-23 22:00,US,0.527
+0000008,Geronimo Premier la pensión,2015-10-03 01:00,MX,1.62
+0000008,Geronimo Premier la pensión,2015-09-16 06:00,US,1.367
+0000008,Geronimo Premier la pensión,2015-08-20 13:00,US,1.047
+0000008,Geronimo Premier la pensión,2015-08-16 07:00,MX,1.866
+0000008,Geronimo Premier la pensión,2015-08-07 00:00,MX,2.035
+0000040,Merlin Geronimo Granja,2016-05-02 13:00,MX,1.501
+0000040,Merlin Geronimo Granja,2016-02-01 00:00,CA,1.671
+0000040,Merlin Geronimo Granja,2016-01-22 02:00,US,1.78
+0000040,Merlin Geronimo Granja,2016-07-22 13:00,US,0.984
+0000040,Merlin Geronimo Granja,2016-01-15 10:00,MX,1.609
+0000040,Merlin Geronimo Granja,2016-05-24 14:00,MX,1.258
+0000040,Merlin Geronimo Granja,2016-01-02 00:00,US,1.478
+0000040,Merlin Geronimo Granja,2015-12-30 11:00,CA,1.609
+0000040,Merlin Geronimo Granja,2016-03-14 02:00,MX,1.868
+0000040,Merlin Geronimo Granja,2016-03-03 04:00,US,1.83
+0000040,Merlin Geronimo Granja,2015-11-11 15:00,US,1.452
+0000040,Merlin Geronimo Granja,2015-11-09 08:00,US,0.81
+0000040,Merlin Geronimo Granja,2015-08-29 01:00,CA,1.36
+0000040,Merlin Geronimo Granja,2016-06-18 19:00,CA,1.651
+0000040,Merlin Geronimo Granja,2016-02-03 01:00,CA,1.395
+0000040,Merlin Geronimo Granja,2016-01-22 10:00,US,0.937
+0000040,Merlin Geronimo Granja,2016-04-19 14:00,CA,1.841
+0000040,Merlin Geronimo Granja,2016-04-17 07:00,US,1.52
+0000040,Merlin Geronimo Granja,2016-01-12 08:00,MX,1.52
+0000040,Merlin Geronimo Granja,2016-07-07 02:00,CA,1.641
+0000040,Merlin Geronimo Granja,2016-07-06 23:00,US,0.912
+0000040,Merlin Geronimo Granja,2016-05-20 18:00,MX,1.824
+0000040,Merlin Geronimo Granja,2016-06-28 15:00,CA,0.947
+0000040,Merlin Geronimo Granja,2016-06-27 12:00,CA,1.02
+0000040,Merlin Geronimo Granja,2016-05-12 03:00,US,1.464
+0000040,Merlin Geronimo Granja,2015-12-19 04:00,US,1.399
+0000040,Merlin Geronimo Granja,2016-03-13 14:00,MX,1.712
+0000040,Merlin Geronimo Granja,2015-10-21 21:00,MX,1.527
+0000040,Merlin Geronimo Granja,2015-11-14 02:00,US,1.602
+0000040,Merlin Geronimo Granja,2016-02-05 15:00,CA,1.542
+0000040,Merlin Geronimo Granja,2015-09-10 09:00,CA,1.573
+0000040,Merlin Geronimo Granja,2015-08-30 01:00,US,1.688
+0000040,Merlin Geronimo Granja,2016-08-04 17:00,US,1.839
+0000040,Merlin Geronimo Granja,2016-01-31 04:00,MX,1.575
+0000040,Merlin Geronimo Granja,2016-01-22 09:00,CA,0.823
+0000040,Merlin Geronimo Granja,2016-07-22 14:00,US,1.461
+0000040,Merlin Geronimo Granja,2016-05-21 09:00,MX,0.928
+0000040,Merlin Geronimo Granja,2015-12-12 22:00,US,1.354
+0000040,Merlin Geronimo Granja,2016-03-08 01:00,US,1.438
+0000040,Merlin Geronimo Granja,2015-10-23 23:00,MX,1.392
+0000040,Merlin Geronimo Granja,2015-11-24 16:00,CA,1.852
+0000040,Merlin Geronimo Granja,2015-08-24 09:00,MX,1.176
+0000040,Merlin Geronimo Granja,2015-08-23 23:00,US,1.536
+0000040,Merlin Geronimo Granja,2016-04-23 22:00,CA,1.867
+0000040,Merlin Geronimo Granja,2016-06-06 06:00,US,0.437
+0000040,Merlin Geronimo Granja,2016-01-05 19:00,US,0.889
+0000040,Merlin Geronimo Granja,2016-05-17 21:00,US,1.073
+0000040,Merlin Geronimo Granja,2015-12-31 12:00,CA,1.895
+0000040,Merlin Geronimo Granja,2016-07-01 13:00,CA,0.672
+0000040,Merlin Geronimo Granja,2016-05-11 17:00,US,1.542
+0000040,Merlin Geronimo Granja,2016-05-10 17:00,MX,1.781
+0000040,Merlin Geronimo Granja,2015-12-07 23:00,MX,1.916
+0000040,Merlin Geronimo Granja,2015-08-07 22:00,MX,1.952
+0000040,Merlin Geronimo Granja,2016-06-19 13:00,MX,1.723
+0000040,Merlin Geronimo Granja,2016-05-02 01:00,MX,1.501
+0000040,Merlin Geronimo Granja,2016-07-30 17:00,US,1.108
+0000040,Merlin Geronimo Granja,2016-07-25 01:00,US,1.457
+0000040,Merlin Geronimo Granja,2016-01-24 07:00,CA,0.893
+0000040,Merlin Geronimo Granja,2016-04-24 05:00,CA,1.617
+0000040,Merlin Geronimo Granja,2016-06-09 11:00,US,1.534
+0000040,Merlin Geronimo Granja,2016-06-09 04:00,CA,1.27
+0000040,Merlin Geronimo Granja,2016-01-22 04:00,US,1.537
+0000040,Merlin Geronimo Granja,2016-06-07 13:00,MX,0.473
+0000040,Merlin Geronimo Granja,2016-07-17 18:00,MX,1.303
+0000040,Merlin Geronimo Granja,2016-04-14 13:00,CA,1.433
+0000040,Merlin Geronimo Granja,2016-01-09 15:00,US,0.721
+0000040,Merlin Geronimo Granja,2016-04-09 21:00,CA,1.368
+0000040,Merlin Geronimo Granja,2016-01-07 13:00,CA,1.33
+0000040,Merlin Geronimo Granja,2016-07-02 15:00,US,1.779
+0000040,Merlin Geronimo Granja,2015-12-06 14:00,US,0.979
+0000040,Merlin Geronimo Granja,2016-02-26 23:00,CA,1.195
+0000040,Merlin Geronimo Granja,2015-10-02 10:00,US,1.359
+0000040,Merlin Geronimo Granja,2015-09-20 02:00,US,1.77
+0000040,Merlin Geronimo Granja,2016-06-18 23:00,CA,1.01
+0000040,Merlin Geronimo Granja,2016-04-26 04:00,CA,0.928
+0000040,Merlin Geronimo Granja,2016-04-22 20:00,US,1.42
+0000040,Merlin Geronimo Granja,2016-07-18 22:00,CA,1.602
+0000040,Merlin Geronimo Granja,2016-04-14 05:00,MX,1.538
+0000040,Merlin Geronimo Granja,2016-04-09 19:00,CA,1.042
+0000040,Merlin Geronimo Granja,2016-05-19 23:00,CA,1.33
+0000040,Merlin Geronimo Granja,2016-05-14 17:00,CA,0.851
+0000040,Merlin Geronimo Granja,2016-03-27 18:00,CA,1.51
+0000040,Merlin Geronimo Granja,2016-03-25 06:00,CA,0.935
+0000040,Merlin Geronimo Granja,2016-03-17 07:00,MX,1.196
+0000040,Merlin Geronimo Granja,2015-12-14 17:00,CA,1.824
+0000040,Merlin Geronimo Granja,2015-11-28 06:00,MX,1.903
+0000040,Merlin Geronimo Granja,2016-02-21 08:00,CA,1.782
+0000040,Merlin Geronimo Granja,2015-11-24 01:00,CA,0.875
+0000040,Merlin Geronimo Granja,2015-11-22 15:00,US,1.191
+0000040,Merlin Geronimo Granja,2016-02-13 09:00,CA,1.446
+0000040,Merlin Geronimo Granja,2016-02-12 09:00,CA,0.653
+0000040,Merlin Geronimo Granja,2015-11-14 03:00,US,1.721
+0000040,Merlin Geronimo Granja,2015-09-20 12:00,MX,1.503
+0000040,Merlin Geronimo Granja,2015-08-19 14:00,MX,1.424
+0000040,Merlin Geronimo Granja,2016-05-03 10:00,MX,1.643
+0000040,Merlin Geronimo Granja,2016-04-28 20:00,US,0.644
+0000040,Merlin Geronimo Granja,2016-07-22 19:00,US,0.693
+0000040,Merlin Geronimo Granja,2016-01-17 19:00,US,0.425
+0000040,Merlin Geronimo Granja,2016-06-03 01:00,CA,1.979
+0000040,Merlin Geronimo Granja,2016-05-27 14:00,MX,1.506
+0000040,Merlin Geronimo Granja,2016-01-03 04:00,US,1.748
+0000040,Merlin Geronimo Granja,2016-05-15 04:00,CA,1.607
+0000040,Merlin Geronimo Granja,2015-10-25 11:00,US,1.697
+0000040,Merlin Geronimo Granja,2015-10-21 17:00,MX,1.266
+0000040,Merlin Geronimo Granja,2016-03-04 01:00,US,0.817
+0000040,Merlin Geronimo Granja,2015-11-30 14:00,US,1.26
+0000040,Merlin Geronimo Granja,2015-10-14 15:00,US,1.885
+0000040,Merlin Geronimo Granja,2015-10-03 05:00,MX,1.074
+0000040,Merlin Geronimo Granja,2015-09-16 11:00,MX,1.749
+0000040,Merlin Geronimo Granja,2015-08-31 07:00,CA,1.689
+0000040,Merlin Geronimo Granja,2016-01-24 16:00,MX,1.701
+0000040,Merlin Geronimo Granja,2016-04-23 18:00,CA,1.187
+0000040,Merlin Geronimo Granja,2016-04-16 08:00,MX,1.743
+0000040,Merlin Geronimo Granja,2016-04-13 04:00,MX,1.508
+0000040,Merlin Geronimo Granja,2016-05-25 22:00,US,1.502
+0000040,Merlin Geronimo Granja,2016-04-03 08:00,US,1.795
+0000040,Merlin Geronimo Granja,2016-06-27 06:00,MX,1.52
+0000040,Merlin Geronimo Granja,2016-03-18 14:00,MX,1.879
+0000040,Merlin Geronimo Granja,2015-12-20 07:00,CA,1.338
+0000040,Merlin Geronimo Granja,2015-10-26 20:00,MX,1.797
+0000040,Merlin Geronimo Granja,2015-12-08 02:00,MX,1.642
+0000040,Merlin Geronimo Granja,2015-12-07 01:00,MX,1.663
+0000040,Merlin Geronimo Granja,2015-12-05 18:00,CA,1.386
+0000040,Merlin Geronimo Granja,2016-02-23 06:00,CA,1.604
+0000040,Merlin Geronimo Granja,2016-02-21 16:00,MX,1.407
+0000040,Merlin Geronimo Granja,2015-11-23 12:00,CA,1.687
+0000040,Merlin Geronimo Granja,2015-10-01 04:00,US,0.832
+0000040,Merlin Geronimo Granja,2015-08-19 08:00,US,1.173
+0000040,Merlin Geronimo Granja,2016-02-02 06:00,MX,1.875
+0000040,Merlin Geronimo Granja,2016-06-12 03:00,CA,1.606
+0000040,Merlin Geronimo Granja,2016-04-24 20:00,US,1.079
+0000040,Merlin Geronimo Granja,2016-06-09 17:00,CA,1.921
+0000040,Merlin Geronimo Granja,2016-04-18 06:00,US,1.044
+0000040,Merlin Geronimo Granja,2016-06-02 17:00,US,1.723
+0000040,Merlin Geronimo Granja,2016-07-15 14:00,CA,1.384
+0000040,Merlin Geronimo Granja,2016-01-11 00:00,US,1.73
+0000040,Merlin Geronimo Granja,2016-05-20 01:00,US,1.218
+0000040,Merlin Geronimo Granja,2016-07-03 16:00,US,1.285
+0000040,Merlin Geronimo Granja,2016-05-17 00:00,US,1.904
+0000040,Merlin Geronimo Granja,2016-06-29 10:00,MX,1.818
+0000040,Merlin Geronimo Granja,2016-05-12 02:00,CA,2.031
+0000040,Merlin Geronimo Granja,2015-12-22 15:00,MX,1.704
+0000040,Merlin Geronimo Granja,2016-03-17 23:00,CA,0.564
+0000040,Merlin Geronimo Granja,2015-10-27 14:00,MX,1.167
+0000040,Merlin Geronimo Granja,2016-02-24 03:00,US,0.689
+0000040,Merlin Geronimo Granja,2015-11-24 10:00,MX,0.835
+0000040,Merlin Geronimo Granja,2015-09-16 18:00,US,1.709
+0000040,Merlin Geronimo Granja,2015-09-05 06:00,CA,1.841
+0000040,Merlin Geronimo Granja,2015-08-14 23:00,MX,1.689
+0000040,Merlin Geronimo Granja,2015-08-12 23:00,US,1.594
+0000040,Merlin Geronimo Granja,2015-08-07 17:00,MX,1.129
+0000040,Merlin Geronimo Granja,2016-01-29 10:00,CA,1.193
+0000040,Merlin Geronimo Granja,2016-07-24 11:00,MX,1.158
+0000040,Merlin Geronimo Granja,2016-04-14 01:00,US,1.198
+0000040,Merlin Geronimo Granja,2016-04-12 11:00,MX,0.988
+0000040,Merlin Geronimo Granja,2016-01-10 21:00,CA,0.881
+0000040,Merlin Geronimo Granja,2016-07-09 14:00,MX,0.687
+0000040,Merlin Geronimo Granja,2016-01-04 12:00,CA,1.275
+0000040,Merlin Geronimo Granja,2015-12-21 03:00,MX,1.097
+0000040,Merlin Geronimo Granja,2015-10-28 22:00,CA,1.966
+0000040,Merlin Geronimo Granja,2015-10-15 20:00,CA,0.718
+0000040,Merlin Geronimo Granja,2016-02-05 20:00,US,0.772
+0000040,Merlin Geronimo Granja,2015-08-16 07:00,US,1.605
+0000097,Slaviero Jon's Spa,2016-06-15 15:00,US,1.689
+0000097,Slaviero Jon's Spa,2016-04-26 18:00,MX,1.671
+0000097,Slaviero Jon's Spa,2016-01-26 00:00,CA,1.691
+0000097,Slaviero Jon's Spa,2016-07-21 04:00,MX,1.596
+0000097,Slaviero Jon's Spa,2016-06-06 01:00,CA,1.805
+0000097,Slaviero Jon's Spa,2016-01-15 10:00,US,1.517
+0000097,Slaviero Jon's Spa,2016-01-14 20:00,US,1.7
+0000097,Slaviero Jon's Spa,2016-01-08 10:00,CA,1.723
+0000097,Slaviero Jon's Spa,2016-07-02 17:00,MX,1.71
+0000097,Slaviero Jon's Spa,2016-05-12 06:00,US,2.013
+0000097,Slaviero Jon's Spa,2016-05-10 12:00,US,1.322
+0000097,Slaviero Jon's Spa,2015-12-24 09:00,US,1.343
+0000097,Slaviero Jon's Spa,2015-12-01 08:00,US,1.717
+0000097,Slaviero Jon's Spa,2016-02-23 15:00,MX,1.388
+0000097,Slaviero Jon's Spa,2015-11-25 17:00,MX,0.69
+0000097,Slaviero Jon's Spa,2016-02-21 05:00,CA,1.981
+0000097,Slaviero Jon's Spa,2016-02-02 01:00,CA,1.938
+0000097,Slaviero Jon's Spa,2016-07-29 00:00,CA,0.979
+0000097,Slaviero Jon's Spa,2016-06-14 02:00,MX,1.739
+0000097,Slaviero Jon's Spa,2016-06-10 19:00,US,1.318
+0000097,Slaviero Jon's Spa,2016-07-21 07:00,CA,1.895
+0000097,Slaviero Jon's Spa,2016-04-19 00:00,MX,1.376
+0000097,Slaviero Jon's Spa,2016-04-17 07:00,CA,1.588
+0000097,Slaviero Jon's Spa,2016-07-11 11:00,US,2.011
+0000097,Slaviero Jon's Spa,2016-05-22 18:00,MX,1.953
+0000097,Slaviero Jon's Spa,2016-01-02 15:00,CA,0.675
+0000097,Slaviero Jon's Spa,2015-12-31 20:00,CA,1.205
+0000097,Slaviero Jon's Spa,2016-03-23 07:00,CA,1.708
+0000097,Slaviero Jon's Spa,2015-12-19 04:00,MX,1.211
+0000097,Slaviero Jon's Spa,2015-10-26 13:00,CA,1.495
+0000097,Slaviero Jon's Spa,2015-12-08 17:00,MX,0.962
+0000097,Slaviero Jon's Spa,2015-10-21 21:00,US,1.326
+0000097,Slaviero Jon's Spa,2016-03-03 12:00,MX,0.755
+0000097,Slaviero Jon's Spa,2015-10-20 13:00,MX,0.645
+0000097,Slaviero Jon's Spa,2016-02-21 13:00,MX,1.671
+0000097,Slaviero Jon's Spa,2015-10-01 03:00,US,0.887
+0000097,Slaviero Jon's Spa,2015-11-14 02:00,US,1.751
+0000097,Slaviero Jon's Spa,2016-02-08 02:00,US,1.611
+0000097,Slaviero Jon's Spa,2015-09-26 01:00,US,1.762
+0000097,Slaviero Jon's Spa,2016-02-05 15:00,CA,1.771
+0000097,Slaviero Jon's Spa,2015-08-08 18:00,MX,0.667
+0000097,Slaviero Jon's Spa,2016-04-30 20:00,MX,1.545
+0000097,Slaviero Jon's Spa,2016-01-22 17:00,CA,1.904
+0000097,Slaviero Jon's Spa,2016-05-30 22:00,US,1.889
+0000097,Slaviero Jon's Spa,2016-04-13 23:00,MX,1.724
+0000097,Slaviero Jon's Spa,2016-04-06 13:00,MX,1.443
+0000097,Slaviero Jon's Spa,2016-05-20 07:00,US,1.761
+0000097,Slaviero Jon's Spa,2015-10-30 18:00,MX,1.321
+0000097,Slaviero Jon's Spa,2016-03-08 23:00,MX,1.839
+0000097,Slaviero Jon's Spa,2015-10-17 16:00,MX,1.81
+0000097,Slaviero Jon's Spa,2016-02-08 19:00,MX,1.533
+0000097,Slaviero Jon's Spa,2015-11-11 05:00,US,1.79
+0000097,Slaviero Jon's Spa,2015-08-28 11:00,CA,1.718
+0000097,Slaviero Jon's Spa,2015-08-19 11:00,CA,1.789
+0000097,Slaviero Jon's Spa,2015-08-17 01:00,CA,1.805
+0000097,Slaviero Jon's Spa,2016-02-03 10:00,CA,1.13
+0000097,Slaviero Jon's Spa,2016-05-01 03:00,MX,1.656
+0000097,Slaviero Jon's Spa,2016-07-29 17:00,US,1.286
+0000097,Slaviero Jon's Spa,2016-06-02 14:00,CA,1.825
+0000097,Slaviero Jon's Spa,2016-01-07 09:00,MX,1.411
+0000097,Slaviero Jon's Spa,2016-01-05 19:00,US,1.424
+0000097,Slaviero Jon's Spa,2016-06-28 06:00,US,1.542
+0000097,Slaviero Jon's Spa,2015-12-24 05:00,CA,1.312
+0000097,Slaviero Jon's Spa,2015-12-24 00:00,CA,1.813
+0000097,Slaviero Jon's Spa,2016-03-21 20:00,CA,1.203
+0000097,Slaviero Jon's Spa,2015-12-10 05:00,US,1.858
+0000097,Slaviero Jon's Spa,2015-10-17 19:00,MX,1.283
+0000097,Slaviero Jon's Spa,2016-02-23 21:00,MX,1.66
+0000097,Slaviero Jon's Spa,2015-09-30 11:00,CA,0.569
+0000097,Slaviero Jon's Spa,2016-02-07 10:00,CA,1.24
+0000097,Slaviero Jon's Spa,2015-09-19 19:00,CA,1.256
+0000097,Slaviero Jon's Spa,2015-09-19 00:00,MX,1.31
+0000097,Slaviero Jon's Spa,2015-09-15 02:00,MX,1.681
+0000097,Slaviero Jon's Spa,2016-06-09 11:00,US,1.31
+0000097,Slaviero Jon's Spa,2016-01-22 04:00,US,1.034
+0000097,Slaviero Jon's Spa,2016-03-23 12:00,MX,1.989
+0000097,Slaviero Jon's Spa,2015-12-16 23:00,US,1.558
+0000097,Slaviero Jon's Spa,2015-12-16 16:00,CA,1.356
+0000097,Slaviero Jon's Spa,2016-02-27 21:00,CA,1.703
+0000097,Slaviero Jon's Spa,2016-02-24 06:00,US,1.357
+0000097,Slaviero Jon's Spa,2015-11-12 18:00,MX,1.711
+0000097,Slaviero Jon's Spa,2015-11-06 16:00,US,1.049
+0000097,Slaviero Jon's Spa,2015-09-10 12:00,MX,1.788
+0000097,Slaviero Jon's Spa,2015-09-08 18:00,US,1.656
+0000097,Slaviero Jon's Spa,2015-09-01 11:00,US,1.689
+0000097,Slaviero Jon's Spa,2016-06-11 16:00,US,1.466
+0000097,Slaviero Jon's Spa,2016-01-10 01:00,CA,0.564
+0000097,Slaviero Jon's Spa,2016-05-19 23:00,US,1.82
+0000097,Slaviero Jon's Spa,2016-07-04 21:00,US,1.632
+0000097,Slaviero Jon's Spa,2016-05-19 20:00,CA,1.488
+0000097,Slaviero Jon's Spa,2016-07-04 18:00,CA,1.085
+0000097,Slaviero Jon's Spa,2016-03-30 10:00,MX,1.776
+0000097,Slaviero Jon's Spa,2016-06-28 19:00,CA,1.63
+0000097,Slaviero Jon's Spa,2016-06-27 02:00,US,1.362
+0000097,Slaviero Jon's Spa,2016-03-26 02:00,MX,1.526
+0000097,Slaviero Jon's Spa,2015-11-04 04:00,US,0.749
+0000097,Slaviero Jon's Spa,2015-12-04 09:00,US,1.827
+0000097,Slaviero Jon's Spa,2015-10-19 12:00,CA,1.646
+0000097,Slaviero Jon's Spa,2015-10-10 11:00,US,1.729
+0000097,Slaviero Jon's Spa,2015-11-22 11:00,US,1.831
+0000097,Slaviero Jon's Spa,2016-02-13 09:00,MX,1.853
+0000097,Slaviero Jon's Spa,2015-11-14 03:00,US,1.613
+0000097,Slaviero Jon's Spa,2015-08-26 02:00,MX,1.625
+0000097,Slaviero Jon's Spa,2015-08-30 07:00,MX,1.027
+0000097,Slaviero Jon's Spa,2016-01-31 23:00,US,1.589
+0000097,Slaviero Jon's Spa,2016-01-09 05:00,MX,1.356
+0000097,Slaviero Jon's Spa,2016-07-08 07:00,US,1.726
+0000097,Slaviero Jon's Spa,2016-04-05 04:00,US,1.187
+0000097,Slaviero Jon's Spa,2016-05-11 07:00,MX,1.775
+0000097,Slaviero Jon's Spa,2015-10-21 02:00,MX,0.832
+0000097,Slaviero Jon's Spa,2016-02-13 19:00,MX,1.605
+0000097,Slaviero Jon's Spa,2015-11-15 07:00,US,1.378
+0000097,Slaviero Jon's Spa,2015-09-26 04:00,MX,1.641
+0000097,Slaviero Jon's Spa,2015-09-08 16:00,US,1.811
+0000097,Slaviero Jon's Spa,2015-08-30 04:00,MX,1.609
+0000097,Slaviero Jon's Spa,2016-06-12 10:00,US,1.5
+0000097,Slaviero Jon's Spa,2016-07-25 20:00,US,1.015
+0000097,Slaviero Jon's Spa,2016-01-24 16:00,MX,1.542
+0000097,Slaviero Jon's Spa,2016-04-10 13:00,CA,1.524
+0000097,Slaviero Jon's Spa,2016-07-10 09:00,US,1.428
+0000097,Slaviero Jon's Spa,2016-01-06 03:00,CA,0.936
+0000097,Slaviero Jon's Spa,2015-12-27 09:00,MX,1.66
+0000097,Slaviero Jon's Spa,2016-06-23 01:00,US,1.226
+0000097,Slaviero Jon's Spa,2015-12-17 11:00,US,1.592
+0000097,Slaviero Jon's Spa,2015-10-26 20:00,CA,1.526
+0000097,Slaviero Jon's Spa,2015-12-08 02:00,US,1.626
+0000097,Slaviero Jon's Spa,2016-02-23 06:00,CA,1.782
+0000097,Slaviero Jon's Spa,2015-11-21 03:00,MX,1.776
+0000097,Slaviero Jon's Spa,2015-09-04 01:00,US,1.498
+0000097,Slaviero Jon's Spa,2015-09-03 22:00,CA,1.47
+0000097,Slaviero Jon's Spa,2016-02-03 20:00,CA,1.858
+0000097,Slaviero Jon's Spa,2016-08-02 22:00,US,1.621
+0000097,Slaviero Jon's Spa,2016-04-30 22:00,MX,0.707
+0000097,Slaviero Jon's Spa,2016-01-06 17:00,CA,1.637
+0000097,Slaviero Jon's Spa,2016-01-04 08:00,US,1.693
+0000097,Slaviero Jon's Spa,2016-05-20 01:00,CA,1.087
+0000097,Slaviero Jon's Spa,2016-07-03 16:00,MX,1.246
+0000097,Slaviero Jon's Spa,2016-05-17 23:00,US,1.647
+0000097,Slaviero Jon's Spa,2015-10-27 18:00,CA,0.838
+0000097,Slaviero Jon's Spa,2015-12-11 14:00,CA,1.986
+0000097,Slaviero Jon's Spa,2015-12-07 22:00,US,1.752
+0000097,Slaviero Jon's Spa,2015-10-16 14:00,MX,1.52
+0000097,Slaviero Jon's Spa,2015-10-12 11:00,US,0.884
+0000097,Slaviero Jon's Spa,2015-10-07 22:00,US,1.623
+0000097,Slaviero Jon's Spa,2015-10-01 23:00,MX,1.176
+0000097,Slaviero Jon's Spa,2015-10-01 02:00,MX,1.733
+0000097,Slaviero Jon's Spa,2015-08-14 23:00,CA,1.165
+0000097,Slaviero Jon's Spa,2015-08-08 07:00,CA,1.798
+0000097,Slaviero Jon's Spa,2016-04-28 17:00,MX,1.843
+0000097,Slaviero Jon's Spa,2016-01-28 08:00,MX,1.65
+0000097,Slaviero Jon's Spa,2016-01-27 22:00,US,1.704
+0000097,Slaviero Jon's Spa,2016-04-22 15:00,MX,0.539
+0000097,Slaviero Jon's Spa,2016-04-18 05:00,CA,1.698
+0000097,Slaviero Jon's Spa,2016-07-13 14:00,CA,1.588
+0000097,Slaviero Jon's Spa,2016-04-12 11:00,CA,1.535
+0000097,Slaviero Jon's Spa,2016-01-06 08:00,US,1.937
+0000097,Slaviero Jon's Spa,2015-10-31 06:00,MX,1.748
+0000097,Slaviero Jon's Spa,2015-10-21 13:00,US,1.994
+0000097,Slaviero Jon's Spa,2016-03-03 00:00,CA,1.097
+0000097,Slaviero Jon's Spa,2015-11-26 05:00,CA,1.443
+0000097,Slaviero Jon's Spa,2015-08-15 15:00,MX,1.03
+0000130,Majestic Por Posada,2016-01-25 04:00,CA,0.821
+0000130,Majestic Por Posada,2016-06-07 18:00,US,1.717
+0000130,Majestic Por Posada,2016-01-17 18:00,US,1.658
+0000130,Majestic Por Posada,2016-01-16 22:00,CA,1.308
+0000130,Majestic Por Posada,2016-04-06 06:00,US,1.397
+0000130,Majestic Por Posada,2016-05-15 10:00,US,1.213
+0000130,Majestic Por Posada,2016-05-10 12:00,US,0.731
+0000130,Majestic Por Posada,2016-03-24 16:00,CA,1.794
+0000130,Majestic Por Posada,2016-06-22 17:00,US,2.041
+0000130,Majestic Por Posada,2016-03-18 20:00,US,0.97
+0000130,Majestic Por Posada,2016-03-15 07:00,CA,1.893
+0000130,Majestic Por Posada,2015-12-09 17:00,CA,1.41
+0000130,Majestic Por Posada,2016-03-06 05:00,MX,1.103
+0000130,Majestic Por Posada,2016-03-02 04:00,CA,1.849
+0000130,Majestic Por Posada,2015-10-19 07:00,MX,1.653
+0000130,Majestic Por Posada,2015-10-17 15:00,MX,1.51
+0000130,Majestic Por Posada,2015-10-15 04:00,MX,1.688
+0000130,Majestic Por Posada,2015-11-24 20:00,US,1.596
+0000130,Majestic Por Posada,2015-11-24 13:00,MX,1.618
+0000130,Majestic Por Posada,2015-11-22 19:00,MX,1.85
+0000130,Majestic Por Posada,2015-11-22 01:00,CA,1.09
+0000130,Majestic Por Posada,2015-11-11 15:00,CA,1.35
+0000130,Majestic Por Posada,2016-02-04 22:00,US,1.673
+0000130,Majestic Por Posada,2016-02-02 03:00,MX,1.163
+0000130,Majestic Por Posada,2016-07-29 00:00,MX,1.869
+0000130,Majestic Por Posada,2016-06-14 02:00,MX,1.107
+0000130,Majestic Por Posada,2016-01-22 10:00,MX,1.68
+0000130,Majestic Por Posada,2016-01-21 13:00,US,0.93
+0000130,Majestic Por Posada,2016-01-18 10:00,CA,2.018
+0000130,Majestic Por Posada,2016-04-15 04:00,US,2.048
+0000130,Majestic Por Posada,2015-12-29 00:00,US,0.41
+0000130,Majestic Por Posada,2016-03-23 07:00,CA,0.324
+0000130,Majestic Por Posada,2016-05-07 06:00,US,1.978
+0000130,Majestic Por Posada,2015-10-28 19:00,CA,1.66
+0000130,Majestic Por Posada,2015-12-10 17:00,US,0.618
+0000130,Majestic Por Posada,2016-03-05 07:00,US,1.879
+0000130,Majestic Por Posada,2016-02-29 10:00,CA,1.726
+0000130,Majestic Por Posada,2016-02-24 23:00,CA,1.21
+0000130,Majestic Por Posada,2015-11-14 02:00,US,1.302
+0000130,Majestic Por Posada,2015-09-26 01:00,CA,1.669
+0000130,Majestic Por Posada,2015-09-19 15:00,MX,1.531
+0000130,Majestic Por Posada,2015-09-12 05:00,CA,0.946
+0000130,Majestic Por Posada,2016-05-01 16:00,US,1.26
+0000130,Majestic Por Posada,2016-04-30 15:00,MX,1.515
+0000130,Majestic Por Posada,2016-07-25 09:00,US,1.749
+0000130,Majestic Por Posada,2016-01-22 17:00,MX,1.503
+0000130,Majestic Por Posada,2016-05-30 22:00,CA,1.667
+0000130,Majestic Por Posada,2016-07-06 00:00,CA,1.853
+0000130,Majestic Por Posada,2015-10-30 18:00,MX,1.35
+0000130,Majestic Por Posada,2015-12-14 23:00,MX,1.907
+0000130,Majestic Por Posada,2015-12-11 18:00,US,1.929
+0000130,Majestic Por Posada,2015-10-09 20:00,MX,0.756
+0000130,Majestic Por Posada,2015-11-20 00:00,MX,1.217
+0000130,Majestic Por Posada,2015-09-24 14:00,MX,1.343
+0000130,Majestic Por Posada,2016-01-31 18:00,MX,1.736
+0000130,Majestic Por Posada,2016-01-11 03:00,MX,1.643
+0000130,Majestic Por Posada,2016-07-12 03:00,MX,0.7
+0000130,Majestic Por Posada,2016-05-24 00:00,US,1.617
+0000130,Majestic Por Posada,2016-01-05 14:00,CA,1.068
+0000130,Majestic Por Posada,2016-06-28 06:00,CA,1.932
+0000130,Majestic Por Posada,2016-03-18 19:00,CA,1.636
+0000130,Majestic Por Posada,2015-11-04 21:00,US,1.575
+0000130,Majestic Por Posada,2015-10-26 17:00,MX,1.188
+0000130,Majestic Por Posada,2016-03-08 12:00,US,1.554
+0000130,Majestic Por Posada,2015-11-23 11:00,CA,1.428
+0000130,Majestic Por Posada,2015-11-20 07:00,US,1.314
+0000130,Majestic Por Posada,2015-10-03 13:00,MX,1.912
+0000130,Majestic Por Posada,2015-11-16 16:00,US,1.269
+0000130,Majestic Por Posada,2015-09-29 10:00,MX,1.136
+0000130,Majestic Por Posada,2015-09-13 22:00,US,1.122
+0000130,Majestic Por Posada,2015-09-06 19:00,US,1.584
+0000130,Majestic Por Posada,2015-08-31 19:00,CA,1.54
+0000130,Majestic Por Posada,2016-02-04 17:00,MX,1.93
+0000130,Majestic Por Posada,2016-08-04 09:00,US,1.135
+0000130,Majestic Por Posada,2016-05-02 19:00,CA,1.594
+0000130,Majestic Por Posada,2016-07-29 21:00,CA,1.738
+0000130,Majestic Por Posada,2016-06-09 04:00,CA,1.527
+0000130,Majestic Por Posada,2016-01-22 04:00,US,1.762
+0000130,Majestic Por Posada,2016-05-28 09:00,CA,1.363
+0000130,Majestic Por Posada,2016-01-07 13:00,US,1.541
+0000130,Majestic Por Posada,2016-05-19 07:00,MX,1.808
+0000130,Majestic Por Posada,2016-05-18 00:00,CA,1.522
+0000130,Majestic Por Posada,2016-03-27 13:00,US,1.798
+0000130,Majestic Por Posada,2016-03-23 12:00,MX,1.47
+0000130,Majestic Por Posada,2015-12-16 16:00,MX,1.59
+0000130,Majestic Por Posada,2016-03-14 09:00,CA,1.154
+0000130,Majestic Por Posada,2015-10-30 06:00,CA,1.363
+0000130,Majestic Por Posada,2015-10-05 17:00,CA,1.301
+0000130,Majestic Por Posada,2016-02-17 10:00,US,1.868
+0000130,Majestic Por Posada,2016-02-15 04:00,MX,1.915
+0000130,Majestic Por Posada,2015-10-02 11:00,MX,1.094
+0000130,Majestic Por Posada,2016-02-08 04:00,CA,1.8
+0000130,Majestic Por Posada,2015-08-20 11:00,MX,1.808
+0000130,Majestic Por Posada,2015-08-17 13:00,MX,1.734
+0000130,Majestic Por Posada,2016-04-27 05:00,US,1.461
+0000130,Majestic Por Posada,2016-07-22 20:00,MX,2.018
+0000130,Majestic Por Posada,2016-01-18 03:00,US,1.642
+0000130,Majestic Por Posada,2016-07-16 21:00,US,1.895
+0000130,Majestic Por Posada,2016-04-05 21:00,CA,1.032
+0000130,Majestic Por Posada,2016-07-03 03:00,MX,1.168
+0000130,Majestic Por Posada,2016-03-26 02:00,CA,1.764
+0000130,Majestic Por Posada,2016-03-25 08:00,MX,1.484
+0000130,Majestic Por Posada,2015-12-23 15:00,US,1.727
+0000130,Majestic Por Posada,2016-03-17 07:00,CA,1.018
+0000130,Majestic Por Posada,2015-12-07 07:00,US,1.819
+0000130,Majestic Por Posada,2015-10-19 12:00,US,1.327
+0000130,Majestic Por Posada,2015-12-03 02:00,MX,1.667
+0000130,Majestic Por Posada,2016-02-25 07:00,US,1.649
+0000130,Majestic Por Posada,2015-10-12 22:00,US,0.918
+0000130,Majestic Por Posada,2016-02-20 00:00,US,1.761
+0000130,Majestic Por Posada,2015-11-15 19:00,MX,1.94
+0000130,Majestic Por Posada,2015-09-24 21:00,US,1.471
+0000130,Majestic Por Posada,2015-11-06 19:00,MX,1.307
+0000130,Majestic Por Posada,2015-09-14 22:00,CA,0.692
+0000130,Majestic Por Posada,2016-01-31 23:00,US,1.598
+0000130,Majestic Por Posada,2016-06-10 08:00,US,1.836
+0000130,Majestic Por Posada,2016-01-16 11:00,MX,1.925
+0000130,Majestic Por Posada,2016-05-25 08:00,MX,0.959
+0000130,Majestic Por Posada,2016-04-05 04:00,US,1.79
+0000130,Majestic Por Posada,2016-07-04 06:00,MX,1.451
+0000130,Majestic Por Posada,2016-05-15 04:00,US,1.431
+0000130,Majestic Por Posada,2015-12-28 20:00,US,0.524
+0000130,Majestic Por Posada,2016-03-25 16:00,US,1.874
+0000130,Majestic Por Posada,2016-03-03 17:00,MX,1.935
+0000130,Majestic Por Posada,2015-11-11 13:00,CA,0.848
+0000130,Majestic Por Posada,2015-09-16 11:00,MX,0.525
+0000130,Majestic Por Posada,2015-08-17 20:00,US,1.663
+0000130,Majestic Por Posada,2015-09-04 13:00,MX,1.096
+0000130,Majestic Por Posada,2016-02-03 04:00,MX,1.643
+0000130,Majestic Por Posada,2016-07-25 20:00,CA,1.283
+0000130,Majestic Por Posada,2016-06-10 13:00,US,1.634
+0000130,Majestic Por Posada,2016-06-10 05:00,CA,0.992
+0000130,Majestic Por Posada,2016-06-03 03:00,MX,1.569
+0000130,Majestic Por Posada,2016-07-13 08:00,CA,1.636
+0000130,Majestic Por Posada,2016-05-25 22:00,CA,1.424
+0000130,Majestic Por Posada,2016-05-22 16:00,MX,1.823
+0000130,Majestic Por Posada,2016-06-26 16:00,US,0.957
+0000130,Majestic Por Posada,2015-10-26 20:00,CA,1.891
+0000130,Majestic Por Posada,2016-02-26 02:00,MX,1.659
+0000130,Majestic Por Posada,2015-11-27 11:00,MX,1.645
+0000130,Majestic Por Posada,2015-11-26 08:00,MX,0.453
+0000130,Majestic Por Posada,2016-02-15 10:00,CA,1.05
+0000130,Majestic Por Posada,2015-11-16 12:00,CA,1.385
+0000130,Majestic Por Posada,2015-09-20 09:00,CA,1.518
+0000130,Majestic Por Posada,2015-08-17 03:00,CA,0.936
+0000130,Majestic Por Posada,2016-08-03 16:00,CA,1.658
+0000130,Majestic Por Posada,2016-04-26 07:00,CA,1.251
+0000130,Majestic Por Posada,2016-07-24 18:00,MX,0.581
+0000130,Majestic Por Posada,2016-07-12 19:00,CA,1.728
+0000130,Majestic Por Posada,2016-03-17 23:00,CA,1.615
+0000130,Majestic Por Posada,2015-12-15 01:00,CA,1.705
+0000130,Majestic Por Posada,2015-12-11 14:00,MX,1.423
+0000130,Majestic Por Posada,2015-10-26 02:00,CA,1.405
+0000130,Majestic Por Posada,2015-11-27 23:00,MX,1.571
+0000130,Majestic Por Posada,2015-08-15 22:00,US,1.435
+0000130,Majestic Por Posada,2015-08-14 23:00,US,1.761
+0000130,Majestic Por Posada,2016-07-29 19:00,CA,1.24
+0000130,Majestic Por Posada,2016-07-24 11:00,US,1.502
+0000130,Majestic Por Posada,2016-04-18 10:00,CA,1.14
+0000130,Majestic Por Posada,2016-04-07 23:00,MX,1.703
+0000130,Majestic Por Posada,2016-01-06 08:00,MX,0.727
+0000130,Majestic Por Posada,2016-01-04 12:00,US,1.129
+0000130,Majestic Por Posada,2016-03-21 15:00,CA,1.125
+0000130,Majestic Por Posada,2015-10-21 13:00,MX,1.946
+0000130,Majestic Por Posada,2015-10-15 20:00,MX,1.145
+0000130,Majestic Por Posada,2016-02-06 14:00,US,1.867
+0000130,Majestic Por Posada,2015-09-16 07:00,MX,1.255
+0000130,Majestic Por Posada,2015-09-16 06:00,MX,1.67
+0000130,Majestic Por Posada,2015-08-21 21:00,US,1.948
+0000194,Copacabana City Big River Inn,2016-08-03 17:00,US,1.198
+0000194,Copacabana City Big River Inn,2016-01-11 18:00,CA,1.528
+0000194,Copacabana City Big River Inn,2015-12-30 11:00,CA,2.023
+0000194,Copacabana City Big River Inn,2015-12-27 00:00,MX,1.534
+0000194,Copacabana City Big River Inn,2016-03-18 20:00,MX,1.476
+0000194,Copacabana City Big River Inn,2015-10-17 15:00,US,0.807
+0000194,Copacabana City Big River Inn,2016-02-27 00:00,MX,1.534
+0000194,Copacabana City Big River Inn,2015-10-12 19:00,MX,0.777
+0000194,Copacabana City Big River Inn,2016-02-24 09:00,CA,1.541
+0000194,Copacabana City Big River Inn,2016-02-24 01:00,US,1.442
+0000194,Copacabana City Big River Inn,2016-02-21 05:00,US,0.89
+0000194,Copacabana City Big River Inn,2016-02-16 21:00,MX,1.416
+0000194,Copacabana City Big River Inn,2015-08-13 02:00,CA,1.331
+0000194,Copacabana City Big River Inn,2015-08-11 20:00,MX,1.579
+0000194,Copacabana City Big River Inn,2016-07-20 18:00,US,1.713
+0000194,Copacabana City Big River Inn,2016-04-17 07:00,CA,1.027
+0000194,Copacabana City Big River Inn,2016-01-13 05:00,MX,1.828
+0000194,Copacabana City Big River Inn,2016-05-24 15:00,MX,1.844
+0000194,Copacabana City Big River Inn,2016-05-23 13:00,MX,1.458
+0000194,Copacabana City Big River Inn,2016-05-20 18:00,CA,1.483
+0000194,Copacabana City Big River Inn,2015-12-31 20:00,US,1.323
+0000194,Copacabana City Big River Inn,2015-12-31 09:00,MX,1.345
+0000194,Copacabana City Big River Inn,2016-06-28 00:00,US,1.787
+0000194,Copacabana City Big River Inn,2015-12-26 14:00,CA,1.431
+0000194,Copacabana City Big River Inn,2015-11-05 17:00,US,1.872
+0000194,Copacabana City Big River Inn,2016-03-14 17:00,CA,1.617
+0000194,Copacabana City Big River Inn,2016-03-12 18:00,MX,1.728
+0000194,Copacabana City Big River Inn,2015-12-13 09:00,CA,1.401
+0000194,Copacabana City Big River Inn,2016-03-07 00:00,US,1.486
+0000194,Copacabana City Big River Inn,2016-03-05 21:00,CA,1.239
+0000194,Copacabana City Big River Inn,2015-10-22 17:00,CA,1.922
+0000194,Copacabana City Big River Inn,2016-03-05 07:00,US,1.368
+0000194,Copacabana City Big River Inn,2015-10-20 01:00,CA,1.726
+0000194,Copacabana City Big River Inn,2016-02-26 17:00,US,1.667
+0000194,Copacabana City Big River Inn,2015-10-15 09:00,CA,1.151
+0000194,Copacabana City Big River Inn,2015-10-04 07:00,MX,1.661
+0000194,Copacabana City Big River Inn,2015-08-10 08:00,CA,0.65
+0000194,Copacabana City Big River Inn,2016-07-28 09:00,MX,1.244
+0000194,Copacabana City Big River Inn,2016-06-08 08:00,CA,1.814
+0000194,Copacabana City Big River Inn,2016-05-20 07:00,MX,1.715
+0000194,Copacabana City Big River Inn,2016-01-02 19:00,US,0.942
+0000194,Copacabana City Big River Inn,2015-12-12 12:00,US,1.297
+0000194,Copacabana City Big River Inn,2015-12-11 18:00,MX,0.988
+0000194,Copacabana City Big River Inn,2016-02-11 16:00,US,1.74
+0000194,Copacabana City Big River Inn,2015-11-11 05:00,MX,1.663
+0000194,Copacabana City Big River Inn,2016-02-05 12:00,CA,1.417
+0000194,Copacabana City Big River Inn,2015-08-29 11:00,MX,1.527
+0000194,Copacabana City Big River Inn,2015-09-15 10:00,MX,1.558
+0000194,Copacabana City Big River Inn,2015-08-24 09:00,US,1.883
+0000194,Copacabana City Big River Inn,2015-08-23 20:00,MX,0.966
+0000194,Copacabana City Big River Inn,2015-08-23 08:00,MX,1.23
+0000194,Copacabana City Big River Inn,2016-05-03 01:00,US,1.466
+0000194,Copacabana City Big River Inn,2016-02-02 04:00,US,1.118
+0000194,Copacabana City Big River Inn,2016-02-01 14:00,US,1.667
+0000194,Copacabana City Big River Inn,2016-06-12 17:00,US,2.082
+0000194,Copacabana City Big River Inn,2016-04-23 22:00,US,1.903
+0000194,Copacabana City Big River Inn,2016-07-18 02:00,US,1.698
+0000194,Copacabana City Big River Inn,2016-04-13 17:00,US,2.01
+0000194,Copacabana City Big River Inn,2016-01-05 14:00,US,1.911
+0000194,Copacabana City Big River Inn,2016-04-04 16:00,US,1.213
+0000194,Copacabana City Big River Inn,2016-05-11 17:00,MX,1.366
+0000194,Copacabana City Big River Inn,2016-06-23 21:00,MX,1.489
+0000194,Copacabana City Big River Inn,2015-12-02 10:00,MX,1.85
+0000194,Copacabana City Big River Inn,2015-10-15 12:00,MX,1.828
+0000194,Copacabana City Big River Inn,2015-11-17 14:00,CA,1.856
+0000194,Copacabana City Big River Inn,2015-09-20 23:00,US,1.561
+0000194,Copacabana City Big River Inn,2015-09-19 00:00,MX,1.507
+0000194,Copacabana City Big River Inn,2015-09-15 18:00,MX,1.632
+0000194,Copacabana City Big River Inn,2015-09-05 00:00,US,1.653
+0000194,Copacabana City Big River Inn,2016-02-04 17:00,MX,1.853
+0000194,Copacabana City Big River Inn,2016-05-02 15:00,CA,1.597
+0000194,Copacabana City Big River Inn,2016-05-02 01:00,CA,1.618
+0000194,Copacabana City Big River Inn,2016-07-29 21:00,CA,1.748
+0000194,Copacabana City Big River Inn,2016-04-26 08:00,MX,1.433
+0000194,Copacabana City Big River Inn,2016-01-21 02:00,CA,1.712
+0000194,Copacabana City Big River Inn,2016-07-07 13:00,US,1.752
+0000194,Copacabana City Big River Inn,2016-07-05 07:00,MX,1.627
+0000194,Copacabana City Big River Inn,2016-07-02 15:00,US,1.696
+0000194,Copacabana City Big River Inn,2015-12-28 02:00,MX,1.371
+0000194,Copacabana City Big River Inn,2016-03-22 11:00,MX,1.638
+0000194,Copacabana City Big River Inn,2016-05-07 17:00,CA,1.693
+0000194,Copacabana City Big River Inn,2015-10-28 01:00,MX,1.375
+0000194,Copacabana City Big River Inn,2016-03-10 14:00,CA,1.668
+0000194,Copacabana City Big River Inn,2015-10-19 22:00,MX,0.952
+0000194,Copacabana City Big River Inn,2016-02-26 23:00,MX,1.455
+0000194,Copacabana City Big River Inn,2015-11-25 04:00,US,1.003
+0000194,Copacabana City Big River Inn,2015-10-02 11:00,CA,1.776
+0000194,Copacabana City Big River Inn,2015-10-02 10:00,US,1.463
+0000194,Copacabana City Big River Inn,2015-08-20 21:00,CA,1.762
+0000194,Copacabana City Big River Inn,2015-08-11 06:00,CA,1.912
+0000194,Copacabana City Big River Inn,2016-06-18 23:00,US,1.655
+0000194,Copacabana City Big River Inn,2016-05-02 16:00,US,1.656
+0000194,Copacabana City Big River Inn,2016-02-01 07:00,US,1.203
+0000194,Copacabana City Big River Inn,2016-01-27 16:00,MX,1.48
+0000194,Copacabana City Big River Inn,2016-07-17 12:00,US,1.62
+0000194,Copacabana City Big River Inn,2016-04-05 21:00,MX,1.621
+0000194,Copacabana City Big River Inn,2016-07-04 18:00,US,0.984
+0000194,Copacabana City Big River Inn,2016-07-04 04:00,CA,1.583
+0000194,Copacabana City Big River Inn,2016-05-14 17:00,US,1.861
+0000194,Copacabana City Big River Inn,2016-03-28 06:00,US,1.438
+0000194,Copacabana City Big River Inn,2016-05-06 13:00,CA,1.609
+0000194,Copacabana City Big River Inn,2015-11-02 23:00,MX,1.621
+0000194,Copacabana City Big River Inn,2015-11-22 11:00,US,1.709
+0000194,Copacabana City Big River Inn,2015-10-06 21:00,US,1.032
+0000194,Copacabana City Big River Inn,2016-02-10 04:00,US,1.427
+0000194,Copacabana City Big River Inn,2015-09-22 07:00,CA,0.924
+0000194,Copacabana City Big River Inn,2015-08-23 04:00,US,1.254
+0000194,Copacabana City Big River Inn,2015-09-12 11:00,US,1.597
+0000194,Copacabana City Big River Inn,2015-08-20 05:00,US,1.36
+0000194,Copacabana City Big River Inn,2015-09-01 04:00,MX,1.648
+0000194,Copacabana City Big River Inn,2016-05-01 11:00,MX,1.566
+0000194,Copacabana City Big River Inn,2016-04-28 03:00,CA,1.636
+0000194,Copacabana City Big River Inn,2016-01-16 11:00,CA,1.869
+0000194,Copacabana City Big River Inn,2016-05-27 04:00,MX,1.924
+0000194,Copacabana City Big River Inn,2016-05-27 02:00,CA,1.147
+0000194,Copacabana City Big River Inn,2016-01-09 05:00,US,0.631
+0000194,Copacabana City Big River Inn,2016-07-10 00:00,US,1.587
+0000194,Copacabana City Big River Inn,2016-05-25 08:00,CA,1.252
+0000194,Copacabana City Big River Inn,2016-05-24 13:00,MX,1.278
+0000194,Copacabana City Big River Inn,2016-01-01 04:00,US,1.225
+0000194,Copacabana City Big River Inn,2016-07-02 11:00,US,1.112
+0000194,Copacabana City Big River Inn,2015-12-31 07:00,CA,1.544
+0000194,Copacabana City Big River Inn,2016-05-15 04:00,US,0.622
+0000194,Copacabana City Big River Inn,2016-06-29 12:00,MX,1.664
+0000194,Copacabana City Big River Inn,2015-12-22 17:00,US,1.395
+0000194,Copacabana City Big River Inn,2015-12-12 05:00,US,1.267
+0000194,Copacabana City Big River Inn,2015-10-24 00:00,US,1.756
+0000194,Copacabana City Big River Inn,2015-11-20 16:00,CA,1.731
+0000194,Copacabana City Big River Inn,2015-09-30 23:00,US,1.257
+0000194,Copacabana City Big River Inn,2015-11-15 07:00,US,1.388
+0000194,Copacabana City Big River Inn,2015-08-28 09:00,US,2.033
+0000194,Copacabana City Big River Inn,2015-08-20 12:00,MX,1.077
+0000194,Copacabana City Big River Inn,2015-08-17 20:00,CA,1.681
+0000194,Copacabana City Big River Inn,2016-01-20 23:00,US,0.868
+0000194,Copacabana City Big River Inn,2016-07-18 01:00,MX,1.617
+0000194,Copacabana City Big River Inn,2016-07-13 12:00,MX,1.34
+0000194,Copacabana City Big River Inn,2016-05-22 16:00,CA,1.151
+0000194,Copacabana City Big River Inn,2016-01-05 17:00,CA,1.462
+0000194,Copacabana City Big River Inn,2016-05-18 13:00,MX,1.591
+0000194,Copacabana City Big River Inn,2016-04-02 09:00,MX,1.788
+0000194,Copacabana City Big River Inn,2016-04-01 06:00,MX,1.158
+0000194,Copacabana City Big River Inn,2016-03-27 03:00,US,1.694
+0000194,Copacabana City Big River Inn,2016-06-25 01:00,CA,0.836
+0000194,Copacabana City Big River Inn,2016-03-18 00:00,CA,1.189
+0000194,Copacabana City Big River Inn,2016-03-11 12:00,US,1.843
+0000194,Copacabana City Big River Inn,2015-11-26 08:00,US,1.767
+0000194,Copacabana City Big River Inn,2015-11-21 03:00,US,2.031
+0000194,Copacabana City Big River Inn,2016-02-13 16:00,US,2.042
+0000194,Copacabana City Big River Inn,2015-09-22 21:00,MX,1.397
+0000194,Copacabana City Big River Inn,2015-09-05 21:00,MX,1.634
+0000194,Copacabana City Big River Inn,2015-08-15 16:00,US,1.654
+0000194,Copacabana City Big River Inn,2015-08-12 04:00,CA,1.351
+0000194,Copacabana City Big River Inn,2016-08-02 13:00,MX,1.736
+0000194,Copacabana City Big River Inn,2016-08-02 07:00,MX,1.645
+0000194,Copacabana City Big River Inn,2016-06-12 03:00,CA,1.59
+0000194,Copacabana City Big River Inn,2016-07-26 03:00,CA,1.221
+0000194,Copacabana City Big River Inn,2016-04-19 13:00,MX,0.959
+0000194,Copacabana City Big River Inn,2016-05-26 14:00,MX,1.598
+0000194,Copacabana City Big River Inn,2016-05-12 02:00,US,1.516
+0000194,Copacabana City Big River Inn,2015-10-19 08:00,US,1.968
+0000194,Copacabana City Big River Inn,2015-11-08 07:00,CA,1.642
+0000194,Copacabana City Big River Inn,2015-09-05 06:00,CA,0.815
+0000194,Copacabana City Big River Inn,2016-02-03 08:00,MX,1.318
+0000194,Copacabana City Big River Inn,2016-07-28 05:00,CA,1.837
+0000194,Copacabana City Big River Inn,2016-06-08 09:00,US,1.848
+0000194,Copacabana City Big River Inn,2016-07-21 23:00,US,1.056
+0000194,Copacabana City Big River Inn,2016-01-20 09:00,US,1.617
+0000194,Copacabana City Big River Inn,2016-04-12 15:00,CA,0.881
+0000194,Copacabana City Big River Inn,2016-04-02 12:00,CA,1.354
+0000194,Copacabana City Big River Inn,2016-05-14 01:00,MX,1.126
+0000194,Copacabana City Big River Inn,2016-05-08 03:00,US,1.653
+0000194,Copacabana City Big River Inn,2015-12-21 03:00,MX,0.914
+0000194,Copacabana City Big River Inn,2015-10-16 08:00,US,0.88
+0000194,Copacabana City Big River Inn,2016-02-09 14:00,US,1.643
+0000194,Copacabana City Big River Inn,2015-08-21 21:00,US,1.967
+0000194,Copacabana City Big River Inn,2015-08-20 13:00,CA,1.227
+0000194,Copacabana City Big River Inn,2015-08-20 06:00,CA,1.424
+0000194,Copacabana City Big River Inn,2015-08-13 01:00,US,1.799
+0000194,Copacabana City Big River Inn,2015-08-29 18:00,US,0.968
+0000206,Barra Olinda Hotelo,2016-08-03 17:00,US,1.407
+0000206,Barra Olinda Hotelo,2016-05-02 13:00,MX,1.485
+0000206,Barra Olinda Hotelo,2016-01-31 13:00,MX,0.948
+0000206,Barra Olinda Hotelo,2016-06-15 03:00,CA,1.356
+0000206,Barra Olinda Hotelo,2016-07-26 23:00,MX,1.83
+0000206,Barra Olinda Hotelo,2016-06-10 00:00,US,1.917
+0000206,Barra Olinda Hotelo,2015-12-30 11:00,CA,1.737
+0000206,Barra Olinda Hotelo,2016-03-30 02:00,US,1.929
+0000206,Barra Olinda Hotelo,2016-06-26 20:00,CA,1.782
+0000206,Barra Olinda Hotelo,2015-12-16 11:00,MX,1.605
+0000206,Barra Olinda Hotelo,2015-10-25 15:00,US,1.196
+0000206,Barra Olinda Hotelo,2015-10-16 20:00,MX,1.054
+0000206,Barra Olinda Hotelo,2015-10-15 01:00,US,1.467
+0000206,Barra Olinda Hotelo,2015-11-25 17:00,CA,1.457
+0000206,Barra Olinda Hotelo,2015-09-22 05:00,CA,2.003
+0000206,Barra Olinda Hotelo,2015-09-17 05:00,MX,1.365
+0000206,Barra Olinda Hotelo,2016-01-22 10:00,CA,0.854
+0000206,Barra Olinda Hotelo,2016-04-06 10:00,US,1.538
+0000206,Barra Olinda Hotelo,2016-05-07 13:00,US,1.6
+0000206,Barra Olinda Hotelo,2015-12-19 04:00,US,0.834
+0000206,Barra Olinda Hotelo,2015-10-30 21:00,US,1.379
+0000206,Barra Olinda Hotelo,2015-10-24 02:00,MX,1.067
+0000206,Barra Olinda Hotelo,2016-02-24 23:00,MX,1.845
+0000206,Barra Olinda Hotelo,2015-10-01 03:00,MX,1.658
+0000206,Barra Olinda Hotelo,2016-02-08 02:00,US,0.327
+0000206,Barra Olinda Hotelo,2015-09-16 00:00,MX,1.782
+0000206,Barra Olinda Hotelo,2015-09-07 10:00,US,1.474
+0000206,Barra Olinda Hotelo,2015-08-15 23:00,CA,1.727
+0000206,Barra Olinda Hotelo,2015-08-14 19:00,US,1.868
+0000206,Barra Olinda Hotelo,2016-08-04 03:00,US,1.611
+0000206,Barra Olinda Hotelo,2016-05-02 20:00,CA,0.45
+0000206,Barra Olinda Hotelo,2016-07-28 00:00,MX,1.154
+0000206,Barra Olinda Hotelo,2016-07-27 05:00,MX,1.106
+0000206,Barra Olinda Hotelo,2016-01-22 09:00,MX,1.401
+0000206,Barra Olinda Hotelo,2016-04-21 12:00,CA,1.555
+0000206,Barra Olinda Hotelo,2016-01-14 15:00,MX,0.933
+0000206,Barra Olinda Hotelo,2016-05-14 21:00,US,1.068
+0000206,Barra Olinda Hotelo,2016-03-29 04:00,US,1.333
+0000206,Barra Olinda Hotelo,2016-05-12 16:00,MX,1.927
+0000206,Barra Olinda Hotelo,2016-05-12 14:00,US,1.631
+0000206,Barra Olinda Hotelo,2016-05-10 10:00,CA,1.747
+0000206,Barra Olinda Hotelo,2016-06-25 03:00,MX,1.147
+0000206,Barra Olinda Hotelo,2015-12-01 05:00,US,1.033
+0000206,Barra Olinda Hotelo,2015-11-30 02:00,MX,1.669
+0000206,Barra Olinda Hotelo,2016-02-22 09:00,CA,1.852
+0000206,Barra Olinda Hotelo,2015-10-06 22:00,MX,1.057
+0000206,Barra Olinda Hotelo,2015-09-24 00:00,MX,0.858
+0000206,Barra Olinda Hotelo,2015-08-23 19:00,US,1.432
+0000206,Barra Olinda Hotelo,2015-09-10 10:00,CA,1.497
+0000206,Barra Olinda Hotelo,2015-09-07 18:00,US,1.316
+0000206,Barra Olinda Hotelo,2016-01-31 22:00,MX,1.366
+0000206,Barra Olinda Hotelo,2016-07-19 01:00,CA,1.766
+0000206,Barra Olinda Hotelo,2016-04-15 02:00,CA,0.73
+0000206,Barra Olinda Hotelo,2016-05-17 01:00,CA,1.82
+0000206,Barra Olinda Hotelo,2016-06-25 23:00,MX,1.689
+0000206,Barra Olinda Hotelo,2015-12-24 05:00,US,1.46
+0000206,Barra Olinda Hotelo,2016-06-21 21:00,MX,1.656
+0000206,Barra Olinda Hotelo,2015-12-17 22:00,MX,1.339
+0000206,Barra Olinda Hotelo,2015-12-15 05:00,US,1.692
+0000206,Barra Olinda Hotelo,2015-12-11 03:00,CA,1.245
+0000206,Barra Olinda Hotelo,2015-12-03 21:00,US,1.122
+0000206,Barra Olinda Hotelo,2015-11-26 00:00,US,1.404
+0000206,Barra Olinda Hotelo,2015-11-24 06:00,CA,1.897
+0000206,Barra Olinda Hotelo,2015-09-28 19:00,CA,1.658
+0000206,Barra Olinda Hotelo,2015-11-09 22:00,US,1.621
+0000206,Barra Olinda Hotelo,2015-09-13 22:00,CA,1.467
+0000206,Barra Olinda Hotelo,2016-02-02 14:00,US,1.343
+0000206,Barra Olinda Hotelo,2016-07-25 01:00,CA,1.143
+0000206,Barra Olinda Hotelo,2016-04-13 06:00,MX,1.815
+0000206,Barra Olinda Hotelo,2016-05-27 19:00,CA,2.028
+0000206,Barra Olinda Hotelo,2016-05-22 21:00,CA,1.689
+0000206,Barra Olinda Hotelo,2016-07-02 15:00,MX,1.005
+0000206,Barra Olinda Hotelo,2016-03-26 10:00,CA,2.027
+0000206,Barra Olinda Hotelo,2016-05-07 17:00,MX,1.586
+0000206,Barra Olinda Hotelo,2016-03-16 16:00,MX,0.849
+0000206,Barra Olinda Hotelo,2015-12-16 23:00,MX,1.629
+0000206,Barra Olinda Hotelo,2015-10-20 07:00,US,1.713
+0000206,Barra Olinda Hotelo,2015-11-27 13:00,MX,1.477
+0000206,Barra Olinda Hotelo,2015-10-11 03:00,MX,1.619
+0000206,Barra Olinda Hotelo,2015-10-02 11:00,CA,1.853
+0000206,Barra Olinda Hotelo,2015-11-12 18:00,US,1.5
+0000206,Barra Olinda Hotelo,2015-11-12 06:00,MX,1.769
+0000206,Barra Olinda Hotelo,2015-08-24 15:00,US,1.458
+0000206,Barra Olinda Hotelo,2015-09-10 12:00,MX,1.544
+0000206,Barra Olinda Hotelo,2016-05-04 03:00,CA,1.765
+0000206,Barra Olinda Hotelo,2016-01-24 14:00,US,1.705
+0000206,Barra Olinda Hotelo,2016-07-22 20:00,MX,0.902
+0000206,Barra Olinda Hotelo,2016-04-15 06:00,MX,1.683
+0000206,Barra Olinda Hotelo,2016-07-10 02:00,CA,1.578
+0000206,Barra Olinda Hotelo,2016-07-06 01:00,US,1.487
+0000206,Barra Olinda Hotelo,2016-05-19 20:00,US,1.705
+0000206,Barra Olinda Hotelo,2016-07-04 04:00,MX,1.833
+0000206,Barra Olinda Hotelo,2016-03-23 01:00,CA,1.116
+0000206,Barra Olinda Hotelo,2015-12-23 15:00,CA,0.932
+0000206,Barra Olinda Hotelo,2015-10-19 12:00,US,1.4
+0000206,Barra Olinda Hotelo,2015-10-13 17:00,CA,1.393
+0000206,Barra Olinda Hotelo,2016-02-14 01:00,CA,0.742
+0000206,Barra Olinda Hotelo,2015-11-15 19:00,US,1.609
+0000206,Barra Olinda Hotelo,2016-02-12 09:00,MX,1.297
+0000206,Barra Olinda Hotelo,2015-11-10 10:00,MX,1.703
+0000206,Barra Olinda Hotelo,2015-08-13 06:00,CA,1.692
+0000206,Barra Olinda Hotelo,2016-07-22 19:00,US,0.838
+0000206,Barra Olinda Hotelo,2016-07-10 00:00,MX,1.677
+0000206,Barra Olinda Hotelo,2016-07-08 07:00,US,1.379
+0000206,Barra Olinda Hotelo,2016-01-05 20:00,CA,1.228
+0000206,Barra Olinda Hotelo,2016-05-22 05:00,CA,1.471
+0000206,Barra Olinda Hotelo,2016-05-14 11:00,US,1.001
+0000206,Barra Olinda Hotelo,2016-03-24 20:00,CA,1.622
+0000206,Barra Olinda Hotelo,2016-02-29 20:00,CA,1.562
+0000206,Barra Olinda Hotelo,2015-10-18 07:00,US,0.716
+0000206,Barra Olinda Hotelo,2015-11-30 14:00,US,1.359
+0000206,Barra Olinda Hotelo,2016-02-23 02:00,MX,1.744
+0000206,Barra Olinda Hotelo,2015-10-09 13:00,US,1.62
+0000206,Barra Olinda Hotelo,2016-02-13 19:00,MX,1.548
+0000206,Barra Olinda Hotelo,2015-08-23 12:00,MX,1.831
+0000206,Barra Olinda Hotelo,2015-08-10 16:00,MX,1.882
+0000206,Barra Olinda Hotelo,2015-08-10 00:00,MX,1.468
+0000206,Barra Olinda Hotelo,2015-08-06 15:00,MX,1.851
+0000206,Barra Olinda Hotelo,2016-02-03 04:00,MX,1.516
+0000206,Barra Olinda Hotelo,2016-07-29 10:00,US,1.24
+0000206,Barra Olinda Hotelo,2016-01-05 17:00,CA,0.676
+0000206,Barra Olinda Hotelo,2015-12-26 01:00,US,0.688
+0000206,Barra Olinda Hotelo,2016-03-19 17:00,US,1.844
+0000206,Barra Olinda Hotelo,2016-03-20 00:00,MX,1.506
+0000206,Barra Olinda Hotelo,2016-03-16 23:00,CA,1.468
+0000206,Barra Olinda Hotelo,2015-11-02 03:00,MX,1.93
+0000206,Barra Olinda Hotelo,2016-03-11 12:00,CA,1.486
+0000206,Barra Olinda Hotelo,2015-12-05 18:00,US,1.515
+0000206,Barra Olinda Hotelo,2015-10-17 11:00,MX,1.128
+0000206,Barra Olinda Hotelo,2016-02-24 12:00,US,1.058
+0000206,Barra Olinda Hotelo,2016-02-23 06:00,MX,1.745
+0000206,Barra Olinda Hotelo,2016-02-11 11:00,CA,1.226
+0000206,Barra Olinda Hotelo,2015-09-29 18:00,CA,1.019
+0000206,Barra Olinda Hotelo,2015-08-17 03:00,US,1.499
+0000206,Barra Olinda Hotelo,2015-08-15 16:00,US,1.455
+0000206,Barra Olinda Hotelo,2015-09-03 22:00,CA,1.692
+0000206,Barra Olinda Hotelo,2015-08-12 04:00,MX,1.666
+0000206,Barra Olinda Hotelo,2016-08-02 13:00,MX,0.83
+0000206,Barra Olinda Hotelo,2016-05-02 04:00,US,1.295
+0000206,Barra Olinda Hotelo,2016-07-29 11:00,US,1.619
