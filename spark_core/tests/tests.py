@@ -15,8 +15,8 @@ class TestMR(unittest.TestCase):
         self.sc = SparkContext.getOrCreate(SparkConf())
         self.spark = SparkSession(self.sc)
 
-    def test_getExchangedRates(self):
-        result = MotelsHomeRecommendation.getExchangeRates(self, self.sc, self.INPUT_EXCHANGED_RATES_SAMPLE)
+    def test_get_exchanged_rates(self):
+        result = MotelsHomeRecommendation.get_exchange_rates(self, self.sc, self.INPUT_EXCHANGED_RATES_SAMPLE)
         expected = self.sc.parallelize(
             [
                 ['11-06-05-2016', '0.803'],
@@ -26,7 +26,7 @@ class TestMR(unittest.TestCase):
         )
         self.assertCountEqual(expected.collect(), result.collect())
 
-    def test_getBids(self):
+    def test_get_bids(self):
         rawBids = self.sc.parallelize(
             [
                 ["0000002", "11-06-05-2016", "0.89", "0.92", "1.32", "2.07", "", "1.35", "0.89", "0.92", "1.32", "2.07", "", "1.35", "0.89", "0.92", "1.32", "2.07"],
@@ -45,11 +45,11 @@ class TestMR(unittest.TestCase):
                 '0000002,2016-05-06 11:00,CA,0.715'
             ]
         )
-        result = MotelsHomeRecommendation.getBids(self, rawBids, exchangedRates)
+        result = MotelsHomeRecommendation.get_bids(self, rawBids, exchangedRates)
         self.assertEqual([str(x) for x in result.collect()], expected.collect())
 
-    def test_getMotels(self):
-        result = MotelsHomeRecommendation.getMotels(self, self.sc, self.INPUT_MOTELS_SAMPLE)
+    def test_get_motels(self):
+        result = MotelsHomeRecommendation.get_motels(self, self.sc, self.INPUT_MOTELS_SAMPLE)
         expected = self.sc.parallelize(
             [
                 ['0000001', 'Grand Mengo Casino'],
@@ -59,7 +59,7 @@ class TestMR(unittest.TestCase):
         )
         self.assertCountEqual(expected.collect(), result.collect())
 
-    def test_getEnriched(self):
+    def test_get_enriched(self):
         bids = self.sc.parallelize(
             [
                 BidItem('0000002','2016-05-06 11:00','US','1.662'),
@@ -76,7 +76,7 @@ class TestMR(unittest.TestCase):
                 '0000002,Novelo Granja,2016-05-06 11:00,US,1.662'
             ]
         )
-        result = MotelsHomeRecommendation.getEnriched(self, bids, motels)
+        result = MotelsHomeRecommendation.get_enriched(self, bids, motels)
         self.assertEqual(result.collect(), expected.collect())
 
     def test_transform_date(self):
@@ -118,7 +118,7 @@ class TestMR(unittest.TestCase):
             ]
         )
 
-        rawBids = MotelsHomeRecommendation.getRawBids(self, self.sc, self.INPUT_BIDS_SAMPLE)
+        rawBids = MotelsHomeRecommendation.get_raw_bids(self, self.sc, self.INPUT_BIDS_SAMPLE)
 
         self.assertEqual(expected.collect(), rawBids.collect())
 
@@ -141,5 +141,5 @@ class TestMR(unittest.TestCase):
             ]
         )
 
-        erroneousRecords = MotelsHomeRecommendation.getErroneousRecords(self, rawBids)
+        erroneousRecords = MotelsHomeRecommendation.get_erroneous_records(self, rawBids)
         self.assertCountEqual(expected.collect(), erroneousRecords.collect())

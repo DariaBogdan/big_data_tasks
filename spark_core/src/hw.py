@@ -1,9 +1,16 @@
+import argparse
+import os
 from pyspark import SparkConf
 from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
+
 from classes import BidError, EnrichedItem, BidItem
 
 COUNTRIES = ['US', 'MX', 'CA']
+ERRONEOUS_DIR = "erroneous"
+AGGREGATED_DIR = "aggregated"
+DELIMITER = ","
+BIDS_HEADER =["MotelID", "BidDate", "HU", "UK",  "NL", "US", "MX", "AU", "CA", "CN", "KR","BE", "I","JP", "IN", "HN", "GY", "DE"]
 
 
 def transform_date(date):
@@ -28,7 +35,6 @@ def to_euro(price_usd, exhange_rate):
     except ValueError:
         return ''
 
-
 def expand(x):
     """ Takes tuple: row from file 'bids.txt' and exchange
      rate for date from this row. Select only values for
@@ -42,8 +48,9 @@ def expand(x):
     rawBid, exchangeRate = x
     motelId = rawBid[0]
     transformed_date = transform_date(rawBid[1])
+    needed_countries = [BIDS_HEADER.index(header) for header in COUNTRIES]
     result = []
-    for raw_idx, loSa in zip([5, 6, 8], COUNTRIES):
+    for raw_idx, loSa in zip(needed_countries, COUNTRIES):
         result.append(
             BidItem(
                 motelId=motelId,
@@ -56,9 +63,6 @@ def expand(x):
 
 
 class MotelsHomeRecommendation:
-    ERRONEOUS_DIR = "erroneous"
-    AGGREGATED_DIR = "aggregated"
-    DELIMITER = ","
 
     def __init__(self, bidsPath, exchangeRatesPath, motelsPath, outputBasePath):
         self.bidsPath = bidsPath
@@ -67,8 +71,10 @@ class MotelsHomeRecommendation:
         self.outputBasePath = outputBasePath
         self.sc = SparkContext.getOrCreate(SparkConf())
         self.spark = SparkSession(self.sc)
+        self.sc.setLogLevel('INFO')
 
-    def getRawBids(self, sc, bidsPath):
+
+    def get_raw_bids(self, sc, bidsPath):
         """ Read file to RDD
 
         :param sc: spark context
@@ -77,10 +83,11 @@ class MotelsHomeRecommendation:
         """
         text_file = sc.textFile(bidsPath)
         rdd = text_file\
-            .map(lambda r: r.split(","))
+            .map(lambda r: r.split(DELIMITER))
         return rdd
 
-    def getErroneousRecords(self, rawBids):
+
+    def get_erroneous_records(self, rawBids):
         """ Calculates amount of specific errors for hour
 
         :param rawBids: raw from file 'bids.txt'
@@ -94,7 +101,7 @@ class MotelsHomeRecommendation:
             .map(lambda x: ','.join([','.join(x[0]), str(x[1])]))
         return rdd
 
-    def getExchangeRates(self, sc, exchangeRatesPath):
+    def get_exchange_rates(self, sc, exchangeRatesPath):
         """ Read file to RDD
 
         :param sc: spark context
@@ -103,11 +110,11 @@ class MotelsHomeRecommendation:
         """
         text_file = sc.textFile(exchangeRatesPath)
         rdd = text_file\
-            .map(lambda r: r.split(",")) \
+            .map(lambda r: r.split(DELIMITER)) \
             .map(lambda r: [r[i] for i in [0, 3]])  # select only needed values
         return rdd
 
-    def getBids(self, rawBids, exchangeRates):
+    def get_bids(self, rawBids, exchangeRates):
         rdd = rawBids \
             .filter(lambda r: not "ERROR" in r[2]) \
             .keyBy(lambda r: r[1]) \
@@ -117,7 +124,7 @@ class MotelsHomeRecommendation:
             .filter(lambda r: r.price != '')
         return rdd
 
-    def getMotels(self, sc, motelsPath):
+    def get_motels(self, sc, motelsPath):
         """ Read file to RDD
 
         :param sc: spark context
@@ -126,11 +133,11 @@ class MotelsHomeRecommendation:
         """
         text_file = sc.textFile(motelsPath)
         rdd = text_file \
-            .map(lambda r: r.split(',')) \
+            .map(lambda r: r.split(DELIMITER)) \
             .map(lambda r: [r[i] for i in [0, 1]])  # select only motelId and motelName
         return rdd
 
-    def getEnriched(self, bids, motels):
+    def get_enriched(self, bids, motels):
         """  Enrich the data and find the maximum
 
         :param bids: rdd with bids
@@ -147,37 +154,49 @@ class MotelsHomeRecommendation:
                             loSa=x[1][0].loSa,
                             motelName=x[1][1]))) \
             .keyBy(lambda x: (x.bidDate, x.motelId)) \
-            .reduceByKey(lambda x, y: max(x, y, key=lambda x: int(x.price))) \
+            .reduceByKey(lambda x, y: max(x, y, key=lambda x: float(x.price))) \
             .values() \
             .map(str)
         return rdd
 
-    def processData(self):
+    def process_data(self):
         # Read the bid data from the provided file.
-        rawBids = self.getRawBids(self.sc, self.bidsPath)
+        rawBids = self.get_raw_bids(self.sc, self.bidsPath)
 
         # Collect the errors and save the result
-        erroneousRecords = self.getErroneousRecords(rawBids)
-        erroneousRecords.saveAsTextFile(f"{self.outputBasePath}/{self.ERRONEOUS_DIR}")
+        erroneousRecords = self.get_erroneous_records(rawBids)
+        erroneousRecords.saveAsTextFile(os.path.join(self.outputBasePath, ERRONEOUS_DIR))
 
         # Read the exchange rate information.
-        exchangeRates = self.getExchangeRates(self.sc, self.exchangeRatesPath)
+        exchangeRates = self.get_exchange_rates(self.sc, self.exchangeRatesPath)
 
         # Transform the rawBids and use the BidItem case class.u
-        bids = self.getBids(rawBids, exchangeRates)
+        bids = self.get_bids(rawBids, exchangeRates)
 
         # Load motels data.
-        motels = self.getMotels(self.sc, self.motelsPath)
+        motels = self.get_motels(self.sc, self.motelsPath)
 
         # Join the bids with motel names and utilize EnrichedItem case class.
-        enriched = self.getEnriched(bids, motels)
-        enriched.saveAsTextFile(f"{self.outputBasePath}/{self.AGGREGATED_DIR}")
+        enriched = self.get_enriched(bids, motels)
+        enriched.saveAsTextFile(os.path.join(self.outputBasePath, AGGREGATED_DIR))
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--bids_path', type=str,
+                        help='path to bids.txt file', default='spark_core/bids.txt')
+    parser.add_argument('--exchange_rate_path', type=str,
+                        help='path to exchange_rate.txt file', default='spark_core/exchange_rate.txt')
+    parser.add_argument('--motels_path', type=str,
+                        help='path to motels.txt file', default='spark_core/motels.txt')
+    parser.add_argument('--result_path', type=str,
+                        help='path to result folder', default='spark_core/result')
+    args = parser.parse_args()
+    print(args)
+
     MotelsHomeRecommendation(
-        'bids.txt',
-        'exchange_rate.txt',
-        'motels.txt',
-        'result.txt'
-    ).processData()
+        args.bids_path,
+        args.exchange_rate_path,
+        args.motels_path,
+        args.result_path
+    ).process_data()
