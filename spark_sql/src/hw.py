@@ -149,7 +149,7 @@ class MotelsHomeRecommendation:
             select('MotelID',
                    'loSa',
                    df_res.newdate.alias('BidDate'),
-                   round(df_res.price.cast('float') * df_res.ExchangeRate.cast('float'), 3).alias('price'))
+                   round(df_res.price.cast('float') * df_res.ExchangeRate.cast('float'), 3).cast('string').alias('price'))
         return df_res
 
     @classmethod
@@ -206,12 +206,12 @@ class MotelsHomeRecommendation:
 
         # Collect the errors and save the result
         erroneousRecords = self.get_erroneous_records(rawBids)
+        # using coalesce to decrease files number
         erroneousRecords.coalesce(16)\
             .write.format("csv")\
             .mode("append")\
             .save(os.path.join(self.outputBasePath,
                                self.ERRONEOUS_DIR))
-        # .option("header", "true") \
 
         # Read the exchange rate information.
         exchangeRates = self.get_exchange_rates(self.spark, self.exchangeRatesPath)
@@ -224,12 +224,12 @@ class MotelsHomeRecommendation:
 
         # Join the bids with motel names and utilize EnrichedItem case class.
         enriched = self.get_enriched(bids, motels)
+        # using coalesce to decrease files number
         enriched.coalesce(16)\
             .write.format("csv") \
             .mode("append") \
             .save(os.path.join(self.outputBasePath,
                                self.AGGREGATED_DIR))
-        # .option("header", "true") \
 
 
 if __name__ == '__main__':
