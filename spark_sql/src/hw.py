@@ -4,7 +4,7 @@ from pyspark import SparkConf
 from pyspark.context import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
-from pyspark.sql.functions import lit, unix_timestamp, from_unixtime, round, max
+from pyspark.sql.functions import lit, unix_timestamp, from_unixtime, round, max, col
 from pyspark.sql.types import StructField, StringType, StructType
 
 
@@ -17,6 +17,7 @@ class MotelsHomeRecommendation:
     EXCHANGE_RATES_HEADER = ["ValidFrom", "CurrencyName", "CurrencyCode", "ExchangeRate"]
     MOTELS_HEADER = ['MotelID', 'MotelName']
     INPUT_DATE_FORMAT = 'HH-dd-MM-yyyy'
+    COUNTRIES = ['US', 'MX', 'CA']
 
     def __init__(self, bidsPath, exchangeRatesPath, motelsPath, outputBasePath):
         self.bidsPath = bidsPath
@@ -26,6 +27,9 @@ class MotelsHomeRecommendation:
         self.sc = SparkContext.getOrCreate(SparkConf())
         self.spark = SparkSession.builder.getOrCreate()
         self.sc.setLogLevel('INFO')
+
+    def __del__(self):
+        self.sc.stop()
 
     @classmethod
     def get_raw_bids(cls, spark, bidsPath):
@@ -44,9 +48,12 @@ class MotelsHomeRecommendation:
                 for field_name in cls.BIDS_HEADER
             ]
         )
-        df = spark.read.csv(path=bidsPath,
-                            schema=schema,
-                            sep=cls.DELIMITER)
+        if bidsPath.endswith('.parquet'):
+            df = spark.read.parquet(bidsPath)
+        else:
+            df = spark.read.csv(path=bidsPath,
+                                schema=schema,
+                                sep=cls.DELIMITER)
         return df
 
     @staticmethod
@@ -78,13 +85,15 @@ class MotelsHomeRecommendation:
                 for field_name in cls.EXCHANGE_RATES_HEADER
             ]
         )
-        df = spark.read.csv(path=exchangeRatesPath,
-                            schema=schema,
-                            sep=cls.DELIMITER)
+        if exchangeRatesPath.endswith('.parquet'):
+            df = spark.read.parquet(exchangeRatesPath)
+        else:
+            df = spark.read.csv(path=exchangeRatesPath,
+                                schema=schema,
+                                sep=cls.DELIMITER)
         return df
 
-    @classmethod
-    def get_bids(cls, rawBids, exchangeRates):
+    def get_bids(self, rawBids, exchangeRates):
         """
 
         :param rawBids: DataFrame with raw bids
@@ -94,40 +103,54 @@ class MotelsHomeRecommendation:
         # exclude errors
         df = rawBids.\
             where(~rawBids.HU.contains('ERROR'))
-        # select price for US
-        df_us = df.select(rawBids.MotelID,
-                          rawBids.BidDate,
-                          rawBids.US.alias('price'),
-                          lit('US').alias('loSa'))
-        # select price for MX
-        df_mx = df.select(rawBids.MotelID,
-                          rawBids.BidDate,
-                          rawBids.MX.alias('price'),
-                          lit('MX').alias('loSa'))
-        # select price for CA
-        df_ca = df.select(rawBids.MotelID,
-                          rawBids.BidDate,
-                          rawBids.CA.alias('price'),
-                          lit('CA').alias('loSa'))
-        # union tables for each country
-        df = df_us.\
-            union(df_mx).\
-            union(df_ca).\
-            join(exchangeRates, rawBids.BidDate == exchangeRates.ValidFrom, 'left')
+
+        schema = StructType(
+            [
+                StructField(
+                    name='MotelID',
+                    dataType=StringType()
+                ),
+                StructField(
+                    name='BidDate',
+                    dataType=StringType()
+                ),
+                StructField(
+                    name='price',
+                    dataType=StringType()
+                ),
+                StructField(
+                    name='loSa',
+                    dataType=StringType()
+                )
+            ]
+        )
+        df_res = self.spark.createDataFrame([], schema)
+        for country in self.COUNTRIES:
+            # select price for current country
+            df_current = df.select(rawBids.MotelID,
+                                   rawBids.BidDate,
+                                   col(country).alias('price'),
+                                   lit(country).alias('loSa'))
+            df_res = df_res.union(df_current)
+
+        df_res = df_res.join(exchangeRates, df_res.BidDate == exchangeRates.ValidFrom, 'left')
+
         # format date
-        df = df.select('MotelID',
-                       'BidDate',
-                       from_unixtime(unix_timestamp('BidDate', cls.INPUT_DATE_FORMAT),
-                                     format='yyyy-MM-dd HH:mm').alias('newdate'),
-                       'loSa', 'price',
-                       'ExchangeRate')
+        df_res = df_res.select('MotelID',
+                               'BidDate',
+                               from_unixtime(unix_timestamp('BidDate', self.INPUT_DATE_FORMAT),
+                                             format='yyyy-MM-dd HH:mm').alias('newdate'),
+                               'loSa',
+                               'price',
+                               'ExchangeRate')
+
         # exclude empty prices and show price in needed currency
-        df = df.where(df.price!='').\
+        df_res = df_res.where(df_res.price!='').\
             select('MotelID',
                    'loSa',
-                   df.newdate.alias('BidDate'),
-                   round(df.price.cast('float') * df.ExchangeRate.cast('float'), 3).alias('price'))
-        return df
+                   df_res.newdate.alias('BidDate'),
+                   round(df_res.price.cast('float') * df_res.ExchangeRate.cast('float'), 3).alias('price'))
+        return df_res
 
     @classmethod
     def get_motels(cls, spark, motelsPath):
@@ -145,9 +168,12 @@ class MotelsHomeRecommendation:
                 for field_name in cls.MOTELS_HEADER
             ]
         )
-        df = spark.read.csv(path=motelsPath,
-                            schema=schema,
-                            sep=cls.DELIMITER)
+        if motelsPath.endswith('.parquet'):
+            df = spark.read.parquet(motelsPath)
+        else:
+            df = spark.read.csv(path=motelsPath,
+                                schema=schema,
+                                sep=cls.DELIMITER)
 
         return df
 
@@ -180,7 +206,7 @@ class MotelsHomeRecommendation:
 
         # Collect the errors and save the result
         erroneousRecords = self.get_erroneous_records(rawBids)
-        erroneousRecords.coalesce(1)\
+        erroneousRecords.coalesce(16)\
             .write.format("csv")\
             .mode("append")\
             .save(os.path.join(self.outputBasePath,
@@ -198,7 +224,7 @@ class MotelsHomeRecommendation:
 
         # Join the bids with motel names and utilize EnrichedItem case class.
         enriched = self.get_enriched(bids, motels)
-        enriched.coalesce(1) \
+        enriched.coalesce(16)\
             .write.format("csv") \
             .mode("append") \
             .save(os.path.join(self.outputBasePath,
@@ -209,15 +235,14 @@ class MotelsHomeRecommendation:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--bids_path', type=str,
-                        help='path to bids.txt file', default='spark_core/bids.txt')
+                        help='path to bids.txt file', default='spark_core/bids.snappy.parquet')
     parser.add_argument('--exchange_rate_path', type=str,
-                        help='path to exchange_rate.txt file', default='spark_core/exchange_rate.txt')
+                        help='path to exchange_rate.txt file', default='spark_core/exchange_rate.snappy.parquet')
     parser.add_argument('--motels_path', type=str,
-                        help='path to motels.txt file', default='spark_core/motels.txt')
+                        help='path to motels.txt file', default='spark_core/motels.snappy.parquet')
     parser.add_argument('--result_path', type=str,
                         help='path to result folder', default='spark_core/result')
     args = parser.parse_args()
-    print(args)
 
     MotelsHomeRecommendation(
         args.bids_path,

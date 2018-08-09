@@ -1,0 +1,692 @@
+[root@sandbox-hdp spark_sql]# sh ./runner.sh run
+SPARK_MAJOR_VERSION is set to 2, using Spark2
+18/08/09 20:49:11 INFO SparkContext: Running Spark version 2.3.0.2.6.5.0-292
+18/08/09 20:49:11 INFO SparkContext: Submitted application: hw.py
+18/08/09 20:49:11 INFO SecurityManager: Changing view acls to: root
+18/08/09 20:49:11 INFO SecurityManager: Changing modify acls to: root
+18/08/09 20:49:11 INFO SecurityManager: Changing view acls groups to: 
+18/08/09 20:49:11 INFO SecurityManager: Changing modify acls groups to: 
+18/08/09 20:49:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+18/08/09 20:49:11 INFO Utils: Successfully started service 'sparkDriver' on port 37697.
+18/08/09 20:49:11 INFO SparkEnv: Registering MapOutputTracker
+18/08/09 20:49:11 INFO SparkEnv: Registering BlockManagerMaster
+18/08/09 20:49:11 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+18/08/09 20:49:11 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+18/08/09 20:49:11 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-8cf0262f-6b1a-4e34-8da2-b32d047dc81c
+18/08/09 20:49:11 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+18/08/09 20:49:11 INFO SparkEnv: Registering OutputCommitCoordinator
+18/08/09 20:49:11 INFO log: Logging initialized @2811ms
+18/08/09 20:49:12 INFO Server: jetty-9.3.z-SNAPSHOT
+18/08/09 20:49:12 INFO Server: Started @2921ms
+18/08/09 20:49:12 INFO AbstractConnector: Started ServerConnector@70bbfacf{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/08/09 20:49:12 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@53ea6a92{/jobs,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@56750cec{/jobs/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@23b1de83{/jobs/job,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4cdedb3d{/jobs/job/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@32b2ac26{/stages,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1fda2935{/stages/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@54a2550e{/stages/stage,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7362274{/stages/stage/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@417a1db9{/stages/pool,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@542c8dc9{/stages/pool/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@449862f0{/storage,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@728bdd95{/storage/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@630d81a8{/storage/rdd,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@53ff1ac5{/storage/rdd/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@54777da8{/environment,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@78bc65c6{/environment/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7733bbb8{/executors,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@5cb1aea9{/executors/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@33c412aa{/executors/threadDump,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@284dd341{/executors/threadDump/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@4249438b{/static,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@7de9678f{/,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2fc93d15{/api,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2eacb9f4{/jobs/job/kill,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@53715631{/stages/stage/kill,null,AVAILABLE,@Spark}
+18/08/09 20:49:12 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://sandbox-hdp.hortonworks.com:4040
+18/08/09 20:49:13 INFO RMProxy: Connecting to ResourceManager at sandbox-hdp.hortonworks.com/172.18.0.2:8032
+18/08/09 20:49:13 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+18/08/09 20:49:13 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (2250 MB per container)
+18/08/09 20:49:13 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+18/08/09 20:49:13 INFO Client: Setting up container launch context for our AM
+18/08/09 20:49:13 INFO Client: Setting up the launch environment for our AM container
+18/08/09 20:49:13 INFO Client: Preparing resources for our AM container
+18/08/09 20:49:14 INFO Client: Use hdfs cache file as spark.yarn.archive for HDP, hdfsCacheFile:hdfs://sandbox-hdp.hortonworks.com:8020/hdp/apps/2.6.5.0-292/spark2/spark2-hdp-yarn-archive.tar.gz
+18/08/09 20:49:14 INFO Client: Source and destination file systems are the same. Not copying hdfs://sandbox-hdp.hortonworks.com:8020/hdp/apps/2.6.5.0-292/spark2/spark2-hdp-yarn-archive.tar.gz
+18/08/09 20:49:14 INFO Client: Uploading resource file:/usr/hdp/2.6.5.0-292/spark2/python/lib/pyspark.zip -> hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.sparkStaging/application_1533844050898_0001/pyspark.zip
+18/08/09 20:49:14 INFO Client: Uploading resource file:/usr/hdp/2.6.5.0-292/spark2/python/lib/py4j-0.10.6-src.zip -> hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.sparkStaging/application_1533844050898_0001/py4j-0.10.6-src.zip
+18/08/09 20:49:15 INFO Client: Uploading resource file:/tmp/spark-c79d5255-139e-4474-be73-00337feba32f/__spark_conf__1869840301046115692.zip -> hdfs://sandbox-hdp.hortonworks.com:8020/user/root/.sparkStaging/application_1533844050898_0001/__spark_conf__.zip
+18/08/09 20:49:15 INFO SecurityManager: Changing view acls to: root
+18/08/09 20:49:15 INFO SecurityManager: Changing modify acls to: root
+18/08/09 20:49:15 INFO SecurityManager: Changing view acls groups to: 
+18/08/09 20:49:15 INFO SecurityManager: Changing modify acls groups to: 
+18/08/09 20:49:15 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+18/08/09 20:49:15 INFO Client: Submitting application application_1533844050898_0001 to ResourceManager
+18/08/09 20:49:15 INFO YarnClientImpl: Submitted application application_1533844050898_0001
+18/08/09 20:49:15 INFO SchedulerExtensionServices: Starting Yarn extension services with app application_1533844050898_0001 and attemptId None
+18/08/09 20:49:16 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:16 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1533847755200
+	 final status: UNDEFINED
+	 tracking URL: http://sandbox-hdp.hortonworks.com:8088/proxy/application_1533844050898_0001/
+	 user: root
+18/08/09 20:49:17 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:18 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:19 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:20 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:21 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:22 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:23 INFO Client: Application report for application_1533844050898_0001 (state: ACCEPTED)
+18/08/09 20:49:24 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> sandbox-hdp.hortonworks.com, PROXY_URI_BASES -> http://sandbox-hdp.hortonworks.com:8088/proxy/application_1533844050898_0001), /proxy/application_1533844050898_0001
+18/08/09 20:49:24 INFO JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+18/08/09 20:49:24 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+18/08/09 20:49:24 INFO Client: Application report for application_1533844050898_0001 (state: RUNNING)
+18/08/09 20:49:24 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.18.0.2
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1533847755200
+	 final status: UNDEFINED
+	 tracking URL: http://sandbox-hdp.hortonworks.com:8088/proxy/application_1533844050898_0001/
+	 user: root
+18/08/09 20:49:24 INFO YarnClientSchedulerBackend: Application application_1533844050898_0001 has started running.
+18/08/09 20:49:24 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40169.
+18/08/09 20:49:24 INFO NettyBlockTransferService: Server created on sandbox-hdp.hortonworks.com:40169
+18/08/09 20:49:24 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/08/09 20:49:24 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, sandbox-hdp.hortonworks.com, 40169, None)
+18/08/09 20:49:24 INFO BlockManagerMasterEndpoint: Registering block manager sandbox-hdp.hortonworks.com:40169 with 366.3 MB RAM, BlockManagerId(driver, sandbox-hdp.hortonworks.com, 40169, None)
+18/08/09 20:49:24 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, sandbox-hdp.hortonworks.com, 40169, None)
+18/08/09 20:49:24 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, sandbox-hdp.hortonworks.com, 40169, None)
+18/08/09 20:49:24 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@62944f8c{/metrics/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:25 INFO EventLoggingListener: Logging events to hdfs:/spark2-history/application_1533844050898_0001
+18/08/09 20:49:28 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.18.0.2:58254) with ID 1
+18/08/09 20:49:29 INFO BlockManagerMasterEndpoint: Registering block manager sandbox-hdp.hortonworks.com:42587 with 366.3 MB RAM, BlockManagerId(1, sandbox-hdp.hortonworks.com, 42587, None)
+18/08/09 20:49:42 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000(ms)
+18/08/09 20:49:42 INFO SharedState: loading hive config file: file:/etc/spark2/2.6.5.0-292/0/hive-site.xml
+18/08/09 20:49:42 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/raj_ops/spark_sql/spark-warehouse').
+18/08/09 20:49:42 INFO SharedState: Warehouse path is 'file:/home/raj_ops/spark_sql/spark-warehouse'.
+18/08/09 20:49:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@6177adbf{/SQL,null,AVAILABLE,@Spark}
+18/08/09 20:49:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@3feb4172{/SQL/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@2076b146{/SQL/execution,null,AVAILABLE,@Spark}
+18/08/09 20:49:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@649aed0b{/SQL/execution/json,null,AVAILABLE,@Spark}
+18/08/09 20:49:42 INFO ContextHandler: Started o.s.j.s.ServletContextHandler@1f1495a3{/static/sql,null,AVAILABLE,@Spark}
+18/08/09 20:49:42 INFO StateStoreCoordinatorRef: Registered StateStoreCoordinator endpoint
+18/08/09 20:49:43 INFO SparkContext: Starting job: parquet at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:43 INFO DAGScheduler: Got job 0 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+18/08/09 20:49:43 INFO DAGScheduler: Final stage: ResultStage 0 (parquet at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:43 INFO DAGScheduler: Parents of final stage: List()
+18/08/09 20:49:43 INFO DAGScheduler: Missing parents: List()
+18/08/09 20:49:43 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:49:43 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 92.7 KB, free 366.2 MB)
+18/08/09 20:49:43 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 35.1 KB, free 366.2 MB)
+18/08/09 20:49:43 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:43 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:43 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+18/08/09 20:49:43 INFO YarnScheduler: Adding task set 0.0 with 1 tasks
+18/08/09 20:49:43 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, sandbox-hdp.hortonworks.com, executor 1, partition 0, PROCESS_LOCAL, 8045 bytes)
+18/08/09 20:49:43 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:45 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 2273 ms on sandbox-hdp.hortonworks.com (executor 1) (1/1)
+18/08/09 20:49:45 INFO YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+18/08/09 20:49:45 INFO DAGScheduler: ResultStage 0 (parquet at NativeMethodAccessorImpl.java:0) finished in 2.443 s
+18/08/09 20:49:45 INFO DAGScheduler: Job 0 finished: parquet at NativeMethodAccessorImpl.java:0, took 2.506528 s
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 11
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 5
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 4
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 1
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 17
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 23
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 19
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 7
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 18
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 20
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 24
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 25
+18/08/09 20:49:46 INFO BlockManagerInfo: Removed broadcast_0_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:46 INFO BlockManagerInfo: Removed broadcast_0_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 9
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 15
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 6
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 14
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 12
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 16
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 10
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 21
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 13
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 22
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 3
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 8
+18/08/09 20:49:46 INFO ContextCleaner: Cleaned accumulator 2
+18/08/09 20:49:47 INFO FileSourceStrategy: Pruning directories with: 
+18/08/09 20:49:47 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(HU#2),Contains(HU#2, ERROR)
+18/08/09 20:49:47 INFO FileSourceStrategy: Output Data Schema: struct<BidDate: string, HU: string>
+18/08/09 20:49:47 INFO FileSourceScanExec: Pushed Filters: IsNotNull(HU),StringContains(HU,ERROR)
+18/08/09 20:49:47 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+18/08/09 20:49:47 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+18/08/09 20:49:47 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+18/08/09 20:49:48 INFO CodeGenerator: Code generated in 376.026811 ms
+18/08/09 20:49:48 INFO CodeGenerator: Code generated in 99.301669 ms
+18/08/09 20:49:48 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 384.1 KB, free 365.9 MB)
+18/08/09 20:49:48 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 34.1 KB, free 365.9 MB)
+18/08/09 20:49:48 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.1 KB, free: 366.3 MB)
+18/08/09 20:49:48 INFO SparkContext: Created broadcast 1 from save at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:48 INFO FileSourceScanExec: Planning scan with bin packing, max size: 25517506 bytes, open cost is considered as scanning 4194304 bytes.
+18/08/09 20:49:49 INFO SparkContext: Starting job: save at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:49 INFO DAGScheduler: Registering RDD 4 (save at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:49 INFO DAGScheduler: Got job 1 (save at NativeMethodAccessorImpl.java:0) with 16 output partitions
+18/08/09 20:49:49 INFO DAGScheduler: Final stage: ResultStage 2 (save at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:49 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 1)
+18/08/09 20:49:49 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 1)
+18/08/09 20:49:49 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[4] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:49:49 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 30.0 KB, free 365.9 MB)
+18/08/09 20:49:49 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 12.8 KB, free 365.8 MB)
+18/08/09 20:49:49 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 12.8 KB, free: 366.3 MB)
+18/08/09 20:49:49 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:49 INFO DAGScheduler: Submitting 2 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[4] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1))
+18/08/09 20:49:49 INFO YarnScheduler: Adding task set 1.0 with 2 tasks
+18/08/09 20:49:49 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 8345 bytes)
+18/08/09 20:49:49 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 12.8 KB, free: 366.3 MB)
+18/08/09 20:49:50 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.1 KB, free: 366.3 MB)
+18/08/09 20:49:51 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 2, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 8345 bytes)
+18/08/09 20:49:51 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 2213 ms on sandbox-hdp.hortonworks.com (executor 1) (1/2)
+18/08/09 20:49:51 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 2) in 62 ms on sandbox-hdp.hortonworks.com (executor 1) (2/2)
+18/08/09 20:49:51 INFO YarnScheduler: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+18/08/09 20:49:51 INFO DAGScheduler: ShuffleMapStage 1 (save at NativeMethodAccessorImpl.java:0) finished in 2.300 s
+18/08/09 20:49:51 INFO DAGScheduler: looking for newly runnable stages
+18/08/09 20:49:51 INFO DAGScheduler: running: Set()
+18/08/09 20:49:51 INFO DAGScheduler: waiting: Set(ResultStage 2)
+18/08/09 20:49:51 INFO DAGScheduler: failed: Set()
+18/08/09 20:49:51 INFO DAGScheduler: Submitting ResultStage 2 (CoalescedRDD[7] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:49:51 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 209.6 KB, free 365.6 MB)
+18/08/09 20:49:51 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 81.2 KB, free 365.6 MB)
+18/08/09 20:49:51 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 81.2 KB, free: 366.2 MB)
+18/08/09 20:49:51 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:51 INFO DAGScheduler: Submitting 16 missing tasks from ResultStage 2 (CoalescedRDD[7] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+18/08/09 20:49:51 INFO YarnScheduler: Adding task set 2.0 with 16 tasks
+18/08/09 20:49:51 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 3, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:51 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 81.2 KB, free: 366.2 MB)
+18/08/09 20:49:51 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.18.0.2:58254
+18/08/09 20:49:52 INFO TaskSetManager: Starting task 1.0 in stage 2.0 (TID 4, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:52 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 3) in 733 ms on sandbox-hdp.hortonworks.com (executor 1) (1/16)
+18/08/09 20:49:52 INFO TaskSetManager: Starting task 2.0 in stage 2.0 (TID 5, sandbox-hdp.hortonworks.com, executor 1, partition 2, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:52 INFO TaskSetManager: Finished task 1.0 in stage 2.0 (TID 4) in 584 ms on sandbox-hdp.hortonworks.com (executor 1) (2/16)
+18/08/09 20:49:52 INFO TaskSetManager: Starting task 3.0 in stage 2.0 (TID 6, sandbox-hdp.hortonworks.com, executor 1, partition 3, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:52 INFO TaskSetManager: Finished task 2.0 in stage 2.0 (TID 5) in 186 ms on sandbox-hdp.hortonworks.com (executor 1) (3/16)
+18/08/09 20:49:53 INFO TaskSetManager: Starting task 4.0 in stage 2.0 (TID 7, sandbox-hdp.hortonworks.com, executor 1, partition 4, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:53 INFO TaskSetManager: Finished task 3.0 in stage 2.0 (TID 6) in 127 ms on sandbox-hdp.hortonworks.com (executor 1) (4/16)
+18/08/09 20:49:53 INFO TaskSetManager: Starting task 5.0 in stage 2.0 (TID 8, sandbox-hdp.hortonworks.com, executor 1, partition 5, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:53 INFO TaskSetManager: Finished task 4.0 in stage 2.0 (TID 7) in 112 ms on sandbox-hdp.hortonworks.com (executor 1) (5/16)
+18/08/09 20:49:53 INFO TaskSetManager: Starting task 6.0 in stage 2.0 (TID 9, sandbox-hdp.hortonworks.com, executor 1, partition 6, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:53 INFO TaskSetManager: Finished task 5.0 in stage 2.0 (TID 8) in 120 ms on sandbox-hdp.hortonworks.com (executor 1) (6/16)
+18/08/09 20:49:53 INFO TaskSetManager: Starting task 7.0 in stage 2.0 (TID 10, sandbox-hdp.hortonworks.com, executor 1, partition 7, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:53 INFO TaskSetManager: Finished task 6.0 in stage 2.0 (TID 9) in 143 ms on sandbox-hdp.hortonworks.com (executor 1) (7/16)
+18/08/09 20:49:54 INFO TaskSetManager: Starting task 8.0 in stage 2.0 (TID 11, sandbox-hdp.hortonworks.com, executor 1, partition 8, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:54 INFO TaskSetManager: Finished task 7.0 in stage 2.0 (TID 10) in 583 ms on sandbox-hdp.hortonworks.com (executor 1) (8/16)
+18/08/09 20:49:54 INFO TaskSetManager: Starting task 9.0 in stage 2.0 (TID 12, sandbox-hdp.hortonworks.com, executor 1, partition 9, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:54 INFO TaskSetManager: Finished task 8.0 in stage 2.0 (TID 11) in 117 ms on sandbox-hdp.hortonworks.com (executor 1) (9/16)
+18/08/09 20:49:54 INFO TaskSetManager: Starting task 10.0 in stage 2.0 (TID 13, sandbox-hdp.hortonworks.com, executor 1, partition 10, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:54 INFO TaskSetManager: Finished task 9.0 in stage 2.0 (TID 12) in 99 ms on sandbox-hdp.hortonworks.com (executor 1) (10/16)
+18/08/09 20:49:54 INFO TaskSetManager: Starting task 11.0 in stage 2.0 (TID 14, sandbox-hdp.hortonworks.com, executor 1, partition 11, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:54 INFO TaskSetManager: Finished task 10.0 in stage 2.0 (TID 13) in 93 ms on sandbox-hdp.hortonworks.com (executor 1) (11/16)
+18/08/09 20:49:54 INFO TaskSetManager: Starting task 12.0 in stage 2.0 (TID 15, sandbox-hdp.hortonworks.com, executor 1, partition 12, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:54 INFO TaskSetManager: Finished task 11.0 in stage 2.0 (TID 14) in 99 ms on sandbox-hdp.hortonworks.com (executor 1) (12/16)
+18/08/09 20:49:54 INFO TaskSetManager: Starting task 13.0 in stage 2.0 (TID 16, sandbox-hdp.hortonworks.com, executor 1, partition 13, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:54 INFO TaskSetManager: Finished task 12.0 in stage 2.0 (TID 15) in 532 ms on sandbox-hdp.hortonworks.com (executor 1) (13/16)
+18/08/09 20:49:55 INFO TaskSetManager: Starting task 14.0 in stage 2.0 (TID 17, sandbox-hdp.hortonworks.com, executor 1, partition 14, NODE_LOCAL, 8327 bytes)
+18/08/09 20:49:55 INFO TaskSetManager: Finished task 13.0 in stage 2.0 (TID 16) in 92 ms on sandbox-hdp.hortonworks.com (executor 1) (14/16)
+18/08/09 20:49:55 INFO TaskSetManager: Starting task 15.0 in stage 2.0 (TID 18, sandbox-hdp.hortonworks.com, executor 1, partition 15, NODE_LOCAL, 8353 bytes)
+18/08/09 20:49:55 INFO TaskSetManager: Finished task 14.0 in stage 2.0 (TID 17) in 102 ms on sandbox-hdp.hortonworks.com (executor 1) (15/16)
+18/08/09 20:49:55 INFO TaskSetManager: Finished task 15.0 in stage 2.0 (TID 18) in 126 ms on sandbox-hdp.hortonworks.com (executor 1) (16/16)
+18/08/09 20:49:55 INFO YarnScheduler: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+18/08/09 20:49:55 INFO DAGScheduler: ResultStage 2 (save at NativeMethodAccessorImpl.java:0) finished in 3.835 s
+18/08/09 20:49:55 INFO DAGScheduler: Job 1 finished: save at NativeMethodAccessorImpl.java:0, took 6.177376 s
+18/08/09 20:49:55 INFO FileFormatWriter: Job null committed.
+18/08/09 20:49:55 INFO FileFormatWriter: Finished processing stats for job null.
+18/08/09 20:49:55 INFO SparkContext: Starting job: parquet at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:55 INFO DAGScheduler: Got job 2 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+18/08/09 20:49:55 INFO DAGScheduler: Final stage: ResultStage 3 (parquet at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:55 INFO DAGScheduler: Parents of final stage: List()
+18/08/09 20:49:55 INFO DAGScheduler: Missing parents: List()
+18/08/09 20:49:55 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[10] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:49:55 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 92.7 KB, free 365.5 MB)
+18/08/09 20:49:55 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 35.1 KB, free 365.4 MB)
+18/08/09 20:49:55 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 35.1 KB, free: 366.1 MB)
+18/08/09 20:49:55 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[10] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+18/08/09 20:49:55 INFO YarnScheduler: Adding task set 3.0 with 1 tasks
+18/08/09 20:49:55 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 19, sandbox-hdp.hortonworks.com, executor 1, partition 0, PROCESS_LOCAL, 8054 bytes)
+18/08/09 20:49:55 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 35.1 KB, free: 366.1 MB)
+18/08/09 20:49:55 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 19) in 44 ms on sandbox-hdp.hortonworks.com (executor 1) (1/1)
+18/08/09 20:49:55 INFO YarnScheduler: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+18/08/09 20:49:55 INFO DAGScheduler: ResultStage 3 (parquet at NativeMethodAccessorImpl.java:0) finished in 0.062 s
+18/08/09 20:49:55 INFO DAGScheduler: Job 2 finished: parquet at NativeMethodAccessorImpl.java:0, took 0.067983 s
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 86
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 26
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 52
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 120
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 68
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 57
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 72
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 109
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 118
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_3_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 81.2 KB, free: 366.2 MB)
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_3_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 81.2 KB, free: 366.2 MB)
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 95
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 122
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_2_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 12.8 KB, free: 366.2 MB)
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_2_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 12.8 KB, free: 366.2 MB)
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 41
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 94
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 110
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 83
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 44
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 76
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 104
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 55
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 103
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 39
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 65
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 32
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 77
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 102
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 62
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 48
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 111
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 58
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 28
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 96
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 40
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 29
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 69
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 50
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 47
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 84
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 89
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 71
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 75
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 38
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 60
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 67
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 82
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_4_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_4_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 106
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 46
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 121
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 87
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 115
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 37
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 93
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 51
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 36
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 78
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 97
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 45
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 74
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 59
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 80
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 43
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 66
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 100
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 99
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 98
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 123
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned shuffle 0
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 90
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 116
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 107
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 63
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 53
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 42
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 35
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 108
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 119
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 54
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 112
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 31
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 92
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 117
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_1_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 34.1 KB, free: 366.3 MB)
+18/08/09 20:49:55 INFO BlockManagerInfo: Removed broadcast_1_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 34.1 KB, free: 366.3 MB)
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 70
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 49
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 91
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 33
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 56
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 114
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 61
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 113
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 30
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 34
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 81
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 101
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 79
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 27
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 105
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 73
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 88
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 85
+18/08/09 20:49:55 INFO ContextCleaner: Cleaned accumulator 64
+18/08/09 20:49:56 INFO SparkContext: Starting job: parquet at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:56 INFO DAGScheduler: Got job 3 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+18/08/09 20:49:56 INFO DAGScheduler: Final stage: ResultStage 4 (parquet at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:56 INFO DAGScheduler: Parents of final stage: List()
+18/08/09 20:49:56 INFO DAGScheduler: Missing parents: List()
+18/08/09 20:49:56 INFO DAGScheduler: Submitting ResultStage 4 (MapPartitionsRDD[17] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 92.7 KB, free 366.2 MB)
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 35.1 KB, free 366.2 MB)
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:56 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:56 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 4 (MapPartitionsRDD[17] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+18/08/09 20:49:56 INFO YarnScheduler: Adding task set 4.0 with 1 tasks
+18/08/09 20:49:56 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 20, sandbox-hdp.hortonworks.com, executor 1, partition 0, PROCESS_LOCAL, 8047 bytes)
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 35.1 KB, free: 366.3 MB)
+18/08/09 20:49:56 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 20) in 37 ms on sandbox-hdp.hortonworks.com (executor 1) (1/1)
+18/08/09 20:49:56 INFO YarnScheduler: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+18/08/09 20:49:56 INFO DAGScheduler: ResultStage 4 (parquet at NativeMethodAccessorImpl.java:0) finished in 0.053 s
+18/08/09 20:49:56 INFO DAGScheduler: Job 3 finished: parquet at NativeMethodAccessorImpl.java:0, took 0.056639 s
+18/08/09 20:49:56 INFO FileSourceStrategy: Pruning directories with: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(HU#2),isnotnull(US#5),NOT Contains(HU#2, ERROR),NOT (US#5 = )
+18/08/09 20:49:56 INFO FileSourceStrategy: Output Data Schema: struct<MotelID: string, BidDate: string, HU: string, US: string ... 2 more fields>
+18/08/09 20:49:56 INFO FileSourceScanExec: Pushed Filters: IsNotNull(HU),IsNotNull(US),Not(StringContains(HU,ERROR)),Not(EqualTo(US,))
+18/08/09 20:49:56 INFO FileSourceStrategy: Pruning directories with: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(HU#2),isnotnull(MX#6),NOT Contains(HU#2, ERROR),NOT (MX#6 = )
+18/08/09 20:49:56 INFO FileSourceStrategy: Output Data Schema: struct<MotelID: string, BidDate: string, HU: string, MX: string ... 2 more fields>
+18/08/09 20:49:56 INFO FileSourceScanExec: Pushed Filters: IsNotNull(HU),IsNotNull(MX),Not(StringContains(HU,ERROR)),Not(EqualTo(MX,))
+18/08/09 20:49:56 INFO FileSourceStrategy: Pruning directories with: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(HU#2),isnotnull(CA#8),NOT Contains(HU#2, ERROR),NOT (CA#8 = )
+18/08/09 20:49:56 INFO FileSourceStrategy: Output Data Schema: struct<MotelID: string, BidDate: string, HU: string, CA: string ... 2 more fields>
+18/08/09 20:49:56 INFO FileSourceScanExec: Pushed Filters: IsNotNull(HU),IsNotNull(CA),Not(StringContains(HU,ERROR)),Not(EqualTo(CA,))
+18/08/09 20:49:56 INFO FileSourceStrategy: Pruning directories with: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Post-Scan Filters: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Output Data Schema: struct<ValidFrom: string, ExchangeRate: string>
+18/08/09 20:49:56 INFO FileSourceScanExec: Pushed Filters: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Pruning directories with: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Post-Scan Filters: 
+18/08/09 20:49:56 INFO FileSourceStrategy: Output Data Schema: struct<MotelID: string, MotelName: string>
+18/08/09 20:49:56 INFO FileSourceScanExec: Pushed Filters: 
+18/08/09 20:49:56 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+18/08/09 20:49:56 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+18/08/09 20:49:56 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+18/08/09 20:49:56 INFO CodeGenerator: Code generated in 26.83615 ms
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 384.1 KB, free 365.8 MB)
+18/08/09 20:49:56 INFO CodeGenerator: Code generated in 46.380616 ms
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.0 KB, free 365.8 MB)
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.0 KB, free: 366.2 MB)
+18/08/09 20:49:56 INFO SparkContext: Created broadcast 6 from run at ThreadPoolExecutor.java:1149
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 384.2 KB, free 365.4 MB)
+18/08/09 20:49:56 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 34.1 KB, free 365.4 MB)
+18/08/09 20:49:56 INFO SparkContext: Starting job: run at ThreadPoolExecutor.java:1149
+18/08/09 20:49:56 INFO DAGScheduler: Got job 4 (run at ThreadPoolExecutor.java:1149) with 1 output partitions
+18/08/09 20:49:56 INFO DAGScheduler: Final stage: ResultStage 5 (run at ThreadPoolExecutor.java:1149)
+18/08/09 20:49:56 INFO DAGScheduler: Parents of final stage: List()
+18/08/09 20:49:56 INFO DAGScheduler: Missing parents: List()
+18/08/09 20:49:56 INFO DAGScheduler: Submitting ResultStage 5 (MapPartitionsRDD[20] at run at ThreadPoolExecutor.java:1149), which has no missing parents
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.1 KB, free: 366.2 MB)
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 9.6 KB, free 365.3 MB)
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 4.5 KB, free 365.3 MB)
+18/08/09 20:49:56 INFO SparkContext: Created broadcast 7 from run at ThreadPoolExecutor.java:1149
+18/08/09 20:49:56 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 4.5 KB, free: 366.2 MB)
+18/08/09 20:49:56 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:56 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[20] at run at ThreadPoolExecutor.java:1149) (first 15 tasks are for partitions Vector(0))
+18/08/09 20:49:56 INFO YarnScheduler: Adding task set 5.0 with 1 tasks
+18/08/09 20:49:56 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 21, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 8358 bytes)
+18/08/09 20:49:56 INFO SparkContext: Starting job: run at ThreadPoolExecutor.java:1149
+18/08/09 20:49:56 INFO DAGScheduler: Got job 5 (run at ThreadPoolExecutor.java:1149) with 1 output partitions
+18/08/09 20:49:56 INFO DAGScheduler: Final stage: ResultStage 6 (run at ThreadPoolExecutor.java:1149)
+18/08/09 20:49:56 INFO DAGScheduler: Parents of final stage: List()
+18/08/09 20:49:56 INFO DAGScheduler: Missing parents: List()
+18/08/09 20:49:56 INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[23] at run at ThreadPoolExecutor.java:1149), which has no missing parents
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 9.6 KB, free 365.3 MB)
+18/08/09 20:49:56 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 4.5 KB, free 365.3 MB)
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 4.5 KB, free: 366.2 MB)
+18/08/09 20:49:56 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:56 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 6 (MapPartitionsRDD[23] at run at ThreadPoolExecutor.java:1149) (first 15 tasks are for partitions Vector(0))
+18/08/09 20:49:56 INFO YarnScheduler: Adding task set 6.0 with 1 tasks
+18/08/09 20:49:56 INFO CodeGenerator: Code generated in 49.961587 ms
+18/08/09 20:49:56 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 4.5 KB, free: 366.3 MB)
+18/08/09 20:49:56 INFO CodeGenerator: Code generated in 35.418307 ms
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.0 KB, free: 366.2 MB)
+18/08/09 20:49:57 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 22, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 8365 bytes)
+18/08/09 20:49:57 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 21) in 239 ms on sandbox-hdp.hortonworks.com (executor 1) (1/1)
+18/08/09 20:49:57 INFO YarnScheduler: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+18/08/09 20:49:57 INFO DAGScheduler: ResultStage 5 (run at ThreadPoolExecutor.java:1149) finished in 0.260 s
+18/08/09 20:49:57 INFO DAGScheduler: Job 4 finished: run at ThreadPoolExecutor.java:1149, took 0.270722 s
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 4.5 KB, free: 366.2 MB)
+18/08/09 20:49:57 INFO CodeGenerator: Code generated in 23.755157 ms
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.1 KB, free: 366.2 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 4.1 MB, free 361.3 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 31.3 KB, free 361.2 MB)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 31.3 KB, free: 366.2 MB)
+18/08/09 20:49:57 INFO SparkContext: Created broadcast 10 from run at ThreadPoolExecutor.java:1149
+18/08/09 20:49:57 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 22) in 166 ms on sandbox-hdp.hortonworks.com (executor 1) (1/1)
+18/08/09 20:49:57 INFO YarnScheduler: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+18/08/09 20:49:57 INFO DAGScheduler: ResultStage 6 (run at ThreadPoolExecutor.java:1149) finished in 0.376 s
+18/08/09 20:49:57 INFO DAGScheduler: Job 5 finished: run at ThreadPoolExecutor.java:1149, took 0.383664 s
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 4.5 MB, free 356.7 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 165.6 KB, free 356.6 MB)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 165.6 KB, free: 366.0 MB)
+18/08/09 20:49:57 INFO SparkContext: Created broadcast 11 from run at ThreadPoolExecutor.java:1149
+18/08/09 20:49:57 INFO CodeGenerator: Code generated in 52.233899 ms
+18/08/09 20:49:57 INFO CodeGenerator: Code generated in 10.682185 ms
+18/08/09 20:49:57 INFO CodeGenerator: Code generated in 18.333193 ms
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 384.6 KB, free 356.2 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 34.1 KB, free 356.2 MB)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.1 KB, free: 366.0 MB)
+18/08/09 20:49:57 INFO SparkContext: Created broadcast 12 from save at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:57 INFO FileSourceScanExec: Planning scan with bin packing, max size: 25517506 bytes, open cost is considered as scanning 4194304 bytes.
+18/08/09 20:49:57 INFO CodeGenerator: Code generated in 20.339913 ms
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 384.6 KB, free 355.8 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 34.1 KB, free 355.8 MB)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.1 KB, free: 365.9 MB)
+18/08/09 20:49:57 INFO SparkContext: Created broadcast 13 from save at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:57 INFO FileSourceScanExec: Planning scan with bin packing, max size: 25517506 bytes, open cost is considered as scanning 4194304 bytes.
+18/08/09 20:49:57 INFO CodeGenerator: Code generated in 19.113123 ms
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 384.6 KB, free 355.4 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 34.1 KB, free 355.3 MB)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_14_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.1 KB, free: 365.9 MB)
+18/08/09 20:49:57 INFO SparkContext: Created broadcast 14 from save at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:57 INFO FileSourceScanExec: Planning scan with bin packing, max size: 25517506 bytes, open cost is considered as scanning 4194304 bytes.
+18/08/09 20:49:57 INFO SparkContext: Starting job: save at NativeMethodAccessorImpl.java:0
+18/08/09 20:49:57 INFO DAGScheduler: Registering RDD 34 (save at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:57 INFO DAGScheduler: Got job 6 (save at NativeMethodAccessorImpl.java:0) with 16 output partitions
+18/08/09 20:49:57 INFO DAGScheduler: Final stage: ResultStage 8 (save at NativeMethodAccessorImpl.java:0)
+18/08/09 20:49:57 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 7)
+18/08/09 20:49:57 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 7)
+18/08/09 20:49:57 INFO DAGScheduler: Submitting ShuffleMapStage 7 (MapPartitionsRDD[34] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_15 stored as values in memory (estimated size 91.9 KB, free 355.3 MB)
+18/08/09 20:49:57 INFO MemoryStore: Block broadcast_15_piece0 stored as bytes in memory (estimated size 34.2 KB, free 355.2 MB)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_15_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 34.2 KB, free: 365.9 MB)
+18/08/09 20:49:57 INFO SparkContext: Created broadcast 15 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:49:57 INFO DAGScheduler: Submitting 8 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[34] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7))
+18/08/09 20:49:57 INFO YarnScheduler: Adding task set 7.0 with 8 tasks
+18/08/09 20:49:57 INFO TaskSetManager: Starting task 2.0 in stage 7.0 (TID 23, sandbox-hdp.hortonworks.com, executor 1, partition 2, NODE_LOCAL, 8454 bytes)
+18/08/09 20:49:57 INFO BlockManagerInfo: Added broadcast_15_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.2 KB, free: 366.2 MB)
+18/08/09 20:49:58 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 165.6 KB, free: 366.0 MB)
+18/08/09 20:49:58 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 31.3 KB, free: 366.0 MB)
+18/08/09 20:49:58 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.1 KB, free: 365.9 MB)
+18/08/09 20:50:05 INFO TaskSetManager: Starting task 3.0 in stage 7.0 (TID 24, sandbox-hdp.hortonworks.com, executor 1, partition 3, NODE_LOCAL, 8454 bytes)
+18/08/09 20:50:05 INFO TaskSetManager: Finished task 2.0 in stage 7.0 (TID 23) in 7867 ms on sandbox-hdp.hortonworks.com (executor 1) (1/8)
+18/08/09 20:50:05 INFO TaskSetManager: Starting task 4.0 in stage 7.0 (TID 25, sandbox-hdp.hortonworks.com, executor 1, partition 4, NODE_LOCAL, 8454 bytes)
+18/08/09 20:50:05 INFO TaskSetManager: Finished task 3.0 in stage 7.0 (TID 24) in 62 ms on sandbox-hdp.hortonworks.com (executor 1) (2/8)
+18/08/09 20:50:05 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.1 KB, free: 365.9 MB)
+18/08/09 20:50:13 INFO TaskSetManager: Starting task 5.0 in stage 7.0 (TID 26, sandbox-hdp.hortonworks.com, executor 1, partition 5, NODE_LOCAL, 8454 bytes)
+18/08/09 20:50:13 INFO TaskSetManager: Finished task 4.0 in stage 7.0 (TID 25) in 7502 ms on sandbox-hdp.hortonworks.com (executor 1) (3/8)
+18/08/09 20:50:13 INFO TaskSetManager: Starting task 6.0 in stage 7.0 (TID 27, sandbox-hdp.hortonworks.com, executor 1, partition 6, NODE_LOCAL, 8454 bytes)
+18/08/09 20:50:13 INFO TaskSetManager: Finished task 5.0 in stage 7.0 (TID 26) in 39 ms on sandbox-hdp.hortonworks.com (executor 1) (4/8)
+18/08/09 20:50:13 INFO BlockManagerInfo: Added broadcast_14_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 34.1 KB, free: 365.9 MB)
+18/08/09 20:50:20 INFO TaskSetManager: Starting task 7.0 in stage 7.0 (TID 28, sandbox-hdp.hortonworks.com, executor 1, partition 7, NODE_LOCAL, 8454 bytes)
+18/08/09 20:50:20 INFO TaskSetManager: Finished task 6.0 in stage 7.0 (TID 27) in 7394 ms on sandbox-hdp.hortonworks.com (executor 1) (5/8)
+18/08/09 20:50:20 INFO TaskSetManager: Starting task 0.0 in stage 7.0 (TID 29, sandbox-hdp.hortonworks.com, executor 1, partition 0, PROCESS_LOCAL, 7948 bytes)
+18/08/09 20:50:20 INFO TaskSetManager: Finished task 7.0 in stage 7.0 (TID 28) in 38 ms on sandbox-hdp.hortonworks.com (executor 1) (6/8)
+18/08/09 20:50:21 INFO TaskSetManager: Starting task 1.0 in stage 7.0 (TID 30, sandbox-hdp.hortonworks.com, executor 1, partition 1, PROCESS_LOCAL, 7948 bytes)
+18/08/09 20:50:21 INFO TaskSetManager: Finished task 0.0 in stage 7.0 (TID 29) in 567 ms on sandbox-hdp.hortonworks.com (executor 1) (7/8)
+18/08/09 20:50:21 INFO TaskSetManager: Finished task 1.0 in stage 7.0 (TID 30) in 61 ms on sandbox-hdp.hortonworks.com (executor 1) (8/8)
+18/08/09 20:50:21 INFO YarnScheduler: Removed TaskSet 7.0, whose tasks have all completed, from pool 
+18/08/09 20:50:21 INFO DAGScheduler: ShuffleMapStage 7 (save at NativeMethodAccessorImpl.java:0) finished in 23.549 s
+18/08/09 20:50:21 INFO DAGScheduler: looking for newly runnable stages
+18/08/09 20:50:21 INFO DAGScheduler: running: Set()
+18/08/09 20:50:21 INFO DAGScheduler: waiting: Set(ResultStage 8)
+18/08/09 20:50:21 INFO DAGScheduler: failed: Set()
+18/08/09 20:50:21 INFO DAGScheduler: Submitting ResultStage 8 (CoalescedRDD[39] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+18/08/09 20:50:21 INFO MemoryStore: Block broadcast_16 stored as values in memory (estimated size 225.9 KB, free 355.0 MB)
+18/08/09 20:50:21 INFO MemoryStore: Block broadcast_16_piece0 stored as bytes in memory (estimated size 88.3 KB, free 354.9 MB)
+18/08/09 20:50:21 INFO BlockManagerInfo: Added broadcast_16_piece0 in memory on sandbox-hdp.hortonworks.com:40169 (size: 88.3 KB, free: 365.8 MB)
+18/08/09 20:50:21 INFO SparkContext: Created broadcast 16 from broadcast at DAGScheduler.scala:1039
+18/08/09 20:50:21 INFO DAGScheduler: Submitting 16 missing tasks from ResultStage 8 (CoalescedRDD[39] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+18/08/09 20:50:21 INFO YarnScheduler: Adding task set 8.0 with 16 tasks
+18/08/09 20:50:21 INFO TaskSetManager: Starting task 0.0 in stage 8.0 (TID 31, sandbox-hdp.hortonworks.com, executor 1, partition 0, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:21 INFO BlockManagerInfo: Added broadcast_16_piece0 in memory on sandbox-hdp.hortonworks.com:42587 (size: 88.3 KB, free: 365.8 MB)
+18/08/09 20:50:21 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 172.18.0.2:58254
+18/08/09 20:50:23 INFO TaskSetManager: Starting task 1.0 in stage 8.0 (TID 32, sandbox-hdp.hortonworks.com, executor 1, partition 1, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:23 INFO TaskSetManager: Finished task 0.0 in stage 8.0 (TID 31) in 2338 ms on sandbox-hdp.hortonworks.com (executor 1) (1/16)
+18/08/09 20:50:24 INFO TaskSetManager: Starting task 2.0 in stage 8.0 (TID 33, sandbox-hdp.hortonworks.com, executor 1, partition 2, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:24 INFO TaskSetManager: Finished task 1.0 in stage 8.0 (TID 32) in 973 ms on sandbox-hdp.hortonworks.com (executor 1) (2/16)
+18/08/09 20:50:25 INFO TaskSetManager: Starting task 3.0 in stage 8.0 (TID 34, sandbox-hdp.hortonworks.com, executor 1, partition 3, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:25 INFO TaskSetManager: Finished task 2.0 in stage 8.0 (TID 33) in 785 ms on sandbox-hdp.hortonworks.com (executor 1) (3/16)
+18/08/09 20:50:26 INFO TaskSetManager: Starting task 4.0 in stage 8.0 (TID 35, sandbox-hdp.hortonworks.com, executor 1, partition 4, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:26 INFO TaskSetManager: Finished task 3.0 in stage 8.0 (TID 34) in 1327 ms on sandbox-hdp.hortonworks.com (executor 1) (4/16)
+18/08/09 20:50:27 INFO TaskSetManager: Starting task 5.0 in stage 8.0 (TID 36, sandbox-hdp.hortonworks.com, executor 1, partition 5, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:27 INFO TaskSetManager: Finished task 4.0 in stage 8.0 (TID 35) in 770 ms on sandbox-hdp.hortonworks.com (executor 1) (5/16)
+18/08/09 20:50:28 INFO TaskSetManager: Starting task 6.0 in stage 8.0 (TID 37, sandbox-hdp.hortonworks.com, executor 1, partition 6, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:28 INFO TaskSetManager: Finished task 5.0 in stage 8.0 (TID 36) in 898 ms on sandbox-hdp.hortonworks.com (executor 1) (6/16)
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 205
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 243
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 141
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 215
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 144
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 126
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 232
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 129
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 145
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 235
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 231
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 223
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 216
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 221
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 237
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 244
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 227
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 248
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 226
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 147
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 218
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 254
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_8_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 4.5 KB, free: 365.8 MB)
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_8_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 4.5 KB, free: 365.8 MB)
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 208
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 225
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 213
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 212
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 136
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 209
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 133
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_5_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 35.1 KB, free: 365.8 MB)
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_5_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 35.1 KB, free: 365.8 MB)
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 233
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 249
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 148
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 234
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 140
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 132
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 143
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 247
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 125
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 124
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 137
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 138
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 251
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 139
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 241
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 142
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 224
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 217
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 214
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 149
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 230
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 239
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 238
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 242
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 219
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 134
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 228
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 252
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 240
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 128
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 135
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 220
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 253
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 246
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 131
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 127
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 250
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 210
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 130
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 207
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 229
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 245
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 236
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 206
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_9_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 4.5 KB, free: 365.8 MB)
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_9_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 4.5 KB, free: 365.8 MB)
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 146
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 222
+18/08/09 20:50:28 INFO ContextCleaner: Cleaned accumulator 211
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_15_piece0 on sandbox-hdp.hortonworks.com:40169 in memory (size: 34.2 KB, free: 365.9 MB)
+18/08/09 20:50:28 INFO BlockManagerInfo: Removed broadcast_15_piece0 on sandbox-hdp.hortonworks.com:42587 in memory (size: 34.2 KB, free: 365.9 MB)
+18/08/09 20:50:29 INFO TaskSetManager: Starting task 7.0 in stage 8.0 (TID 38, sandbox-hdp.hortonworks.com, executor 1, partition 7, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:29 INFO TaskSetManager: Finished task 6.0 in stage 8.0 (TID 37) in 837 ms on sandbox-hdp.hortonworks.com (executor 1) (7/16)
+18/08/09 20:50:30 INFO TaskSetManager: Starting task 8.0 in stage 8.0 (TID 39, sandbox-hdp.hortonworks.com, executor 1, partition 8, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:30 INFO TaskSetManager: Finished task 7.0 in stage 8.0 (TID 38) in 1241 ms on sandbox-hdp.hortonworks.com (executor 1) (8/16)
+18/08/09 20:50:31 INFO TaskSetManager: Starting task 9.0 in stage 8.0 (TID 40, sandbox-hdp.hortonworks.com, executor 1, partition 9, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:31 INFO TaskSetManager: Finished task 8.0 in stage 8.0 (TID 39) in 786 ms on sandbox-hdp.hortonworks.com (executor 1) (9/16)
+18/08/09 20:50:32 INFO TaskSetManager: Starting task 10.0 in stage 8.0 (TID 41, sandbox-hdp.hortonworks.com, executor 1, partition 10, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:32 INFO TaskSetManager: Finished task 9.0 in stage 8.0 (TID 40) in 802 ms on sandbox-hdp.hortonworks.com (executor 1) (10/16)
+18/08/09 20:50:32 INFO TaskSetManager: Starting task 11.0 in stage 8.0 (TID 42, sandbox-hdp.hortonworks.com, executor 1, partition 11, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:32 INFO TaskSetManager: Finished task 10.0 in stage 8.0 (TID 41) in 745 ms on sandbox-hdp.hortonworks.com (executor 1) (11/16)
+18/08/09 20:50:33 INFO TaskSetManager: Starting task 12.0 in stage 8.0 (TID 43, sandbox-hdp.hortonworks.com, executor 1, partition 12, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:33 INFO TaskSetManager: Finished task 11.0 in stage 8.0 (TID 42) in 1230 ms on sandbox-hdp.hortonworks.com (executor 1) (12/16)
+18/08/09 20:50:34 INFO TaskSetManager: Starting task 13.0 in stage 8.0 (TID 44, sandbox-hdp.hortonworks.com, executor 1, partition 13, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:34 INFO TaskSetManager: Finished task 12.0 in stage 8.0 (TID 43) in 739 ms on sandbox-hdp.hortonworks.com (executor 1) (13/16)
+18/08/09 20:50:35 INFO TaskSetManager: Starting task 14.0 in stage 8.0 (TID 45, sandbox-hdp.hortonworks.com, executor 1, partition 14, NODE_LOCAL, 8327 bytes)
+18/08/09 20:50:35 INFO TaskSetManager: Finished task 13.0 in stage 8.0 (TID 44) in 789 ms on sandbox-hdp.hortonworks.com (executor 1) (14/16)
+18/08/09 20:50:36 INFO TaskSetManager: Starting task 15.0 in stage 8.0 (TID 46, sandbox-hdp.hortonworks.com, executor 1, partition 15, NODE_LOCAL, 8353 bytes)
+18/08/09 20:50:36 INFO TaskSetManager: Finished task 14.0 in stage 8.0 (TID 45) in 1178 ms on sandbox-hdp.hortonworks.com (executor 1) (15/16)
+18/08/09 20:50:37 INFO TaskSetManager: Finished task 15.0 in stage 8.0 (TID 46) in 849 ms on sandbox-hdp.hortonworks.com (executor 1) (16/16)
+18/08/09 20:50:37 INFO YarnScheduler: Removed TaskSet 8.0, whose tasks have all completed, from pool 
+18/08/09 20:50:37 INFO DAGScheduler: ResultStage 8 (save at NativeMethodAccessorImpl.java:0) finished in 16.250 s
+18/08/09 20:50:37 INFO DAGScheduler: Job 6 finished: save at NativeMethodAccessorImpl.java:0, took 39.813155 s
+18/08/09 20:50:37 INFO FileFormatWriter: Job null committed.
+18/08/09 20:50:37 INFO FileFormatWriter: Finished processing stats for job null.
+18/08/09 20:50:37 INFO AbstractConnector: Stopped Spark@70bbfacf{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+18/08/09 20:50:37 INFO SparkUI: Stopped Spark web UI at http://sandbox-hdp.hortonworks.com:4040
+18/08/09 20:50:37 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+18/08/09 20:50:37 INFO YarnClientSchedulerBackend: Shutting down all executors
+18/08/09 20:50:37 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+18/08/09 20:50:37 INFO SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+18/08/09 20:50:37 INFO YarnClientSchedulerBackend: Stopped
+18/08/09 20:50:37 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/08/09 20:50:37 INFO MemoryStore: MemoryStore cleared
+18/08/09 20:50:37 INFO BlockManager: BlockManager stopped
+18/08/09 20:50:37 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/08/09 20:50:37 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/08/09 20:50:37 INFO SparkContext: Successfully stopped SparkContext
+18/08/09 20:50:38 INFO ShutdownHookManager: Shutdown hook called
+18/08/09 20:50:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-c79d5255-139e-4474-be73-00337feba32f/pyspark-87ee8c68-f2dc-414e-9047-7264f6357e63
+18/08/09 20:50:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-c79d5255-139e-4474-be73-00337feba32f
+18/08/09 20:50:38 INFO ShutdownHookManager: Deleting directory /tmp/spark-808768f6-997c-4380-93d7-a60c8ef1eed2
+[root@sandbox-hdp spark_sql]# 
+

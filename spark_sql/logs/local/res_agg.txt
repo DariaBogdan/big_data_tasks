@@ -1,0 +1,1000 @@
+0000001,Grand Mengo Casino,2015-08-15 15:00,US,1.401
+0000001,Grand Mengo Casino,2015-12-20 01:00,MX,1.319
+0000001,Grand Mengo Casino,2016-02-14 01:00,MX,1.737
+0000001,Grand Mengo Casino,2016-03-06 09:00,CA,0.94
+0000001,Grand Mengo Casino,2016-05-22 16:00,US,1.805
+0000001,Grand Mengo Casino,2016-05-23 09:00,MX,1.524
+0000001,Grand Mengo Casino,2016-05-28 06:00,US,1.508
+0000001,Grand Mengo Casino,2016-06-07 19:00,US,1.857
+0000002,Novelo Granja,2015-09-01 08:00,CA,1.172
+0000002,Novelo Granja,2015-09-10 18:00,US,1.637
+0000002,Novelo Granja,2015-11-23 14:00,US,1.731
+0000002,Novelo Granja,2015-12-18 12:00,MX,1.794
+0000002,Novelo Granja,2016-01-29 00:00,CA,1.719
+0000002,Novelo Granja,2016-05-19 10:00,CA,1.969
+0000002,Novelo Granja,2016-06-17 03:00,CA,1.34
+0000002,Novelo Granja,2016-06-24 23:00,US,1.254
+0000002,Novelo Granja,2016-07-14 21:00,US,1.365
+0000003,Tiny City Motor Inn,2015-11-24 15:00,CA,1.303
+0000003,Tiny City Motor Inn,2016-03-26 22:00,CA,1.788
+0000003,Tiny City Motor Inn,2016-04-02 08:00,MX,1.716
+0000003,Tiny City Motor Inn,2016-04-22 01:00,US,1.292
+0000003,Tiny City Motor Inn,2016-07-29 18:00,MX,1.786
+0000004,Novelo Sheraton la pensión,2015-10-05 07:00,US,1.482
+0000004,Novelo Sheraton la pensión,2015-10-25 23:00,US,1.327
+0000004,Novelo Sheraton la pensión,2015-11-06 11:00,CA,1.051
+0000004,Novelo Sheraton la pensión,2015-11-12 11:00,US,1.583
+0000004,Novelo Sheraton la pensión,2015-11-23 10:00,US,1.84
+0000004,Novelo Sheraton la pensión,2016-01-12 19:00,US,1.391
+0000004,Novelo Sheraton la pensión,2016-01-31 20:00,CA,1.551
+0000004,Novelo Sheraton la pensión,2016-02-09 06:00,CA,1.26
+0000004,Novelo Sheraton la pensión,2016-03-18 19:00,MX,0.998
+0000004,Novelo Sheraton la pensión,2016-04-11 15:00,US,1.085
+0000004,Novelo Sheraton la pensión,2016-04-25 08:00,US,1.538
+0000004,Novelo Sheraton la pensión,2016-07-16 16:00,US,1.19
+0000004,Novelo Sheraton la pensión,2016-07-23 21:00,CA,1.405
+0000005,Elegance Tavern,2015-08-16 04:00,CA,1.622
+0000005,Elegance Tavern,2015-09-16 14:00,US,1.124
+0000005,Elegance Tavern,2015-09-16 20:00,CA,1.67
+0000005,Elegance Tavern,2015-10-14 22:00,MX,1.382
+0000005,Elegance Tavern,2015-11-11 00:00,MX,1.959
+0000005,Elegance Tavern,2015-11-16 16:00,US,1.222
+0000005,Elegance Tavern,2015-11-30 09:00,CA,1.927
+0000005,Elegance Tavern,2015-12-08 17:00,CA,1.703
+0000005,Elegance Tavern,2015-12-10 09:00,CA,1.332
+0000005,Elegance Tavern,2016-02-02 06:00,CA,1.595
+0000005,Elegance Tavern,2016-03-15 08:00,MX,1.158
+0000005,Elegance Tavern,2016-03-20 22:00,US,1.831
+0000005,Elegance Tavern,2016-04-09 22:00,MX,0.944
+0000005,Elegance Tavern,2016-04-22 15:00,US,1.7
+0000005,Elegance Tavern,2016-06-15 19:00,US,1.66
+0000005,Elegance Tavern,2016-07-04 04:00,CA,1.467
+0000005,Elegance Tavern,2016-07-05 23:00,US,1.522
+0000006,Pestana Majestic Majestic Boarding House,2015-09-18 02:00,US,1.263
+0000006,Pestana Majestic Majestic Boarding House,2015-11-25 03:00,US,0.893
+0000006,Pestana Majestic Majestic Boarding House,2015-12-05 13:00,US,0.935
+0000006,Pestana Majestic Majestic Boarding House,2016-02-25 11:00,CA,1.414
+0000006,Pestana Majestic Majestic Boarding House,2016-03-04 02:00,US,0.94
+0000006,Pestana Majestic Majestic Boarding House,2016-03-25 04:00,US,1.773
+0000006,Pestana Majestic Majestic Boarding House,2016-05-04 01:00,MX,1.363
+0000007,Merlin Geronimo Plaza,2015-09-03 05:00,CA,1.196
+0000007,Merlin Geronimo Plaza,2015-09-07 03:00,CA,1.643
+0000007,Merlin Geronimo Plaza,2015-10-26 04:00,CA,1.2
+0000007,Merlin Geronimo Plaza,2016-02-12 22:00,MX,1.069
+0000007,Merlin Geronimo Plaza,2016-02-13 17:00,MX,1.414
+0000007,Merlin Geronimo Plaza,2016-02-14 02:00,US,1.798
+0000007,Merlin Geronimo Plaza,2016-02-18 22:00,MX,1.844
+0000007,Merlin Geronimo Plaza,2016-03-06 21:00,US,0.675
+0000007,Merlin Geronimo Plaza,2016-03-15 08:00,US,1.477
+0000007,Merlin Geronimo Plaza,2016-04-26 08:00,CA,0.819
+0000007,Merlin Geronimo Plaza,2016-07-09 06:00,MX,1.321
+0000007,Merlin Geronimo Plaza,2016-07-29 19:00,CA,1.815
+0000008,Geronimo Premier la pensión,2015-08-09 05:00,US,1.474
+0000008,Geronimo Premier la pensión,2015-08-25 23:00,MX,1.743
+0000008,Geronimo Premier la pensión,2015-09-03 01:00,MX,0.827
+0000008,Geronimo Premier la pensión,2015-09-24 23:00,CA,1.443
+0000008,Geronimo Premier la pensión,2015-09-26 12:00,CA,1.615
+0000008,Geronimo Premier la pensión,2015-09-29 08:00,US,0.847
+0000008,Geronimo Premier la pensión,2015-10-14 21:00,CA,1.223
+0000008,Geronimo Premier la pensión,2015-11-15 05:00,MX,0.908
+0000008,Geronimo Premier la pensión,2015-11-27 20:00,CA,1.81
+0000008,Geronimo Premier la pensión,2015-12-06 07:00,CA,1.835
+0000008,Geronimo Premier la pensión,2015-12-26 19:00,MX,1.49
+0000008,Geronimo Premier la pensión,2015-12-30 15:00,CA,1.462
+0000008,Geronimo Premier la pensión,2016-02-01 03:00,CA,1.284
+0000008,Geronimo Premier la pensión,2016-02-07 13:00,MX,0.912
+0000008,Geronimo Premier la pensión,2016-03-08 01:00,MX,1.42
+0000008,Geronimo Premier la pensión,2016-03-31 09:00,US,1.493
+0000008,Geronimo Premier la pensión,2016-05-28 11:00,MX,1.183
+0000009,Copacabana Elegance Casino,2015-08-28 21:00,MX,1.156
+0000009,Copacabana Elegance Casino,2015-09-04 19:00,MX,0.367
+0000009,Copacabana Elegance Casino,2015-10-14 22:00,MX,1.663
+0000009,Copacabana Elegance Casino,2015-11-14 11:00,US,1.272
+0000009,Copacabana Elegance Casino,2015-11-19 07:00,US,1.276
+0000009,Copacabana Elegance Casino,2015-12-27 05:00,CA,1.586
+0000009,Copacabana Elegance Casino,2016-04-30 00:00,MX,1.819
+0000009,Copacabana Elegance Casino,2016-05-06 08:00,US,2.021
+0000009,Copacabana Elegance Casino,2016-05-15 22:00,US,1.431
+0000009,Copacabana Elegance Casino,2016-05-29 02:00,CA,1.658
+0000009,Copacabana Elegance Casino,2016-07-05 03:00,CA,0.932
+0000010,Premier Down Town Village Apartments,2015-08-08 11:00,US,1.058
+0000010,Premier Down Town Village Apartments,2015-08-15 01:00,US,0.724
+0000010,Premier Down Town Village Apartments,2015-09-21 22:00,CA,1.453
+0000010,Premier Down Town Village Apartments,2015-09-23 15:00,US,1.154
+0000010,Premier Down Town Village Apartments,2015-09-24 17:00,CA,1.618
+0000010,Premier Down Town Village Apartments,2015-10-27 22:00,CA,1.669
+0000010,Premier Down Town Village Apartments,2015-11-06 00:00,CA,0.958
+0000010,Premier Down Town Village Apartments,2015-11-11 23:00,MX,1.683
+0000010,Premier Down Town Village Apartments,2015-11-23 16:00,CA,0.531
+0000010,Premier Down Town Village Apartments,2016-01-11 11:00,CA,1.569
+0000010,Premier Down Town Village Apartments,2016-02-17 01:00,US,1.743
+0000010,Premier Down Town Village Apartments,2016-02-17 01:00,CA,1.743
+0000010,Premier Down Town Village Apartments,2016-03-11 23:00,US,1.176
+0000010,Premier Down Town Village Apartments,2016-03-13 09:00,US,1.907
+0000010,Premier Down Town Village Apartments,2016-03-23 05:00,US,1.361
+0000010,Premier Down Town Village Apartments,2016-04-14 14:00,US,1.63
+0000010,Premier Down Town Village Apartments,2016-07-12 08:00,MX,1.95
+0000011,Senado Majestic Spa,2015-12-31 17:00,CA,1.268
+0000011,Senado Majestic Spa,2016-01-22 22:00,CA,1.843
+0000011,Senado Majestic Spa,2016-03-18 00:00,MX,1.01
+0000011,Senado Majestic Spa,2016-05-11 00:00,MX,1.063
+0000011,Senado Majestic Spa,2016-05-24 00:00,US,1.534
+0000011,Senado Majestic Spa,2016-08-03 12:00,CA,1.886
+0000012,Elegance Senado Granja,2015-09-22 10:00,CA,1.88
+0000012,Elegance Senado Granja,2015-10-04 01:00,MX,1.781
+0000012,Elegance Senado Granja,2015-10-12 00:00,CA,1.772
+0000012,Elegance Senado Granja,2015-12-02 00:00,US,1.77
+0000012,Elegance Senado Granja,2015-12-02 07:00,CA,1.838
+0000012,Elegance Senado Granja,2015-12-06 05:00,US,1.781
+0000012,Elegance Senado Granja,2016-01-08 15:00,US,0.875
+0000012,Elegance Senado Granja,2016-02-17 10:00,MX,1.412
+0000012,Elegance Senado Granja,2016-02-27 23:00,US,1.489
+0000012,Elegance Senado Granja,2016-04-19 22:00,MX,1.644
+0000012,Elegance Senado Granja,2016-05-17 01:00,US,1.906
+0000012,Elegance Senado Granja,2016-05-26 21:00,US,1.246
+0000012,Elegance Senado Granja,2016-06-05 00:00,CA,1.627
+0000012,Elegance Senado Granja,2016-06-21 20:00,CA,0.701
+0000012,Elegance Senado Granja,2016-06-24 17:00,US,2.065
+0000013,Merlin Village Apartments,2015-10-06 18:00,CA,1.532
+0000013,Merlin Village Apartments,2016-01-13 16:00,MX,1.08
+0000013,Merlin Village Apartments,2016-01-17 21:00,MX,1.506
+0000013,Merlin Village Apartments,2016-01-31 13:00,CA,1.533
+0000013,Merlin Village Apartments,2016-02-22 02:00,MX,1.555
+0000013,Merlin Village Apartments,2016-05-02 20:00,CA,1.606
+0000013,Merlin Village Apartments,2016-05-24 13:00,CA,1.992
+0000013,Merlin Village Apartments,2016-05-25 11:00,US,1.425
+0000013,Merlin Village Apartments,2016-07-22 11:00,MX,1.856
+0000013,Merlin Village Apartments,2016-08-01 23:00,MX,1.563
+0000014,Grand Suburbs Copacabana Apartments,2015-08-17 04:00,CA,1.453
+0000014,Grand Suburbs Copacabana Apartments,2015-08-23 20:00,US,1.633
+0000014,Grand Suburbs Copacabana Apartments,2015-10-09 19:00,MX,1.378
+0000014,Grand Suburbs Copacabana Apartments,2015-10-14 21:00,CA,1.223
+0000014,Grand Suburbs Copacabana Apartments,2016-01-16 12:00,MX,1.882
+0000014,Grand Suburbs Copacabana Apartments,2016-01-24 01:00,MX,1.629
+0000014,Grand Suburbs Copacabana Apartments,2016-02-06 18:00,US,2.006
+0000014,Grand Suburbs Copacabana Apartments,2016-02-28 23:00,US,1.758
+0000014,Grand Suburbs Copacabana Apartments,2016-02-28 23:00,CA,1.758
+0000014,Grand Suburbs Copacabana Apartments,2016-03-18 16:00,CA,1.499
+0000014,Grand Suburbs Copacabana Apartments,2016-03-20 02:00,MX,1.433
+0000014,Grand Suburbs Copacabana Apartments,2016-05-05 03:00,MX,1.452
+0000014,Grand Suburbs Copacabana Apartments,2016-06-09 12:00,US,1.46
+0000014,Grand Suburbs Copacabana Apartments,2016-06-15 08:00,US,1.535
+0000015,Sheraton Senado Asturias Motor Inn,2015-09-04 16:00,MX,1.556
+0000015,Sheraton Senado Asturias Motor Inn,2015-10-25 18:00,MX,1.391
+0000015,Sheraton Senado Asturias Motor Inn,2015-11-27 10:00,MX,1.594
+0000015,Sheraton Senado Asturias Motor Inn,2015-12-19 15:00,MX,1.639
+0000015,Sheraton Senado Asturias Motor Inn,2016-04-01 19:00,CA,0.718
+0000015,Sheraton Senado Asturias Motor Inn,2016-04-24 12:00,CA,1.129
+0000015,Sheraton Senado Asturias Motor Inn,2016-05-04 04:00,US,1.488
+0000015,Sheraton Senado Asturias Motor Inn,2016-06-10 10:00,CA,1.14
+0000016,Premier Down Town Hotel,2015-09-08 14:00,US,1.85
+0000016,Premier Down Town Hotel,2015-10-02 15:00,US,1.578
+0000016,Premier Down Town Hotel,2015-12-03 15:00,US,1.881
+0000016,Premier Down Town Hotel,2016-03-18 14:00,CA,1.446
+0000016,Premier Down Town Hotel,2016-03-25 19:00,MX,1.256
+0000016,Premier Down Town Hotel,2016-04-02 06:00,MX,1.674
+0000016,Premier Down Town Hotel,2016-05-08 00:00,CA,1.857
+0000016,Premier Down Town Hotel,2016-06-06 14:00,US,0.987
+0000016,Premier Down Town Hotel,2016-06-30 08:00,MX,1.641
+0000017,Elegance Sun Sine Motor Inn,2015-09-08 01:00,MX,1.018
+0000017,Elegance Sun Sine Motor Inn,2015-10-11 19:00,CA,1.608
+0000017,Elegance Sun Sine Motor Inn,2015-10-23 04:00,US,1.826
+0000017,Elegance Sun Sine Motor Inn,2016-01-23 23:00,US,1.883
+0000017,Elegance Sun Sine Motor Inn,2016-01-25 06:00,US,1.538
+0000017,Elegance Sun Sine Motor Inn,2016-02-17 13:00,US,1.592
+0000017,Elegance Sun Sine Motor Inn,2016-04-14 09:00,MX,1.852
+0000017,Elegance Sun Sine Motor Inn,2016-04-25 10:00,CA,1.558
+0000017,Elegance Sun Sine Motor Inn,2016-05-29 05:00,MX,1.491
+0000017,Elegance Sun Sine Motor Inn,2016-06-06 02:00,MX,1.436
+0000017,Elegance Sun Sine Motor Inn,2016-06-07 10:00,US,1.995
+0000017,Elegance Sun Sine Motor Inn,2016-06-16 07:00,CA,1.681
+0000017,Elegance Sun Sine Motor Inn,2016-07-23 03:00,MX,1.708
+0000018,Barra Tiny Motor Inn,2015-09-09 10:00,CA,1.745
+0000018,Barra Tiny Motor Inn,2015-09-15 22:00,US,1.566
+0000018,Barra Tiny Motor Inn,2015-11-04 10:00,CA,1.386
+0000018,Barra Tiny Motor Inn,2015-12-21 14:00,CA,1.834
+0000018,Barra Tiny Motor Inn,2016-01-19 07:00,MX,1.604
+0000018,Barra Tiny Motor Inn,2016-02-01 20:00,MX,0.835
+0000018,Barra Tiny Motor Inn,2016-04-07 09:00,MX,1.265
+0000018,Barra Tiny Motor Inn,2016-04-10 04:00,US,1.318
+0000018,Barra Tiny Motor Inn,2016-04-30 04:00,US,1.785
+0000018,Barra Tiny Motor Inn,2016-04-30 22:00,US,1.521
+0000018,Barra Tiny Motor Inn,2016-06-25 21:00,US,0.496
+0000019,Mengo Vermont Apartments,2015-09-02 07:00,CA,1.843
+0000019,Mengo Vermont Apartments,2015-10-23 03:00,CA,1.517
+0000019,Mengo Vermont Apartments,2015-11-14 00:00,US,1.651
+0000019,Mengo Vermont Apartments,2015-12-06 23:00,US,1.546
+0000019,Mengo Vermont Apartments,2016-04-10 11:00,US,0.716
+0000019,Mengo Vermont Apartments,2016-04-24 17:00,MX,1.157
+0000019,Mengo Vermont Apartments,2016-05-20 08:00,US,1.128
+0000019,Mengo Vermont Apartments,2016-06-18 06:00,CA,1.102
+0000019,Mengo Vermont Apartments,2016-07-04 04:00,CA,1.64
+0000019,Mengo Vermont Apartments,2016-07-23 13:00,CA,1.215
+0000019,Mengo Vermont Apartments,2016-07-29 19:00,CA,1.769
+0000020,Amanhecer Posada,2015-09-12 16:00,MX,1.75
+0000020,Amanhecer Posada,2015-09-23 17:00,US,1.559
+0000020,Amanhecer Posada,2015-10-01 01:00,CA,1.678
+0000020,Amanhecer Posada,2015-12-04 03:00,CA,1.614
+0000020,Amanhecer Posada,2015-12-17 06:00,US,1.551
+0000020,Amanhecer Posada,2016-03-10 17:00,MX,1.907
+0000020,Amanhecer Posada,2016-03-28 07:00,MX,0.506
+0000020,Amanhecer Posada,2016-05-27 19:00,MX,1.814
+0000020,Amanhecer Posada,2016-06-01 00:00,CA,1.762
+0000021,River Side Plaza,2015-11-05 01:00,CA,1.6
+0000021,River Side Plaza,2015-11-19 20:00,CA,0.993
+0000021,River Side Plaza,2016-02-27 20:00,US,1.514
+0000021,River Side Plaza,2016-03-19 21:00,CA,1.917
+0000021,River Side Plaza,2016-04-23 03:00,MX,1.102
+0000021,River Side Plaza,2016-07-26 18:00,US,1.373
+0000022,Mengo Hotelo,2015-10-23 01:00,MX,1.671
+0000022,Mengo Hotelo,2015-11-27 11:00,US,1.899
+0000022,Mengo Hotelo,2016-02-16 09:00,CA,1.22
+0000022,Mengo Hotelo,2016-03-25 22:00,CA,1.061
+0000022,Mengo Hotelo,2016-06-21 02:00,CA,1.519
+0000022,Mengo Hotelo,2016-07-01 16:00,CA,1.286
+0000023,Tiny Suburbs Hotelo,2015-08-31 12:00,CA,1.872
+0000023,Tiny Suburbs Hotelo,2015-11-15 22:00,MX,1.584
+0000023,Tiny Suburbs Hotelo,2016-01-09 01:00,CA,1.472
+0000023,Tiny Suburbs Hotelo,2016-01-19 03:00,MX,1.426
+0000023,Tiny Suburbs Hotelo,2016-01-24 07:00,CA,1.653
+0000023,Tiny Suburbs Hotelo,2016-01-31 07:00,MX,1.703
+0000023,Tiny Suburbs Hotelo,2016-02-23 00:00,MX,1.932
+0000023,Tiny Suburbs Hotelo,2016-03-25 15:00,CA,1.687
+0000023,Tiny Suburbs Hotelo,2016-04-16 08:00,US,1.083
+0000023,Tiny Suburbs Hotelo,2016-04-19 21:00,MX,1.516
+0000023,Tiny Suburbs Hotelo,2016-05-07 21:00,MX,1.55
+0000024,Merlin River Side Inn,2015-09-05 12:00,MX,1.68
+0000024,Merlin River Side Inn,2015-09-18 21:00,CA,1.68
+0000024,Merlin River Side Inn,2015-09-23 22:00,US,1.067
+0000024,Merlin River Side Inn,2015-09-25 20:00,CA,0.553
+0000024,Merlin River Side Inn,2015-11-20 10:00,MX,0.803
+0000024,Merlin River Side Inn,2015-12-05 20:00,CA,1.612
+0000024,Merlin River Side Inn,2016-01-11 09:00,MX,0.637
+0000024,Merlin River Side Inn,2016-01-19 14:00,CA,0.889
+0000024,Merlin River Side Inn,2016-01-25 05:00,CA,1.665
+0000024,Merlin River Side Inn,2016-01-26 18:00,US,0.919
+0000024,Merlin River Side Inn,2016-03-30 22:00,US,1.995
+0000024,Merlin River Side Inn,2016-04-10 10:00,MX,1.067
+0000024,Merlin River Side Inn,2016-04-23 07:00,US,1.749
+0000024,Merlin River Side Inn,2016-05-31 04:00,US,1.939
+0000024,Merlin River Side Inn,2016-06-27 06:00,CA,1.982
+0000024,Merlin River Side Inn,2016-06-27 23:00,US,1.577
+0000024,Merlin River Side Inn,2016-07-25 21:00,MX,2.065
+0000025,Slaviero Premier Big River Granja,2015-10-23 20:00,US,1.339
+0000025,Slaviero Premier Big River Granja,2015-11-25 13:00,MX,1.799
+0000025,Slaviero Premier Big River Granja,2015-12-07 19:00,US,1.529
+0000025,Slaviero Premier Big River Granja,2015-12-10 05:00,US,1.838
+0000025,Slaviero Premier Big River Granja,2015-12-14 03:00,US,1.204
+0000025,Slaviero Premier Big River Granja,2015-12-20 22:00,US,1.893
+0000025,Slaviero Premier Big River Granja,2016-01-06 12:00,MX,1.511
+0000025,Slaviero Premier Big River Granja,2016-02-08 05:00,MX,2.051
+0000025,Slaviero Premier Big River Granja,2016-03-13 00:00,MX,1.331
+0000025,Slaviero Premier Big River Granja,2016-06-06 07:00,US,0.894
+0000025,Slaviero Premier Big River Granja,2016-07-26 05:00,US,1.657
+0000026,Elegance Suburbs Motel,2015-08-13 06:00,MX,1.625
+0000026,Elegance Suburbs Motel,2015-09-30 12:00,CA,1.81
+0000026,Elegance Suburbs Motel,2015-11-18 14:00,US,1.578
+0000026,Elegance Suburbs Motel,2015-12-28 22:00,US,1.884
+0000026,Elegance Suburbs Motel,2016-01-11 16:00,US,1.728
+0000026,Elegance Suburbs Motel,2016-01-18 19:00,US,1.674
+0000026,Elegance Suburbs Motel,2016-01-22 17:00,CA,1.403
+0000026,Elegance Suburbs Motel,2016-04-06 04:00,MX,1.224
+0000026,Elegance Suburbs Motel,2016-04-06 22:00,US,1.676
+0000027,Eas Side Elegance Casa,2015-10-28 13:00,US,1.809
+0000027,Eas Side Elegance Casa,2015-11-07 10:00,MX,1.81
+0000027,Eas Side Elegance Casa,2015-11-13 03:00,MX,0.896
+0000027,Eas Side Elegance Casa,2016-03-08 16:00,MX,0.751
+0000027,Eas Side Elegance Casa,2016-03-12 05:00,MX,1.236
+0000027,Eas Side Elegance Casa,2016-03-15 10:00,CA,1.419
+0000027,Eas Side Elegance Casa,2016-05-05 20:00,CA,1.434
+0000027,Eas Side Elegance Casa,2016-05-21 11:00,MX,1.764
+0000027,Eas Side Elegance Casa,2016-06-10 12:00,CA,1.744
+0000027,Eas Side Elegance Casa,2016-07-21 13:00,MX,1.117
+0000027,Eas Side Elegance Casa,2016-07-22 07:00,MX,1.601
+0000028,Village Hotel,2015-08-10 14:00,CA,1.163
+0000028,Village Hotel,2015-10-01 13:00,US,1.473
+0000028,Village Hotel,2015-10-05 14:00,CA,0.463
+0000028,Village Hotel,2015-11-19 08:00,CA,1.389
+0000028,Village Hotel,2016-01-01 06:00,US,1.045
+0000028,Village Hotel,2016-01-14 01:00,MX,1.702
+0000028,Village Hotel,2016-02-14 22:00,MX,0.907
+0000028,Village Hotel,2016-02-20 00:00,CA,0.876
+0000028,Village Hotel,2016-03-15 09:00,US,1.736
+0000028,Village Hotel,2016-04-07 14:00,CA,1.56
+0000028,Village Hotel,2016-06-11 18:00,MX,1.814
+0000028,Village Hotel,2016-06-14 03:00,US,1.521
+0000028,Village Hotel,2016-07-02 18:00,CA,1.647
+0000028,Village Hotel,2016-07-30 01:00,CA,1.612
+0000029,Windsor Copacabana Sheraton Casino,2015-08-07 05:00,MX,1.708
+0000029,Windsor Copacabana Sheraton Casino,2015-10-20 15:00,CA,1.433
+0000029,Windsor Copacabana Sheraton Casino,2015-10-26 11:00,MX,1.569
+0000029,Windsor Copacabana Sheraton Casino,2016-04-09 08:00,US,1.172
+0000029,Windsor Copacabana Sheraton Casino,2016-04-17 23:00,MX,1.482
+0000029,Windsor Copacabana Sheraton Casino,2016-05-30 07:00,US,0.697
+0000029,Windsor Copacabana Sheraton Casino,2016-06-13 03:00,MX,1.661
+0000029,Windsor Copacabana Sheraton Casino,2016-06-28 20:00,CA,1.831
+0000030,Big River Spa,2015-08-19 01:00,MX,0.785
+0000030,Big River Spa,2015-09-14 22:00,CA,1.662
+0000030,Big River Spa,2015-10-14 19:00,US,1.968
+0000030,Big River Spa,2015-12-24 04:00,US,1.77
+0000030,Big River Spa,2015-12-28 16:00,MX,1.87
+0000030,Big River Spa,2016-04-02 03:00,MX,1.11
+0000030,Big River Spa,2016-04-18 07:00,CA,1.803
+0000030,Big River Spa,2016-04-27 22:00,MX,1.716
+0000030,Big River Spa,2016-07-05 23:00,US,0.901
+0000030,Big River Spa,2016-08-04 04:00,MX,1.511
+0000031,Majestic Upper Side Senado Spa,2015-09-12 07:00,US,0.522
+0000031,Majestic Upper Side Senado Spa,2015-11-13 01:00,US,1.864
+0000031,Majestic Upper Side Senado Spa,2015-12-28 03:00,MX,1.559
+0000031,Majestic Upper Side Senado Spa,2016-04-26 09:00,CA,1.367
+0000031,Majestic Upper Side Senado Spa,2016-06-01 21:00,US,1.839
+0000031,Majestic Upper Side Senado Spa,2016-06-08 03:00,MX,1.226
+0000031,Majestic Upper Side Senado Spa,2016-06-10 23:00,CA,1.688
+0000031,Majestic Upper Side Senado Spa,2016-06-14 08:00,US,1.03
+0000031,Majestic Upper Side Senado Spa,2016-07-09 07:00,US,1.426
+0000032,River Side Mengo Granja,2015-08-07 21:00,US,1.638
+0000032,River Side Mengo Granja,2015-10-15 00:00,MX,1.336
+0000032,River Side Mengo Granja,2015-11-29 06:00,US,0.915
+0000032,River Side Mengo Granja,2016-05-23 06:00,MX,1.905
+0000033,Geronimo Vermont Spa,2015-08-26 20:00,CA,1.299
+0000033,Geronimo Vermont Spa,2015-08-29 17:00,MX,0.591
+0000033,Geronimo Vermont Spa,2015-09-25 18:00,MX,1.713
+0000033,Geronimo Vermont Spa,2015-10-31 11:00,US,1.844
+0000033,Geronimo Vermont Spa,2015-12-18 03:00,US,1.562
+0000033,Geronimo Vermont Spa,2015-12-23 08:00,US,1.727
+0000033,Geronimo Vermont Spa,2015-12-29 04:00,CA,1.89
+0000033,Geronimo Vermont Spa,2016-03-03 23:00,MX,1.021
+0000033,Geronimo Vermont Spa,2016-05-12 15:00,US,1.251
+0000033,Geronimo Vermont Spa,2016-06-03 20:00,US,1.582
+0000033,Geronimo Vermont Spa,2016-06-18 18:00,MX,1.929
+0000034,Olinda City Posada,2015-08-12 14:00,CA,2.018
+0000034,Olinda City Posada,2015-08-21 02:00,US,1.773
+0000034,Olinda City Posada,2015-11-15 18:00,MX,1.797
+0000034,Olinda City Posada,2015-11-19 09:00,CA,1.636
+0000034,Olinda City Posada,2015-11-22 08:00,CA,1.134
+0000034,Olinda City Posada,2015-12-28 12:00,CA,1.464
+0000034,Olinda City Posada,2016-05-18 09:00,CA,1.454
+0000034,Olinda City Posada,2016-05-26 00:00,CA,1.696
+0000034,Olinda City Posada,2016-06-04 09:00,MX,1.514
+0000035,Moon Light Merlin Tavern,2015-09-28 13:00,MX,1.478
+0000035,Moon Light Merlin Tavern,2015-10-09 08:00,CA,1.041
+0000035,Moon Light Merlin Tavern,2015-11-02 16:00,US,1.831
+0000035,Moon Light Merlin Tavern,2016-01-02 17:00,US,1.824
+0000035,Moon Light Merlin Tavern,2016-04-08 12:00,US,0.849
+0000035,Moon Light Merlin Tavern,2016-05-31 22:00,CA,1.199
+0000035,Moon Light Merlin Tavern,2016-06-21 06:00,CA,1.035
+0000035,Moon Light Merlin Tavern,2016-06-22 08:00,US,1.676
+0000035,Moon Light Merlin Tavern,2016-07-18 12:00,US,1.948
+0000035,Moon Light Merlin Tavern,2016-07-22 15:00,US,1.912
+0000036,Suburbs Casino,2015-08-08 19:00,CA,1.88
+0000036,Suburbs Casino,2015-10-15 00:00,MX,1.521
+0000036,Suburbs Casino,2015-12-06 20:00,US,1.427
+0000036,Suburbs Casino,2016-04-26 01:00,CA,2.065
+0000036,Suburbs Casino,2016-05-08 20:00,US,1.402
+0000036,Suburbs Casino,2016-05-29 13:00,MX,1.679
+0000036,Suburbs Casino,2016-05-31 11:00,CA,1.498
+0000036,Suburbs Casino,2016-06-05 20:00,CA,1.184
+0000036,Suburbs Casino,2016-07-04 02:00,CA,1.6
+0000036,Suburbs Casino,2016-08-03 05:00,US,1.291
+0000037,Vermont Spa,2015-10-27 11:00,MX,1.822
+0000037,Vermont Spa,2015-11-21 04:00,US,1.127
+0000037,Vermont Spa,2015-11-26 19:00,CA,1.295
+0000037,Vermont Spa,2015-12-27 21:00,MX,1.622
+0000037,Vermont Spa,2016-05-20 00:00,US,1.887
+0000037,Vermont Spa,2016-05-24 06:00,US,1.247
+0000037,Vermont Spa,2016-06-11 01:00,US,0.839
+0000037,Vermont Spa,2016-06-16 01:00,US,1.594
+0000037,Vermont Spa,2016-06-17 19:00,US,1.862
+0000037,Vermont Spa,2016-07-13 00:00,US,0.796
+0000037,Vermont Spa,2016-07-16 17:00,MX,1.36
+0000038,Upper Side Highway Pestana Granja,2015-10-06 00:00,MX,0.823
+0000038,Upper Side Highway Pestana Granja,2015-11-17 03:00,CA,1.646
+0000038,Upper Side Highway Pestana Granja,2015-11-26 20:00,CA,0.917
+0000038,Upper Side Highway Pestana Granja,2015-12-11 10:00,US,1.686
+0000038,Upper Side Highway Pestana Granja,2016-03-28 18:00,MX,1.453
+0000038,Upper Side Highway Pestana Granja,2016-04-24 07:00,US,2.019
+0000038,Upper Side Highway Pestana Granja,2016-05-19 04:00,CA,1.074
+0000038,Upper Side Highway Pestana Granja,2016-05-28 01:00,US,1.924
+0000038,Upper Side Highway Pestana Granja,2016-06-13 19:00,MX,1.813
+0000038,Upper Side Highway Pestana Granja,2016-07-01 11:00,US,0.891
+0000039,Novelo Suburbs Boarding House,2015-09-05 17:00,MX,1.523
+0000039,Novelo Suburbs Boarding House,2015-11-25 23:00,CA,1.577
+0000039,Novelo Suburbs Boarding House,2015-12-22 04:00,MX,0.616
+0000039,Novelo Suburbs Boarding House,2016-07-28 14:00,CA,1.566
+0000040,Merlin Geronimo Granja,2015-10-10 21:00,MX,1.542
+0000040,Merlin Geronimo Granja,2015-11-07 11:00,CA,2.011
+0000040,Merlin Geronimo Granja,2015-11-12 14:00,MX,1.531
+0000040,Merlin Geronimo Granja,2016-03-07 03:00,US,1.949
+0000040,Merlin Geronimo Granja,2016-03-17 14:00,CA,1.411
+0000040,Merlin Geronimo Granja,2016-05-11 15:00,US,1.926
+0000040,Merlin Geronimo Granja,2016-05-23 17:00,CA,1.679
+0000040,Merlin Geronimo Granja,2016-06-02 00:00,MX,1.655
+0000040,Merlin Geronimo Granja,2016-06-24 02:00,MX,1.522
+0000040,Merlin Geronimo Granja,2016-07-25 01:00,US,1.457
+0000041,Upper Side Sun Sine Granja,2015-09-01 23:00,CA,0.855
+0000041,Upper Side Sun Sine Granja,2015-11-28 12:00,CA,0.351
+0000041,Upper Side Sun Sine Granja,2015-12-24 21:00,MX,1.605
+0000041,Upper Side Sun Sine Granja,2016-01-22 08:00,CA,1.569
+0000041,Upper Side Sun Sine Granja,2016-02-09 00:00,CA,1.59
+0000041,Upper Side Sun Sine Granja,2016-04-14 02:00,MX,1.811
+0000041,Upper Side Sun Sine Granja,2016-04-20 13:00,CA,0.762
+0000041,Upper Side Sun Sine Granja,2016-05-19 22:00,MX,1.115
+0000041,Upper Side Sun Sine Granja,2016-08-01 16:00,MX,1.41
+0000042,Asturias Hotel,2015-08-26 23:00,US,1.874
+0000042,Asturias Hotel,2015-10-03 07:00,CA,1.43
+0000042,Asturias Hotel,2015-10-11 08:00,CA,1.654
+0000042,Asturias Hotel,2015-10-24 21:00,MX,1.427
+0000042,Asturias Hotel,2015-11-13 13:00,MX,1.523
+0000042,Asturias Hotel,2015-12-28 16:00,MX,1.715
+0000042,Asturias Hotel,2016-02-06 16:00,CA,1.488
+0000042,Asturias Hotel,2016-03-18 00:00,MX,1.673
+0000042,Asturias Hotel,2016-04-29 19:00,MX,1.532
+0000043,Majestic Village Casa,2015-09-06 11:00,US,1.44
+0000043,Majestic Village Casa,2015-09-29 17:00,CA,1.552
+0000043,Majestic Village Casa,2015-11-05 09:00,US,1.445
+0000043,Majestic Village Casa,2015-12-15 16:00,MX,1.532
+0000043,Majestic Village Casa,2016-01-01 14:00,US,1.618
+0000043,Majestic Village Casa,2016-01-08 03:00,US,1.667
+0000043,Majestic Village Casa,2016-02-03 20:00,MX,0.525
+0000043,Majestic Village Casa,2016-03-01 00:00,MX,1.745
+0000043,Majestic Village Casa,2016-03-15 19:00,MX,1.903
+0000043,Majestic Village Casa,2016-05-16 22:00,MX,1.071
+0000044,Hyatt Granja,2015-09-27 20:00,CA,1.45
+0000044,Hyatt Granja,2015-10-15 16:00,MX,1.732
+0000044,Hyatt Granja,2016-03-25 03:00,CA,1.519
+0000044,Hyatt Granja,2016-04-18 03:00,US,0.705
+0000044,Hyatt Granja,2016-04-18 03:00,CA,0.705
+0000044,Hyatt Granja,2016-06-10 19:00,CA,1.567
+0000044,Hyatt Granja,2016-07-23 13:00,MX,1.595
+0000045,Amanhecer Senado Novelo Granja,2015-10-02 03:00,MX,0.658
+0000045,Amanhecer Senado Novelo Granja,2015-11-10 05:00,US,1.351
+0000045,Amanhecer Senado Novelo Granja,2015-11-18 17:00,US,0.863
+0000045,Amanhecer Senado Novelo Granja,2015-11-26 01:00,US,1.238
+0000045,Amanhecer Senado Novelo Granja,2016-02-25 04:00,CA,0.816
+0000045,Amanhecer Senado Novelo Granja,2016-02-27 15:00,US,0.802
+0000045,Amanhecer Senado Novelo Granja,2016-03-11 05:00,CA,1.739
+0000045,Amanhecer Senado Novelo Granja,2016-04-05 22:00,US,1.61
+0000045,Amanhecer Senado Novelo Granja,2016-04-11 18:00,MX,1.62
+0000045,Amanhecer Senado Novelo Granja,2016-06-02 09:00,US,1.776
+0000045,Amanhecer Senado Novelo Granja,2016-06-03 21:00,MX,1.722
+0000045,Amanhecer Senado Novelo Granja,2016-07-04 04:00,US,1.235
+0000046,Eas Side Posada,2015-10-12 22:00,CA,1.563
+0000046,Eas Side Posada,2015-12-30 21:00,MX,0.766
+0000046,Eas Side Posada,2016-01-29 08:00,MX,1.51
+0000046,Eas Side Posada,2016-03-26 01:00,US,1.843
+0000046,Eas Side Posada,2016-04-03 02:00,CA,1.503
+0000046,Eas Side Posada,2016-04-15 22:00,US,1.988
+0000046,Eas Side Posada,2016-04-29 16:00,US,1.616
+0000046,Eas Side Posada,2016-06-09 12:00,US,1.555
+0000046,Eas Side Posada,2016-06-09 12:00,MX,1.555
+0000047,Sheraton Slaviero Boarding House,2015-08-26 23:00,CA,1.825
+0000047,Sheraton Slaviero Boarding House,2015-09-22 19:00,CA,1.708
+0000047,Sheraton Slaviero Boarding House,2015-09-29 07:00,CA,0.773
+0000047,Sheraton Slaviero Boarding House,2015-10-31 02:00,US,0.942
+0000047,Sheraton Slaviero Boarding House,2016-02-03 18:00,MX,1.956
+0000047,Sheraton Slaviero Boarding House,2016-02-25 13:00,US,1.674
+0000047,Sheraton Slaviero Boarding House,2016-03-14 03:00,US,0.743
+0000047,Sheraton Slaviero Boarding House,2016-03-18 10:00,US,1.224
+0000047,Sheraton Slaviero Boarding House,2016-04-05 06:00,MX,1.72
+0000047,Sheraton Slaviero Boarding House,2016-04-18 20:00,CA,1.259
+0000047,Sheraton Slaviero Boarding House,2016-04-18 21:00,US,1.201
+0000047,Sheraton Slaviero Boarding House,2016-06-25 08:00,MX,1.869
+0000048,Moon Light Highway Spa,2015-10-14 04:00,US,1.611
+0000048,Moon Light Highway Spa,2015-10-16 15:00,CA,1.923
+0000048,Moon Light Highway Spa,2016-01-16 10:00,CA,1.708
+0000048,Moon Light Highway Spa,2016-04-24 18:00,US,1.272
+0000048,Moon Light Highway Spa,2016-04-28 19:00,US,1.64
+0000048,Moon Light Highway Spa,2016-04-29 09:00,MX,1.788
+0000048,Moon Light Highway Spa,2016-05-18 20:00,US,1.643
+0000048,Moon Light Highway Spa,2016-07-04 20:00,MX,1.17
+0000049,Premier Por Inn,2015-08-12 09:00,US,0.639
+0000049,Premier Por Inn,2015-08-30 22:00,CA,1.62
+0000049,Premier Por Inn,2015-09-08 12:00,CA,2.006
+0000049,Premier Por Inn,2015-09-22 20:00,CA,1.029
+0000049,Premier Por Inn,2015-09-25 08:00,US,1.306
+0000049,Premier Por Inn,2015-10-02 23:00,MX,1.248
+0000049,Premier Por Inn,2015-11-09 07:00,CA,1.614
+0000049,Premier Por Inn,2015-11-19 15:00,CA,1.04
+0000049,Premier Por Inn,2015-11-24 22:00,US,1.769
+0000049,Premier Por Inn,2016-01-09 14:00,CA,1.677
+0000049,Premier Por Inn,2016-02-02 00:00,US,1.314
+0000049,Premier Por Inn,2016-02-06 09:00,CA,1.997
+0000049,Premier Por Inn,2016-02-07 02:00,MX,1.989
+0000049,Premier Por Inn,2016-04-05 15:00,MX,1.173
+0000049,Premier Por Inn,2016-04-14 03:00,MX,1.268
+0000049,Premier Por Inn,2016-06-20 01:00,CA,1.437
+0000049,Premier Por Inn,2016-07-23 09:00,US,1.78
+0000050,Majestic Olinda Sun Sine Plaza,2015-10-07 17:00,CA,1.776
+0000050,Majestic Olinda Sun Sine Plaza,2015-11-26 02:00,US,1.926
+0000050,Majestic Olinda Sun Sine Plaza,2015-11-29 10:00,MX,1.668
+0000050,Majestic Olinda Sun Sine Plaza,2015-12-27 08:00,CA,1.869
+0000050,Majestic Olinda Sun Sine Plaza,2016-03-03 16:00,US,1.507
+0000050,Majestic Olinda Sun Sine Plaza,2016-03-07 08:00,MX,1.625
+0000050,Majestic Olinda Sun Sine Plaza,2016-03-11 19:00,US,1.484
+0000050,Majestic Olinda Sun Sine Plaza,2016-03-13 00:00,US,1.687
+0000050,Majestic Olinda Sun Sine Plaza,2016-05-28 10:00,MX,1.884
+0000050,Majestic Olinda Sun Sine Plaza,2016-06-05 12:00,CA,1.049
+0000050,Majestic Olinda Sun Sine Plaza,2016-07-26 20:00,CA,1.191
+0000051,Highway Hotelo,2015-08-24 07:00,MX,1.246
+0000051,Highway Hotelo,2015-10-17 03:00,CA,1.991
+0000051,Highway Hotelo,2015-11-01 03:00,US,1.584
+0000051,Highway Hotelo,2015-11-14 04:00,CA,1.261
+0000051,Highway Hotelo,2015-12-20 23:00,US,1.446
+0000051,Highway Hotelo,2016-02-19 06:00,CA,1.354
+0000051,Highway Hotelo,2016-05-18 20:00,US,0.584
+0000051,Highway Hotelo,2016-06-02 09:00,CA,1.388
+0000051,Highway Hotelo,2016-06-29 09:00,US,1.478
+0000052,Vermont Geronimo Granja,2015-10-25 00:00,US,1.768
+0000052,Vermont Geronimo Granja,2015-11-09 07:00,MX,1.871
+0000052,Vermont Geronimo Granja,2015-12-03 23:00,US,1.724
+0000052,Vermont Geronimo Granja,2016-03-20 17:00,MX,1.886
+0000052,Vermont Geronimo Granja,2016-03-24 15:00,MX,1.362
+0000052,Vermont Geronimo Granja,2016-03-24 20:00,US,1.707
+0000052,Vermont Geronimo Granja,2016-03-29 10:00,MX,0.567
+0000052,Vermont Geronimo Granja,2016-04-27 03:00,MX,1.755
+0000052,Vermont Geronimo Granja,2016-04-29 15:00,CA,0.322
+0000052,Vermont Geronimo Granja,2016-05-04 16:00,MX,0.962
+0000052,Vermont Geronimo Granja,2016-05-15 01:00,MX,1.107
+0000052,Vermont Geronimo Granja,2016-05-26 10:00,US,1.422
+0000052,Vermont Geronimo Granja,2016-06-29 22:00,CA,1.056
+0000052,Vermont Geronimo Granja,2016-07-26 13:00,MX,1.175
+0000053,Barra Plaza,2015-08-09 18:00,US,1.969
+0000053,Barra Plaza,2015-10-13 18:00,MX,1.588
+0000053,Barra Plaza,2015-12-22 06:00,MX,1.328
+0000053,Barra Plaza,2016-02-13 20:00,CA,1.338
+0000053,Barra Plaza,2016-02-20 08:00,MX,1.868
+0000053,Barra Plaza,2016-05-01 17:00,CA,1.89
+0000053,Barra Plaza,2016-07-04 00:00,MX,1.606
+0000054,Moos' River Side Suburbs Boarding House,2015-08-31 07:00,US,1.611
+0000054,Moos' River Side Suburbs Boarding House,2015-09-12 12:00,CA,1.244
+0000054,Moos' River Side Suburbs Boarding House,2015-09-24 15:00,CA,1.105
+0000054,Moos' River Side Suburbs Boarding House,2015-10-28 09:00,US,1.218
+0000054,Moos' River Side Suburbs Boarding House,2015-11-01 05:00,MX,1.053
+0000054,Moos' River Side Suburbs Boarding House,2016-01-11 11:00,MX,0.602
+0000054,Moos' River Side Suburbs Boarding House,2016-01-16 00:00,CA,1.591
+0000054,Moos' River Side Suburbs Boarding House,2016-02-07 04:00,US,1.643
+0000054,Moos' River Side Suburbs Boarding House,2016-02-17 18:00,CA,1.319
+0000054,Moos' River Side Suburbs Boarding House,2016-03-16 16:00,MX,1.503
+0000054,Moos' River Side Suburbs Boarding House,2016-04-17 13:00,US,1.632
+0000054,Moos' River Side Suburbs Boarding House,2016-05-24 06:00,CA,1.782
+0000054,Moos' River Side Suburbs Boarding House,2016-07-15 13:00,US,1.722
+0000055,River Side Grand Olinda la pensión,2015-10-21 04:00,CA,1.8
+0000055,River Side Grand Olinda la pensión,2015-12-10 22:00,CA,1.969
+0000055,River Side Grand Olinda la pensión,2016-04-03 01:00,CA,1.88
+0000055,River Side Grand Olinda la pensión,2016-04-20 22:00,CA,1.979
+0000055,River Side Grand Olinda la pensión,2016-04-23 02:00,US,1.295
+0000055,River Side Grand Olinda la pensión,2016-06-26 02:00,CA,1.874
+0000056,Eas Side Hyatt Casa,2015-08-29 18:00,MX,1.639
+0000056,Eas Side Hyatt Casa,2015-09-16 21:00,MX,1.541
+0000056,Eas Side Hyatt Casa,2015-10-05 19:00,CA,1.798
+0000056,Eas Side Hyatt Casa,2015-11-19 13:00,US,1.495
+0000056,Eas Side Hyatt Casa,2016-03-02 08:00,MX,1.162
+0000056,Eas Side Hyatt Casa,2016-03-18 17:00,MX,1.867
+0000057,Majestic Jon's Down Town Plaza,2015-09-07 17:00,US,1.754
+0000057,Majestic Jon's Down Town Plaza,2015-09-10 00:00,US,1.345
+0000057,Majestic Jon's Down Town Plaza,2015-11-19 06:00,MX,1.137
+0000057,Majestic Jon's Down Town Plaza,2016-01-11 12:00,MX,1.535
+0000057,Majestic Jon's Down Town Plaza,2016-01-15 22:00,CA,1.761
+0000057,Majestic Jon's Down Town Plaza,2016-01-18 16:00,CA,1.11
+0000057,Majestic Jon's Down Town Plaza,2016-02-29 16:00,US,1.961
+0000057,Majestic Jon's Down Town Plaza,2016-06-01 10:00,CA,1.682
+0000057,Majestic Jon's Down Town Plaza,2016-06-26 06:00,CA,1.912
+0000057,Majestic Jon's Down Town Plaza,2016-07-01 07:00,US,1.517
+0000057,Majestic Jon's Down Town Plaza,2016-07-19 09:00,CA,1.247
+0000057,Majestic Jon's Down Town Plaza,2016-08-01 10:00,CA,1.36
+0000058,Novelo la pensión,2015-09-15 18:00,US,1.668
+0000058,Novelo la pensión,2015-10-17 19:00,MX,1.264
+0000058,Novelo la pensión,2015-12-03 05:00,CA,1.169
+0000058,Novelo la pensión,2016-01-26 11:00,US,1.687
+0000058,Novelo la pensión,2016-03-04 09:00,CA,1.486
+0000058,Novelo la pensión,2016-03-29 09:00,MX,1.152
+0000058,Novelo la pensión,2016-04-14 03:00,CA,1.596
+0000058,Novelo la pensión,2016-05-20 03:00,MX,1.773
+0000059,Moos' Motel,2015-10-18 14:00,MX,1.927
+0000059,Moos' Motel,2015-12-04 02:00,CA,1.432
+0000059,Moos' Motel,2016-03-05 13:00,MX,1.347
+0000059,Moos' Motel,2016-04-03 09:00,US,1.685
+0000059,Moos' Motel,2016-05-04 03:00,CA,1.688
+0000059,Moos' Motel,2016-06-17 11:00,MX,1.662
+0000059,Moos' Motel,2016-06-19 02:00,MX,1.864
+0000059,Moos' Motel,2016-07-06 16:00,CA,1.647
+0000059,Moos' Motel,2016-07-11 09:00,CA,1.868
+0000059,Moos' Motel,2016-07-27 11:00,CA,1.772
+0000060,Premier Big River Tavern,2015-08-29 18:00,CA,1.313
+0000060,Premier Big River Tavern,2015-12-23 12:00,MX,1.617
+0000060,Premier Big River Tavern,2015-12-31 01:00,CA,1.971
+0000060,Premier Big River Tavern,2016-01-20 13:00,US,1.344
+0000060,Premier Big River Tavern,2016-03-20 02:00,MX,1.286
+0000060,Premier Big River Tavern,2016-04-24 15:00,CA,1.836
+0000060,Premier Big River Tavern,2016-07-09 11:00,CA,1.249
+0000061,Saionara Novelo Suburbs Apartments,2015-10-19 11:00,US,1.472
+0000061,Saionara Novelo Suburbs Apartments,2016-01-09 18:00,US,1.54
+0000061,Saionara Novelo Suburbs Apartments,2016-01-11 02:00,CA,1.807
+0000061,Saionara Novelo Suburbs Apartments,2016-02-09 09:00,MX,1.735
+0000061,Saionara Novelo Suburbs Apartments,2016-05-23 05:00,CA,1.516
+0000061,Saionara Novelo Suburbs Apartments,2016-06-22 03:00,CA,1.541
+0000061,Saionara Novelo Suburbs Apartments,2016-06-30 05:00,US,1.137
+0000061,Saionara Novelo Suburbs Apartments,2016-07-06 22:00,MX,1.602
+0000061,Saionara Novelo Suburbs Apartments,2016-07-27 14:00,US,1.016
+0000061,Saionara Novelo Suburbs Apartments,2016-08-03 00:00,MX,1.368
+0000061,Saionara Novelo Suburbs Apartments,2016-08-03 08:00,MX,0.672
+0000062,Novelo Pestana Boarding House,2015-08-16 10:00,CA,1.571
+0000062,Novelo Pestana Boarding House,2015-08-28 05:00,MX,1.326
+0000062,Novelo Pestana Boarding House,2015-09-13 06:00,MX,2.02
+0000062,Novelo Pestana Boarding House,2015-09-21 19:00,CA,1.516
+0000062,Novelo Pestana Boarding House,2015-10-01 23:00,MX,1.65
+0000062,Novelo Pestana Boarding House,2015-12-03 18:00,MX,1.655
+0000062,Novelo Pestana Boarding House,2015-12-10 09:00,CA,1.455
+0000062,Novelo Pestana Boarding House,2015-12-14 07:00,MX,1.565
+0000062,Novelo Pestana Boarding House,2016-01-02 10:00,US,1.364
+0000062,Novelo Pestana Boarding House,2016-02-03 17:00,US,1.652
+0000062,Novelo Pestana Boarding House,2016-03-06 03:00,CA,0.476
+0000062,Novelo Pestana Boarding House,2016-03-08 02:00,CA,1.681
+0000062,Novelo Pestana Boarding House,2016-03-31 06:00,CA,1.592
+0000062,Novelo Pestana Boarding House,2016-05-09 13:00,US,0.817
+0000062,Novelo Pestana Boarding House,2016-05-24 09:00,MX,0.867
+0000063,Hyatt Spa,2015-12-21 07:00,US,1.691
+0000063,Hyatt Spa,2016-02-01 00:00,US,1.075
+0000063,Hyatt Spa,2016-02-23 01:00,US,0.793
+0000063,Hyatt Spa,2016-03-11 22:00,MX,1.296
+0000063,Hyatt Spa,2016-04-09 15:00,US,1.864
+0000063,Hyatt Spa,2016-05-07 12:00,CA,1.872
+0000064,Tiny Elegance Inn,2015-10-29 20:00,US,1.267
+0000064,Tiny Elegance Inn,2015-11-09 16:00,US,1.327
+0000064,Tiny Elegance Inn,2016-02-19 03:00,MX,0.818
+0000064,Tiny Elegance Inn,2016-03-05 03:00,MX,1.223
+0000064,Tiny Elegance Inn,2016-03-15 05:00,MX,1.782
+0000064,Tiny Elegance Inn,2016-03-21 02:00,US,1.336
+0000064,Tiny Elegance Inn,2016-05-06 01:00,CA,1.432
+0000065,Premier River Side Apartments,2015-08-25 22:00,CA,1.643
+0000065,Premier River Side Apartments,2015-09-12 13:00,US,1.524
+0000065,Premier River Side Apartments,2015-10-22 11:00,US,1.075
+0000065,Premier River Side Apartments,2015-11-08 18:00,MX,1.927
+0000065,Premier River Side Apartments,2015-11-15 20:00,US,1.371
+0000065,Premier River Side Apartments,2015-12-12 01:00,US,1.782
+0000065,Premier River Side Apartments,2016-01-02 03:00,CA,1.233
+0000065,Premier River Side Apartments,2016-03-06 21:00,US,1.249
+0000065,Premier River Side Apartments,2016-03-30 00:00,MX,1.835
+0000065,Premier River Side Apartments,2016-05-21 02:00,MX,1.761
+0000065,Premier River Side Apartments,2016-06-18 07:00,CA,1.661
+0000066,Vermont Ibiza Motor Inn,2015-09-05 19:00,US,1.316
+0000066,Vermont Ibiza Motor Inn,2015-10-02 21:00,MX,1.64
+0000066,Vermont Ibiza Motor Inn,2015-10-13 05:00,MX,0.649
+0000066,Vermont Ibiza Motor Inn,2015-11-10 02:00,MX,1.851
+0000066,Vermont Ibiza Motor Inn,2015-12-24 05:00,US,1.543
+0000066,Vermont Ibiza Motor Inn,2016-01-31 03:00,CA,1.251
+0000066,Vermont Ibiza Motor Inn,2016-02-18 09:00,CA,1.757
+0000066,Vermont Ibiza Motor Inn,2016-02-19 05:00,CA,1.701
+0000066,Vermont Ibiza Motor Inn,2016-02-24 07:00,US,1.493
+0000066,Vermont Ibiza Motor Inn,2016-03-05 19:00,CA,1.213
+0000066,Vermont Ibiza Motor Inn,2016-07-10 08:00,CA,1.928
+0000067,Ibiza Asturias Village Casino,2015-08-19 19:00,US,1.893
+0000067,Ibiza Asturias Village Casino,2015-11-24 12:00,US,1.934
+0000067,Ibiza Asturias Village Casino,2016-02-28 15:00,MX,1.7
+0000067,Ibiza Asturias Village Casino,2016-03-31 11:00,US,1.788
+0000067,Ibiza Asturias Village Casino,2016-06-20 17:00,CA,1.451
+0000067,Ibiza Asturias Village Casino,2016-07-08 22:00,MX,1.895
+0000068,Amanhecer Imperial Geronimo Spa,2015-09-08 01:00,MX,1.191
+0000068,Amanhecer Imperial Geronimo Spa,2015-09-17 04:00,CA,1.983
+0000068,Amanhecer Imperial Geronimo Spa,2015-11-08 15:00,MX,1.293
+0000068,Amanhecer Imperial Geronimo Spa,2015-11-26 16:00,US,1.194
+0000068,Amanhecer Imperial Geronimo Spa,2015-12-22 01:00,CA,1.192
+0000068,Amanhecer Imperial Geronimo Spa,2015-12-23 11:00,CA,0.717
+0000068,Amanhecer Imperial Geronimo Spa,2015-12-28 21:00,CA,1.77
+0000068,Amanhecer Imperial Geronimo Spa,2016-02-25 10:00,MX,1.607
+0000068,Amanhecer Imperial Geronimo Spa,2016-04-06 15:00,US,1.655
+0000068,Amanhecer Imperial Geronimo Spa,2016-05-19 16:00,MX,0.921
+0000068,Amanhecer Imperial Geronimo Spa,2016-06-01 10:00,CA,1.776
+0000068,Amanhecer Imperial Geronimo Spa,2016-07-15 14:00,US,1.106
+0000068,Amanhecer Imperial Geronimo Spa,2016-07-15 20:00,CA,1.069
+0000068,Amanhecer Imperial Geronimo Spa,2016-08-03 08:00,US,1.653
+0000069,Senado Pestana Hostel,2015-09-06 13:00,CA,1.721
+0000069,Senado Pestana Hostel,2015-10-24 08:00,US,1.092
+0000069,Senado Pestana Hostel,2016-02-14 18:00,MX,1.024
+0000069,Senado Pestana Hostel,2016-04-27 15:00,CA,1.414
+0000069,Senado Pestana Hostel,2016-04-30 18:00,CA,1.537
+0000069,Senado Pestana Hostel,2016-07-28 13:00,CA,1.175
+0000069,Senado Pestana Hostel,2016-07-29 22:00,CA,0.956
+0000070,Tiny Sheraton Down Town Granja,2015-08-11 20:00,US,1.193
+0000070,Tiny Sheraton Down Town Granja,2015-09-06 02:00,CA,0.584
+0000070,Tiny Sheraton Down Town Granja,2015-09-11 13:00,MX,1.215
+0000070,Tiny Sheraton Down Town Granja,2015-11-24 00:00,MX,1.544
+0000070,Tiny Sheraton Down Town Granja,2016-02-13 02:00,US,1.207
+0000070,Tiny Sheraton Down Town Granja,2016-02-19 03:00,MX,1.393
+0000070,Tiny Sheraton Down Town Granja,2016-04-02 12:00,CA,1.918
+0000070,Tiny Sheraton Down Town Granja,2016-05-28 07:00,MX,1.355
+0000070,Tiny Sheraton Down Town Granja,2016-07-04 06:00,US,2.008
+0000070,Tiny Sheraton Down Town Granja,2016-07-17 18:00,MX,1.048
+0000071,Upper Side Jon's Asturias Apartments,2015-08-21 08:00,CA,1.335
+0000071,Upper Side Jon's Asturias Apartments,2015-11-05 19:00,MX,1.452
+0000071,Upper Side Jon's Asturias Apartments,2015-11-08 18:00,CA,1.67
+0000071,Upper Side Jon's Asturias Apartments,2015-12-15 12:00,CA,1.639
+0000071,Upper Side Jon's Asturias Apartments,2016-01-23 14:00,MX,1.778
+0000071,Upper Side Jon's Asturias Apartments,2016-02-17 06:00,CA,0.938
+0000071,Upper Side Jon's Asturias Apartments,2016-03-18 20:00,US,1.119
+0000071,Upper Side Jon's Asturias Apartments,2016-03-25 21:00,CA,1.414
+0000071,Upper Side Jon's Asturias Apartments,2016-03-31 07:00,MX,1.596
+0000072,Slaviero Pestana Pestana Casa,2015-10-05 15:00,CA,0.822
+0000072,Slaviero Pestana Pestana Casa,2015-11-09 05:00,MX,0.608
+0000072,Slaviero Pestana Pestana Casa,2015-12-10 18:00,MX,1.129
+0000072,Slaviero Pestana Pestana Casa,2015-12-29 15:00,MX,1.56
+0000072,Slaviero Pestana Pestana Casa,2016-01-26 08:00,US,1.807
+0000072,Slaviero Pestana Pestana Casa,2016-02-03 15:00,US,0.99
+0000072,Slaviero Pestana Pestana Casa,2016-02-06 02:00,MX,1.39
+0000072,Slaviero Pestana Pestana Casa,2016-03-23 01:00,US,1.274
+0000072,Slaviero Pestana Pestana Casa,2016-05-06 07:00,CA,1.946
+0000072,Slaviero Pestana Pestana Casa,2016-06-18 04:00,CA,0.799
+0000072,Slaviero Pestana Pestana Casa,2016-07-23 22:00,CA,1.34
+0000073,Grand Suburbs Geronimo Apartments,2015-08-18 14:00,MX,1.996
+0000073,Grand Suburbs Geronimo Apartments,2015-09-04 05:00,CA,1.564
+0000073,Grand Suburbs Geronimo Apartments,2015-10-13 12:00,CA,1.692
+0000073,Grand Suburbs Geronimo Apartments,2015-12-10 21:00,US,0.961
+0000073,Grand Suburbs Geronimo Apartments,2016-02-04 17:00,CA,1.018
+0000073,Grand Suburbs Geronimo Apartments,2016-03-31 05:00,CA,1.471
+0000073,Grand Suburbs Geronimo Apartments,2016-05-13 20:00,CA,1.69
+0000073,Grand Suburbs Geronimo Apartments,2016-05-22 09:00,MX,1.746
+0000073,Grand Suburbs Geronimo Apartments,2016-05-26 10:00,CA,1.373
+0000073,Grand Suburbs Geronimo Apartments,2016-06-18 02:00,CA,1.571
+0000074,Slaviero Tiny la pensión,2015-09-19 06:00,CA,1.39
+0000074,Slaviero Tiny la pensión,2015-10-10 08:00,MX,0.384
+0000074,Slaviero Tiny la pensión,2016-01-07 17:00,CA,1.382
+0000074,Slaviero Tiny la pensión,2016-01-30 07:00,CA,1.65
+0000074,Slaviero Tiny la pensión,2016-02-13 01:00,US,1.455
+0000074,Slaviero Tiny la pensión,2016-02-27 13:00,CA,1.49
+0000074,Slaviero Tiny la pensión,2016-07-27 21:00,MX,2.043
+0000075,Barra Moos' Plaza,2015-10-01 02:00,US,1.282
+0000075,Barra Moos' Plaza,2015-10-09 03:00,CA,2.029
+0000075,Barra Moos' Plaza,2015-11-28 17:00,CA,1.333
+0000075,Barra Moos' Plaza,2015-12-02 18:00,MX,1.805
+0000075,Barra Moos' Plaza,2015-12-13 22:00,MX,1.774
+0000075,Barra Moos' Plaza,2016-02-13 09:00,MX,1.41
+0000075,Barra Moos' Plaza,2016-03-09 04:00,CA,1.643
+0000075,Barra Moos' Plaza,2016-03-24 00:00,US,1.643
+0000075,Barra Moos' Plaza,2016-05-18 00:00,US,2.045
+0000075,Barra Moos' Plaza,2016-07-18 02:00,CA,1.728
+0000076,Grand Hyatt Mengo Motel,2015-08-10 18:00,CA,1.881
+0000076,Grand Hyatt Mengo Motel,2015-08-21 10:00,US,1.571
+0000076,Grand Hyatt Mengo Motel,2015-10-01 10:00,MX,1.949
+0000076,Grand Hyatt Mengo Motel,2015-10-29 17:00,CA,0.926
+0000076,Grand Hyatt Mengo Motel,2015-11-06 15:00,CA,1.237
+0000076,Grand Hyatt Mengo Motel,2015-11-07 14:00,MX,1.57
+0000076,Grand Hyatt Mengo Motel,2015-11-25 16:00,US,1.397
+0000076,Grand Hyatt Mengo Motel,2016-03-30 22:00,MX,0.54
+0000076,Grand Hyatt Mengo Motel,2016-04-14 08:00,MX,1.548
+0000076,Grand Hyatt Mengo Motel,2016-05-18 11:00,MX,0.78
+0000076,Grand Hyatt Mengo Motel,2016-06-08 08:00,CA,1.389
+0000076,Grand Hyatt Mengo Motel,2016-07-24 10:00,MX,1.222
+0000076,Grand Hyatt Mengo Motel,2016-08-03 00:00,MX,1.866
+0000077,Olinda Amanhecer Granja,2015-08-27 05:00,CA,1.549
+0000077,Olinda Amanhecer Granja,2015-09-27 09:00,US,0.952
+0000077,Olinda Amanhecer Granja,2015-12-29 04:00,CA,1.744
+0000077,Olinda Amanhecer Granja,2016-06-11 01:00,MX,0.926
+0000078,Pestana Asturias Mengo Posada,2015-08-27 00:00,MX,0.699
+0000078,Pestana Asturias Mengo Posada,2015-09-11 15:00,CA,1.205
+0000078,Pestana Asturias Mengo Posada,2015-10-09 21:00,US,1.719
+0000078,Pestana Asturias Mengo Posada,2015-11-05 03:00,MX,1.499
+0000078,Pestana Asturias Mengo Posada,2015-12-08 07:00,US,1.29
+0000078,Pestana Asturias Mengo Posada,2015-12-24 08:00,US,0.833
+0000078,Pestana Asturias Mengo Posada,2016-04-01 04:00,US,1.439
+0000078,Pestana Asturias Mengo Posada,2016-04-20 13:00,MX,1.99
+0000078,Pestana Asturias Mengo Posada,2016-05-09 12:00,MX,1.298
+0000078,Pestana Asturias Mengo Posada,2016-05-16 07:00,CA,1.64
+0000078,Pestana Asturias Mengo Posada,2016-05-25 18:00,CA,1.877
+0000078,Pestana Asturias Mengo Posada,2016-07-09 21:00,MX,1.553
+0000078,Pestana Asturias Mengo Posada,2016-07-10 00:00,CA,1.366
+0000078,Pestana Asturias Mengo Posada,2016-07-24 23:00,US,1.456
+0000079,River Side Inn,2015-12-09 18:00,US,1.697
+0000079,River Side Inn,2015-12-30 09:00,MX,0.532
+0000079,River Side Inn,2016-03-30 12:00,MX,1.41
+0000079,River Side Inn,2016-06-11 19:00,CA,1.547
+0000080,Saionara Casino,2015-09-15 11:00,US,1.25
+0000080,Saionara Casino,2015-11-25 23:00,CA,1.594
+0000080,Saionara Casino,2015-12-13 08:00,CA,1.262
+0000080,Saionara Casino,2016-03-01 23:00,MX,1.921
+0000080,Saionara Casino,2016-03-01 23:00,CA,1.921
+0000080,Saionara Casino,2016-03-23 15:00,CA,1.269
+0000080,Saionara Casino,2016-04-05 10:00,MX,1.645
+0000080,Saionara Casino,2016-07-03 08:00,CA,0.798
+0000081,City Boarding House,2015-09-10 22:00,MX,1.346
+0000081,City Boarding House,2015-10-23 01:00,US,1.178
+0000081,City Boarding House,2015-12-05 11:00,CA,1.712
+0000081,City Boarding House,2015-12-20 03:00,US,1.886
+0000081,City Boarding House,2016-01-02 19:00,US,1.744
+0000081,City Boarding House,2016-03-21 01:00,CA,1.845
+0000081,City Boarding House,2016-03-23 09:00,CA,1.437
+0000081,City Boarding House,2016-04-01 10:00,US,1.851
+0000081,City Boarding House,2016-06-04 12:00,US,0.467
+0000082,Por Senado Inn,2015-09-08 11:00,MX,0.805
+0000082,Por Senado Inn,2016-01-19 20:00,US,1.575
+0000082,Por Senado Inn,2016-03-16 18:00,US,1.381
+0000082,Por Senado Inn,2016-05-06 19:00,CA,1.472
+0000082,Por Senado Inn,2016-06-01 10:00,MX,1.767
+0000083,Suburbs Inn,2015-08-09 15:00,US,0.95
+0000083,Suburbs Inn,2015-08-13 05:00,CA,0.703
+0000083,Suburbs Inn,2015-08-21 22:00,CA,1.523
+0000083,Suburbs Inn,2016-02-03 02:00,US,1.237
+0000083,Suburbs Inn,2016-02-04 23:00,CA,1.548
+0000083,Suburbs Inn,2016-03-10 23:00,CA,1.546
+0000083,Suburbs Inn,2016-03-17 08:00,MX,0.827
+0000083,Suburbs Inn,2016-04-11 01:00,MX,1.989
+0000084,Amanhecer Asturias Hyatt Casino,2015-08-11 16:00,CA,1.863
+0000084,Amanhecer Asturias Hyatt Casino,2015-11-30 12:00,CA,1.666
+0000084,Amanhecer Asturias Hyatt Casino,2016-02-13 21:00,MX,1.537
+0000084,Amanhecer Asturias Hyatt Casino,2016-03-06 19:00,US,0.848
+0000084,Amanhecer Asturias Hyatt Casino,2016-03-25 11:00,US,1.712
+0000084,Amanhecer Asturias Hyatt Casino,2016-05-11 06:00,MX,1.862
+0000084,Amanhecer Asturias Hyatt Casino,2016-07-14 18:00,MX,1.235
+0000085,Down Town Tavern,2015-08-27 22:00,MX,1.867
+0000085,Down Town Tavern,2015-10-14 21:00,MX,1.399
+0000085,Down Town Tavern,2015-10-28 13:00,MX,1.781
+0000085,Down Town Tavern,2015-10-28 13:00,CA,1.781
+0000085,Down Town Tavern,2015-10-28 15:00,CA,1.795
+0000085,Down Town Tavern,2015-12-04 17:00,CA,1.943
+0000085,Down Town Tavern,2015-12-08 18:00,CA,0.917
+0000085,Down Town Tavern,2015-12-20 07:00,US,1.816
+0000085,Down Town Tavern,2016-01-18 01:00,CA,1.166
+0000085,Down Town Tavern,2016-01-31 18:00,CA,1.788
+0000085,Down Town Tavern,2016-06-24 02:00,MX,1.241
+0000085,Down Town Tavern,2016-08-03 06:00,US,0.589
+0000086,Por Suburbs Hotel,2015-08-17 08:00,CA,1.147
+0000086,Por Suburbs Hotel,2015-08-19 19:00,MX,1.0
+0000086,Por Suburbs Hotel,2015-09-22 06:00,US,1.153
+0000086,Por Suburbs Hotel,2015-10-10 10:00,US,0.394
+0000086,Por Suburbs Hotel,2015-11-14 23:00,US,1.669
+0000086,Por Suburbs Hotel,2015-12-24 16:00,US,1.936
+0000086,Por Suburbs Hotel,2016-02-04 19:00,CA,0.545
+0000086,Por Suburbs Hotel,2016-03-27 05:00,MX,0.978
+0000086,Por Suburbs Hotel,2016-04-19 20:00,MX,1.58
+0000086,Por Suburbs Hotel,2016-05-24 04:00,MX,1.889
+0000086,Por Suburbs Hotel,2016-07-23 07:00,US,1.837
+0000086,Por Suburbs Hotel,2016-08-04 17:00,MX,1.715
+0000086,Por Suburbs Hotel,2016-08-05 03:00,MX,1.483
+0000087,Down Town Apartments,2015-08-21 18:00,US,1.842
+0000087,Down Town Apartments,2015-08-26 14:00,US,1.217
+0000087,Down Town Apartments,2015-08-28 02:00,CA,1.935
+0000087,Down Town Apartments,2015-09-17 17:00,US,1.96
+0000087,Down Town Apartments,2015-10-23 22:00,CA,1.646
+0000087,Down Town Apartments,2015-12-23 18:00,MX,1.71
+0000087,Down Town Apartments,2016-01-09 17:00,CA,1.792
+0000087,Down Town Apartments,2016-01-30 14:00,CA,0.601
+0000087,Down Town Apartments,2016-02-06 04:00,MX,1.333
+0000087,Down Town Apartments,2016-03-18 23:00,US,0.963
+0000087,Down Town Apartments,2016-03-30 12:00,US,1.182
+0000087,Down Town Apartments,2016-04-13 18:00,MX,1.514
+0000087,Down Town Apartments,2016-05-29 04:00,US,1.874
+0000087,Down Town Apartments,2016-06-05 10:00,US,0.966
+0000087,Down Town Apartments,2016-07-31 04:00,CA,1.66
+0000088,Majestic Sheraton Tavern,2015-09-23 17:00,CA,1.755
+0000088,Majestic Sheraton Tavern,2015-10-02 11:00,CA,1.68
+0000088,Majestic Sheraton Tavern,2015-12-14 09:00,CA,1.297
+0000088,Majestic Sheraton Tavern,2016-02-12 14:00,MX,1.384
+0000088,Majestic Sheraton Tavern,2016-02-21 04:00,CA,1.658
+0000088,Majestic Sheraton Tavern,2016-03-13 06:00,MX,2.008
+0000088,Majestic Sheraton Tavern,2016-03-19 01:00,US,1.776
+0000088,Majestic Sheraton Tavern,2016-06-28 14:00,MX,1.905
+0000088,Majestic Sheraton Tavern,2016-07-23 13:00,CA,1.724
+0000089,Amanhecer Upper Side Granja,2015-09-09 08:00,MX,1.398
+0000089,Amanhecer Upper Side Granja,2015-10-21 02:00,US,0.743
+0000089,Amanhecer Upper Side Granja,2016-01-06 16:00,CA,1.578
+0000089,Amanhecer Upper Side Granja,2016-01-25 14:00,MX,1.402
+0000089,Amanhecer Upper Side Granja,2016-02-29 00:00,CA,1.402
+0000089,Amanhecer Upper Side Granja,2016-02-29 09:00,US,1.788
+0000089,Amanhecer Upper Side Granja,2016-04-18 02:00,CA,0.77
+0000089,Amanhecer Upper Side Granja,2016-04-26 01:00,MX,1.033
+0000089,Amanhecer Upper Side Granja,2016-06-04 16:00,CA,1.214
+0000089,Amanhecer Upper Side Granja,2016-08-04 19:00,US,1.052
+0000090,Saionara Pestana Village Hotel,2015-08-25 23:00,CA,1.461
+0000090,Saionara Pestana Village Hotel,2015-09-11 16:00,CA,1.668
+0000090,Saionara Pestana Village Hotel,2015-09-27 17:00,MX,1.88
+0000090,Saionara Pestana Village Hotel,2015-10-24 23:00,MX,1.784
+0000090,Saionara Pestana Village Hotel,2015-10-28 10:00,CA,1.038
+0000090,Saionara Pestana Village Hotel,2015-11-07 23:00,CA,1.753
+0000090,Saionara Pestana Village Hotel,2015-11-12 19:00,US,0.859
+0000090,Saionara Pestana Village Hotel,2015-12-24 10:00,MX,1.87
+0000090,Saionara Pestana Village Hotel,2016-01-03 19:00,MX,1.348
+0000090,Saionara Pestana Village Hotel,2016-01-29 06:00,CA,1.504
+0000090,Saionara Pestana Village Hotel,2016-02-02 08:00,CA,1.545
+0000090,Saionara Pestana Village Hotel,2016-02-04 14:00,US,1.328
+0000090,Saionara Pestana Village Hotel,2016-03-05 03:00,US,1.561
+0000090,Saionara Pestana Village Hotel,2016-04-06 21:00,US,1.631
+0000090,Saionara Pestana Village Hotel,2016-07-28 03:00,CA,1.649
+0000091,Copacabana Highway Tavern,2015-12-16 17:00,CA,1.849
+0000091,Copacabana Highway Tavern,2016-01-18 01:00,MX,0.631
+0000091,Copacabana Highway Tavern,2016-02-08 08:00,CA,1.811
+0000091,Copacabana Highway Tavern,2016-03-05 14:00,MX,1.313
+0000091,Copacabana Highway Tavern,2016-03-08 13:00,US,1.778
+0000091,Copacabana Highway Tavern,2016-03-13 22:00,MX,1.656
+0000091,Copacabana Highway Tavern,2016-05-21 18:00,MX,1.701
+0000091,Copacabana Highway Tavern,2016-05-31 19:00,CA,0.645
+0000091,Copacabana Highway Tavern,2016-06-15 16:00,US,1.759
+0000091,Copacabana Highway Tavern,2016-07-05 03:00,MX,1.35
+0000092,Novelo Hyatt Copacabana Hotel,2015-09-05 04:00,CA,1.555
+0000092,Novelo Hyatt Copacabana Hotel,2015-11-07 08:00,US,1.628
+0000092,Novelo Hyatt Copacabana Hotel,2015-11-07 08:00,MX,1.628
+0000092,Novelo Hyatt Copacabana Hotel,2015-11-29 09:00,US,1.103
+0000092,Novelo Hyatt Copacabana Hotel,2016-01-22 00:00,MX,1.686
+0000092,Novelo Hyatt Copacabana Hotel,2016-03-08 18:00,CA,1.536
+0000092,Novelo Hyatt Copacabana Hotel,2016-05-14 08:00,US,1.643
+0000092,Novelo Hyatt Copacabana Hotel,2016-06-12 02:00,US,1.455
+0000092,Novelo Hyatt Copacabana Hotel,2016-07-06 09:00,US,1.952
+0000092,Novelo Hyatt Copacabana Hotel,2016-07-25 00:00,CA,1.766
+0000093,Majestic Imperial Posada,2015-08-24 19:00,US,1.809
+0000093,Majestic Imperial Posada,2015-10-16 08:00,MX,1.065
+0000093,Majestic Imperial Posada,2015-11-12 16:00,CA,0.938
+0000093,Majestic Imperial Posada,2016-02-16 03:00,MX,1.994
+0000093,Majestic Imperial Posada,2016-03-09 17:00,CA,1.254
+0000093,Majestic Imperial Posada,2016-04-22 08:00,US,0.987
+0000093,Majestic Imperial Posada,2016-06-25 17:00,US,1.885
+0000093,Majestic Imperial Posada,2016-07-24 03:00,US,1.805
+0000093,Majestic Imperial Posada,2016-07-30 13:00,US,1.381
+0000094,Senado Moos' Posada,2015-09-20 10:00,CA,0.877
+0000094,Senado Moos' Posada,2015-09-26 19:00,CA,1.619
+0000094,Senado Moos' Posada,2015-09-29 23:00,MX,1.45
+0000094,Senado Moos' Posada,2016-05-21 19:00,US,1.701
+0000094,Senado Moos' Posada,2016-06-07 17:00,MX,1.803
+0000094,Senado Moos' Posada,2016-06-08 04:00,MX,1.207
+0000094,Senado Moos' Posada,2016-07-15 20:00,CA,1.085
+0000094,Senado Moos' Posada,2016-08-04 12:00,CA,0.92
+0000095,Jon's Senado Hotelo,2015-08-08 14:00,US,1.069
+0000095,Jon's Senado Hotelo,2015-08-11 13:00,CA,1.161
+0000095,Jon's Senado Hotelo,2016-01-03 00:00,MX,1.56
+0000095,Jon's Senado Hotelo,2016-01-15 11:00,MX,1.761
+0000095,Jon's Senado Hotelo,2016-02-13 23:00,MX,1.279
+0000095,Jon's Senado Hotelo,2016-03-05 02:00,CA,1.674
+0000095,Jon's Senado Hotelo,2016-06-10 23:00,CA,1.932
+0000095,Jon's Senado Hotelo,2016-07-07 23:00,MX,1.982
+0000095,Jon's Senado Hotelo,2016-07-09 16:00,US,1.776
+0000096,Por Casino,2016-01-12 15:00,CA,1.174
+0000096,Por Casino,2016-01-28 05:00,CA,1.667
+0000096,Por Casino,2016-04-09 04:00,MX,1.639
+0000096,Por Casino,2016-06-30 05:00,US,0.728
+0000096,Por Casino,2016-07-24 10:00,CA,1.096
+0000097,Slaviero Jon's Spa,2015-08-19 02:00,CA,1.723
+0000097,Slaviero Jon's Spa,2015-10-13 00:00,US,2.025
+0000097,Slaviero Jon's Spa,2016-01-28 10:00,MX,1.575
+0000097,Slaviero Jon's Spa,2016-02-29 01:00,US,1.77
+0000098,Premier Inn,2015-09-05 23:00,US,1.916
+0000098,Premier Inn,2015-09-11 03:00,US,1.604
+0000098,Premier Inn,2015-09-21 18:00,MX,1.586
+0000098,Premier Inn,2016-02-16 15:00,CA,1.363
+0000098,Premier Inn,2016-05-06 16:00,US,1.614
+0000098,Premier Inn,2016-05-28 13:00,MX,1.002
+0000098,Premier Inn,2016-06-25 05:00,US,1.58
+0000099,Ibiza Sun Sine Plaza,2015-12-20 04:00,US,1.096
+0000099,Ibiza Sun Sine Plaza,2016-06-07 09:00,MX,1.646
+0000099,Ibiza Sun Sine Plaza,2016-06-20 00:00,MX,1.697
+0000099,Ibiza Sun Sine Plaza,2016-07-30 03:00,MX,1.73
+0000100,Majestic Eas Side Apartments,2015-08-30 20:00,CA,1.492
+0000100,Majestic Eas Side Apartments,2015-09-03 20:00,US,1.31
+0000100,Majestic Eas Side Apartments,2015-09-23 18:00,CA,1.26
+0000100,Majestic Eas Side Apartments,2015-10-15 14:00,CA,1.009
+0000100,Majestic Eas Side Apartments,2016-01-18 08:00,MX,1.701
+0000100,Majestic Eas Side Apartments,2016-02-25 08:00,CA,1.357
+0000100,Majestic Eas Side Apartments,2016-03-20 12:00,CA,1.989
+0000100,Majestic Eas Side Apartments,2016-04-05 18:00,MX,1.149
+0000100,Majestic Eas Side Apartments,2016-04-08 03:00,MX,0.891
+0000100,Majestic Eas Side Apartments,2016-04-09 14:00,CA,1.421
+0000100,Majestic Eas Side Apartments,2016-04-22 18:00,US,1.385
+0000100,Majestic Eas Side Apartments,2016-05-03 03:00,CA,1.157
+0000100,Majestic Eas Side Apartments,2016-05-09 09:00,CA,1.793
+0000100,Majestic Eas Side Apartments,2016-05-10 07:00,US,1.421
+0000100,Majestic Eas Side Apartments,2016-05-24 10:00,CA,1.773
+0000100,Majestic Eas Side Apartments,2016-06-29 05:00,MX,1.988
+0000101,Novelo Hostel,2015-08-21 19:00,CA,0.728
+0000101,Novelo Hostel,2015-09-12 07:00,CA,1.18
+0000101,Novelo Hostel,2015-09-30 01:00,US,0.827
+0000101,Novelo Hostel,2015-10-01 07:00,MX,0.94
+0000101,Novelo Hostel,2015-11-28 03:00,US,1.696
+0000101,Novelo Hostel,2015-12-05 20:00,US,1.749
+0000101,Novelo Hostel,2015-12-08 12:00,US,1.356
+0000101,Novelo Hostel,2015-12-20 01:00,MX,1.585
+0000101,Novelo Hostel,2016-03-03 04:00,US,1.427
+0000101,Novelo Hostel,2016-03-04 17:00,MX,1.447
+0000101,Novelo Hostel,2016-03-09 18:00,MX,1.631
+0000101,Novelo Hostel,2016-03-17 23:00,CA,1.693
+0000101,Novelo Hostel,2016-03-21 06:00,CA,1.678
+0000101,Novelo Hostel,2016-04-14 12:00,US,1.514
+0000101,Novelo Hostel,2016-04-15 21:00,US,1.315
+0000101,Novelo Hostel,2016-06-04 11:00,US,1.394
+0000101,Novelo Hostel,2016-07-03 23:00,CA,1.72
+0000101,Novelo Hostel,2016-07-04 23:00,CA,0.929
