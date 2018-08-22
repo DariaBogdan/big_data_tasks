@@ -1,0 +1,13 @@
+import org.apache.spark.streaming.kafka010._
+import org.apache.spark.storage.StorageLevel
+import org.apache.spark.SparkContext
+import org.apache.spark.streaming._
+import org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent
+import org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe
+import org.apache.kafka.common.serialization.StringDeserializer
+import org.apache.spark.sql.types._
+import sqlContext.implicits._
+sc: org.apache.spark.SparkContext = org.apache.spark.SparkContext@16af14d1
+ssc: org.apache.spark.streaming.StreamingContext = org.apache.spark.streaming.StreamingContext@77e7396d
+kafkaParams: scala.collection.immutable.Map[String,Object] = Map(key.deserializer -> class org.apache.kafka.common.serialization.StringDeserializer, auto.offset.reset -> latest, group.id -> zeppelin_group, bootstrap.servers -> sandbox-hdp.hortonworks.com:6667, enable.auto.commit -> false, value.deserializer -> class org.apache.kafka.common.serialization.StringDeserializer)
+stream: org.apache.spark.streaming.dstream.InputDStream[org.apache.kafka.clients.consumer.ConsumerRecord[String,String]] = org.apache.spark.streaming.kafka010.DirectKafkaInputDStream@516bb226
